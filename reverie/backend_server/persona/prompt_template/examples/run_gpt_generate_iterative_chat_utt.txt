@@ -1,0 +1,55 @@
+func: run_gpt_generate_iterative_chat_utt
+template: persona/prompt_template/v3_ChatGPT/iterative_convo_v1.txt
+
+~~~ prompt    ----------------------------------------------------
+Context for the task: 
+
+PART 1. 
+Here is Here is a brief description of Isabella Rodriguez.
+Name: Isabella Rodriguez
+(...省略 Scratch)
+Daily plan requirement: No plan.
+Current Date: Monday February 13
+
+
+Here is the memory that is in Isabella Rodriguez's head: 
+- Isabella Rodriguez is conversing about Tom Moreno joining Isabella Rodriguez for lunch
+- Tom Moreno is conversing about Tom Moreno joining Isabella Rodriguez for lunch
+- This is Isabella Rodriguez's plan for Monday February 13: wake up and complete the morning routine at 8:00 am, leave for work via metro at 8:30 am, teach 3 English courses at school from 9:00 am to 12:00 pm, have lunch with colleagues at 12:30 pm, teach another 3 English courses from 1:30 pm to 4:30 pm, take the metro back home at 5:00 pm, go grocery shopping and pick up ingredients for dinner, start preparing dinner at 6:00 pm.
+
+
+PART 2. 
+Past Context: 
+
+0 minutes ago, Isabella Rodriguez and Tom Moreno were already conversing about Tom Moreno joining Isabella Rodriguez for lunch This context takes place after that conversation.
+
+Current Location: cafe in Hobbs Cafe
+
+Current Context: 
+Isabella Rodriguez was having lunch with colleagues when Isabella Rodriguez saw Tom Moreno in the middle of having lunch.
+Isabella Rodriguez is initiating a conversation with Tom Moreno.
+
+Isabella Rodriguez and Tom Moreno are chatting. Here is their conversation so far: 
+(...省略對話內容)
+
+
+Isabella Rodriguez's current intent:
+1. My current emotional state is positive and optimistic. I seem to be looking forward to catching up with Tom over lunch and enjoying good food together. I also seem to be glad that we could meet for lunch today.
+
+2. My attitude towards Tom Moreno in the conversation is friendly and warm. I initiate a conversation with him, expressing my excitement to catch up with him and asking about how he has been. I seem to be genuinely interested in our conversation.
+
+3. My goal in the conversation is to have a pleasant lunch with Tom and enjoy our time together. I also seem to want to continue our conversation, possibly about our days or other topics of interest.
+
+4. Potential conversation strategies could include asking more questions about Tom's day, sharing updates about my own day, discussing any interests or hobbies we both have, or simply enjoying the meal together and engaging in casual conversation. I may also express gratitude for the opportunity to meet and have lunch with Tom.
+
+---
+Task: Given the above, what should Isabella Rodriguez say to Tom Moreno next in the conversation? And did it end the conversation?
+
+Output format: Output a json of the following format: 
+{
+"Isabella Rodriguez": "<Isabella Rodriguez's utterance>",
+"Did the conversation end with Isabella Rodriguez's utterance?": "<json Boolean>"
+}
+
+~~~ output    ----------------------------------------------------
+{'utterance': 'How about we order our food and continue our conversation?', 'end': True}

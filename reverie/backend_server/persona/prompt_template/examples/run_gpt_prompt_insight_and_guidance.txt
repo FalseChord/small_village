@@ -1,0 +1,21 @@
+func: run_gpt_prompt_insight_and_guidance
+template: persona/prompt_template/v2/insight_and_evidence_v1.txt
+
+~~~ prompt    ----------------------------------------------------
+Input:
+0. This is Wolfgang Schulz's plan for Monday February 13: wake up and complete the morning routine at 5:00 am, go for a run at the park at 6:00 am, have breakfast and review material for exams at 7:00 am, attend classes and study at Oak Hill College from 9:00 am to 3:00 pm, have lunch at 12:00 pm, study for exams from 3:00 pm to 5:00 pm, attend evening practice for his sport at 6:00 pm, have dinner at 7:30 pm.
+1. reviewing his research notes
+2. Ayesha Khan is conversing about Maria Lopez and Ayesha Khan are chatting about their love for Shakespeare's play Hamlet and making plans to watch a live theater performance together after their exams.
+3. walking to his first class
+4. Maria Lopez is conversing about Maria Lopez and Ayesha Khan are chatting about their love for Shakespeare's play Hamlet and making plans to watch a live theater performance together after their exams.
+
+
+What 5 high-level insights can you infer from the above statements? (example format: insight (because of 1, 5, 3))
+1.
+
+~~~ output    ---------------------------------------------------- (invalid)
+Wolfgang Schulz is highly organized and has a structured daily routine, as seen by his specific schedule for the day.
+2. He prioritizes his physical and mental well-being by incorporating exercise and studying into his daily routine.
+3. Wolfgang is dedicated to his education, as shown by his early morning review of material and attending classes and studying for exams throughout the day.
+4. He has interests outside of academics, such as participating in a sport and planning to watch a live theater performance.
+5. Wolfgang has a supportive and social circle, as seen by his conversations with Ayesha and Maria about their shared interests and plans to spend time together.

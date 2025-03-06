@@ -1,0 +1,13 @@
+func: run_gpt_prompt_act_obj_desc
+template: persona/prompt_template/v3_ChatGPT/generate_obj_event_v1.txt
+
+~~~ prompt    ----------------------------------------------------
+Task: We want to understand the state of an object that is being used by someone. 
+
+Let's think step by step. 
+We want to know about bed's state. 
+Step 1. Klaus Mueller is at/using the sleeping.
+Step 2. Describe the bed's state: bed is 
+
+~~~ output    ----------------------------------------------------
+being used

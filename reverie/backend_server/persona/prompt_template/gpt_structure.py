@@ -56,29 +56,41 @@ def GPT4_request(prompt):
     return "ChatGPT ERROR"
 
 
-def ChatGPT_request(prompt): 
+def ChatGPT_request(prompt, model="gpt-3.5-turbo"):
   """
   Given a prompt and a dictionary of GPT parameters, make a request to OpenAI
   server and returns the response. 
   ARGS:
     prompt: a str prompt
-    gpt_parameter: a python dictionary with the keys indicating the names of  
-                   the parameter and the values indicating the parameter 
-                   values.   
-  RETURNS: 
-    a str of GPT-3's response. 
-  """
-  # temp_sleep()
-  try: 
-    completion = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo", 
-    messages=[{"role": "user", "content": prompt}]
-    )
-    return completion["choices"][0]["message"]["content"]
+    model: str, the model to use (default: "gpt-3.5-turbo")
+           - For chat models: "gpt-3.5-turbo", "gpt-4"
+           - For completion models: "text-davinci-003"
   
-  except: 
-    print ("ChatGPT ERROR")
-    return "ChatGPT ERROR"
+  RETURNS:
+    a str of GPT's response
+  """
+  try:
+    # Chat models (gpt-3.5-turbo, gpt-4)
+    if model.startswith(("gpt-3.5", "gpt-4")):
+      completion = openai.ChatCompletion.create(
+        model=model,
+        messages=[{"role": "user", "content": prompt}] #TODO: add system message
+      )
+      return completion["choices"][0]["message"]["content"]
+
+    # Completion models (text-davinci-003 etc)
+    else:
+      completion = openai.Completion.create(
+        model=model,
+        prompt=prompt,
+        max_tokens=1000,
+        temperature=0.7
+      )
+      return completion["choices"][0]["text"]
+
+  except Exception as e:
+    print(f"ChatGPT ERROR: {str(e)}")
+    return f"ChatGPT ERROR: {str(e)}"
 
 
 def GPT4_safe_generate_response(prompt, 
@@ -94,9 +106,9 @@ def GPT4_safe_generate_response(prompt,
   prompt += "Example output json:\n"
   prompt += '{"output": "' + str(example_output) + '"}'
 
-  if verbose: 
-    print ("CHAT GPT PROMPT")
-    print (prompt)
+  # if verbose: 
+  #   print ("CHAT GPT PROMPT")
+  #   print (prompt)
 
   for i in range(repeat): 
 
@@ -109,7 +121,7 @@ def GPT4_safe_generate_response(prompt,
       if func_validate(curr_gpt_response, prompt=prompt): 
         return func_clean_up(curr_gpt_response, prompt=prompt)
       
-      if verbose: 
+      if verbose:
         print ("---- repeat count: \n", i, curr_gpt_response)
         print (curr_gpt_response)
         print ("~~~~")
@@ -127,16 +139,17 @@ def ChatGPT_safe_generate_response(prompt,
                                    fail_safe_response="error",
                                    func_validate=None,
                                    func_clean_up=None,
-                                   verbose=False): 
+                                   verbose=False,
+                                   model="gpt-3.5-turbo"):
   # prompt = 'GPT-3 Prompt:\n"""\n' + prompt + '\n"""\n'
   prompt = '"""\n' + prompt + '\n"""\n'
   prompt += f"Output the response to the prompt above in json. {special_instruction}\n"
   prompt += "Example output json:\n"
   prompt += '{"output": "' + str(example_output) + '"}'
 
-  if verbose: 
-    print ("CHAT GPT PROMPT")
-    print (prompt)
+  # if verbose:
+  #   print ("CHAT GPT PROMPT")
+  #   print (prompt)
 
   for i in range(repeat): 
 
@@ -153,10 +166,10 @@ def ChatGPT_safe_generate_response(prompt,
       if func_validate(curr_gpt_response, prompt=prompt): 
         return func_clean_up(curr_gpt_response, prompt=prompt)
       
-      if verbose: 
-        print ("---- repeat count: \n", i, curr_gpt_response)
-        print (curr_gpt_response)
-        print ("~~~~")
+      # if verbose:
+      #   print ("---- repeat count: \n", i, curr_gpt_response)
+      #   print (curr_gpt_response)
+      #   print ("~~~~")
 
     except: 
       pass
@@ -170,19 +183,19 @@ def ChatGPT_safe_generate_response_OLD(prompt,
                                    func_validate=None,
                                    func_clean_up=None,
                                    verbose=False): 
-  if verbose: 
-    print ("CHAT GPT PROMPT")
-    print (prompt)
+  # if verbose:
+  #   print ("CHAT GPT PROMPT")
+  #   print (prompt)
 
   for i in range(repeat): 
     try: 
       curr_gpt_response = ChatGPT_request(prompt).strip()
-      if func_validate(curr_gpt_response, prompt=prompt): 
+      if func_validate(curr_gpt_response, prompt=prompt):
         return func_clean_up(curr_gpt_response, prompt=prompt)
-      if verbose: 
-        print (f"---- repeat count: {i}")
-        print (curr_gpt_response)
-        print ("~~~~")
+      # if verbose:
+      #   print (f"---- repeat count: {i}")
+      #   print (curr_gpt_response)
+      #   print ("~~~~")
 
     except: 
       pass
@@ -204,24 +217,47 @@ def GPT_request(prompt, gpt_parameter):
                    the parameter and the values indicating the parameter 
                    values.   
   RETURNS: 
-    a str of GPT-3's response. 
+    a str of GPT's response. 
   """
   temp_sleep()
-  try: 
-    response = openai.Completion.create(
-                model=gpt_parameter["engine"],
-                prompt=prompt,
-                temperature=gpt_parameter["temperature"],
-                max_tokens=gpt_parameter["max_tokens"],
-                top_p=gpt_parameter["top_p"],
-                frequency_penalty=gpt_parameter["frequency_penalty"],
-                presence_penalty=gpt_parameter["presence_penalty"],
-                stream=gpt_parameter["stream"],
-                stop=gpt_parameter["stop"],)
-    return response.choices[0].text
-  except: 
-    print ("TOKEN LIMIT EXCEEDED")
-    return "TOKEN LIMIT EXCEEDED"
+  try:
+    model = gpt_parameter["engine"]
+
+    # Chat models (gpt-3.5-turbo, gpt-4)
+    if model.startswith(("gpt-3.5", "gpt-4")):
+      response = openai.ChatCompletion.create(
+        model=model,
+        messages=[{
+          'role':'system',
+          'content': ""
+        },{"role": "user", "content": prompt}], #TODO: add system message
+        temperature=gpt_parameter["temperature"],
+        max_tokens=gpt_parameter["max_tokens"],
+        top_p=gpt_parameter["top_p"],
+        frequency_penalty=gpt_parameter["frequency_penalty"],
+        presence_penalty=gpt_parameter["presence_penalty"],
+        stream=gpt_parameter["stream"],
+        stop=gpt_parameter["stop"])
+      print(response.choices[0])
+      return response.choices[0].message.content
+
+    # Completion models (text-davinci-003 etc)
+    else:
+      response = openai.Completion.create(
+        model=model,
+        prompt=prompt,
+        temperature=gpt_parameter["temperature"],
+        max_tokens=gpt_parameter["max_tokens"],
+        top_p=gpt_parameter["top_p"],
+        frequency_penalty=gpt_parameter["frequency_penalty"],
+        presence_penalty=gpt_parameter["presence_penalty"],
+        stream=gpt_parameter["stream"],
+        stop=gpt_parameter["stop"])
+      return response.choices[0].text
+
+  except Exception as e:
+    print(f"OpenAI API Error: {str(e)}")
+    return f"ERROR: {str(e)}"
 
 
 def generate_prompt(curr_input, prompt_lib_file): 
@@ -258,22 +294,26 @@ def safe_generate_response(prompt,
                            fail_safe_response="error",
                            func_validate=None,
                            func_clean_up=None,
-                           verbose=False): 
-  if verbose: 
-    print (prompt)
+                           verbose=True,
+                           model="gpt-3.5-turbo"):
+  # if verbose:
+  #   print (prompt)
 
   for i in range(repeat): 
     curr_gpt_response = GPT_request(prompt, gpt_parameter)
     if func_validate(curr_gpt_response, prompt=prompt): 
       return func_clean_up(curr_gpt_response, prompt=prompt)
-    if verbose: 
-      print ("---- repeat count: ", i, curr_gpt_response)
-      print (curr_gpt_response)
-      print ("~~~~")
+    # if verbose:
+    #   print ("---- repeat count: ", i, curr_gpt_response)
+    #   print (curr_gpt_response)
+    #   print ("~~~~")
+    print("invalid response from chatGPT:", curr_gpt_response)
+    # print("invalid response from chatGPT:")
+    # print("prompt", prompt)
   return fail_safe_response
 
 
-def get_embedding(text, model="text-embedding-ada-002"):
+def get_embedding(text, model="text-embedding-3-small"):
   text = text.replace("\n", " ")
   if not text: 
     text = "this is blank"
@@ -282,9 +322,9 @@ def get_embedding(text, model="text-embedding-ada-002"):
 
 
 if __name__ == '__main__':
-  gpt_parameter = {"engine": "text-davinci-003", "max_tokens": 50, 
+  gpt_parameter = {"engine": "gpt-3.5-turbo-instruct", "max_tokens": 50,
                    "temperature": 0, "top_p": 1, "stream": False,
-                   "frequency_penalty": 0, "presence_penalty": 0, 
+                   "frequency_penalty": 0, "presence_penalty": 0,
                    "stop": ['"']}
   curr_input = ["driving to a friend's house"]
   prompt_lib_file = "prompt_template/test_prompt_July5.txt"

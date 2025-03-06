@@ -1,0 +1,67 @@
+func: run_gpt_prompt_generate_hourly_schedule
+template: persona/prompt_template/v2/generate_hourly_schedule_v2.txt
+
+~~~ prompt    ----------------------------------------------------
+Hourly schedule format: 
+[Monday February 13 -- 00:00 AM] Activity: [Fill in]
+[Monday February 13 -- 01:00 AM] Activity: [Fill in]
+[Monday February 13 -- 02:00 AM] Activity: [Fill in]
+[Monday February 13 -- 03:00 AM] Activity: [Fill in]
+[Monday February 13 -- 04:00 AM] Activity: [Fill in]
+[Monday February 13 -- 05:00 AM] Activity: [Fill in]
+[Monday February 13 -- 06:00 AM] Activity: [Fill in]
+[Monday February 13 -- 07:00 AM] Activity: [Fill in]
+[Monday February 13 -- 08:00 AM] Activity: [Fill in]
+[Monday February 13 -- 09:00 AM] Activity: [Fill in]
+[Monday February 13 -- 10:00 AM] Activity: [Fill in]
+[Monday February 13 -- 11:00 AM] Activity: [Fill in]
+[Monday February 13 -- 12:00 PM] Activity: [Fill in]
+[Monday February 13 -- 01:00 PM] Activity: [Fill in]
+[Monday February 13 -- 02:00 PM] Activity: [Fill in]
+[Monday February 13 -- 03:00 PM] Activity: [Fill in]
+[Monday February 13 -- 04:00 PM] Activity: [Fill in]
+[Monday February 13 -- 05:00 PM] Activity: [Fill in]
+[Monday February 13 -- 06:00 PM] Activity: [Fill in]
+[Monday February 13 -- 07:00 PM] Activity: [Fill in]
+[Monday February 13 -- 08:00 PM] Activity: [Fill in]
+[Monday February 13 -- 09:00 PM] Activity: [Fill in]
+[Monday February 13 -- 10:00 PM] Activity: [Fill in]
+[Monday February 13 -- 11:00 PM] Activity: [Fill in]
+===
+Name: Maria Lopez
+Age: 21
+Innate traits: energetic, enthusiastic, inquisitive
+Learned traits: Maria Lopez is a student at Oak Hill College studying physics and a part time Twitch game streamer who loves to connect with people and explore new ideas.
+Currently: Maria Lopez is working on her physics degree and streaming games on Twitch to make some extra money. She visits Hobbs Cafe for studying and eating just about everyday.
+Lifestyle: Maria Lopez goes to bed around 2am, awakes up around 9am, eats dinner around 6pm. She likes to hang out at Hobbs Cafe if it's before 6pm.
+Daily plan requirement: Maria Lopez spends at least 3 hours a day Twitch streaming or gaming.
+Current Date: Monday February 13
+
+
+[(ID:O55DjA) Monday February 13 -- 00:00 AM] Activity: Maria is sleeping
+[(ID:lX58lY) Monday February 13 -- 01:00 AM] Activity: Maria is sleeping
+[(ID:92MOuH) Monday February 13 -- 02:00 AM] Activity: Maria is sleeping
+[(ID:E98aOz) Monday February 13 -- 03:00 AM] Activity: Maria is sleeping
+[(ID:IHpfBm) Monday February 13 -- 04:00 AM] Activity: Maria is sleeping
+[(ID:TKQD1x) Monday February 13 -- 05:00 AM] Activity: Maria is sleeping
+[(ID:GFHIsH) Monday February 13 -- 06:00 AM] Activity: Maria is sleeping
+[(ID:PU6rSh) Monday February 13 -- 07:00 AM] Activity: Maria is sleeping
+[(ID:aBzLCA) Monday February 13 -- 08:00 AM] Activity: Maria is sleeping
+[(ID:wJWn5U) Monday February 13 -- 09:00 AM] Activity: Maria is waking up and completing her morning routine
+[(ID:lPwlWW) Monday February 13 -- 10:00 AM] Activity: Maria is attending physics classes at Oak Hill College
+[(ID:CW8hjI) Monday February 13 -- 11:00 AM] Activity: Maria is attending physics classes at Oak Hill College
+[(ID:1wc9f4) Monday February 13 -- 12:00 PM] Activity: Maria is having lunch at Hobbs Cafe
+[(ID:aUlc5L) Monday February 13 -- 01:00 PM] Activity: Maria is studying at Hobbs Cafe
+[(ID:sowjeH) Monday February 13 -- 02:00 PM] Activity: Maria is studying at Hobbs Cafe
+[(ID:yIcf4v) Monday February 13 -- 03:00 PM] Activity: Maria is streaming games on Twitch
+[(ID:D3QYhM) Monday February 13 -- 04:00 PM] Activity: Maria is streaming games on Twitch
+[(ID:tJ88WS) Monday February 13 -- 05:00 PM] Activity: Maria is streaming games on Twitch
+[(ID:EDRJQT) Monday February 13 -- 06:00 PM] Activity: Maria is having dinner at home
+[(ID:DW8fvX) Monday February 13 -- 07:00 PM] Activity: Maria is streaming games on Twitch
+
+
+Here the originally intended hourly breakdown of Maria's schedule today: 1) wake up and complete the morning routine at 9:00 am, 2) attend physics classes at Oak Hill College from 10:00 am to 12:00 pm, 3) have lunch at Hobbs Cafe at 12:30 pm, 4) spend 2 hours studying at Hobbs Cafe from 1:00pm to 3:00pm, 5) stream games on Twitch for 3 hours from 3:00pm to 6:00pm, 6) have dinner at home at 6:30pm
+[(ID:aYVi4k) Monday February 13 -- 08:00 PM] Activity: Maria is 
+
+~~~ output    ----------------------------------------------------
+streaming games on Twitch 

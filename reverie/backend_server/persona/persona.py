@@ -228,7 +228,9 @@ class Persona:
     # <description> is a string description of the movement. e.g., 
     #   writing her next novel (editing her novel) 
     #   @ double studio:double studio:common room:sofa
-    return self.execute(maze, personas, plan)
+    executed = self.execute(maze, personas, plan)
+    print("executed", executed)
+    return executed
 
 
   def open_convo_session(self, convo_mode): 

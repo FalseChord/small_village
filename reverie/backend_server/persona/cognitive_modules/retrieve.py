@@ -224,7 +224,7 @@ def new_retrieve(persona, focal_points, n_count=30):
     nodes = [[i.last_accessed, i]
               for i in persona.a_mem.seq_event + persona.a_mem.seq_thought
               if "idle" not in i.embedding_key]
-    nodes = sorted(nodes, key=lambda x: x[0])
+    nodes = sorted(nodes, key=lambda x: x[0]) #i.last_accessed
     nodes = [i for created, i in nodes]
 
     # Calculating the component dictionaries and normalizing them.
@@ -249,11 +249,11 @@ def new_retrieve(persona, focal_points, n_count=30):
                      + persona.scratch.importance_w*importance_out[key]*gw[2])
 
     master_out = top_highest_x_values(master_out, len(master_out.keys()))
-    for key, val in master_out.items(): 
-      print (persona.a_mem.id_to_node[key].embedding_key, val)
-      print (persona.scratch.recency_w*recency_out[key]*1, 
-             persona.scratch.relevance_w*relevance_out[key]*1, 
-             persona.scratch.importance_w*importance_out[key]*1)
+    # for key, val in master_out.items():
+    #   print (persona.a_mem.id_to_node[key].embedding_key, val)
+    #   print (persona.scratch.recency_w*recency_out[key]*1,
+    #          persona.scratch.relevance_w*relevance_out[key]*1,
+    #          persona.scratch.importance_w*importance_out[key]*1)
 
     # Extracting the highest x values.
     # <master_out> has the key of node.id and value of float. Once we get the 

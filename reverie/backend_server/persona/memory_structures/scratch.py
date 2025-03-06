@@ -44,6 +44,7 @@ class Scratch:
     self.currently = None
     self.lifestyle = None
     self.living_area = None
+    self.biography = None
 
     # REFLECTION VARIABLES
     self.concept_forget = 100
@@ -183,6 +184,7 @@ class Scratch:
       self.currently = scratch_load["currently"]
       self.lifestyle = scratch_load["lifestyle"]
       self.living_area = scratch_load["living_area"]
+      self.biography = scratch_load["biography"]
 
       self.concept_forget = scratch_load["concept_forget"]
       self.daily_reflection_time = scratch_load["daily_reflection_time"]
@@ -261,6 +263,7 @@ class Scratch:
     scratch["currently"] = self.currently
     scratch["lifestyle"] = self.lifestyle
     scratch["living_area"] = self.living_area
+    scratch["biography"] = self.biography
 
     scratch["concept_forget"] = self.concept_forget
     scratch["daily_reflection_time"] = self.daily_reflection_time
@@ -407,6 +410,7 @@ class Scratch:
     commonset += f"Age: {self.age}\n"
     commonset += f"Innate traits: {self.innate}\n"
     commonset += f"Learned traits: {self.learned}\n"
+    commonset += f"Biography: {self.biography}\n"
     commonset += f"Currently: {self.currently}\n"
     commonset += f"Lifestyle: {self.lifestyle}\n"
     commonset += f"Daily plan requirement: {self.daily_plan_req}\n"
@@ -553,7 +557,7 @@ class Scratch:
         x = (x + datetime.timedelta(minutes=1))
       end_time = (x + datetime.timedelta(minutes=self.act_duration))
 
-    if end_time.strftime("%H:%M:%S") == self.curr_time.strftime("%H:%M:%S"): 
+    if end_time.strftime("%H:%M:%S") <= self.curr_time.strftime("%H:%M:%S"):
       return True
     return False
 
