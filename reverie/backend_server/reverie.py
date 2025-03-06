@@ -313,6 +313,7 @@ class ReverieServer:
       # new environment file that matches our step count. That's when we run 
       # the content of this for loop. Otherwise, we just wait. 
       curr_env_file = f"{sim_folder}/environment/{self.step}.json"
+      print("curr_env_file", curr_env_file)
       if check_if_file_exists(curr_env_file):
         # If we have an environment file, it means we have a new perception
         # input to our personas. So we first retrieve it.
@@ -398,8 +399,8 @@ class ReverieServer:
           #  "persona": {"Klaus Mueller": {"movement": [38, 12]}}, 
           #  "meta": {curr_time: <datetime>}}
           curr_move_file = f"{sim_folder}/movement/{self.step}.json"
-          with open(curr_move_file, "w") as outfile: 
-            outfile.write(json.dumps(movements, indent=2))
+          with open(curr_move_file, "w", encoding='utf-8') as outfile:
+            json.dump(movements, outfile, ensure_ascii=False, indent=2)
 
           # After this cycle, the world takes one step forward, and the 
           # current time moves by <sec_per_step> amount. 

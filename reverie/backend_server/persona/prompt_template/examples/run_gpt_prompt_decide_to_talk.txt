@@ -1,0 +1,23 @@
+func: run_gpt_prompt_decide_to_talk
+template: persona/prompt_template/v2/decide_to_talk_v2.txt
+
+~~~ prompt    ----------------------------------------------------
+Task -- given context, determine whether the subject will initiate a conversation with another. 
+Format: 
+Context: []
+Question: []
+Reasoning: []
+Answer in "yes" or "no": []
+---
+Context: desk is was. closet is was. John Lin was idle. bed is was. Mei Lin was idle. 
+ 
+Right now, it is February 13, 2023, 15:00:00 PM. John Lin and Mei Lin last chatted at  about . 
+John Lin is already checking the inventory of medications 
+Mei Lin is on the way to working on her research paper 
+
+Question: Would John Lin initiate a conversation with Mei Lin? 
+
+Reasoning: Let's think step by step. 
+
+~~~ output    ----------------------------------------------------
+yes

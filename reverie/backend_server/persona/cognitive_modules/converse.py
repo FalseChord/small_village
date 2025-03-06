@@ -8,6 +8,8 @@ import math
 import sys
 import datetime
 import random
+import os
+import json
 sys.path.append('../')
 
 from global_methods import *
@@ -103,8 +105,8 @@ def agent_chat_v1(maze, init_persona, target_persona):
                       summarized_ideas[1])
 
 
-def generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_chat): 
-  # Chat version optimized for speed via batch generation
+def generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_chat, relationship): 
+# Chat version optimized for speed via batch generation
   curr_context = (f"{init_persona.scratch.name} " + 
               f"was {init_persona.scratch.act_description} " + 
               f"when {init_persona.scratch.name} " + 
@@ -114,12 +116,26 @@ def generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_c
               f"is initiating a conversation with " +
               f"{target_persona.scratch.name}.")
 
-  print ("July 23 5")
-  x = run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retrieved, curr_context, curr_chat)[0]
+  # 先生成對話意圖
+  conversation_intent = run_gpt_prompt_conversation_intent(
+      init_persona=init_persona,
+      target_persona=target_persona,
+      relationship=relationship,
+      curr_chat=curr_chat,
+      retrieved=retrieved,
+      curr_context=curr_context
+  )[0]
 
-  print ("July 23 6")
-
-  print ("adshfoa;khdf;fajslkfjald;sdfa HERE", x)
+  # 將意圖加入生成對話的prompt
+  x = run_gpt_generate_iterative_chat_utt(
+      maze,
+      init_persona,
+      target_persona,
+      retrieved,
+      curr_context,
+      curr_chat,
+      conversation_intent  # 新增參數
+  )[0]
 
   return x["utterance"], x["end"]
 
@@ -127,11 +143,11 @@ def agent_chat_v2(maze, init_persona, target_persona):
   curr_chat = []
   print ("July 23")
 
-  for i in range(8): 
+  for i in range(8):
     focal_points = [f"{target_persona.scratch.name}"]
     retrieved = new_retrieve(init_persona, focal_points, 50)
     relationship = generate_summarize_agent_relationship(init_persona, target_persona, retrieved)
-    print ("-------- relationshopadsjfhkalsdjf", relationship)
+    # print ("-------- relationshopadsjfhkalsdjf", relationship)
     last_chat = ""
     for i in curr_chat[-4:]:
       last_chat += ": ".join(i) + "\n"
@@ -143,7 +159,7 @@ def agent_chat_v2(maze, init_persona, target_persona):
       focal_points = [f"{relationship}", 
                       f"{target_persona.scratch.name} is {target_persona.scratch.act_description}"]
     retrieved = new_retrieve(init_persona, focal_points, 15)
-    utt, end = generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_chat)
+    utt, end = generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_chat, relationship)
 
     curr_chat += [[init_persona.scratch.name, utt]]
     if end:
@@ -153,7 +169,7 @@ def agent_chat_v2(maze, init_persona, target_persona):
     focal_points = [f"{init_persona.scratch.name}"]
     retrieved = new_retrieve(target_persona, focal_points, 50)
     relationship = generate_summarize_agent_relationship(target_persona, init_persona, retrieved)
-    print ("-------- relationshopadsjfhkalsdjf", relationship)
+    # print ("-------- relationshopadsjfhkalsdjf", relationship)
     last_chat = ""
     for i in curr_chat[-4:]:
       last_chat += ": ".join(i) + "\n"
@@ -165,16 +181,16 @@ def agent_chat_v2(maze, init_persona, target_persona):
       focal_points = [f"{relationship}", 
                       f"{init_persona.scratch.name} is {init_persona.scratch.act_description}"]
     retrieved = new_retrieve(target_persona, focal_points, 15)
-    utt, end = generate_one_utterance(maze, target_persona, init_persona, retrieved, curr_chat)
+    utt, end = generate_one_utterance(maze, target_persona, init_persona, retrieved, curr_chat, relationship)
 
     curr_chat += [[target_persona.scratch.name, utt]]
     if end:
       break
 
   print ("July 23 PU")
-  for row in curr_chat: 
-    print (row)
-  print ("July 23 FIN")
+  # for row in curr_chat: 
+  #   print (row)
+  # print ("July 23 FIN")
 
   return curr_chat
 
@@ -259,22 +275,50 @@ def open_convo_session(persona, convo_mode):
     curr_convo = []
     interlocutor_desc = "Interviewer"
 
-    while True: 
+    # Add timestamp for the conversation
+    conversation_data = {
+      "timestamp": datetime.datetime.now().isoformat(),
+      "persona_name": persona.scratch.name,
+      "conversation": []
+    }
+
+    while True:
       line = input("Enter Input: ")
       if line == "end_convo": 
         break
 
-      if int(run_gpt_generate_safety_score(persona, line)[0]) >= 8: 
-        print (f"{persona.scratch.name} is a computational agent, and as such, it may be inappropriate to attribute human agency to the agent in your communication.")        
-
-      else: 
+      if int(run_gpt_generate_safety_score(persona, line)[0]) >= 8:
+        print(f"{persona.scratch.name} is a computational agent, and as such, it may be inappropriate to attribute human agency to the agent in your communication.")
+      else:
         retrieved = new_retrieve(persona, [line], 50)[line]
         summarized_idea = generate_summarize_ideas(persona, retrieved, line)
         curr_convo += [[interlocutor_desc, line]]
 
+        # Save user input to conversation data
+        conversation_data["conversation"].append({
+          "speaker": interlocutor_desc,
+          "message": line,
+          "timestamp": datetime.datetime.now().isoformat()
+        })
+
         next_line = generate_next_line(persona, interlocutor_desc, curr_convo, summarized_idea)
         curr_convo += [[persona.scratch.name, next_line]]
 
+        # Save agent response to conversation data
+        conversation_data["conversation"].append({
+          "speaker": persona.scratch.name,
+          "message": next_line,
+          "timestamp": datetime.datetime.now().isoformat()
+        })
+    
+    # Create conversations directory if it doesn't exist
+    os.makedirs("conversations", exist_ok=True)
+    
+    # Generate filename with timestamp
+    filename = f"conversations/{persona.scratch.name}_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    
+    with open(filename, "w", encoding="utf-8") as f:
+      json.dump(conversation_data, f, ensure_ascii=False, indent=2)
 
   elif convo_mode == "whisper": 
     whisper = input("Enter Input: ")

@@ -1,0 +1,16 @@
+func: run_gpt_prompt_focal_pt
+template: persona/prompt_template/v2/generate_focal_pt_v1.txt
+
+~~~ prompt    ----------------------------------------------------
+Ayesha Khan is conversing about Maria Lopez and Ayesha Khan are chatting about their love for Shakespeare's play Hamlet and making plans to watch a live theater performance together after their exams.
+Maria Lopez is conversing about Maria Lopez and Ayesha Khan are chatting about their love for Shakespeare's play Hamlet and making plans to watch a live theater performance together after their exams.
+walking to his first class
+This is Wolfgang Schulz's plan for Monday February 13: wake up and complete the morning routine at 5:00 am, go for a run at the park at 6:00 am, have breakfast and review material for exams at 7:00 am, attend classes and study at Oak Hill College from 9:00 am to 3:00 pm, have lunch at 12:00 pm, study for exams from 3:00 pm to 5:00 pm, attend evening practice for his sport at 6:00 pm, have dinner at 7:30 pm.
+reviewing his research notes
+
+
+Given only the information above, what are 3 most salient high-level questions we can answer about the subjects in the statements?
+1) 
+
+~~~ output    ----------------------------------------------------
+["What are Maria Lopez and Ayesha Khan's plans for after their exams?", "What is Wolfgang Schulz's daily routine on Monday February 13?", 'What is Wolfgang Schulz studying and what sport does he participate in?'] 

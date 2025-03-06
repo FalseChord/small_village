@@ -1,0 +1,28 @@
+func: run_gpt_prompt_summarize_conversation
+template: persona/prompt_template/v3_ChatGPT/summarize_conversation_v1.txt
+
+~~~ prompt    ----------------------------------------------------
+Conversation: 
+Klaus Mueller: "Hey Wolfgang, how are your classes going today?"
+Wolfgang Schulz: "Hey Klaus, classes are going well, just trying to stay on top of my studying and training. How about you?"
+Klaus Mueller: "I'm currently at the library working on my research paper about the effects of gentrification in low-income communities. It's been quite intense trying to gather all the necessary data and analyses."
+Wolfgang Schulz: "That sounds really interesting, Klaus. I admire your dedication to your research. If you need any help or a fresh perspective, feel free to reach out to me."
+Klaus Mueller: "Thank you, Wolfgang. Your offer means a lot to me. I might take you up on that offer soon."
+Wolfgang Schulz: "I appreciate your hard work, Klaus. Research papers can be quite challenging, but I'm sure you'll do great. Let me know if you need any assistance with anything."
+Klaus Mueller: "Thank you, Wolfgang. I appreciate your support. How's your training going, by the way?"
+Wolfgang Schulz: "Training is going well, I've been making progress and feeling stronger. Thanks for asking. Let me know if you need any help balancing your research with other responsibilities."
+Klaus Mueller: "Thanks, Wolfgang. I appreciate your offer to help. I'll definitely keep that in mind as I continue working on my research paper."
+Wolfgang Schulz: "Would you like to grab a coffee later to discuss more about your research paper? It could be a nice break from all the intense work."
+Klaus Mueller: "That sounds great, Wolfgang! A coffee break and discussion about my research paper would be really helpful. Let's meet at Hobbs Cafe around 3pm."
+Wolfgang Schulz: "Great, see you at Hobbs Cafe at 3pm then for our coffee break and research discussion!"
+Klaus Mueller: "Thanks, Wolfgang. I look forward to our coffee break and discussion at 3pm. I'll see you then!"
+Wolfgang Schulz: "Great, looking forward to our discussion. I have to head to my next class now, but see you at Hobbs Cafe at 3pm!"
+Klaus Mueller: "Great, looking forward to our discussion. I have to get back to my research now, but see you at Hobbs Cafe at 3pm!"
+Wolfgang Schulz: "I have to head to my next class now, but see you at Hobbs Cafe at 3pm!"
+
+
+Summarize the conversation above in one sentence:
+This is a conversation about 
+
+~~~ output    ----------------------------------------------------
+conversing about Klaus Mueller and Wolfgang Schulz are discussing Klaus's research paper on the effects of gentrification in low-income communities and planning to meet for a coffee break and further discussion at Hobbs Cafe at 3pm.

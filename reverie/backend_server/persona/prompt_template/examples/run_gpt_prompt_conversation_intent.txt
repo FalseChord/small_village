@@ -1,0 +1,42 @@
+func: run_gpt_prompt_conversation_intent
+template: persona/prompt_template/v3_ChatGPT/convo_intents_v1.txt
+
+~~~ prompt    ----------------------------------------------------
+Tom Moreno personality description:
+Here is Here is a brief description of Tom Moreno.
+Name: Tom Moreno
+(...省略 Scratch)
+
+
+Relationship with Isabella Rodriguez:
+Tom Moreno and Isabella Rodriguez have a friendly relationship and are planning to have lunch together. They seem to be comfortable enough to discuss their plans for the day with each other.
+
+Recent conversation:
+(...省略先前對話內容)
+
+Relevant memories:
+- Isabella Rodriguez is conversing about Tom Moreno joining Isabella Rodriguez for lunch
+- Tom Moreno is conversing about Tom Moreno joining Isabella Rodriguez for lunch
+- This is Tom Moreno's plan for Monday February 13: wake up and complete the morning routine at 7:00 am, go to work at 8:00 am, attend a meeting at 10:00 am, have lunch at 12:00 pm, continue working until 6:00 pm, go for a run at 6:30 pm, cook dinner and watch TV from 7:30 pm to 9:00 pm, spend some time playing online games from 9:00 pm to 10:00 pm.
+
+
+Conversation context:
+Tom Moreno was having lunch when Tom Moreno saw Isabella Rodriguez in the middle of having lunch with colleagues.
+Tom Moreno is initiating a conversation with Isabella Rodriguez.
+
+Please analyze:
+1. Current emotional state of the speaker
+2. Attitude towards the conversation partner
+3. Goals to achieve in the conversation
+4. Potential conversation strategies
+
+Please describe these thoughts in first person
+
+~~~ output    ----------------------------------------------------
+1. I am feeling positive and cheerful in this conversation. I am excited to see Isabella and have the opportunity to join her for lunch. I am enjoying the friendly interaction and the chance to catch up with her.
+
+2. I have a friendly and comfortable attitude towards Isabella. I seem to enjoy her company and appreciate having a familiar face around in the city. I am open to her suggestions and seem eager to spend more time with her.
+
+3. My goal in this conversation is to continue building a friendly relationship with Isabella and potentially explore the city together. I am also interested in hearing her recommendations and possibly making plans to hang out outside of work.
+
+4. Some potential conversation strategies I might use include asking Isabella about her experiences in the city, discussing our common interests and potential activities we could do together, and expressing gratitude for her offer to explore the city together. I will also likely suggest concrete plans for future outings and express my enthusiasm for spending time with her.

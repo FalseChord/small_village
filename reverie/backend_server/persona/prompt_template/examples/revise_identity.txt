@@ -1,0 +1,78 @@
+func: revise_identity
+
+========================
+~~~ plan_prompt ~~~
+Monday February 13 -- 16:40 PM: Francisco Lopez is conversing about Latoya Williams and Francisco Lopez are discussing the progress of the script for a web series, with Francisco seeking Latoya's feedback on character development in the latest episode and planning to send her the script for review later in the evening.
+Monday February 13 -- 16:40 PM: Latoya Williams is conversing about Latoya Williams and Francisco Lopez are discussing the progress of the script for a web series, with Francisco seeking Latoya's feedback on character development in the latest episode and planning to send her the script for review later in the evening.
+Monday February 13 -- 15:00 PM: This is Francisco Lopez's plan for Monday February 13: wake up and complete the morning routine at 7:00 am, from 8:00 am to 12:00 pm: work on their web series, take a break and have lunch at 12:00 pm, from 1:00 pm to 3:00 pm: attend an improvisational comedy class, from 3:00 pm to 6:00 pm: work on their web series or attend a rehearsal if needed, have dinner at 6:00 pm, from 7:00 pm to 9:00 pm: relax and watch TV, from 9:00 pm to 11:00 pm: finish any remaining work for the day.
+Monday February 13 -- 16:30 PM: walking to her first location
+Monday February 13 -- 15:10 PM: reviewing the script for the web series
+Monday February 13 -- 16:40 PM: Francisco Lopez is conversing about Latoya Williams and Francisco Lopez are discussing the progress of the script for a web series, with Francisco seeking Latoya's feedback on character development in the latest episode and planning to send her the script for review later in the evening.
+Monday February 13 -- 16:40 PM: Latoya Williams is conversing about Latoya Williams and Francisco Lopez are discussing the progress of the script for a web series, with Francisco seeking Latoya's feedback on character development in the latest episode and planning to send her the script for review later in the evening.
+Monday February 13 -- 16:30 PM: walking to her first location
+Monday February 13 -- 15:10 PM: reviewing the script for the web series
+Monday February 13 -- 15:00 PM: This is Francisco Lopez's plan for Monday February 13: wake up and complete the morning routine at 7:00 am, from 8:00 am to 12:00 pm: work on their web series, take a break and have lunch at 12:00 pm, from 1:00 pm to 3:00 pm: attend an improvisational comedy class, from 3:00 pm to 6:00 pm: work on their web series or attend a rehearsal if needed, have dinner at 6:00 pm, from 7:00 pm to 9:00 pm: relax and watch TV, from 9:00 pm to 11:00 pm: finish any remaining work for the day.
+
+Given the statements above, is there anything that Francisco Lopez should remember as they plan for *Tuesday February 14*? If there is any scheduling information, be as specific as possible (include date, time, and location if stated in the statement)
+
+Write the response from Francisco Lopez's perspective.
+
+~~~ plan_response ~~~
+As Francisco Lopez, I should remember to send the script for the web series to Latoya Williams for review later in the evening on Monday February 13. Additionally, I should remember to attend an improvisational comedy class from 1:00 pm to 3:00 pm on Monday February 13. These are important tasks to keep in mind as I plan for Tuesday February 14.
+
+
+========================
+~~~ thought_prompt ~~~
+Monday February 13 -- 16:40 PM: Francisco Lopez is conversing about Latoya Williams and Francisco Lopez are discussing the progress of the script for a web series, with Francisco seeking Latoya's feedback on character development in the latest episode and planning to send her the script for review later in the evening.
+Monday February 13 -- 16:40 PM: Latoya Williams is conversing about Latoya Williams and Francisco Lopez are discussing the progress of the script for a web series, with Francisco seeking Latoya's feedback on character development in the latest episode and planning to send her the script for review later in the evening.
+Monday February 13 -- 15:00 PM: This is Francisco Lopez's plan for Monday February 13: wake up and complete the morning routine at 7:00 am, from 8:00 am to 12:00 pm: work on their web series, take a break and have lunch at 12:00 pm, from 1:00 pm to 3:00 pm: attend an improvisational comedy class, from 3:00 pm to 6:00 pm: work on their web series or attend a rehearsal if needed, have dinner at 6:00 pm, from 7:00 pm to 9:00 pm: relax and watch TV, from 9:00 pm to 11:00 pm: finish any remaining work for the day.
+Monday February 13 -- 16:30 PM: walking to her first location
+Monday February 13 -- 15:10 PM: reviewing the script for the web series
+Monday February 13 -- 16:40 PM: Francisco Lopez is conversing about Latoya Williams and Francisco Lopez are discussing the progress of the script for a web series, with Francisco seeking Latoya's feedback on character development in the latest episode and planning to send her the script for review later in the evening.
+Monday February 13 -- 16:40 PM: Latoya Williams is conversing about Latoya Williams and Francisco Lopez are discussing the progress of the script for a web series, with Francisco seeking Latoya's feedback on character development in the latest episode and planning to send her the script for review later in the evening.
+Monday February 13 -- 16:30 PM: walking to her first location
+Monday February 13 -- 15:10 PM: reviewing the script for the web series
+Monday February 13 -- 15:00 PM: This is Francisco Lopez's plan for Monday February 13: wake up and complete the morning routine at 7:00 am, from 8:00 am to 12:00 pm: work on their web series, take a break and have lunch at 12:00 pm, from 1:00 pm to 3:00 pm: attend an improvisational comedy class, from 3:00 pm to 6:00 pm: work on their web series or attend a rehearsal if needed, have dinner at 6:00 pm, from 7:00 pm to 9:00 pm: relax and watch TV, from 9:00 pm to 11:00 pm: finish any remaining work for the day.
+
+Given the statements above, how might we summarize Francisco Lopez's feelings about their days up to now?
+
+Write the response from Francisco Lopez's perspective.
+
+~~~ thought_response ~~~
+I feel pretty good about how my day has gone so far. I woke up early, worked on the web series, attended my comedy class, reviewed the script, and had a productive conversation with Latoya about character development. I'm looking forward to sending her the script for feedback later. Overall, I'm happy with how things are progressing and feeling confident about the work we're doing.
+
+========================
+~~~ currently_prompt ~~~
+Francisco Lopez's status from Monday February 13:
+Francisco Lopez is working on a web series about life in a co-living space. They are also exploring improvisational comedy classes.
+
+Francisco Lopez's thoughts at the end of Monday February 13:
+As Francisco Lopez, I should remember to send the script for the web series to Latoya Williams for review later in the evening on Monday February 13. Additionally, I should remember to attend an improvisational comedy class from 1:00 pm to 3:00 pm on Monday February 13. These are important tasks to keep in mind as I plan for Tuesday February 14.I feel pretty good about how my day has gone so far. I woke up early, worked on the web series, attended my comedy class, reviewed the script, and had a productive conversation with Latoya about character development. I'm looking forward to sending her the script for feedback later. Overall, I'm happy with how things are progressing and feeling confident about the work we're doing.
+
+It is now Tuesday February 14. Given the above, write Francisco Lopez's status for Tuesday February 14 that reflects Francisco Lopez's thoughts at the end of Monday February 13. Write this in third-person talking about Francisco Lopez.If there is any scheduling information, be as specific as possible (include date, time, and location if stated in the statement).
+
+Follow this format below:
+Status: <new status>
+
+~~~ currently_response ~~~
+Status: Francisco Lopez is feeling confident and motivated as he continues to work on his web series about life in a co-living space. He successfully sent the script for review to Latoya Williams last evening and is looking forward to receiving feedback. Today, on Tuesday February 14, he is planning to attend another improvisational comedy class from 1:00 pm to 3:00 pm. Francisco is excited about the progress he has made and is eager to keep pushing forward with his creative projects.
+
+
+========================
+~~~ daily_req_prompt ~~~
+Name: Francisco Lopez
+Age: 23
+Innate traits: outgoing, friendly, honest
+Learned traits: Francisco Lopez is an actor and comedian who loves to entertain others. They are always looking for new ways to make people laugh.
+Currently: Status: Francisco Lopez is feeling confident and motivated as he continues to work on his web series about life in a co-living space. He successfully sent the script for review to Latoya Williams last evening and is looking forward to receiving feedback. Today, on Tuesday February 14, he is planning to attend another improvisational comedy class from 1:00 pm to 3:00 pm. Francisco is excited about the progress he has made and is eager to keep pushing forward with his creative projects.
+Lifestyle: Francisco Lopez goes to bed around 11pm, awakes up around 7am, eats dinner around 6pm.
+Daily plan requirement: 
+Current Date: Tuesday February 14
+
+Today is Tuesday February 14. Here is Francisco Lopez's plan today in broad-strokes (with the time of the day. e.g., have a lunch at 12:00 pm, watch TV from 7 to 8 pm).
+
+Follow this format (the list should have 4~6 items but no more):
+1. wake up and complete the morning routine at <time>, 2. ...
+
+~~~ daily_req_response ~~~
+1. Attend improvisational comedy class from 1:00 pm to 3:00 pm 2. Work on web series script revisions from 3:30 pm to 5:30 pm 3. Have dinner at 6:00 pm 4. Meet with Latoya Williams to discuss feedback on script at 7:00 pm

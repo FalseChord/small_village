@@ -1,0 +1,15 @@
+func: run_gpt_prompt_agent_chat_summarize_relationship
+template: persona/prompt_template/v3_ChatGPT/summarize_chat_relationship_v2.txt
+
+~~~ prompt    ----------------------------------------------------
+[Statements]
+This is Mei Lin's plan for Monday February 13: wake up and complete the morning routine at 7:00 am, have breakfast at 7:30 am, prepare for her morning lectures and class materials from 8:00 am to 9:30 am, leave for Oak Hill College at 9:30 am, teach her philosophy class from 10:00 am to 11:30 am, have a break and eat lunch from 11:30 am to 12:30 pm, continue teaching until 2:00 pm, return home at 2:30 pm.
+
+
+Based on the statements above, summarize Mei Lin and John Lin's relationship. What do they feel or know about each other?
+
+
+" 
+
+~~~ output    ----------------------------------------------------
+Mei Lin seems to have a busy schedule teaching at Oak Hill College on Monday, but there is no mention of John Lin in her plan, so it is unclear what their relationship is or how they feel or know about each other. 

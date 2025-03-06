@@ -1,0 +1,22 @@
+func: run_gpt_prompt_new_decomp_schedule
+template: persona/prompt_template/v2/new_decomp_schedule_v1.txt
+
+~~~ prompt    ----------------------------------------------------
+Here was Jennifer Moore's originally planned schedule from 15:00 PM to 17:00 PM. 
+15:00 ~ 16:00 -- continuing to work on her exhibition pieces
+16:00 ~ 16:05 -- preparing dinner for her and her husband (deciding on a dinner menu)
+16:05 ~ 16:15 -- preparing dinner for her and her husband (checking the ingredients she has in her pantry)
+16:15 ~ 16:25 -- preparing dinner for her and her husband (making a grocery list for any missing ingredients)
+16:25 ~ 16:45 -- preparing dinner for her and her husband (going to the grocery store to purchase the missing ingredients)
+16:45 ~ 17:00 -- preparing dinner for her and her husband (prepping the ingredients for cooking)
+
+
+But Jennifer Moore unexpectedly ended up preparing dinner for her and her husband (conversing about Sam and Jennifer are discussing Sam's campaign progress and planning to distribute flyers around the neighborhood to garner support for his campaign.) for 9 minutes. Revise Jennifer Moore's schedule from 15:00 PM to 17:00 PM accordingly (it has to end by 17:00 PM). 
+The revised schedule:
+15:00 ~ 16:00 -- continuing to work on her exhibition pieces
+16:00 ~ 16:00 -- preparing dinner for her and her husband (on the way to deciding on a dinner menu)
+16:00 ~ 16:09 -- preparing dinner for her and her husband (conversing about Sam and Jennifer are discussing Sam's campaign progress and planning to distribute flyers around the neighborhood to garner support for his campaign.)
+16:09 ~ 
+
+~~~ output    ----------------------------------------------------
+[['continuing to work on her exhibition pieces', 60], ['preparing dinner for her and her husband (on the way to deciding on a dinner menu)', 0], ["preparing dinner for her and her husband (conversing about Sam and Jennifer are discussing Sam's campaign progress and planning to distribute flyers around the neighborhood to garner support for his campaign.)", 9], ['preparing dinner for her and her husband (checking the ingredients she has in her pantry)', 10], ['preparing dinner for her and her husband (making a grocery list for any missing ingredients)', 10], ['preparing dinner for her and her husband (going to the grocery store to purchase the missing ingredients)', 20], ['preparing dinner for her and her husband (prepping the ingredients for cooking)', 11]]
