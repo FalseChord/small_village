@@ -1,0 +1,37 @@
+convo_to_thoughts_v1.txt
+
+Variables: 
+!<INPUT 0>! -- init persona name
+!<INPUT 1>! -- init persona name
+!<INPUT 2>! -- persona ISS
+!<INPUT 3>! -- target persona name
+!<INPUT 4>! -- relationship
+!<INPUT 5>! -- convo string
+!<INPUT 6>! -- retrieved memory
+!<INPUT 7>! -- current context
+
+<commentblockmarker>###</commentblockmarker>
+Based on the following information, analyze !<INPUT 0>!'s feelings and intentions in this conversation:
+
+!<INPUT 1>! personality description:
+!<INPUT 2>!
+
+Relationship with !<INPUT 3>!:
+!<INPUT 4>!
+
+Recent conversation:
+!<INPUT 5>!
+
+Relevant memories:
+!<INPUT 6>!
+
+Conversation context:
+!<INPUT 7>!
+
+Please analyze:
+1. Current emotional state of the speaker
+2. Attitude towards the conversation partner
+3. Goals to achieve in the conversation
+4. Potential conversation strategies
+
+Please describe these thoughts in first person
