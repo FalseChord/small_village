@@ -408,56 +408,62 @@ def generate_new_decomp_schedule(persona, inserted_act, inserted_act_dur,  start
 def revise_identity(persona): 
   p_name = persona.scratch.name
 
-  focal_points = [f"{p_name}'s plan for {persona.scratch.get_str_curr_date_str()}.",
-                  f"Important recent events for {p_name}'s life."]
+  # 焦點回顧重點
+  focal_points = [
+      f"{p_name}在{persona.scratch.get_str_curr_date_str()}的計劃。",
+      f"{p_name}最近的重要事件。"
+  ]
   retrieved = new_retrieve(persona, focal_points)
 
-  statements = "[Statements]\n"
+  # 整理歷史記錄
+  statements = "[背景描述]\n"
   for key, val in retrieved.items():
-    for i in val: 
-      statements += f"{i.created.strftime('%A %B %d -- %H:%M %p')}: {i.embedding_key}\n"
+      for i in val: 
+          # 使用中文時間格式
+          time_str = i.created.strftime('%m月%d日 %H:%M')
+          statements += f"{time_str}: {i.embedding_key}\n"
 
-  # print (";adjhfno;asdjao;idfjo;af", p_name)
+    # 計劃提示詞
   plan_prompt = statements + "\n"
-  plan_prompt += f"Given the statements above, is there anything that {p_name} should remember as they plan for"
-  plan_prompt += f" *{persona.scratch.curr_time.strftime('%A %B %d')}*? "
-  plan_prompt += f"If there is any scheduling information, be as specific as possible (include date, time, and location if stated in the statement)\n\n"
-  plan_prompt += f"Write the response from {p_name}'s perspective."
+  plan_prompt += f"根據以上描述，{p_name}在規劃"
+  plan_prompt += f"*{persona.scratch.get_str_curr_date_str()}*的時候"
+  plan_prompt += f"需要特別記住什麼嗎？"
+  plan_prompt += f"如果有任何與時間相關的資訊，請盡可能具體（包含日期、時間和地點）\n\n"
+  plan_prompt += f"請以{p_name}的角度來回答。"
   plan_note = ChatGPT_single_request(plan_prompt)
-  # print ("plan_prompt", plan_prompt)
-  # print ("plan_note", plan_note)
 
+  # 思考提示詞
   thought_prompt = statements + "\n"
-  thought_prompt += f"Given the statements above, how might we summarize {p_name}'s feelings about their days up to now?\n\n"
-  thought_prompt += f"Write the response from {p_name}'s perspective."
+  thought_prompt += f"根據以上描述，如何總結{p_name}到目前為止對這幾天的感受？\n\n"
+  thought_prompt += f"請以{p_name}的角度來回答。"
   thought_note = ChatGPT_single_request(thought_prompt)
-  # print ("thought_prompt", thought_prompt)
-  # print ("thought_note", thought_note)
 
-  currently_prompt = f"{p_name}'s status from {(persona.scratch.curr_time - datetime.timedelta(days=1)).strftime('%A %B %d')}:\n"
+  # 當前狀態提示詞
+  today_date = persona.scratch.get_str_curr_date_str()
+  
+  currently_prompt = f"{p_name}在前一天的狀態：\n"
   currently_prompt += f"{persona.scratch.currently}\n\n"
-  currently_prompt += f"{p_name}'s thoughts at the end of {(persona.scratch.curr_time - datetime.timedelta(days=1)).strftime('%A %B %d')}:\n" 
+  currently_prompt += f"{p_name}在前一天結束時的想法：\n"
   currently_prompt += (plan_note + thought_note).replace('\n', '') + "\n\n"
-  currently_prompt += f"It is now {persona.scratch.curr_time.strftime('%A %B %d')}. Given the above, write {p_name}'s status for {persona.scratch.curr_time.strftime('%A %B %d')} that reflects {p_name}'s thoughts at the end of {(persona.scratch.curr_time - datetime.timedelta(days=1)).strftime('%A %B %d')}. Write this in third-person talking about {p_name}."
-  currently_prompt += f"If there is any scheduling information, be as specific as possible (include date, time, and location if stated in the statement).\n\n"
-  currently_prompt += "Follow this format below:\nStatus: <new status>"
-  # print ("DEBUG ;adjhfno;asdjao;asdfsidfjo;af", p_name)
-  # print ("currently_prompt", currently_prompt)
+  currently_prompt += f"現在是{today_date}。根據以上內容，"
+  currently_prompt += f"請描述{p_name}在{today_date}的狀態，"
+  currently_prompt += f"需要反映出{p_name}在前一天結束時的想法。"
+  currently_prompt += f"請以第三人稱描述{p_name}。"
+  currently_prompt += f"如果有任何與時間相關的資訊，請盡可能具體（包含日期、時間和地點）。\n\n"
+  currently_prompt += "請依照以下格式：\n狀態：<新狀態>"
   new_currently = ChatGPT_single_request(currently_prompt)
-  # print ("new_currently", new_currently)
-  # print (new_currently[10:])
 
   persona.scratch.currently = new_currently
 
+  # 每日計劃需求提示詞
   daily_req_prompt = persona.scratch.get_str_iss() + "\n"
-  daily_req_prompt += f"Today is {persona.scratch.curr_time.strftime('%A %B %d')}. Here is {persona.scratch.name}'s plan today in broad-strokes (with the time of the day. e.g., have a lunch at 12:00 pm, watch TV from 7 to 8 pm).\n\n"
-  daily_req_prompt += f"Follow this format (the list should have 4~6 items but no more):\n"
-  daily_req_prompt += f"1. wake up and complete the morning routine at <time>, 2. ..."
+  daily_req_prompt += f"今天是{today_date}。這是{p_name}今天的大致計劃"
+  daily_req_prompt += f"（需包含具體時間，例如：中午12:00吃午餐、晚上7點到8點看電視）。\n\n"
+  daily_req_prompt += f"請依照以下格式列出4-6項活動：\n"
+  daily_req_prompt += f"1. 早上<時間>起床完成晨間例行公事，2. ..."
 
   new_daily_req = ChatGPT_single_request(daily_req_prompt)
   new_daily_req = new_daily_req.replace('\n', ' ')
-  print ("daily_req_prompt", daily_req_prompt)
-  print ("WE ARE HERE!!!", new_daily_req)
   persona.scratch.daily_plan_req = new_daily_req
 
 
@@ -958,6 +964,7 @@ def plan(persona, maze, personas, new_day, retrieved):
     _long_term_planning(persona, new_day)
 
   # PART 2: If the current action has expired, we want to create a new plan.
+  print("DEBUG act_check_finished", persona.scratch.act_check_finished())
   if persona.scratch.act_check_finished(): 
     _determine_action(persona, maze)
 
@@ -973,7 +980,7 @@ def plan(persona, maze, personas, new_day, retrieved):
   focused_event = False
   if retrieved.keys(): 
     focused_event = _choose_retrieved(persona, retrieved)
-  
+    
   # Step 2: Once we choose an event, we need to determine whether the
   #         persona will take any actions for the perceived event. There are
   #         three possible modes of reaction returned by _should_react. 

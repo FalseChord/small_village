@@ -20,32 +20,34 @@ Variables:
 <commentblockmarker>###</commentblockmarker>
 Context for the task: 
 
-PART 1. 
+任務背景：
+
+第一部分：
 !<INPUT 0>!
 
-Here is the memory that is in !<INPUT 1>!'s head: 
+以下是!<INPUT 1>!記得的內容：
 !<INPUT 2>!
 
-PART 2. 
-Past Context: 
+第二部分：
+脈絡：
 !<INPUT 3>!
 
-Current Location: !<INPUT 4>!
+目前位置：!<INPUT 4>!
 
-Current Context: 
+目前情境：
 !<INPUT 5>!
 
-!<INPUT 6>! and !<INPUT 7>! are chatting. Here is their conversation so far: 
+!<INPUT 6>!和!<INPUT 7>!正在對話。以下是他們到目前為止的對話內容：
 !<INPUT 8>!
 
-!<INPUT 9>!'s current intent:
+!<INPUT 9>!目前的意圖：
 !<INPUT 10>!
 
 ---
-Task: Given the above, what should !<INPUT 11>! say to !<INPUT 12>! next in the conversation? And did it end the conversation?
+任務：根據以上資訊，!<INPUT 11>!接下來應該對!<INPUT 12>!說什麼？這整段對話結束了嗎？
 
-Output format: Output a json of the following format: 
+輸出格式：請以下列 json 格式輸出：
 {
-"!<INPUT 13>!": "<!<INPUT 14>!'s utterance>",
-"Did the conversation end with !<INPUT 15>!'s utterance?": "<json Boolean>"
+"!<INPUT 13>!": "<!<INPUT 14>!的回應>",
+"這段對話在!<INPUT 15>!的回應後結束了嗎？": "<json 布林值>"
 }

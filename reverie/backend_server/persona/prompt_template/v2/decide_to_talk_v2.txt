@@ -1,18 +1,27 @@
 decide_to_talk_v1.txt
 
 <commentblockmarker>###</commentblockmarker>
-Task -- given context, determine whether the subject will initiate a conversation with another. 
-Format: 
-Context: []
-Question: []
-Reasoning: []
-Answer in "yes" or "no": []
+任務 -- 根據上下文，判斷主體是否會主動與他人開始對話。
+格式：
+上下文：[]
+問題：[]
+推理：[]
+回答"yes"或"no"：[]
 ---
-Context: !<INPUT 0>! 
-Right now, it is !<INPUT 1>!. !<INPUT 2>! and !<INPUT 3>! last chatted at !<INPUT 4>! about !<INPUT 5>!. 
-!<INPUT 6>! 
-!<INPUT 7>! 
+情境背景：!<INPUT 0>!
+現在是 !<INPUT 1>!。!<INPUT 2>! 和 !<INPUT 3>! 曾於 !<INPUT 4>! 聊了關於 !<INPUT 5>! 的話題。
+!<INPUT 6>!
+!<INPUT 7>!
 
-Question: Would !<INPUT 8>! initiate a conversation with !<INPUT 9>!? 
+問題：!<INPUT 8>! 會主動與 !<INPUT 9>! 開始對話嗎？
 
-Reasoning: Let's think step by step.
+評估要點：
+1. 雙方的距離和位置是否適合交談
+2. 目前的場合是否適合社交互動
+3. 兩人的關係和過往互動經驗
+4. 當前各自的情緒狀態和忙碌程度
+5. 是否有急需溝通的事項或自然的交談契機
+
+根據以上因素，請判斷 !<INPUT 8>! 是否會與 !<INPUT 9>! 展開對話？
+
+請仔細思考後，只回答：「會」或「不會」

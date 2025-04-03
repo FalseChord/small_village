@@ -8,9 +8,9 @@ Variables:
 !<INPUT 4>! -- Object name 
 
 <commentblockmarker>###</commentblockmarker>
-Task: We want to understand the state of an object that is being used by someone. 
+任務：我們想要了解一個正在被某人使用的物品的狀態。
 
-Let's think step by step. 
-We want to know about !<INPUT 0>!'s state. 
-Step 1. !<INPUT 1>! is at/using the !<INPUT 2>!.
-Step 2. Describe the !<INPUT 3>!'s state: !<INPUT 4>! is
+讓我們一步一步思考。
+我們想要知道!<INPUT 0>!的狀態。
+步驟1. !<INPUT 1>!正在使用/位於!<INPUT 2>!。
+步驟2. 描述!<INPUT 3>!的狀態：!<INPUT 4>!是

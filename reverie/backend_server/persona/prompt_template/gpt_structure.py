@@ -222,9 +222,12 @@ def GPT_request(prompt, gpt_parameter):
   temp_sleep()
   try:
     model = gpt_parameter["engine"]
+    # print("PROMPT", prompt)
 
-    # Chat models (gpt-3.5-turbo, gpt-4)
-    if model.startswith(("gpt-3.5", "gpt-4")):
+    # replace gpt-3.5-turbo with gpt-4o-mini
+    if model == "gpt-3.5-turbo":
+      model = "gpt-4o-mini"
+    if model.startswith(("gpt-4")):
       response = openai.ChatCompletion.create(
         model=model,
         messages=[{
@@ -238,7 +241,7 @@ def GPT_request(prompt, gpt_parameter):
         presence_penalty=gpt_parameter["presence_penalty"],
         stream=gpt_parameter["stream"],
         stop=gpt_parameter["stop"])
-      print(response.choices[0])
+      # print("RESPONSE", response.choices[0])
       return response.choices[0].message.content
 
     # Completion models (text-davinci-003 etc)
@@ -253,6 +256,7 @@ def GPT_request(prompt, gpt_parameter):
         presence_penalty=gpt_parameter["presence_penalty"],
         stream=gpt_parameter["stream"],
         stop=gpt_parameter["stop"])
+      # print("RESPONSE", response.choices[0].text)
       return response.choices[0].text
 
   except Exception as e:

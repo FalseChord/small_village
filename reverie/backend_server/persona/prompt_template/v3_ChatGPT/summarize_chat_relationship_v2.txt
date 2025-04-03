@@ -6,10 +6,9 @@ Variables:
 !<INPUT 2>! -- target_persona.scratch.name
 
 <commentblockmarker>###</commentblockmarker>
-[Statements]
+[陳述]
 !<INPUT 0>!
 
-Based on the statements above, summarize !<INPUT 1>! and !<INPUT 2>!'s relationship. What do they feel or know about each other?
-
+根據以上陳述，總結 !<INPUT 1>! 和 !<INPUT 2>! 的關係。他們對彼此有什麼感覺或了解？
 
 "

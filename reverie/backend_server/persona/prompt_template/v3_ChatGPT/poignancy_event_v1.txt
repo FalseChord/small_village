@@ -6,10 +6,10 @@ poignancy_event_v1.txt
 !<INPUT 3>!: event description
 
 <commentblockmarker>###</commentblockmarker>
-Here is a brief description of !<INPUT 0>!. 
+以下是關於 !<INPUT 0>! 的簡短描述。
 !<INPUT 1>!
 
-On the scale of 1 to 10, where 1 is purely mundane (e.g., brushing teeth, making bed) and 10 is extremely poignant (e.g., a break up, college acceptance), rate the likely poignancy of the following event for !<INPUT 2>!.
+在1到10的評分範圍內，其中1代表純粹日常瑣事（例如：刷牙、整理床鋪），10代表極其重要的事件（例如：分手、大學錄取），請為 !<INPUT 2>! 評估以下事件的重要程度。
 
-Event: !<INPUT 3>!
-Rate (return a number between 1 to 10):
+事件：!<INPUT 3>!
+評分（請給出1到10之間的數字）：

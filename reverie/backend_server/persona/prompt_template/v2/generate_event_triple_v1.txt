@@ -6,25 +6,25 @@ Variables:
 !<INPUT 2>! -- Persona's full name. 
 
 <commentblockmarker>###</commentblockmarker>
-Task: Turn the input into (subject, predicate, object). 
+任務：將輸入轉換成（主詞、謂詞、受詞）。
 
-Input: Sam Johnson is eating breakfast. 
-Output: (Dolores Murphy, eat, breakfast) 
---- 
-Input: Joon Park is brewing coffee.
-Output: (Joon Park, brew, coffee)
+輸入：山姆 正在吃早餐。
+輸出：(山姆, 吃, 早餐)
 ---
-Input: Jane Cook is sleeping. 
-Output: (Jane Cook, is, sleep)
+輸入：瓊恩 正在沖咖啡。
+輸出：(瓊恩, 沖, 咖啡)
 ---
-Input: Michael Bernstein is writing email on a computer. 
-Output: (Michael Bernstein, write, email)
+輸入：珍 正在睡覺。
+輸出：(珍, 睡覺, -)
 ---
-Input: Percy Liang is teaching students in a classroom. 
-Output: (Percy Liang, teach, students)
+輸入：麥克 正在電腦上寫電子郵件。
+輸出：(麥克, 寫, 電子郵件)
 ---
-Input: Merrie Morris is running on a treadmill. 
-Output: (Merrie Morris, run, treadmill)
+輸入：帕西 正在教室裡教學生。
+輸出：(帕西, 教, 學生)
 ---
-Input: !<INPUT 0>! is !<INPUT 1>!. 
-Output: (!<INPUT 2>!,
+輸入：梅莉 正在跑步機上跑步。
+輸出：(梅莉, 跑, 跑步機)
+---
+輸入：!<INPUT 0>! 正在 !<INPUT 1>!。
+輸出：(!<INPUT 2>!,

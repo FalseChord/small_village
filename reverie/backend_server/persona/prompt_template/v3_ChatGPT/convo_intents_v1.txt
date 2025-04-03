@@ -11,27 +11,27 @@ Variables:
 !<INPUT 7>! -- current context
 
 <commentblockmarker>###</commentblockmarker>
-Based on the following information, analyze !<INPUT 0>!'s feelings and intentions in this conversation:
+根據以下資訊，分析!<INPUT 0>!在這段對話中的感受和意圖:
 
-!<INPUT 1>! personality description:
+!<INPUT 1>!的性格描述:
 !<INPUT 2>!
 
-Relationship with !<INPUT 3>!:
+與!<INPUT 3>!的關係:
 !<INPUT 4>!
 
-Recent conversation:
+最近的對話:
 !<INPUT 5>!
 
-Relevant memories:
+相關記憶:
 !<INPUT 6>!
 
-Conversation context:
+對話脈絡:
 !<INPUT 7>!
 
-Please analyze:
-1. Current emotional state of the speaker
-2. Attitude towards the conversation partner
-3. Goals to achieve in the conversation
-4. Potential conversation strategies
+請分析:
+1. 說話者當前的情緒狀態
+2. 對談話對象的態度
+3. 在對話中想要達成的目標
+4. 可能的對話策略
 
-Please describe these thoughts in first person
+請以第一人稱描述這些想法

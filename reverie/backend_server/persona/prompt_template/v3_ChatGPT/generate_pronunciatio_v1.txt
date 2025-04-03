@@ -4,7 +4,7 @@ Variables:
 !<INPUT 0>! -- Action description
 
 <commentblockmarker>###</commentblockmarker>
-Convert an action description to an emoji (important: use two or less emojis).
+將行動描述轉換為表情符號 Emoji（重要：使用不超過兩個表情符號）。
 
-Action description: !<INPUT 0>!
+行動描述: !<INPUT 0>!
 Emoji:

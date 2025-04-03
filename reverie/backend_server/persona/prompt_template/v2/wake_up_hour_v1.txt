@@ -8,5 +8,8 @@ Variables:
 <commentblockmarker>###</commentblockmarker>
 !<INPUT 0>!
 
-In general, !<INPUT 1>!
-!<INPUT 2>!'s wake up hour:
+考慮到：
+- !<INPUT 1>!
+- !<INPUT 2>!的日常活動和職責
+
+請僅輸出!<INPUT 2>!的通常起床時間（24小時制阿拉伯數字如：8）：

@@ -107,14 +107,13 @@ def agent_chat_v1(maze, init_persona, target_persona):
 
 def generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_chat, relationship): 
 # Chat version optimized for speed via batch generation
-  curr_context = (f"{init_persona.scratch.name} " + 
-              f"was {init_persona.scratch.act_description} " + 
-              f"when {init_persona.scratch.name} " + 
-              f"saw {target_persona.scratch.name} " + 
-              f"in the middle of {target_persona.scratch.act_description}.\n")
-  curr_context += (f"{init_persona.scratch.name} " +
-              f"is initiating a conversation with " +
-              f"{target_persona.scratch.name}.")
+  curr_context = (f"{init_persona.scratch.name}" + 
+              f"正在{init_persona.scratch.act_description}的時候，" + 
+              f"看到了{target_persona.scratch.name}" + 
+              f"正在{target_persona.scratch.act_description}。\n")
+  curr_context += (f"{init_persona.scratch.name}" +
+              f"打算和{target_persona.scratch.name}" +
+              f"開始對話。")
 
   # 先生成對話意圖
   conversation_intent = run_gpt_prompt_conversation_intent(

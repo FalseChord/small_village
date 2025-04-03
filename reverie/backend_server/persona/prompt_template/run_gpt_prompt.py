@@ -54,7 +54,7 @@ def run_gpt_prompt_wake_up_hour(persona, test_input=None, verbose=False):
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
-    cr = int(gpt_response.strip().lower().split("am")[0])
+    cr = int(gpt_response.strip().lower().split("點")[0])
     return cr
   
   def __func_validate(gpt_response, prompt=""): 
@@ -148,7 +148,7 @@ def run_gpt_prompt_daily_plan(persona,
 
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
-  output = ([f"wake up and complete the morning routine at {wake_up_hour}:00 am"]
+  output = ([f"在{wake_up_hour}:00起床並完成晨間例行事項"]
               + output)
 
   # if debug or verbose: 
@@ -178,8 +178,7 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
       schedule_format += f" Activity: [Fill in]\n"
     schedule_format = schedule_format[:-1]
 
-    intermission_str = f"Here the originally intended hourly breakdown of"
-    intermission_str += f" {persona.scratch.get_str_firstname()}'s schedule today: "
+    intermission_str = f"這是今天{persona.scratch.get_str_firstname()}的預定每小時行程安排："
     for count, i in enumerate(persona.scratch.daily_req): 
       intermission_str += f"{str(count+1)}) {i}, "
     intermission_str = intermission_str[:-2]
@@ -190,14 +189,13 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
       for count, i in enumerate(p_f_ds_hourly_org): 
         prior_schedule += f"[(ID:{get_random_alphanumeric()})" 
         prior_schedule += f" {persona.scratch.get_str_curr_date_str()} --"
-        prior_schedule += f" {hour_str[count]}] Activity:"
-        prior_schedule += f" {persona.scratch.get_str_firstname()}"
-        prior_schedule += f" is {i}\n"
+        prior_schedule += f" {hour_str[count]}] 行動:"
+        prior_schedule += f" {persona.scratch.get_str_firstname()}{i}\n"
 
     prompt_ending = f"[(ID:{get_random_alphanumeric()})"
     prompt_ending += f" {persona.scratch.get_str_curr_date_str()}"
-    prompt_ending += f" -- {curr_hour_str}] Activity:"
-    prompt_ending += f" {persona.scratch.get_str_firstname()} is"
+    prompt_ending += f" -- {curr_hour_str}] 行動:"
+    prompt_ending += f" {persona.scratch.get_str_firstname()}"
 
     if intermission2: 
       intermission2 = f"\n{intermission2}"
@@ -324,8 +322,8 @@ def run_gpt_prompt_task_decomp(persona,
     # print (persona.scratch.f_daily_schedule_hourly_org)
     # print (all_indices)
 
-    summ_str = f'Today is {persona.scratch.curr_time.strftime("%B %d, %Y")}. '
-    summ_str += f'From '
+    summ_str = f'今天是 {persona.scratch.curr_time.strftime("%B %d, %Y")}. '
+    summ_str += f'在 '
     for index in all_indices: 
       # print ("index", index)
       if index < len(persona.scratch.f_daily_schedule_hourly_org): 
@@ -339,7 +337,7 @@ def run_gpt_prompt_task_decomp(persona,
                       + datetime.timedelta(minutes=end_min)) 
         start_time_str = start_time.strftime("%H:%M%p")
         end_time_str = end_time.strftime("%H:%M%p")
-        summ_str += f"{start_time_str} ~ {end_time_str}, {persona.name} is planning on {persona.scratch.f_daily_schedule_hourly_org[index][0]}, "
+        summ_str += f"{start_time_str} ~ {end_time_str}, {persona.name}計劃{persona.scratch.f_daily_schedule_hourly_org[index][0]}, "
         if curr_f_org_index+1 == index:
           curr_time_range = f'{start_time_str} ~ {end_time_str}'
     summ_str = summ_str[:-2] + "."
@@ -358,7 +356,8 @@ def run_gpt_prompt_task_decomp(persona,
 
   def __func_clean_up(gpt_response, prompt=""):
     # print ("TOODOOOOOO")
-    # print (gpt_response)
+    print ("DEBUG task_decomp gpt_response", gpt_response)
+    print ("DEBUG task_decomp prompt", prompt)
     # print ("-==- -==- -==- ")
 
     # TODO SOMETHING HERE sometimes fails... See screenshot
@@ -366,20 +365,19 @@ def run_gpt_prompt_task_decomp(persona,
     _cr = []
     cr = []
     for count, i in enumerate(temp): 
-      if count != 0: 
-        _cr += [" ".join([j.strip () for j in i.split(" ")][3:])]
-      else: 
-        _cr += [i]
+      _cr += [i]
     for count, i in enumerate(_cr): 
-      k = [j.strip() for j in i.split("(duration in minutes:")]
+      k = [j.strip() for j in i.split("（時長：")]
       task = k[0]
       if task[-1] == ".": 
         task = task[:-1]
-      duration = int(k[1].split(",")[0].strip())
-      cr += [[task, duration]]
+      task_duration = int(k[1].split("分鐘，")[0].strip())
+      cr += [[task, task_duration]]
 
-    total_expected_min = int(prompt.split("(total duration in minutes")[-1]
-                                   .split("):")[0].strip())
+    total_expected_min = int(duration)
+
+    # total_expected_min = int(prompt.split("總時長：")[-1]
+    #                                .split("分鐘）：")[0].strip())
     
     # TODO -- now, you need to make sure that this is the same as the sum of 
     #         the current action sequence. 
@@ -395,7 +393,8 @@ def run_gpt_prompt_task_decomp(persona,
     curr_min_slot = curr_min_slot[1:]   
 
     if len(curr_min_slot) > total_expected_min: 
-      last_task = curr_min_slot[60]
+      print ("DEBUG", len(curr_min_slot), total_expected_min)
+      last_task = curr_min_slot[59]
       for i in range(1, 6): 
         curr_min_slot[-1 * i] = last_task
     elif len(curr_min_slot) < total_expected_min: 
@@ -602,7 +601,7 @@ def run_gpt_prompt_action_sector(action_description,
 
 
 
-  gpt_param = {"engine": "gpt-3.5-turbo-instruct", "max_tokens": 15, 
+  gpt_param = {"engine": "gpt-3.5-turbo-instruct", "max_tokens": 30, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v1/action_location_sector_v1.txt"
@@ -1153,7 +1152,7 @@ def run_gpt_prompt_new_decomp_schedule(persona,
   
   def __func_clean_up(gpt_response, prompt=""):
     new_schedule = prompt + " " + gpt_response.strip()
-    new_schedule = new_schedule.split("The revised schedule:")[-1].strip()
+    new_schedule = new_schedule.split("修改後的時間安排：")[-1].strip()
     new_schedule = new_schedule.split("\n")
 
     ret_temp = []
@@ -1172,6 +1171,8 @@ def run_gpt_prompt_new_decomp_schedule(persona,
     return ret
 
   def __func_validate(gpt_response, prompt=""): 
+    print ("DEBUG decompose prompt", prompt)
+    print ("DEBUG decompose gpt_response", gpt_response)
     try: 
       gpt_response = __func_clean_up(gpt_response, prompt)
       dur_sum = 0
@@ -1181,9 +1182,10 @@ def run_gpt_prompt_new_decomp_schedule(persona,
           return False 
         if str(type(dur)) != "<class 'int'>":
           return False
-      x = prompt.split("\n")[0].split("originally planned schedule from")[-1].strip()[:-1]
-      x = [datetime.datetime.strptime(i.strip(), "%H:%M %p") for i in x.split(" to ")]
-      delta_min = int((x[1] - x[0]).total_seconds()/60)
+
+      start_hour_str = start_time_hour.strftime("%H:%M %p")
+      end_hour_str = end_time_hour.strftime("%H:%M %p")
+      delta_min = int((end_hour_str - start_hour_str).total_seconds()/60)
 
       if int(dur_sum) != int(delta_min): 
         return False
@@ -1267,7 +1269,6 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
     context = ""
     for c_node in retrieved["events"]: 
       curr_desc = c_node.description.split(" ")
-      curr_desc[2:3] = ["was"]
       curr_desc = " ".join(curr_desc)
       context +=  f"{curr_desc}. "
     context += "\n"
@@ -1280,22 +1281,22 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
       init_act_desc = init_act_desc.split("(")[-1][:-1]
     
     if len(init_persona.scratch.planned_path) == 0 and "waiting" not in init_act_desc: 
-      init_p_desc = f"{init_persona.name} is already {init_act_desc}"
+      init_p_desc = f"{init_persona.name}已經在{init_act_desc}"
     elif "waiting" in init_act_desc:
-      init_p_desc = f"{init_persona.name} is {init_act_desc}"
+      init_p_desc = f"{init_persona.name}正在{init_act_desc}"
     else: 
-      init_p_desc = f"{init_persona.name} is on the way to {init_act_desc}"
+      init_p_desc = f"{init_persona.name}正要去{init_act_desc}"
 
     target_act_desc = target_persona.scratch.act_description
     if "(" in target_act_desc: 
       target_act_desc = target_act_desc.split("(")[-1][:-1]
     
     if len(target_persona.scratch.planned_path) == 0 and "waiting" not in init_act_desc: 
-      target_p_desc = f"{target_persona.name} is already {target_act_desc}"
+      target_p_desc = f"{target_persona.name}已經在{target_act_desc}"
     elif "waiting" in init_act_desc:
-      target_p_desc = f"{init_persona.name} is {init_act_desc}"
+      target_p_desc = f"{init_persona.name}正在{init_act_desc}"
     else: 
-      target_p_desc = f"{target_persona.name} is on the way to {target_act_desc}"
+      target_p_desc = f"{target_persona.name}正要去{target_act_desc}"
 
 
     prompt_input = []
@@ -1316,15 +1317,19 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
     return prompt_input
   
   def __func_validate(gpt_response, prompt=""): 
+    #強制觸發 fail_safe
+    return False
     try: 
-      if gpt_response.split("Answer in yes or no:")[-1].strip().lower() in ["yes", "no"]: 
+      if "會" in gpt_response: 
         return True
       return False     
     except:
       return False 
 
   def __func_clean_up(gpt_response, prompt=""):
-    return gpt_response.split("Answer in yes or no:")[-1].strip().lower()
+    if "不會" in gpt_response: 
+      return "no"
+    return "yes"
 
   def get_fail_safe(): 
     fs = "yes"
@@ -1338,11 +1343,14 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
   prompt_template = "persona/prompt_template/v2/decide_to_talk_v2.txt"
   prompt_input = create_prompt_input(persona, target_persona, retrieved,
                                      test_input)
+                                     
   prompt = generate_prompt(prompt_input, prompt_template)
 
   fail_safe = get_fail_safe()
+  print ("DEBUG decide_to_talk PROMPT", prompt)
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
+  print ("DEBUG decide_to_talk OUTPUT", output)
 
   # if debug or verbose: 
   #   print_run_prompts(prompt_template, persona, gpt_param, 
@@ -1364,7 +1372,6 @@ def run_gpt_prompt_decide_to_react(persona, target_persona, retrieved,test_input
     context = ""
     for c_node in retrieved["events"]: 
       curr_desc = c_node.description.split(" ")
-      curr_desc[2:3] = ["was"]
       curr_desc = " ".join(curr_desc)
       context +=  f"{curr_desc}. "
     context += "\n"
@@ -1439,9 +1446,10 @@ def run_gpt_prompt_decide_to_react(persona, target_persona, retrieved,test_input
   prompt = generate_prompt(prompt_input, prompt_template)
 
   fail_safe = get_fail_safe()
+  print ("DEBUG decide_to_react PROMPT", prompt)
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
-
+  print ("DEBUG decide_to_react OUTPUT", output)
   if debug or verbose: 
     print_run_prompts(prompt_template, persona, gpt_param, 
                       prompt_input, prompt, output)
@@ -1474,7 +1482,7 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
       for i in init_persona.a_mem.seq_chat: 
         if i.object == target_persona.scratch.name: 
           v1 = int((init_persona.scratch.curr_time - i.created).total_seconds()/60)
-          prev_convo_insert += f'{str(v1)} minutes ago, they had the following conversation.\n'
+          prev_convo_insert += f'{str(v1)} 分鐘前，{persona.scratch.name} 和 {target_persona.scratch.name} 已經在{i.description}。這個情境發生在那次對話之後。\n'
           for row in i.filling: 
             prev_convo_insert += f'{row[0]}: "{row[1]}"\n'
           break
@@ -2362,7 +2370,7 @@ def run_gpt_prompt_agent_chat(maze, persona, target_persona,
       for i in persona.a_mem.seq_chat: 
         if i.object == target_persona.scratch.name: 
           v1 = int((persona.scratch.curr_time - i.created).total_seconds()/60)
-          prev_convo_insert += f'{str(v1)} minutes ago, {persona.scratch.name} and {target_persona.scratch.name} were already {i.description} This context takes place after that conversation.'
+          prev_convo_insert += f'{str(v1)} 分鐘前，{persona.scratch.name} 和 {target_persona.scratch.name} 已經在{i.description}。這個情境發生在那次對話之後。\n'
           break
     if prev_convo_insert == "\n": 
       prev_convo_insert = ""
@@ -2847,7 +2855,7 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
       for i in persona.a_mem.seq_chat: 
         if i.object == target_persona.scratch.name: 
           v1 = int((persona.scratch.curr_time - i.created).total_seconds()/60)
-          prev_convo_insert += f'{str(v1)} minutes ago, {persona.scratch.name} and {target_persona.scratch.name} were already {i.description} This context takes place after that conversation.'
+          prev_convo_insert += f'{str(v1)} 分鐘前，{persona.scratch.name} 和 {target_persona.scratch.name} 已經在{i.description}。這個情境發生在那次對話之後。\n'
           break
     if prev_convo_insert == "\n": 
       prev_convo_insert = ""
@@ -2874,7 +2882,7 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
     if convo_str == "": 
       convo_str = "[The conversation has not started yet -- start it!]"
 
-    init_iss = f"Here is Here is a brief description of {init_persona.scratch.name}.\n{init_persona.scratch.get_str_iss()}"
+    init_iss = f"Here is a brief description of {init_persona.scratch.name}.\n{init_persona.scratch.get_str_iss()}"
     prompt_input = [init_iss, init_persona.scratch.name, retrieved_str, prev_convo_insert,
       curr_location, curr_context, init_persona.scratch.name, target_persona.scratch.name,
       convo_str, init_persona.scratch.name, conversation_intent,

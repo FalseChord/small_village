@@ -6,12 +6,12 @@ poignancy_chat_v1.txt
 !<INPUT 3>!: event description
 
 <commentblockmarker>###</commentblockmarker>
-Here is a brief description of !<INPUT 0>!. 
+以下是關於 !<INPUT 0>! 的簡短描述。
 !<INPUT 1>!
 
-On the scale of 1 to 10, where 1 is purely mundane (e.g., routine morning greetings) and 10 is extremely poignant (e.g., a conversation about breaking up, a fight), rate the likely poignancy of the following conversation for !<INPUT 2>!.
+在 1 到 10 的評分範圍內，其中 1 代表完全平凡（例如：日常的早安問候），10 代表極具情感衝擊（例如：分手對話、嚴重爭吵），請為以下對 !<INPUT 2>! 的對話評分其情感衝擊程度。
 
-Conversation: 
+對話內容：
 !<INPUT 3>!
 
-Rate (return a number between 1 to 10):
+評分（請給出 1 到 10 之間的數字）：

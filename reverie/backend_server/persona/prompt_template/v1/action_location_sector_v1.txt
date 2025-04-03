@@ -10,25 +10,25 @@ Variables:
 !<INPUT 8>! -- curr action description
 !<INPUT 9>! -- Persona name
 <commentblockmarker>###</commentblockmarker>
-Task -- choose an appropriate area  from the area options for a task at hand. 
+任務 -- 從可用區域選項中為當前任務選擇一個合適的區域。
 
-Sam Kim lives in {Sam Kim's house} that has Sam Kim's room, bathroom, kitchen.
-Sam Kim is currently in {Sam Kim's house} that has Sam Kim's room, bathroom, kitchen. 
-Area options: {Sam Kim's house, The Rose and Crown Pub, Hobbs Cafe, Oak Hill College, Johnson Park, Harvey Oak Supply Store, The Willows Market and Pharmacy}.
-* Stay in the current area if the activity can be done there. Only go out if the activity needs to take place in another place.
-* Must be one of the "Area options," verbatim.
-For taking a walk, Sam Kim should go to the following area: {Johnson Park}
+山姆 住在 {山姆的房子}，那裡有 山姆的房間、浴室、廚房。
+山姆 目前在 {山姆的房子}，那裡有 山姆的房間、浴室、廚房。
+區域選項：{山姆的房子, 玫瑰與皇冠酒吧, 哈伯斯餐館, 橡山學院, 約翰遜公園, 哈維橡樹供應商店, 威洛斯市場和藥房}。
+* 如果活動可以在當前區域完成，就待在當前區域。只有當活動需要在其他地方進行時才外出。
+* 必須從「區域選項」中逐字選擇一個。
+對於散步，山姆 應該去以下區域：{約翰遜公園}
 ---
-Jane Anderson lives in {Oak Hill College Student Dormatory} that has Jane Anderson's room.
-Jane Anderson is currently in {Oak Hill College} that has a classroom, library
-Area options: {Oak Hill College Student Dormatory, The Rose and Crown Pub, Hobbs Cafe, Oak Hill College, Johnson Park, Harvey Oak Supply Store, The Willows Market and Pharmacy}. 
-* Stay in the current area if the activity can be done there. Only go out if the activity needs to take place in another place.
-* Must be one of the "Area options," verbatim.
-For eating dinner, Jane Anderson should go to the following area: {Hobbs Cafe}
+珍妮 住在 {橡山學院學生宿舍}，那裡有 珍妮的房間。
+珍妮 目前在 {橡山學院}，那裡有教室、圖書館。
+區域選項：{橡山學院學生宿舍, 玫瑰與皇冠酒吧, 哈伯斯餐館, 橡山學院, 約翰遜公園, 哈維橡樹供應商店, 威洛斯市場和藥房}。
+* 如果活動可以在當前區域完成，就待在當前區域。只有當活動需要在其他地方進行時才外出。
+* 必須從「區域選項」中逐字選擇一個。
+對於吃晚餐，珍妮 應該去以下區域：{哈伯斯餐館}
 ---
-!<INPUT 0>! lives in {!<INPUT 1>!} that has !<INPUT 2>!.
-!<INPUT 3>! is currently in {!<INPUT 4>!} that has !<INPUT 5>!. !<INPUT 6>!
-Area options: {!<INPUT 7>!}. 
-* Stay in the current area if the activity can be done there. Only go out if the activity needs to take place in another place.
-* Must be one of the "Area options," verbatim.
-!<INPUT 8>! is !<INPUT 9>!. For !<INPUT 10>!, !<INPUT 11>! should go to the following area: {
+!<INPUT 0>! 住在 {!<INPUT 1>!}，那裡有 !<INPUT 2>!。
+!<INPUT 3>! 目前在 {!<INPUT 4>!}，那裡有 !<INPUT 5>!。!<INPUT 6>!
+區域選項：{!<INPUT 7>!}。
+* 如果活動可以在當前區域完成，就待在當前區域。只有當活動需要在其他地方進行時才外出。
+* 必須從「區域選項」中逐字選擇一個。
+!<INPUT 8>! 是 !<INPUT 9>!。對於 !<INPUT 10>!，!<INPUT 11>! 應該去以下區域：{

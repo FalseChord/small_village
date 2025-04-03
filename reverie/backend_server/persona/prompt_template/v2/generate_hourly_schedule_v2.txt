@@ -9,7 +9,7 @@ Variables:
 !<INPUT 5>! -- prompt_ending
 
 <commentblockmarker>###</commentblockmarker>
-Hourly schedule format: 
+每小時行程格式：
 !<INPUT 0>!
 ===
 !<INPUT 1>!

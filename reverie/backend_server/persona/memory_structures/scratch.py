@@ -406,15 +406,15 @@ class Scratch:
          never go out."
     """
     commonset = ""
-    commonset += f"Name: {self.name}\n"
-    commonset += f"Age: {self.age}\n"
-    commonset += f"Innate traits: {self.innate}\n"
-    commonset += f"Learned traits: {self.learned}\n"
-    commonset += f"Biography: {self.biography}\n"
-    commonset += f"Currently: {self.currently}\n"
-    commonset += f"Lifestyle: {self.lifestyle}\n"
-    commonset += f"Daily plan requirement: {self.daily_plan_req}\n"
-    commonset += f"Current Date: {self.curr_time.strftime('%A %B %d')}\n"
+    commonset += f"姓名: {self.name}\n"
+    commonset += f"年齡: {self.age}\n"
+    commonset += f"天生特質: {self.innate}\n"
+    commonset += f"後天特質: {self.learned}\n"
+    commonset += f"個人簡歷: {self.biography}\n"
+    commonset += f"目前狀態: {self.currently}\n"
+    commonset += f"生活方式: {self.lifestyle}\n"
+    commonset += f"每日計劃需求: {self.daily_plan_req}\n"
+    commonset += f"當前日期: {self.curr_time.strftime('%A %B %d')}\n"
     return commonset
 
 
@@ -557,6 +557,7 @@ class Scratch:
         x = (x + datetime.timedelta(minutes=1))
       end_time = (x + datetime.timedelta(minutes=self.act_duration))
 
+    print("DEBUG act_check_finished", end_time.strftime("%H:%M:%S"), self.curr_time.strftime("%H:%M:%S"))
     if end_time.strftime("%H:%M:%S") <= self.curr_time.strftime("%H:%M:%S"):
       return True
     return False
@@ -593,9 +594,9 @@ class Scratch:
     """
     start_datetime_str = self.act_start_time.strftime("%A %B %d -- %H:%M %p")
     ret = f"[{start_datetime_str}]\n"
-    ret += f"Activity: {self.name} is {self.act_description}\n"
-    ret += f"Address: {self.act_address}\n"
-    ret += f"Duration in minutes (e.g., x min): {str(self.act_duration)} min\n"
+    ret += f"活動: {self.name} 在 {self.act_description}\n"
+    ret += f"地點: {self.act_address}\n"
+    ret += f"持續時間: {str(self.act_duration)} 分鐘\n"
     return ret
 
 

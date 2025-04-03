@@ -7,5 +7,5 @@ Variables:
 <commentblockmarker>###</commentblockmarker>
 !<INPUT 0>!
 
-Given only the information above, what are !<INPUT 1>! most salient high-level questions we can answer about the subjects in the statements?
+根據以上提供的資訊推論，我們能夠回答關於這些主題的!<INPUT 1>!個最重要的高層次問題是什麼？
 1)

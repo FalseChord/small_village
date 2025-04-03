@@ -1064,22 +1064,22 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
       init_act_desc = init_act_desc.split("(")[-1][:-1]
     
     if len(init_persona.scratch.planned_path) == 0 and "waiting" not in init_act_desc: 
-      init_p_desc = f"{init_persona.name} is already {init_act_desc}"
+      init_p_desc = f"{init_persona.name} 已經在 {init_act_desc}"
     elif "waiting" in init_act_desc:
-      init_p_desc = f"{init_persona.name} is {init_act_desc}"
+      init_p_desc = f"{init_persona.name} 正在 {init_act_desc}"
     else: 
-      init_p_desc = f"{init_persona.name} is on the way to {init_act_desc}"
+      init_p_desc = f"{init_persona.name} 正要去 {init_act_desc}"
 
     target_act_desc = target_persona.scratch.act_description
     if "(" in target_act_desc: 
       target_act_desc = target_act_desc.split("(")[-1][:-1]
     
     if len(target_persona.scratch.planned_path) == 0 and "waiting" not in init_act_desc: 
-      target_p_desc = f"{target_persona.name} is already {target_act_desc}"
+      target_p_desc = f"{target_persona.name} 已經在 {target_act_desc}"
     elif "waiting" in init_act_desc:
-      target_p_desc = f"{init_persona.name} is {init_act_desc}"
+      target_p_desc = f"{init_persona.name} 正在 {init_act_desc}"
     else: 
-      target_p_desc = f"{target_persona.name} is on the way to {target_act_desc}"
+      target_p_desc = f"{target_persona.name} 正要去 {target_act_desc}"
 
 
     prompt_input = []
