@@ -1,0 +1,15 @@
+class SystemPrompts:
+    def __init__(self):
+        self._roles = {
+            'event_generator': "你是一個事件生成器，負責生成符合人物設定的日常事件。請確保生成的事件具有合理性和細節。",
+            'dialogue_generator': "你是一個對話生成器，負責根據說話者的意圖和風格，生成自然且符合人物性格的對話內容。",
+            'reflection_generator': "你是一個反思生成器，負責生成符合人物性格的內心反思。",
+            'keyword_extractor': "你是一個關鍵字提取器，負責從文本中提取重要的關鍵字，包括人物、地點、活動和情緒狀態。",
+            'poignancy_analyzer': "你是一個事件分析器，負責評估事件的情感強度、社交影響、持續影響和獨特程度。",
+            'intent_analyzer': "你是一個意圖分析器，負責根據說話者的性格和情境，分析並生成合理的說話意圖和期望。",
+            'dialogue_analyzer': "你是一個對話分析器，負責判斷對話是否達到自然結束點，並確保對話的完整性和連貫性。",
+            'dialogue_summarizer': "你是一個對話摘要生成器，負責將對話內容濃縮為簡潔的摘要，同時保留關鍵信息、情感交流和重要決定。請確保摘要能反映對話的實質內容和情感基調。"
+        }
+    
+    def get(self, role_type: str) -> str:
+        return self._roles.get(role_type, "") 
