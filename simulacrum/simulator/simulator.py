@@ -120,6 +120,32 @@ class Simulator:
         
         # 更新主角色狀態
         self.main_persona.update_current_state(reflection['state'])
+        
+        # 將反思加入到每日活動中，以便保存到 JSON 檔案
+        self.daily_activities.append({
+            'time': self.current_date,
+            'type': 'reflection',
+            'content': {
+                'type': 'reflection',
+                'person': self.main_persona.name,
+                'reflection': reflection['reflection'],
+                'state': reflection['state'],
+                'keywords': self.gpt.extract_keywords(reflection['reflection']),
+                'poignancy': self.gpt.calculate_poignancy(reflection['reflection']),
+                'context': {
+                    'time': self.current_date,
+                    'occasion': 'daily_reflection'
+                }
+            }
+        })
+        
+        # 將反思也儲存為記憶
+        self.main_persona.add_event_memory(
+            description=reflection['reflection'],
+            keywords=self.gpt.extract_keywords(reflection['reflection']),
+            poignancy=self.gpt.calculate_poignancy(reflection['reflection']),
+            created_time=self.current_date
+        )
 
     def _save_json(self, relative_path: str, data: Dict):
         """保存JSON資料

@@ -3,6 +3,9 @@ import openai
 import json
 import re
 import numpy as np
+import logging
+import os
+from datetime import datetime
 from .prompts import SystemPrompts
 from .handlers import (
     EventHandler,
@@ -23,6 +26,29 @@ class GPTInterface:
         self.reflection_handler = ReflectionHandler(self)
         self.keyword_handler = KeywordHandler(self)
         self.poignancy_handler = PoignancyHandler(self)
+        
+        # 設置日誌系統
+        self._setup_logging()
+
+    def _setup_logging(self):
+        """設置日誌系統"""
+        # 創建 logs 目錄
+        log_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "logs")
+        os.makedirs(log_dir, exist_ok=True)
+        
+        # 設置日誌格式
+        log_format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+        logging.basicConfig(
+            level=logging.INFO,
+            format=log_format,
+            handlers=[
+                logging.FileHandler(os.path.join(log_dir, f'gpt_requests_{datetime.now().strftime("%Y%m%d")}.log')),
+                logging.StreamHandler()
+            ]
+        )
+        
+        # 創建處理器特定的日誌記錄器
+        self.logger = logging.getLogger('GPTInterface')
 
     def _clean_json_response(self, content: str) -> str:
         """清理 GPT 回應，只保留 JSON 部分"""
@@ -31,6 +57,15 @@ class GPTInterface:
         if json_match:
             return json_match.group()
         return content
+
+    def _log_gpt_request(self, prompt: str, response: Dict, role_type: str, temperature: float = 0.7):
+        """記錄 GPT 請求"""
+        self.logger.info(f"\n{'='*50}\n"
+                        f"Role Type: {role_type}\n"
+                        f"Temperature: {temperature}\n"
+                        f"Prompt:\n{prompt}\n"
+                        f"Response:\n{response}\n"
+                        f"{'='*50}\n")
 
     def _call_gpt(self, prompt: str, role_type: str, temperature: float = 0.7) -> Optional[Dict]:
         """通用的 GPT 呼叫函數"""
@@ -57,7 +92,10 @@ class GPTInterface:
             cleaned_content = self._clean_json_response(content)
             
             try:
-                return json.loads(cleaned_content)
+                result = json.loads(cleaned_content)
+                # 統一在這裡記錄 GPT 請求
+                self._log_gpt_request(prompt, result, role_type, temperature)
+                return result
             except json.JSONDecodeError:
                 print(f"JSON 解析失敗: {content}")
                 return None

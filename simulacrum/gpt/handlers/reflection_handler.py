@@ -46,7 +46,6 @@ class ReflectionHandler(BaseHandler):
         """生成每日反思與狀態"""
         prompt = self._create_daily_reflection_prompt(persona_data, daily_memories)
         response = self.interface._call_gpt(prompt, 'reflection_generator')
-        self._log_gpt_request(prompt, response, 'reflection_generator', 0.7)
         return response
 
 

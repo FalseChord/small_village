@@ -4,11 +4,29 @@ from simulator.embedding import EmbeddingInterface
 from simulator.persona import MainPersona, SecondaryPersona
 import os
 import json
+from pathlib import Path
+
+def load_env_file():
+    """載入 .env 檔案中的環境變數"""
+    env_file = Path(__file__).parent / ".env"
+    if env_file.exists():
+        try:
+            with open(env_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith('#') and '=' in line:
+                        key, value = line.split('=', 1)
+                        os.environ[key] = value.strip()
+            print("✓ 已從 .env 檔案載入環境變數")
+        except Exception as e:
+            print(f"讀取 .env 檔案失敗: {e}")
 
 def load_persona_data():
     """載入主要人格設定資料"""
     try:
-        file_path = os.path.join("simulacrum", "data", "personas", "main_persona.json")
+        # 使用絕對路徑，確保從任何目錄都能正確執行
+        current_dir = Path(__file__).parent
+        file_path = current_dir / "data" / "personas" / "main_persona.json"
         with open(file_path, 'r', encoding='utf-8') as f:
             persona_data = json.load(f)
             
@@ -30,7 +48,9 @@ def load_persona_data():
 def load_secondary_personas():
     """載入次要人格設定資料"""
     try:
-        file_path = os.path.join("simulacrum", "data", "personas", "secondary_personas.json")
+        # 使用絕對路徑，確保從任何目錄都能正確執行
+        current_dir = Path(__file__).parent
+        file_path = current_dir / "data" / "personas" / "secondary_personas.json"
         with open(file_path, 'r', encoding='utf-8') as f:
             raw_data = json.load(f)
             
@@ -81,10 +101,17 @@ def initialize_personas(gpt_interface, embedding_interface):
     return main_persona, secondary_personas
 
 def main():
-    # 初始化 GPT 介面
+    # 載入 .env 檔案
+    load_env_file()
+    
+    # 獲取 API key
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
-        raise ValueError("請設定 OPENAI_API_KEY 環境變數")
+        print("❌ 未找到 OpenAI API key")
+        print("請運行 python set_api_key.py 來設置 API key")
+        return
+
+    print("✓ 成功載入 OpenAI API key")
 
     # 初始化 GPT 與 embedding 介面
     gpt_interface = GPTInterface(api_key)

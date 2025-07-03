@@ -26,13 +26,4 @@ class BaseHandler:
         )
         
         # 創建處理器特定的日誌記錄器
-        self.logger = logging.getLogger(self.__class__.__name__)
-        
-    def _log_gpt_request(self, prompt: str, response: Dict, handler_name: str, temperature: float = 0.7):
-        """記錄 GPT 請求"""
-        self.logger.info(f"\n{'='*50}\n"
-                        f"Handler: {handler_name}\n"
-                        f"Temperature: {temperature}\n"
-                        # f"Prompt:\n{prompt}\n"
-                        f"Response:\n{response}\n"
-                        f"{'='*50}\n") 
+        self.logger = logging.getLogger(self.__class__.__name__) 
