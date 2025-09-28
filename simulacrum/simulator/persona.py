@@ -8,59 +8,52 @@ class BasePersona:
         self.memory = Memory(embedding_interface)
         self.gpt = gpt_interface  # 添加 GPT 介面
         self.conversation_history = {}  # 依照對話對象分類
-        
-    def add_event_memory(self, description, keywords, poignancy, created_time):
-        """添加事件記憶"""
-        expiration = created_time + timedelta(days=60)
-        
+
+    def add_event_memory(self, description, keywords, emotional_intensity, created_time,
+                         memory_type="event", extra_fields=None):
+        """添加記憶
+
+        Args:
+            description: 記憶描述
+            keywords: 關鍵字列表
+            emotional_intensity: 情緒強度 (0.0-1.0)，整合了重要性和記憶強度
+            created_time: 創建時間
+            memory_type: 記憶類型 ("event", "episodic", "semantic", "emotional", "dialogue")
+            extra_fields: 額外字段字典
+        """
+        # 如果 emotional_intensity 為 None，使用預設值 0.3
+        if emotional_intensity is None:
+            emotional_intensity = 0.3
+
         return self.memory.add_memory(
             created_time=created_time,
-            expiration=expiration,
-            memory_type="event",
+            memory_type=memory_type,
             description=description,
             keywords=keywords,
-            poignancy=poignancy
+            emotional_intensity=emotional_intensity,
+            extra_fields=extra_fields
         )
 
     def get_last_chat_with(self, target_name):
         """獲取與特定對象的最後一次對話"""
         return self.memory.get_last_chat(target_name)
 
-class MainPersona(BasePersona):
+class Persona(BasePersona):
+    """統一的人格類別，所有角色都使用此類別"""
     def __init__(self, persona_data, embedding_interface, gpt_interface):
         super().__init__(embedding_interface, gpt_interface)
         self.name = persona_data["name"]
+        self.first_name = persona_data.get("first_name", "")
+        self.last_name = persona_data.get("last_name", "")
         self.age = persona_data["age"]
-        self.innate_traits = persona_data["innate_traits"]
-        self.learned_traits = persona_data["learned_traits"]
-        self.current_status = persona_data["current_status"]
+        self.innate = persona_data["innate"]  # 保持原始字串格式
+        self.innate_traits = [trait.strip() for trait in persona_data["innate"].split("、")]
+        self.learned = persona_data["learned"]
         self.lifestyle = persona_data["lifestyle"]
         self.biography = persona_data["biography"]
         self.relationships = persona_data.get("relationships", {})
-        self.current_state = None
-        
+
     def get_relationship_with(self, person_name: str) -> Dict:
         """獲取與特定人物的關係資訊"""
         return self.relationships.get(person_name, {})
 
-    def update_current_state(self, new_state):
-        """更新人物當前狀態"""
-        self.current_state = new_state
-        
-    def get_current_state(self):
-        """獲取人物當前狀態"""
-        return self.current_state if self.current_state else "一般狀態"
-
-class SecondaryPersona(BasePersona):
-    def __init__(self, persona_data: Dict, embedding_interface, gpt_interface):  # 添加 gpt_interface 參數
-        super().__init__(embedding_interface, gpt_interface)  # 傳遞給父類
-        self.name = persona_data["name"]
-        self.age = persona_data["age"]
-        self.innate_traits = persona_data["innate_traits"]
-        self.learned_traits = persona_data["learned_traits"]
-        self.current_status = persona_data["current_status"]
-        self.lifestyle = persona_data["lifestyle"]
-        self.biography = persona_data["biography"]
-        self.relationship_with_main = persona_data["relationship_with_main"]
-
-        

@@ -23,7 +23,6 @@ class EventHandler(BaseHandler):
             
             f"人物資料：\n"
             f"姓名：{persona_data['name']}\n"
-            f"身份：{persona_data['current_status']}\n"
             f"個性特質：{', '.join(persona_data['innate_traits'])}\n"
             f"生活型態：{persona_data['lifestyle']}\n"
             f"背景：{persona_data['biography']}\n\n"

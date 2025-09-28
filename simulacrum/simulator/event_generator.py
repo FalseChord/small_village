@@ -63,7 +63,6 @@ class EventGenerator:
         # 準備人物資料
         persona_data = {
             "name": persona.name,
-            "current_status": persona.current_status,
             "innate_traits": persona.innate_traits,
             "lifestyle": persona.lifestyle,
             "biography": persona.biography,
@@ -79,7 +78,7 @@ class EventGenerator:
         if event:
             # 添加時間資訊
             event['time'] = event_time
-            event['poignancy'] = self.gpt.calculate_poignancy(event['description'])
+            event['poignancy'] = 0.3  # 預設值，因為已移除 calculate_poignancy
             event['keywords'] = self.gpt.extract_keywords(
                 event['description'],
                 context={'type': 'event', 'persona_name': persona_data['name']}

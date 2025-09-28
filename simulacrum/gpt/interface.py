@@ -10,9 +10,8 @@ from .prompts import SystemPrompts
 from .handlers import (
     EventHandler,
     DialogueHandler,
-    ReflectionHandler,
     KeywordHandler,
-    PoignancyHandler
+    MemoryHandler
 )
 
 class GPTInterface:
@@ -23,9 +22,8 @@ class GPTInterface:
         # 初始化各個處理器
         self.event_handler = EventHandler(self)
         self.dialogue_handler = DialogueHandler(self)
-        self.reflection_handler = ReflectionHandler(self)
         self.keyword_handler = KeywordHandler(self)
-        self.poignancy_handler = PoignancyHandler(self)
+        self.memory_handler = MemoryHandler(self)
         
         # 設置日誌系統
         self._setup_logging()
@@ -69,21 +67,15 @@ class GPTInterface:
 
     def _call_gpt(self, prompt: str, role_type: str, temperature: float = 0.7) -> Optional[Dict]:
         """通用的 GPT 呼叫函數"""
-        #model="gpt-4.1",
-        model="gpt-4.5-preview",
-        # model="o4-mini",
-        if model == "o4-mini":
-            temperature=1
+        # 僅使用 gpt-5-mini
+        model = "gpt-5-mini"
         try:
             response = openai.ChatCompletion.create(
-                #model="gpt-4.1",
-                model="gpt-4.5-preview",
-                #model="o4-mini",
+                model=model,
                 messages=[
                     {"role": "system", "content": self.system_roles.get(role_type)},
                     {"role": "user", "content": prompt}
-                ],
-                temperature=temperature
+                ]
             )
             
             content = response.choices[0].message.content
@@ -111,11 +103,11 @@ class GPTInterface:
     def generate_dialogue(self, prompt: str) -> Dict:
         return self.dialogue_handler.generate(prompt)
         
-    def generate_reflection(self, persona_data: Dict, dialogue_content: str, recent_memories: List) -> Dict:
-        return self.reflection_handler.generate(persona_data, dialogue_content, recent_memories)
-        
     def extract_keywords(self, text: str, context: Dict = None) -> List[str]:
         return self.keyword_handler.extract(text, context)
-        
-    def calculate_poignancy(self, description: str) -> float:
-        return self.poignancy_handler.calculate(description)
+    
+    def breakdown_event_to_memories(self, event: Dict, persona_data: Dict) -> Dict:
+        return self.memory_handler.breakdown_event_to_memories(event, persona_data)
+    
+    def breakdown_dialogue_to_memories(self, dialogue: Dict, persona_data: Dict) -> Dict:
+        return self.memory_handler.breakdown_dialogue_to_memories(dialogue, persona_data)
