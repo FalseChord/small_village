@@ -1,0 +1,228 @@
+[
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "我學到短時間的呼吸放鬆練習（2分鐘）可以快速降低焦慮並有助於入睡與當下情緒穩定，是可立即施行的介入手段。",
+        "keywords": [
+            "呼吸放鬆",
+            "即時介入",
+            "情緒穩定",
+            "助眠"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "f7a45dac9143dd0d49346c8e63eb1cb1"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "我學到將擔憂具體化為短期、可執行的三項目標（如睡前放下手機、帶弱點題到自習、預約面談）能提升學生的可達成感並降低無力感。",
+        "keywords": [
+            "短期目標",
+            "可行步驟",
+            "可達成感",
+            "焦點聚焦"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "37369c3c270152e831998479355e11d4"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "我學到在轉介或邀請輔導老師介入前取得學生同意並承諾陪同，能建立信任；同時把會談重點記錄並準備在班會分享是良好的教師跟進與資源運用流程。",
+        "keywords": [
+            "轉介同意",
+            "陪同轉介",
+            "紀錄備忘",
+            "班會分享",
+            "校內資源"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "f99699eaf6db5de5c66077d72022f5b2"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "12:25 我在教師休息室整理班會教材時，林思妤推門進來、面色憂慮；我放下資料、泡了杯熱紅茶請她坐下並耐心傾聽她描述因會考壓力與家中期待導致的失眠與注意力下降。",
+        "keywords": [
+            "12:25",
+            "教師休息室",
+            "泡茶聆聽",
+            "林思妤"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "5c11678044e89de802f484e7262fc659"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "我帶領她做了兩分鐘的呼吸放鬆練習，並與她一起把擔心事項列成三項短期目標，隨後在筆記本上寫下目標、可行步驟與可用資源（補救課、同學互助、輔導老師時間）。",
+        "keywords": [
+            "2分鐘呼吸",
+            "三項目標",
+            "筆記本記錄",
+            "資源清單"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "f44c0a9d5fd923b50e46733abb795d0c"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "我向她說明放學後15:30我會陪同到輔導室向吳輔導老師說明情況（已徵得同意），並在她離開前交給她一份「考前情緒調適小抄」，會談後我把重點記在教師備忘錄，準備在班會分享技巧。",
+        "keywords": [
+            "陪同輔導",
+            "情緒調適小抄",
+            "教師備忘錄",
+            "班會分享"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "90d04427757c5050237171ea353573b8"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "我感受到強烈的同理心與擔憂：看到學生因會考與家庭期待而失眠，我既心疼又想立即提供支持與保護。",
+        "keywords": [
+            "同理心",
+            "心疼",
+            "擔憂",
+            "想保護"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "04a54f14f4e76f7f90b5a0e23c03e827"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "在引導呼吸練習與訂立短期目標時，我感到冷靜、有耐心與勝任感，覺得自己的介入是有幫助的。",
+        "keywords": [
+            "冷靜",
+            "耐心",
+            "勝任感",
+            "成就感"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "43250078adff43125477b188f6a6bc0b"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "在承諾陪同並完成會談後記錄時，我有強烈的責任感與動力準備在班會分享，但也帶有一點對後續追蹤的焦慮。",
+        "keywords": [
+            "責任感",
+            "動力",
+            "追蹤焦慮",
+            "承諾"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "0137a634a05f5a0ad9a11dfe6c90e7e4"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "作為老師會因為原本超害羞的學生敢開口並笑得自信而感到驕傲，這種成就感像放了場小煙火般短暫而強烈。",
+        "keywords": [
+            "老師驕傲",
+            "學生開口",
+            "小煙火"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "6c3329b598e0de575476dde453bdb52b"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "許多學生因為會考與家裡的期待而失眠，這是造成老師牽掛與擔心的一個常見原因。",
+        "keywords": [
+            "會考",
+            "失眠",
+            "家長期待"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "65c2985a0ed86ca7c3cc70de961ab4b7"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "面對矛盾情緒，常見的自我調節方式包括短暫笑過、吃甜點或靜靜看著學生，以此轉移注意力但仍會默默牽掛。",
+        "keywords": [
+            "吃甜點",
+            "轉移注意力",
+            "靜靜看"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "ba5f4246d3fbe99b3e3e1f87fffb15bf"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "李承翰在對話中描述看到學生敢開口的驕傲感，說那感覺像放了一場小煙火，我記得當下他笑得很開心。",
+        "keywords": [
+            "李承翰",
+            "小煙火",
+            "驕傲感"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "a1fb1cd21d73c96252934f36e0d88134"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "我們彼此多次確認對同一情境的矛盾感：一方面為學生敢笑高興，另一方面又為會考導致失眠的孩子揪心，整段對話反覆表達共鳴。",
+        "keywords": [
+            "共鳴",
+            "矛盾感",
+            "掛念"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "b14f1afc8444c45f33e3686508d2e4b1"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "對話最後有輕鬆的互動：李承翰說他偷吃甜點，我以細心的口吻說會默默惦記學生，並半開玩笑想分一口甜點，場景溫暖且親切。",
+        "keywords": [
+            "偷吃甜點",
+            "分享玩笑",
+            "溫暖互動"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "605e9d41b66954d4fc54f73aeb8deef1"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "看到學生從害羞變得自信時，我感到一股溫暖與驕傲，像被小小的成就感包圍。",
+        "keywords": [
+            "溫暖",
+            "驕傲",
+            "成就感"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "e5210df7a1b8ea1669f583cb242cb743"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "同時想到那些為會考和家裡期待而失眠的孩子，心裡會很揪、很擔心，這種擔憂反覆出現並牽動我的情緒。",
+        "keywords": [
+            "揪心",
+            "擔心",
+            "牽掛學生"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "895df32d8810eeb9ac9693ca51d93dc2"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "整體上存在明顯的矛盾情緒：既想大喊『太讚了』，又無法釋懷那些受壓的孩子，這種酸甜參半的感受在對話中一再出現。",
+        "keywords": [
+            "矛盾",
+            "酸甜",
+            "放不下"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "e2d16120165770cf892d703edc6f0776"
+    }
+]

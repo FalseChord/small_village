@@ -1,0 +1,236 @@
+[
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "semantic",
+        "description": "保溫瓶蓋有裂縫即需替換，且選用不鏽鋼蓋可提升耐用與安全性（以免漏水或污染食物）。",
+        "keywords": [
+            "保溫瓶蓋",
+            "裂縫",
+            "替換",
+            "不鏽鋼蓋",
+            "漏水風險"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "c569e8cdfc2b25639b84d495db030144"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "semantic",
+        "description": "把提醒寫在便條並貼在顯眼處（如冰箱門）是有效的日常提醒方式，能減少遺忘採購或維修事項的機率。",
+        "keywords": [
+            "便條",
+            "冰箱門",
+            "提醒",
+            "採購清單",
+            "可視化"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "a311420de9867b6100d69e369bfa22bf"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "semantic",
+        "description": "用標記好的現金信封分配零用與菜錢、出門前檢查電子票卡餘額並在手機購物清單補上需要採買的項目，是負責照顧家人（陪伴與採買）時的實用資金與時間管理方法。",
+        "keywords": [
+            "零用金",
+            "信封管理",
+            "電子票卡",
+            "購物清單APP",
+            "菜錢"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "eba48733ba56f9e908c00e26b7b71b5f"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "episodic",
+        "description": "2020-06-23 06:45 在台北市小套房的廚房開始出門前的生活整理，進行一系列準備動作（收拾便當盒、保溫瓶等）。",
+        "keywords": [
+            "06:45",
+            "小套房",
+            "廚房",
+            "出門前整理",
+            "台北市"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "e11690825e6090326af27b5ae5d0a649"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "episodic",
+        "description": "發現保溫瓶蓋有一道細裂縫，將蓋子放進小工具盒，並在便條上寫『替換保溫瓶蓋／買不鏽鋼蓋』貼在冰箱門上以提醒自己採購與更換。",
+        "keywords": [
+            "保溫瓶蓋裂縫",
+            "小工具盒",
+            "便條",
+            "冰箱門",
+            "替換"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "ba09200a149cf87d7094a4848e46b24e"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "episodic",
+        "description": "打開放好的零用現金信封，檢查要帶回去給父母與祖父母的零用與菜錢，將找好的小額現金放進標記好的信封；同時檢查電子票卡餘額並在手機購物清單加入蘿蔔、米、保溫瓶蓋與藥房用藥等項目。",
+        "keywords": [
+            "零用現金信封",
+            "標記信封",
+            "電子票卡餘額",
+            "購物清單APP",
+            "蘿蔔"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "15f923204d42df8588cc910d8a817904"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "emotional",
+        "description": "對家人的照顧與責任感強烈——為祖父母準備藥物與帶回菜錢，感受到必須周到安排的責任與擔當。",
+        "keywords": [
+            "責任感",
+            "家人",
+            "祖父母",
+            "照顧",
+            "帶錢買藥"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "bdde292556b344cacf74ecc010ee4d45"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "emotional",
+        "description": "對保溫瓶蓋裂縫感到些微擔心，擔心漏水或影響保溫效果，因而立刻做出替換與購買的決策以避免後續問題。",
+        "keywords": [
+            "擔心",
+            "保溫瓶",
+            "裂縫",
+            "漏水",
+            "預防性行動"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "1568ce6f17bdb9b0b5f820023abb2d72"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "emotional",
+        "description": "完成一系列準備工作時感到心情踏實、井然有序，對自己的細心與有耐心的習慣有小小的滿足感。",
+        "keywords": [
+            "完成感",
+            "井然有序",
+            "細心",
+            "有耐心",
+            "踏實"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "781e2071f977c3350af59aae0b3f7dad"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "semantic",
+        "description": "李承翰覺得和羅以青聊天讓他放鬆並且笑了好幾次，顯示這次對話對他是愉快的經驗。",
+        "keywords": [
+            "李承翰放鬆",
+            "大笑",
+            "愉快經驗"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "ca29a8e25d691ebe73471cae94d83714"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "semantic",
+        "description": "羅以青目前多半在處理家裡的事，偶爾會感到疲累，但整體上回應是還可以的狀態。",
+        "keywords": [
+            "家務事",
+            "偶爾疲累",
+            "狀態穩定"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "28a06c85f64da2bac74a9e2a8d7a4331"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "semantic",
+        "description": "雙方有意願在未來找時間再繼續聊，顯示彼此關係中存在保持聯繫的動機。",
+        "keywords": [
+            "再約聊天",
+            "保持聯繫",
+            "關係維持"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "bce6b1ae95ba802926e3bc2dd6085ee4"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "episodic",
+        "description": "李承翰在對話一開始說『跟你聊天真放鬆，剛剛笑了好幾次，你最近還好嗎？』，表現出他當下的放鬆與關心。",
+        "keywords": [
+            "開場白",
+            "放鬆",
+            "關心問候"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "7c1c2f22fca05728c756bbf8cafdf0ca"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "episodic",
+        "description": "羅以青回覆『還好，只是最近多半在處理家裡的一些事，偶爾會累但都還可以，你呢？』，具體提到她在處理家事並感到偶爾疲累。",
+        "keywords": [
+            "回覆內容",
+            "處理家事",
+            "偶爾疲累"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "c107d76439afaf4805fef04c7f7cc624"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "episodic",
+        "description": "對話結尾李承翰說他也還好、忙但心情不錯，並提議『哪天有空再一起聊聊』，形成未來互動的邀約情節。",
+        "keywords": [
+            "結尾邀約",
+            "心情不錯",
+            "未來互動"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "75be807f8e67490cf742552bc9104ade"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "emotional",
+        "description": "整體對話帶有放鬆且愉快的氛圍——李承翰明顯感到輕鬆並有笑的反應，傳遞出溫暖與舒適感。",
+        "keywords": [
+            "放鬆氛圍",
+            "愉快",
+            "溫暖舒適"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "f5b84b7816ebdfba9ac98b6ba1a00b1f"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "emotional",
+        "description": "羅以青表現出輕微的疲倦與負擔感，因家事而偶爾感到累，但語氣仍穩定，沒有強烈負面情緒。",
+        "keywords": [
+            "輕微疲倦",
+            "負擔感",
+            "穩定語氣"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "b8e07fda5c17b6387d151bdefba2e1ed"
+    },
+    {
+        "created_time": "2020-06-23T00:00:00",
+        "type": "emotional",
+        "description": "雙方之間存在友善與關心的情感，李承翰想繼續聊聊的邀請顯示出維持聯繫的溫情與期待感。",
+        "keywords": [
+            "友善關心",
+            "期待再聊",
+            "維持聯繫"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "f437b0f2a9fa8aefdd7bc436fee05661"
+    }
+]

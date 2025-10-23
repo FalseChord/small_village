@@ -1,0 +1,239 @@
+[
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "semantic",
+        "description": "如何挑選葉菜：用手掂根部、觀察葉色均勻與葉柄脆度以判斷新鮮度。",
+        "keywords": [
+            "挑菜技巧",
+            "掂根部",
+            "葉色判斷",
+            "新鮮度"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "319fd43ee1fc906cb821a41184a2ff4e"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "semantic",
+        "description": "與菜販溝通要點：詢問到貨時間與是否有農藥殘留可判斷可信度與安心度；向魚販交代處理方式（去內臟、去鱗、切段）可獲得適合料理的成品。",
+        "keywords": [
+            "詢問來源",
+            "農藥殘留",
+            "處理需求",
+            "攤販溝通"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "bc764681238f4bad9ae930d9e901d530"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "semantic",
+        "description": "生鮮打包與運送原則：分裝蔬菜與魚類、用保冷袋與冰塊靠近魚腹以保鮮且避免壓傷葉菜；現金結帳與使用攤販包裝的實務操作。",
+        "keywords": [
+            "分裝原則",
+            "保冷與冰塊擺放",
+            "防止壓傷",
+            "現金結帳",
+            "攤販包裝"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "a77bd4fe8e55e3a579097215c1be987f"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "episodic",
+        "description": "2020-06-21 11:58，羅以青趁上午兩節課中間從教室出校門，步行到校門對面的傳統菜市場，整個買菜行程不到二十分鐘後返回學校準備上午工作。",
+        "keywords": [
+            "2020-06-21",
+            "短暫外出",
+            "校門對面市場",
+            "二十分鐘"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "2bd722a75ffa7924046a48396a8354e6"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "episodic",
+        "description": "在蔬菜攤前，她用手掂了掂小白菜的根部並觀察葉色，向攤販阿姨確認這批菜是否前天到貨與是否有農藥殘留，最後挑了兩把清脆且葉色均勻的小白菜。",
+        "keywords": [
+            "小白菜",
+            "掂根部",
+            "問農藥",
+            "挑選過程"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "fd9468db0a64fb2f99776a828beed865"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "episodic",
+        "description": "到魚販處挑選一條冰鎮鯖魚，請魚販去內臟、去鱗並把魚腹切成適合慢煮的段，特別叮嚀不要加太多鹽；之後又買了枸杞和兩包菊花給母親泡茶，並把魚放在保冷袋最下面、冰塊靠近魚腹、蔬菜放上方。",
+        "keywords": [
+            "鯖魚",
+            "去內臟去鱗",
+            "低鹽交代",
+            "枸杞菊花",
+            "保冷擺放"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "1ba9d8166b695fde76a4a610aa0d6bc5"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "emotional",
+        "description": "對祖父母的關懷與擔心：因為顧慮祖父母低鹽飲食，她特別交代魚販不要加太多鹽，這反映她強烈的照顧意識與責任感。",
+        "keywords": [
+            "關懷祖父母",
+            "低鹽飲食",
+            "責任感",
+            "擔心健康"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "c8695f9e6a705471da8b89c3c580805c"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "emotional",
+        "description": "完成一次有效率且細緻的採購後的自我滿足與自豪：在忙碌的課間能兼顧採買與家務細節，感到自己可靠且有能力處理日常事務。",
+        "keywords": [
+            "自我滿足",
+            "自豪",
+            "效率",
+            "可靠"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "1c8a4dbbd7e461e682494107d5f3cf3d"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "emotional",
+        "description": "與攤販的溫和互動帶來的平靜與溫暖：排隊時短暫聊食譜、請教保存技巧，使整個過程既實用又有人情味，帶來安心且平和的情緒。",
+        "keywords": [
+            "人情味",
+            "平靜",
+            "交流",
+            "安心"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "304595f4160d88bdf6a4fed0695bf5b0"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "semantic",
+        "description": "李承翰曾在面對敲門借糖的林小姐時，用把抹美乃滋變成笑梗的即興方式化解尷尬，成為一個可回憶的梗。",
+        "keywords": [
+            "李承翰",
+            "即興梗",
+            "美乃滋",
+            "救場"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "2ed542a698a51282c48b4fd094914217"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "semantic",
+        "description": "羅以青已經特地交代魚販注意不要讓家中長輩吃太鹹，顯示她對飲食鹽分的關心與事先交代的行為。",
+        "keywords": [
+            "羅以青",
+            "魚販",
+            "少鹽",
+            "長輩",
+            "交代"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "a09284e70c175b55104abce706f43098"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "semantic",
+        "description": "李承翰提出陪同羅以青去當「鹽味臨檢員」的玩笑式提議，表示願意實際參與或協助檢查鹽味狀況。",
+        "keywords": [
+            "李承翰",
+            "陪同",
+            "鹽味臨檢員",
+            "玩笑"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "b05572490f8595b48d146babb47efc1d"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "episodic",
+        "description": "在一次互動中，李承翰在應付敲門借糖的林小姐時即興用美乃滋梗，羅以青當場覺得好笑，這段對話被回憶為一個救場的瞬間。",
+        "keywords": [
+            "敲門借糖",
+            "美乃滋梗",
+            "救場",
+            "羅以青笑"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "20d64e2ec8fdb0a68b769cdc4af48d3e"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "episodic",
+        "description": "羅以青在對話中提到她已特地交代魚販不要讓家中老人吃太鹹，這是一次具體的關心和指示情境。",
+        "keywords": [
+            "交代魚販",
+            "長輩飲食",
+            "注意鹽分",
+            "責任感"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "efb96bf1db65e78b5eb66175168407ae"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "episodic",
+        "description": "對話收尾時李承翰以半開玩笑的方式提議陪羅以青去檢查鹽味，兩人用輕鬆調侃的方式結束這段閒聊。",
+        "keywords": [
+            "鹽味檢查",
+            "調侃",
+            "陪同提議",
+            "輕鬆結尾"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "330e809cb461c341a8a3b1f53e0f1f80"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "emotional",
+        "description": "對話中出現明顯的幽默與歡笑感——兩人對李承翰的即興梗感到好笑，氛圍輕鬆。",
+        "keywords": [
+            "幽默",
+            "歡笑",
+            "輕鬆",
+            "好笑"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "7cfd9974de96a50823b838b514ceae96"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "emotional",
+        "description": "羅以青表現出對家中長輩健康的關心與負責，談論避免食物過鹹時帶有擔憂與謹慎。",
+        "keywords": [
+            "關心",
+            "負責",
+            "擔憂長輩",
+            "細心"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "bf5f36b083ffd8d9c1cfd50586275ad3"
+    },
+    {
+        "created_time": "2020-06-21 00:00:00",
+        "type": "emotional",
+        "description": "李承翰的陪同提議帶有親近和願意幫忙的情感，語氣中帶玩笑但也顯示支持意圖。",
+        "keywords": [
+            "親近",
+            "願意幫忙",
+            "玩笑式支持",
+            "友善"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "4450527536029f9888ff545435205395"
+    }
+]

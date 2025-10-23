@@ -1,0 +1,120 @@
+[
+    {
+        "created_time": "2020-07-07T00:00:00",
+        "type": "semantic",
+        "description": "接受讚美的心態技巧：被誇時可以笑著收下、心裡記一筆但外表保持若無其事，這是一種低調又禮貌的回應方法。",
+        "keywords": [
+            "接受讚美",
+            "笑著收下",
+            "低調回應",
+            "心態技巧",
+            "禮貌"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "42f6bf4e8168054ddbf2bf3637432622"
+    },
+    {
+        "created_time": "2020-07-07T00:00:00",
+        "type": "semantic",
+        "description": "具體可用的短句模板：使用「哪有啦，還好而已」或更低調的「喔，謝啦」作為回應，依場合選擇語氣大小聲度。",
+        "keywords": [
+            "哪有啦",
+            "喔謝啦",
+            "短句模板",
+            "語氣選擇"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "3c5dadcfa8582c1252de9330512baaf1"
+    },
+    {
+        "created_time": "2020-07-07T00:00:00",
+        "type": "semantic",
+        "description": "互動練習策略：從最簡單、平常也能試的版本開始練習，並與對方約定配合（例如請對方不要大笑、會低調處理反應）。",
+        "keywords": [
+            "漸進練習",
+            "對方配合",
+            "社交技巧",
+            "可執行"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "c275c49b410fa5aaae7f49592f4b803c"
+    },
+    {
+        "created_time": "2020-07-07T00:00:00",
+        "type": "episodic",
+        "description": "羅以青請李承翰分享被學生誇獎後讓他開心的做法，李承翰表示會分享幾招心態小技巧並詢問她想先聽哪種。",
+        "keywords": [
+            "請求分享",
+            "心態小技巧",
+            "互動開場"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "8e0b70fdc10a50642c89f7ae9d31209f"
+    },
+    {
+        "created_time": "2020-07-07T00:00:00",
+        "type": "episodic",
+        "description": "李承翰示範兩種回應：先建議「哪有啦，還好而已」作為低調回應，羅以青接受並要求更不招搖的版本，接著李再建議「喔，謝啦」。",
+        "keywords": [
+            "哪有啦",
+            "喔，謝啦",
+            "示範回應",
+            "接受嘗試"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "3eea41706d66e102006cd524d2798b8a"
+    },
+    {
+        "created_time": "2020-07-07T00:00:00",
+        "type": "episodic",
+        "description": "兩人約定實驗細節：羅以青下次會小聲回謝，李承翰會盡量不大笑但警告可能會偷笑並承認她可愛，雙方以玩笑達成共識。",
+        "keywords": [
+            "小聲回謝",
+            "忍住大笑",
+            "承認可愛",
+            "約定"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "bfe1b00739673dc773693290f4e4d514"
+    },
+    {
+        "created_time": "2020-07-07T00:00:00",
+        "type": "emotional",
+        "description": "羅以青對被誇感到開心並帶著期待想學習如何低調接受讚美，情感帶有喜悅與一點害羞。",
+        "keywords": [
+            "開心",
+            "期待",
+            "害羞",
+            "學習"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "5e6283bd72a2cc177bd504c98cf1df17"
+    },
+    {
+        "created_time": "2020-07-07T00:00:00",
+        "type": "emotional",
+        "description": "李承翰展現幽默與樂觀的情緒，分享時輕鬆、自信且帶點調皮與傲嬌感。",
+        "keywords": [
+            "幽默",
+            "樂觀",
+            "自信",
+            "調皮",
+            "傲嬌"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "d8ce3f7b6f8ff7fa541c8b8adf593678"
+    },
+    {
+        "created_time": "2020-07-07T00:00:00",
+        "type": "emotional",
+        "description": "整段對話氛圍輕鬆且帶有親密逗趣，雙方互動中有舒服的玩笑與暖意，情緒偏向愉悅與放鬆。",
+        "keywords": [
+            "輕鬆",
+            "逗趣",
+            "親密感",
+            "愉悅"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "fec69ebb0ef3ec86e68b2072085d163d"
+    }
+]

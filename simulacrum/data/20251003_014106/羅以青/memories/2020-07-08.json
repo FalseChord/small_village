@@ -1,0 +1,119 @@
+[
+    {
+        "id": "50432f237eec8636d679405026505f29",
+        "created_time": "2020-07-08 00:00:00",
+        "type": "semantic",
+        "description": "用小物（自製貼紙、黑咖啡）作為對教學行為（耐心傾聽）的肯定，是一種能傳遞溫暖與支持的簡單社交回饋方式。",
+        "keywords": [
+            "貼紙",
+            "黑咖啡",
+            "肯定",
+            "社交回饋"
+        ],
+        "emotional_intensity": 0.5
+    },
+    {
+        "id": "c561c4c233bba3fa88fda855c88ca606",
+        "created_time": "2020-07-08 00:00:00",
+        "type": "semantic",
+        "description": "羅以青偏好低調的肯定：她會接受鼓勵與小禮物，但不喜歡被冠以誇張頭銜，傾向把暖意內化並悄悄傳遞給需要的學生。",
+        "keywords": [
+            "羅以青",
+            "低調",
+            "內化暖意",
+            "傳遞給學生"
+        ],
+        "emotional_intensity": 0.4
+    },
+    {
+        "id": "dafae9e3f3ada2b1a6a43fb344ee5a37",
+        "created_time": "2020-07-08 00:00:00",
+        "type": "semantic",
+        "description": "以幽默與戲稱（如『最佳傾聽獎』、偷偷鼓掌）作為互動手法，可以在日常閒聊中增強彼此的親近感與鼓勵效果。",
+        "keywords": [
+            "幽默互動",
+            "最佳傾聽獎",
+            "偷偷鼓掌",
+            "親近感"
+        ],
+        "emotional_intensity": 0.35
+    },
+    {
+        "id": "bc98ed4d0aebf41d349a1f87e356070a",
+        "created_time": "2020-07-08 00:00:00",
+        "type": "episodic",
+        "description": "李承翰當天稱讚羅以青耐心聽學生，並戲稱要頒『最佳傾聽獎』，獎品是他自製的貼紙和一杯黑咖啡；羅以青接受但請他別把她說成大師。",
+        "keywords": [
+            "李承翰",
+            "頒獎",
+            "自製貼紙",
+            "黑咖啡"
+        ],
+        "emotional_intensity": 0.7
+    },
+    {
+        "id": "c11de0de9462247b58b201862f4cd99c",
+        "created_time": "2020-07-08 00:00:00",
+        "type": "episodic",
+        "description": "雙方多次確認禮物的意義：羅以青把貼紙貼在教案夾、把咖啡留到放學後慢慢喝；李承翰則說會在心裡偷偷鼓掌，把這次暖意收藏起來。",
+        "keywords": [
+            "教案夾",
+            "放學後喝咖啡",
+            "偷偷鼓掌",
+            "收藏暖意"
+        ],
+        "emotional_intensity": 0.75
+    },
+    {
+        "id": "c9d1345746e519539715e64e3b95d6d5",
+        "created_time": "2020-07-08 00:00:00",
+        "type": "episodic",
+        "description": "對話結尾時，羅以青表示會把這份被看見的暖意當作小能量，明天上課默默傳給需要的學生，李承翰持續表達喜悅與支持。",
+        "keywords": [
+            "被看見",
+            "小能量",
+            "明天上課",
+            "傳遞"
+        ],
+        "emotional_intensity": 0.65
+    },
+    {
+        "id": "d0e6d5103a7e74e5957c0b58783c5a58",
+        "created_time": "2020-07-08 00:00:00",
+        "type": "emotional",
+        "description": "羅以青感受到被看見與溫暖：接受貼紙和黑咖啡時內心溫暖並感謝，這份暖意被視為小確幸。",
+        "keywords": [
+            "被看見",
+            "溫暖",
+            "感謝",
+            "小確幸"
+        ],
+        "emotional_intensity": 0.9
+    },
+    {
+        "id": "7202a413ba1468f594b7b1331d721ac3",
+        "created_time": "2020-07-08 00:00:00",
+        "type": "emotional",
+        "description": "李承翰感到開心與驕傲：看到對方被肯定比頒獎更讓他喜悅，語氣中帶有偷偷鼓掌和偷笑的愉悅感。",
+        "keywords": [
+            "開心",
+            "驕傲",
+            "偷偷鼓掌",
+            "偷笑"
+        ],
+        "emotional_intensity": 0.8
+    },
+    {
+        "id": "815e57e5a0211074fe584d523a2ac41d",
+        "created_time": "2020-07-08 00:00:00",
+        "type": "emotional",
+        "description": "羅以青同時表現出謙遜與舒適的低調：雖被稱讚但她選擇輕描淡寫接受，並把暖意內化為對學生的責任感。",
+        "keywords": [
+            "謙遜",
+            "低調",
+            "內化",
+            "責任感"
+        ],
+        "emotional_intensity": 0.6
+    }
+]

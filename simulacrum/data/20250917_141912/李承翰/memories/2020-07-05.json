@@ -1,0 +1,255 @@
+[
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "「call it a day」表示收工結束今日工作，「burn the midnight oil」表示熬夜加班；以加班的我 vs 理智的我對話對比用法，搭配白板例句強化記憶。",
+        "keywords": [
+            "call it a day",
+            "burn the midnight oil",
+            "英語慣用語",
+            "收工 vs 加班",
+            "教學例句"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "08da211c6885e486519c2b0ec3b7d43d"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "1分鐘英語短片的教學拍攝流程：三腳架定機位、Rode無線麥確保收音、環形燈補光、提詞App控重點，三次內完成，存檔後用CapCut上字幕並排程發佈、加標籤。",
+        "keywords": [
+            "三腳架",
+            "Rode無線麥",
+            "環形燈",
+            "提詞App",
+            "CapCut",
+            "排程上架"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "a9528d17b83fb69f05043b23e665829a"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "教室拍攝與場務動線的禮節：遇到清潔阿姨工作時，以手勢與幽默語句協調借道60秒，對方在門口倒數協助，確保彼此不互相干擾。",
+        "keywords": [
+            "清潔阿姨",
+            "禮貌協調",
+            "借道60秒",
+            "倒數",
+            "拍攝禮節"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "40664d9a5e0491109091aec20b3fc936"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "21:47在台中市西屯區連鎖補習班B-3，我和助教小孟架好三腳架、Rode無線麥與環形燈，我在白板寫下重點，分飾加班的我與理智的我，吐槽：「現在九點四十七分，差不多該call it a day了吧！」",
+        "keywords": [
+            "台中西屯B-3",
+            "小孟",
+            "白板重點",
+            "分飾兩角",
+            "call it a day"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "9f4df994867874371cc594a24f87f307"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "第二次拍時，陳姐推著拋光機經過，我比暫停手勢，笑說：「借我60秒，等我不燒油了就還妳走道。」她在門口幫我倒數，小孟在鏡頭後用提詞App提醒重點。",
+        "keywords": [
+            "陳姐",
+            "拋光機",
+            "暫停手勢",
+            "不燒油梗",
+            "提詞App"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "073123ca9d986e673bd58f4fc3594552"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "第三次一次過，收音乾淨、節奏流暢；我立刻存檔、加上#英語日常 #補教老師小劇場，準備回家用CapCut上字幕與排程，和小孟擊掌結束今晚拍攝。",
+        "keywords": [
+            "一次過",
+            "收音乾淨",
+            "標籤",
+            "CapCut",
+            "擊掌"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "5ebc0a85e565bbcf8c84ee64efa731da"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "第三次順利過關的成就感與鬆一口氣，覺得今晚節奏抓得漂亮、內容也有記憶點。",
+        "keywords": [
+            "成就感",
+            "順利",
+            "節奏流暢",
+            "一次過",
+            "鬆口氣"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "4f706da2c4b0b04970a29610dab09425"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "被時間壓力追著跑但仍維持幽默與專注，邊教邊玩梗的輕鬆愉快感。",
+        "keywords": [
+            "時間壓力",
+            "幽默",
+            "玩梗",
+            "教學樂趣",
+            "即興"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "b0509f23e19bf67aa98746272e012156"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "對小孟與陳姐的感謝與被支持的溫度，合作讓拍攝更順、心情更穩。",
+        "keywords": [
+            "感謝",
+            "協作",
+            "倒數幫忙",
+            "提詞支持",
+            "順利收工"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "b4304e93396703cfde6b3b51ba557fb0"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "李承翰的授課逐漸穩定，已獲得學生信任，穩健的帶課風格能帶動學生。",
+        "keywords": [
+            "講課穩定",
+            "學生信任",
+            "被肯定",
+            "帶動學生",
+            "教學成長"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "e3e38f77a048da4107db6937ad9cbb31"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "當授課順利時，李承翰以運動隱喻形容狀態（手感、拍子對上），並以『上軌道、過關』評估當天表現，隨之感到放鬆。",
+        "keywords": [
+            "上軌道",
+            "過關",
+            "手感",
+            "拍子對上",
+            "放鬆"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "07b437aeea78f84ebc52ade1c603c921"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "同儕羅以青的肯定明顯強化了李承翰的自信與安心，提升教學動力。",
+        "keywords": [
+            "同儕肯定",
+            "自信提升",
+            "安心",
+            "充電感",
+            "教學動力"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "2a02a8ce6d48f01153879072c53b67da"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "一次課後對話中，羅以青多次稱讚李承翰『講課很穩』，指出學生已信任他，並認為他能帶起學生。",
+        "keywords": [
+            "課後對話",
+            "肯定表現",
+            "講課很穩",
+            "學生信任",
+            "帶動學生"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "f45cadc452aaa78db576c8d5fb54b769"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "李承翰回應感謝，表示這回終於上軌道、今天算過關，聽到肯定後更放心與放鬆。",
+        "keywords": [
+            "感謝回應",
+            "上軌道",
+            "過關",
+            "放心",
+            "放鬆"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "704d10b27102298a800eac8827030e7b"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "他以運動隱喻形容今日狀態：『手感不錯、拍子對上、人就輕了點』，並笑稱『今晚沒漏氣』。",
+        "keywords": [
+            "運動隱喻",
+            "手感",
+            "拍子對上",
+            "狀態順",
+            "沒漏氣"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "0d185d9670d1f5589c29478c0d21fd97"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "被學生與同儕肯定後的放心與踏實感，覺得今天的課總算穩住了。",
+        "keywords": [
+            "放心",
+            "踏實",
+            "被肯定",
+            "安全感",
+            "穩定"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "8234ac73f3822b71e8a8a3b2623ae77f"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "表現順利帶來的輕盈與放鬆，壓力釋放，覺得自己『過關』了。",
+        "keywords": [
+            "輕鬆",
+            "輕盈",
+            "成功感",
+            "釋放壓力",
+            "過關"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "c74f9084110aeeea516f29d58f7cbd91"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "正向鼓勵像充電般提升動力與自信，增加教學熱情。",
+        "keywords": [
+            "動力",
+            "自信",
+            "充電",
+            "鼓勵",
+            "教學熱情"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "393ab7dc7baffe52cc8023156406e8d9"
+    }
+]

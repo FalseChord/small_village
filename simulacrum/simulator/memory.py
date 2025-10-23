@@ -248,9 +248,6 @@ class Memory:
         # 記憶強度計算（整合情緒強度）
         strength_factor = 1.0 + node['emotional_intensity']
 
-        # 計算記憶強度加權 (越強的記憶分數越高)
-        strength_factor = 1.0 + node['emotional_intensity']  # 記憶強度影響因子
-
         # 綜合分數：相似度 × 時間因子 × 記憶強度因子 × 類型權重
         final_score = similarity * time_factor * strength_factor
 

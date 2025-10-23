@@ -1,0 +1,245 @@
+[
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "英語肢體模仿遊戲的規則：用肢體呈現一個日常情境，其他人以英語句子猜出來，能結合遊戲與語言練習。",
+        "keywords": [
+            "英語肢體模仿",
+            "遊戲規則",
+            "日常情境",
+            "猜句子"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "8d8b6e9e4cda54ed845530b61be66975"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "教學技巧：以幽默、誇張的肢體表演穿插實用短句（例如“I sprinted like my life depended on it.”）可以提升學習動機與口語輸出。",
+        "keywords": [
+            "幽默教學",
+            "實用短句",
+            "口語輸出",
+            "模仿教學",
+            "教學動機"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "7627dd670fd8ed9b1839d059090dda56"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "內容產出要點：拍短片建議橫向構圖並加字幕，剪成30秒Reel較適合作為社群平台上的直播預告。",
+        "keywords": [
+            "拍片技巧",
+            "橫向",
+            "字幕",
+            "30秒Reel",
+            "直播預告"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "642ba3618a7b76ab09d325533ba761b4"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "2020-06-28 18:51 在彰化市中正路的桌遊咖啡「骰子故事」與三位前學生和一位同業夥伴的小型聚會，桌上擺著兩壺熱茉莉綠茶與幾份鹹派，大家從生活近況聊到教學與社群經營策略。",
+        "keywords": [
+            "骰子故事",
+            "彰化",
+            "茉莉綠茶",
+            "鹹派",
+            "教學分享"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "1c27d283690dda4e768bfaa2a2c8c8a3"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "當晚李承翰抽到「英語肢體模仿」卡，他以誇張又逗趣的方式表演「早上趕公車」，並穿插地道短句讓前學生們用英語猜，氛圍輕鬆且具學習價值。",
+        "keywords": [
+            "早上趕公車",
+            "誇張表演",
+            "I sprinted like my life depended on it",
+            "學習與娛樂"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "50ce19c25ef54a86b40606f0d53cc811"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "有人拍短片時，李承翰立刻建議改為橫向並加字幕，並承諾回去剪成30秒Reel當作下週免費直播的預告；他還當場鼓勵一位原本害羞的學生完整說出英文句子並給予誇張真誠的掌聲。",
+        "keywords": [
+            "短片建議",
+            "30秒Reel",
+            "鼓勵害羞學生",
+            "掌聲",
+            "直播預告"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "56ec43884b26e6be6245aa3c690af2e2"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "溫暖的團體支持感：在聚會中的歡笑與互相鼓勵讓人感到被接納、安心與歸屬。",
+        "keywords": [
+            "溫暖",
+            "支持",
+            "歡笑",
+            "團體歸屬感"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "75123b057a6c01e6e5b48eafb0f8ebb0"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "教師的驕傲與滿足：看到原本害羞的學生勇敢開口並露出自信笑容，讓李承翰感到強烈的成就感與驕傲。",
+        "keywords": [
+            "成就感",
+            "驕傲",
+            "學生進步",
+            "滿足",
+            "自信"
+        ],
+        "emotional_intensity": 0.95,
+        "id": "ece7515995d424812eebe1e6a8ad1dee"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "創作與分享的興奮：想到可以把表演片段剪成Reel作為免費直播預告，對於內容創作與接下來的分享感到期待與興奮。",
+        "keywords": [
+            "興奮",
+            "期待",
+            "創作",
+            "分享",
+            "直播預告"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "8b03f4d088ecb2af4643de63f6efe7dd"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "從李承翰與羅以青的對話中得到的概念：教師面對學生進步時常同時出現驕傲與擔憂，二者可並存並形成一種矛盾的情緒混合。",
+        "keywords": [
+            "教師驕傲",
+            "擔憂並存",
+            "矛盾感",
+            "學生進步"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "b5a9a9e40e1f4d7d8e3b768e6a0aee21"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "對話表明部分學生因為會考與家長期待而出現失眠或高度壓力，這是影響學生情緒與行為的重要外在因素。",
+        "keywords": [
+            "會考壓力",
+            "失眠",
+            "家庭期待",
+            "學生心理",
+            "考試壓力"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "b427ba8ed5cac93c7d009f21d0640d24"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "semantic",
+        "description": "從兩人互動學到的應對方式：面對複雜感受時會使用小行為轉移注意（例如偷吃甜點、微笑帶過）或以靜觀方式陪伴學生，同時在心裡牽掛。",
+        "keywords": [
+            "轉移注意",
+            "偷吃甜點",
+            "靜靜陪伴",
+            "默默牽掛"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "c5880b632953c3f65288c6d5dbd44139"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "李承翰描述一個場景：原本超害羞的學生突然敢開口並笑得很自信，他說那種驕傲感像放了場小煙火（具體瞬間與感受）。",
+        "keywords": [
+            "小煙火",
+            "超害羞學生",
+            "自信開口",
+            "驕傲瞬間"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "eba35b763aae8cdb401838bcf0eb04f5"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "一段反覆的互動片段：羅以青與李承翰多次互相確認彼此也會為會考與家裡期待而失眠的學生感到揪心，呈現彼此共鳴與情感回應的過程。",
+        "keywords": [
+            "互相確認",
+            "揪心",
+            "會考",
+            "共鳴"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "5a034c1662929f2ea1d928fab3c93a8d"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "episodic",
+        "description": "較輕鬆的片段：李承翰說自己會偷吃甜點來轉移注意，羅以青則說會靜靜看著學生笑並在心裡惦記，最後兩人以玩笑（要分甜點）收尾，顯示同事間暖意與幽默互動。",
+        "keywords": [
+            "偷吃甜點",
+            "靜靜看著",
+            "玩笑互動",
+            "分一口"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "0653fff31e1b15f3d6488fb8dc2ccd50"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "李承翰在看到學生變得自信時感到強烈的驕傲與喜悅，那種成就感像小煙火般瞬間綻放。",
+        "keywords": [
+            "驕傲",
+            "喜悅",
+            "成就感",
+            "幸福感"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "cfc13b01409c6a5cb4f8765e13a35172"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "兩位對學生因會考與家長期待而失眠的情況都感到深切的擔憂與心疼，這種揪心的同理心在對話中反覆出現。",
+        "keywords": [
+            "揪心",
+            "擔憂",
+            "心疼",
+            "同理心",
+            "失眠"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "68668513cf15c7219eab6355e140ab82"
+    },
+    {
+        "created_time": "2020-06-28T00:00:00",
+        "type": "emotional",
+        "description": "對話也帶有溫暖而矛盾的情緒：一方面為學生微笑和開心，另一方面又無法完全放下牽掛，並以幽默與小動作（吃甜點、互相打趣）來調節情緒。",
+        "keywords": [
+            "矛盾感",
+            "酸甜",
+            "溫暖",
+            "幽默",
+            "調節情緒"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "f1472dfb7fb267140eb69e6f5609e4a0"
+    }
+]

@@ -10,6 +10,7 @@ from .prompts import SystemPrompts
 from .handlers import (
     EventHandler,
     DialogueHandler,
+    DialogueContextHandler,
     KeywordHandler,
     MemoryHandler
 )
@@ -22,6 +23,7 @@ class GPTInterface:
         # 初始化各個處理器
         self.event_handler = EventHandler(self)
         self.dialogue_handler = DialogueHandler(self)
+        self.dialogue_context_handler = DialogueContextHandler(self)
         self.keyword_handler = KeywordHandler(self)
         self.memory_handler = MemoryHandler(self)
         

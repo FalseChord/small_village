@@ -2,10 +2,19 @@ from typing import Dict, List, Optional, Set
 from datetime import datetime
 import random
 from .persona import Persona
+from .topic_generator import TopicGenerator
+from .intent_generator import IntentGenerator
+from .dialogue_context_generator import DialogueContextGenerator
 
 class DialogueGenerator:
     def __init__(self, gpt_interface):
         self.gpt = gpt_interface
+        self.topic_generator = TopicGenerator(gpt_interface)
+        self.intent_generator = IntentGenerator(gpt_interface)
+        self.context_generator = DialogueContextGenerator(gpt_interface)
+        self.min_turns_per_topic = 8  # 每個主題最少8句對話
+        self.max_turns_per_topic = 20  # 每個主題最多20句對話
+        self.max_topics = 3  # 3個主題後結束對話
 
     def generate_daily_dialogues(
         self,
@@ -31,9 +40,7 @@ class DialogueGenerator:
         dialogue = self.generate_dialogue(
             persona1=persona1,
             persona2=persona2,
-            context={
-                'time': current_date
-            }
+            current_date=current_date
         )
 
         if dialogue:
@@ -45,172 +52,97 @@ class DialogueGenerator:
         self,
         persona1: Persona,
         persona2: Persona,
-        context: Dict
+        current_date: datetime
     ) -> Optional[Dict]:
-        """生成完整對話"""
-        dialogue_turns = []
-        is_dialogue_complete = False
-
-        # 生成初始對話主題集
-        # conversation_topics = self.generate_conversation_topics(
-        #     persona1=persona1,
-        #     persona2=persona2,
-        #     context=context
-        # )
-
-        # print(f"初始對話主題集: {conversation_topics}")
+        """生成完整對話（支援多主題）"""
+        all_personas = {persona1.name: persona1, persona2.name: persona2}
+        dialogue_topics = []  # 儲存所有主題的對話
+        topic_count = 0
+        all_dialogue_history = []  # 累積所有對話歷史，跨主題參考
 
         # 隨機決定第一個說話者
         starts_with_persona1 = random.choice([True, False])
 
-        # 直接生成對話，不使用話題系統
-        current_topic = "日常閒聊"
-        print(f"使用話題: {current_topic}")
-
-        # while not is_dialogue_complete and conversation_topics:
-        #     # 從主題集中選擇一個主題進行對話
-        #     current_topic = self.select_topic_from_set(
-        #         conversation_topics=conversation_topics,
-        #         dialogue_history=dialogue_turns
-        #     )
-        #     print(f"選擇對話主題: {current_topic}")
-        #
-        #     # 從主題集中移除當前選中的主題
-        #     conversation_topics.discard(current_topic)
-        #
-        #     print(f"選擇對話主題: {current_topic}")
-        #     print(f"剩餘主題: {conversation_topics}")
-
-        # 針對選中的主題進行對話
-        dialogue_turn = self.generate_dialogue_turn(
+        print(f"🎯 開始生成多主題對話，最多 {self.max_topics} 個主題")
+        
+        # 0. 生成對話情境
+        dialogue_context = self.context_generator.generate_dialogue_context(
             persona1=persona1,
             persona2=persona2,
-            current_topic=current_topic,
-            context=context,
-            dialogue_history=dialogue_turns,
-            starts_with_persona1=starts_with_persona1
+            current_time=current_date
         )
+        
+        if dialogue_context:
+            print(f"🎭 對話情境: {dialogue_context['description']}")
+            print(f"📂 類別: {dialogue_context['context_category']}")
+        else:
+            print("⚠️ 情境生成失敗，使用預設情境")
+            dialogue_context = {
+                'context_category': '日常偶遇',
+                'description': f"{persona1.name}和{persona2.name}偶遇並開始聊天"
+            }
+        
+        while topic_count < self.max_topics:
+            topic_count += 1
+            print(f"\n=== 主題 {topic_count} ===")
+            
+            # 1. 生成主題
+            recent_three_turns = all_dialogue_history[-3:] if len(all_dialogue_history) >= 3 else all_dialogue_history
+            current_topic = self.topic_generator.generate_topic_from_memories(
+                personas=all_personas,
+                dialogue_context=dialogue_context,
+                recent_dialogue_turns=recent_three_turns
+            )
+            
+            if not current_topic:
+                print("⚠️ 無法生成新主題，結束對話")
+                break
+                
+            print(f"📝 主題: {current_topic}")
+            
+            # 2. 生成意圖
+            intents = self.intent_generator.generate_intents_for_topic(
+                topic=current_topic,
+                personas=all_personas,
+                dialogue_context=dialogue_context
+            )
+            
+            print(f"🎯 意圖:")
+            for persona_name, intent in intents.items():
+                print(f"  {persona_name}: {intent}")
+            
+            # 3. 生成該主題的對話
+            topic_dialogue = self.generate_dialogue_turn(
+                persona1=persona1,
+                persona2=persona2,
+                current_topic=current_topic,
+                intents=intents,
+                dialogue_history=all_dialogue_history,  # 傳入累積的對話歷史
+                starts_with_persona1=starts_with_persona1,
+                dialogue_context=dialogue_context,
+                current_date=current_date
+            )
 
-        # 將主題對話加入到總對話中
-        dialogue_turns.extend(dialogue_turn)
-
-        # 檢查是否應該結束整個對話
-        is_dialogue_complete = True
-        print("對話完成")
-
-        # if not conversation_topics:
-        #     is_dialogue_complete = True
-        #     print("所有主題已完成，結束對話")
-        # else:
-        #     # 檢查是否有新主題被觸發
-        #     new_topics = self.detect_new_topics(
-        #         dialogue_turns=dialogue_turn,
-        #         persona1=persona1,
-        #         persona2=persona2,
-        #         context=context
-        #     )
-        #
-        #     if new_topics:
-        #         conversation_topics.update(new_topics)
-        #         print(f"檢測到新主題: {new_topics}")
-        #         print(f"更新後的主題集: {conversation_topics}")
-
-        if dialogue_turns:
-            return self._compose_dialogue_result(dialogue_turns, context)
+            if topic_dialogue:
+                dialogue_topics.append({
+                    'topic': current_topic,
+                    'intents': intents,
+                    'turns': topic_dialogue
+                })
+                all_dialogue_history.extend(topic_dialogue)
+                print(f"✅ 主題 {topic_count} 完成，共 {len(topic_dialogue)} 句對話")
+                print(f"📚 累積對話歷史：{len(all_dialogue_history)} 句")
+            else:
+                print(f"⚠️ 主題 {topic_count} 生成失敗，跳過")
+            
+            # 4. 檢查是否應該結束對話
+            if topic_count >= 3:  # 3個主題後結束對話
+                print(f"🏁 完成 {topic_count} 個主題，結束對話")
+                break
+        
+        if dialogue_topics:
+            return self._compose_multi_topic_dialogue_result(dialogue_topics, dialogue_context)
         return None
-
-    # def generate_conversation_topics(
-    #     self,
-    #     persona1: Persona,
-    #     persona2: Persona,
-    #     context: Dict
-    # ) -> Set[str]:
-    #     """生成初始對話主題集"""
-    #     prompt = (
-    #         f"請根據以下資訊，為{persona1.name}和{persona2.name}生成3-5個對話主題：\n\n"
-    #         f"{persona1.name}的資料：\n"
-    #         f"姓名：{persona1.name}\n"
-    #         f"個性：{', '.join([trait.strip() for trait in persona1.innate.split('、')])}\n"
-    #         f"背景：{persona1.biography}\n"
-    #     )
-    #
-    #     # 加入關係資訊
-    #     relationship = persona1.get_relationship_with(persona2.name)
-    #     prompt += (
-    #         f"與{persona2.name}的關係：{relationship.get('role', '一般認識')}\n"
-    #         f"溝通風格：{relationship.get('communication_style', '普通')}\n"
-    #         f"對{persona2.name}的顧慮：{relationship.get('concerns', '無特別顧慮')}\n"
-    #     )
-    #
-    #     prompt += (
-    #         f"\n{persona2.name}的資料：\n"
-    #         f"姓名：{persona2.name}\n"
-    #         f"個性：{', '.join([trait.strip() for trait in persona2.innate.split('、')])}\n"
-    #         f"背景：{persona2.biography}\n"
-    #     )
-    #
-    #
-    #     prompt += (
-    #         f"\n對話情境：\n"
-    #         f"時間：{context.get('time', '未指定')}\n"
-    #         f"場景：朋友間的日常聊天\n\n"
-    #
-    #         "請生成3-5個自然的日常對話話題，要求：\n"
-    #         "1. 像真實朋友聊天會談論的話題\n"
-    #         "2. 簡潔自然，不要過於正式\n"
-    #         "3. 話題要多樣化，避免重複\n"
-    #         "4. 能產生輕鬆愉快的對話\n\n"
-    #
-    #         "範例：\n"
-    #         "- 最近工作怎麼樣？\n"
-    #         "- 週末有什麼計劃？\n"
-    #         "- 最近看什麼好電影？\n"
-    #         "- 家裡還好嗎？\n"
-    #         "- 今天天氣不錯\n"
-    #         "- 你最近在忙什麼？\n\n"
-    #
-    #         "請以 JSON 格式返回：\n"
-    #         "{\n"
-    #         '  "topics": ["話題1", "話題2", ...]\n'
-    #         "}\n"
-    #     )
-    #
-    #     response = self.gpt._call_gpt(prompt, 'topic_generator', temperature=1.0)
-    #
-    #     if response and 'topics' in response:
-    #         return set(response['topics'])
-    #     else:
-    #         # 預設主題
-    #         return {"日常問候", "分享近況", "討論共同興趣"}
-
-    # def select_topic_from_set(
-    #     self,
-    #     conversation_topics: Set[str],
-    #     dialogue_history: List[Dict]
-    # ) -> str:
-    #     """從主題集中選擇一個主題"""
-    #     if not conversation_topics:
-    #         return "日常閒聊"
-    #
-    #     # 如果有對話歷史，考慮對話的連貫性
-    #     if dialogue_history:
-    #         recent_content = " ".join([turn['content'] for turn in dialogue_history[-2:]])  # 只考慮最近2句
-    #
-    #         prompt = (
-    #             f"從以下話題中選擇一個最適合繼續對話的：\n"
-    #             f"話題選項：{list(conversation_topics)}\n"
-    #             f"最近對話：{recent_content}\n\n"
-    #             f"請直接返回選擇的話題名稱。\n"
-    #         )
-    #
-    #         selected_topic = self.gpt._call_gpt_text(prompt, 'topic_selector', temperature=0.7)  # 提高溫度增加隨機性
-    #
-    #         # 確保選擇的主題在可用主題集中
-    #         if selected_topic and selected_topic in conversation_topics:
-    #             return selected_topic
-    #
-    #     # 如果沒有對話歷史或選擇失敗，隨機選擇
-    #     return random.choice(list(conversation_topics))
 
     def _generate_memory_query(self, speaker, listener, dialogue_history, current_topic):
         """使用現有的 extract_keywords 函數生成單一記憶查詢"""
@@ -239,7 +171,6 @@ class DialogueGenerator:
                 # 只取前3個最相關的關鍵字
                 relevant_keywords = keywords[:3]
                 query_parts.append(f"涉及{' '.join(relevant_keywords)}的經歷")
-
         return " ".join(query_parts)
 
 
@@ -248,101 +179,121 @@ class DialogueGenerator:
         persona1: Persona,
         persona2: Persona,
         current_topic: str,
-        context: Dict,
+        intents: Dict[str, str],
         dialogue_history: List[Dict],
-        starts_with_persona1: bool
+        starts_with_persona1: bool,
+        dialogue_context: Dict = None,
+        current_date: datetime = None
     ) -> List[Dict]:
         """針對特定主題生成對話"""
         dialogue_turns = []
-        is_topic_complete = False
-        topic_turn_count = 0
-        max_topic_turns = 20  # 放寬單一話題的最大句數上限，以延長對話
-
-        print(f"開始討論話題: {current_topic}")
-
-        # 保存上一個 turn 的話題完成狀態
-        previous_topic_reason = None
-
-        while not is_topic_complete and topic_turn_count < max_topic_turns:
-            # 決定當前說話者和聆聽者
-            speaker_is_main = starts_with_persona1 if (len(dialogue_history) + len(dialogue_turns)) % 2 == 0 else not starts_with_persona1
-
-            # 準備話題完成信息，包含上一個 turn 的進展情況
-            topic_completion_info = {
-                "previous_topic_reason": previous_topic_reason  # 上一個 turn 的話題進展情況
-            }
-
-            speaker = persona1 if speaker_is_main else persona2
-            listener = persona2 if speaker_is_main else persona1
-
-            # 每次生成對話時重新檢索相關記憶
-            print(f"🔍 重新檢索 {speaker.name} 的相關記憶...")
-
-            # 生成記憶查詢
+        turn_count = 0
+        
+        print(f"🗣️ 開始生成主題對話：{current_topic}，最少 {self.min_turns_per_topic} 句")
+        
+        while turn_count < self.min_turns_per_topic or not self._should_end_dialogue(dialogue_turns, current_topic, self.min_turns_per_topic):
+            # 決定當前說話者
+            speaker_is_persona1 = starts_with_persona1 if turn_count % 2 == 0 else not starts_with_persona1
+            speaker = persona1 if speaker_is_persona1 else persona2
+            listener = persona2 if speaker_is_persona1 else persona1
+            
+            # 獲取說話者的意圖
+            speaker_intent = intents.get(speaker.name, "進行友好的對話")
+            
+            # 獲取相關記憶
+            complete_dialogue_history = dialogue_history + dialogue_turns
             memory_query = self._generate_memory_query(
                 speaker=speaker,
                 listener=listener,
-                dialogue_history=dialogue_history + dialogue_turns,
+                dialogue_history=complete_dialogue_history,
                 current_topic=current_topic
             )
-            print(f"🔍 查詢內容: {memory_query}")
-
+            print(f"🔍 記憶查詢: {memory_query}")
+            
             speaker_memories = speaker.memory.get_relevant_memories(
                 query=memory_query,
-                limit=3,  # 進一步減少記憶數量
-                current_date=context.get('time')
+                limit=3,
+                current_date=current_date
             )
             print(f"📝 {speaker.name} 找到 {len(speaker_memories)} 筆相關記憶")
-            for i, mem in enumerate(speaker_memories[:2], 1):  # 只顯示前2筆最相關的記憶
-                print(f"  {i}. {mem['description'][:60]}... (強度: {mem['emotional_intensity']:.2f})")
 
-            # 生成對話
+            # 生成對話內容
             content = self.gpt.dialogue_handler.generate_dialogue_turn(
                 speaker=speaker,
                 listener=listener,
-                context=context,
-                speaker_is_main=speaker_is_main,
-                dialogue_history=dialogue_history + dialogue_turns,
+                dialogue_history=complete_dialogue_history,
                 current_topic=current_topic,
-                relevant_memories=speaker_memories
+                relevant_memories=speaker_memories,
+                speaker_intent=speaker_intent,
+                dialogue_context=dialogue_context
             )
 
             if not content:
                 break
 
-            # 記錄這句對話
             dialogue_turns.append({
                 "speaker": speaker.name,
-                "content": content,
-                "topic": current_topic
+                "content": content
             })
-
-            topic_turn_count += 1
-
-            # 使用全局的對話終止判斷（放寬條件）來決定是否結束
-            end_decision = self.gpt.dialogue_handler.should_end_dialogue(
-                dialogue_turns=dialogue_history + dialogue_turns,
-                context=context,
-                current_topic=None
-            )
-
-            # 同時保留原本的話題完成檢查作為輔助資訊（不強制）
-            topic_status = self.check_topic_completion(
-                dialogue_turns=dialogue_turns,
-                current_topic=current_topic,
-                context=context
-            )
-            previous_topic_reason = topic_status.get("reason", "")
-
-            if end_decision and end_decision.get("action") == "end":
-                is_topic_complete = True
-                print(f"對話結束（應分析器）：{end_decision.get('reason', '')}")
-            elif topic_turn_count >= max_topic_turns:
-                # 達到最大句數，強制結束話題
-                is_topic_complete = True
-                print(f"話題 '{current_topic}' 達到最大句數限制（{max_topic_turns} 句），強制結束")
-
+            
+            turn_count += 1
+            
+            # 避免無限循環
+            if turn_count >= self.max_turns_per_topic:
+                print(f"⚠️ 達到最大句數限制（{self.max_turns_per_topic} 句），結束主題對話")
+                break
+        
+        print(f"📊 主題對話完成：{turn_count} 句（最少要求：{self.min_turns_per_topic} 句）")
         return dialogue_turns
+    
+    def _should_end_dialogue(self, dialogue_turns: List[Dict], current_topic: str = None, min_turns: int = None) -> bool:
+        """對話結束判斷方法
+        
+        Args:
+            dialogue_turns: 對話輪次列表
+            current_topic: 當前主題（可選）
+            min_turns: 最小句數要求（可選）
+        """
+        # 檢查最小句數要求
+        if min_turns and len(dialogue_turns) < min_turns:
+            return False
+        
+        # 使用 GPT 判斷是否應該結束
+        end_decision = self.gpt.dialogue_handler.should_end_dialogue(
+            dialogue_turns=dialogue_turns,
+            current_topic=current_topic
+        )
+        
+        return end_decision and end_decision.get("action") == "end"
+    
+    def _compose_multi_topic_dialogue_result(self, dialogue_topics: List[Dict], dialogue_context: Dict = None) -> Dict:
+        """組合多主題對話結果"""
+        # 收集所有對話內容
+        all_content = []
+        all_participants = set()
+        topics_info = []
+        
+        for topic_data in dialogue_topics:
+            topic_info = {
+                'topic': topic_data['topic'],
+                'intents': topic_data['intents'],
+                'turn_count': len(topic_data['turns'])
+            }
+            topics_info.append(topic_info)
+            
+            for turn in topic_data['turns']:
+                all_content.append(f"{turn['speaker']}: {turn['content']}")
+                all_participants.add(turn['speaker'])
+        
+        return {
+            'type': 'dialogue',
+            'participants': list(all_participants),
+            'content': all_content,
+            'topics': topics_info,  # 新的格式，包含主題和意圖資訊
+            'dialogue_context': dialogue_context,  # 新增：對話情境資訊
+            'total_topics': len(dialogue_topics),
+            'total_turns': len(all_content)
+        }
 
     def check_topic_completion(
         self,

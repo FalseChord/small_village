@@ -1,0 +1,254 @@
+[
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "semantic",
+        "description": "午休時段在外帶窗口排隊，幽默能快速破冰，拉近與陌生人與熟人的距離，讓隊伍氣氛更輕鬆。",
+        "keywords": [
+            "午休",
+            "外帶窗口",
+            "幽默破冰",
+            "社交互動",
+            "隊伍氣氛"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "19a29562c8ee70638a4e83a35dc50358"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "semantic",
+        "description": "對剛入學的大學生，將通識課視為『便當配菜』，量力而為選課是有效的減壓策略。",
+        "keywords": [
+            "通識課",
+            "選課策略",
+            "量力而為",
+            "比喻",
+            "減壓"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "2c16d9d800c9880ca8d603ebd396a85b"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "semantic",
+        "description": "公共場合與學生合照時不露校徽，有助於保護個人隱私與身分資訊。",
+        "keywords": [
+            "合照",
+            "隱私保護",
+            "不露校徽",
+            "公共場合",
+            "風險控管"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "686589578943f3fbab149dd501585116"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "episodic",
+        "description": "2020-07-04 12:33，在彰化市中正路補習街巷口的便當店排隊時，被人喊「李老師！」；我轉頭看見剛考上中興大的玟妤和她同學莊凱博，笑說「雞腿和你們都在排隊遇到我」，並和兩人擊掌寒暄。",
+        "keywords": [
+            "2020-07-04 12:33",
+            "巷口便當店",
+            "偶遇學生",
+            "擊掌",
+            "巧合玩笑"
+        ],
+        "emotional_intensity": 0.78,
+        "id": "096155f9651b184438faa48091bc41a1"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "episodic",
+        "description": "排隊間聽玟妤分享英辯社、住雅房與通識作業多，我用「通識像便當配菜」安撫，並替兩人加點滷蛋與綠豆湯請客。",
+        "keywords": [
+            "英辯社",
+            "雅房",
+            "通識像配菜",
+            "滷蛋",
+            "綠豆湯",
+            "請客"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "7979d1d810536160095e52d00020410c"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "episodic",
+        "description": "被老闆娘認出後自嘲「我今天只帶幽默，雞腿要裝多一點勇氣」，引來笑聲；臨走前在店門口快速拍一張不露校徽的合照，叮嚀凱博別熬夜，提著雞腿便當和無糖烏龍離開。",
+        "keywords": [
+            "老闆娘認出",
+            "自嘲",
+            "合照不露校徽",
+            "叮嚀",
+            "無糖烏龍"
+        ],
+        "emotional_intensity": 0.66,
+        "id": "f481cbef77e8a4b7d763a4e65ddabca5"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "emotional",
+        "description": "被學生驚喜喊住的那刻，我感到被需要與親切的驚喜。",
+        "keywords": [
+            "驚喜",
+            "被認出",
+            "師生情誼",
+            "親切感"
+        ],
+        "emotional_intensity": 0.82,
+        "id": "6f592afb32b7145dafb3c0e25ee67a21"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "emotional",
+        "description": "聽到玟妤順利上中興並投入英辯社，我湧現自豪與放心，想多給她鼓勵。",
+        "keywords": [
+            "自豪",
+            "放心",
+            "成就感",
+            "鼓勵",
+            "學生成長"
+        ],
+        "emotional_intensity": 0.76,
+        "id": "b9a1dfcac2e83e4d02adbef83f90fcc3"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "emotional",
+        "description": "用玩笑逗樂隊伍與請客時的暖意，讓我覺得身為老師的價值被放大，離開時心情踏實而輕鬆。",
+        "keywords": [
+            "幽默",
+            "暖意",
+            "社交活力",
+            "師者價值",
+            "輕鬆"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "05a03f6bcc16856ec173f3fea0004415"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "semantic",
+        "description": "羅以青分享自己通勤時會做五分鐘靜心，認為能讓心更穩。",
+        "keywords": [
+            "靜心",
+            "通勤",
+            "五分鐘",
+            "穩定",
+            "建議"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "626a12c0cb118b93d73c44db12f1c146"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "semantic",
+        "description": "被學生或路人稱呼「李老師」會讓李承翰感到被需要，帶來動力與能量。",
+        "keywords": [
+            "被稱呼",
+            "李老師",
+            "被需要",
+            "充電",
+            "動力"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "dcaf4e46804890f1e291748c1dbf8ea5"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "semantic",
+        "description": "李承翰傾向用幽默掩飾突發的窘迫，表面裝沒事，內心其實感到溫暖。",
+        "keywords": [
+            "幽默",
+            "表面鎮定",
+            "內心溫暖",
+            "化解",
+            "反應"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "c26abf17d033205217a667aab3f6b51b"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "episodic",
+        "description": "某天在街上被人叫「李老師」時，李承翰愣住，差點忘了拿便當。",
+        "keywords": [
+            "當街",
+            "被叫住",
+            "愣住",
+            "忘了便當",
+            "小插曲"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "9787a92724513af2959f6d1878a63180"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "episodic",
+        "description": "與羅以青的對話中，李承翰表示被喊到覺得暖，當作今天加分與賺到。",
+        "keywords": [
+            "加分",
+            "賺到",
+            "暖意",
+            "對話",
+            "鼓勵"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "603ef8e077257b1f558ebd678b9236de"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "episodic",
+        "description": "談話尾聲，李承翰形容被學生叫住讓他像被充電、心情變亮；羅以青回應他抓到踏實感。",
+        "keywords": [
+            "被需要",
+            "充電",
+            "心情亮",
+            "踏實感",
+            "回應"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "711fdcadd55d399e117fcd4eb0d6408c"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "emotional",
+        "description": "起初因被突然叫住而驚訝分神，略帶尷尬與當機感。",
+        "keywords": [
+            "驚訝",
+            "分神",
+            "尷尬",
+            "當機",
+            "突然"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "ee5d74ba2c3954d79bc74e33d2319cd5"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "emotional",
+        "description": "隨後湧現被需要與被肯定的溫暖，帶來能量與踏實。",
+        "keywords": [
+            "溫暖",
+            "被肯定",
+            "被需要",
+            "充電",
+            "踏實"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "691c4095210614a309bfeaf92f1ca2a1"
+    },
+    {
+        "created_time": "2020-07-04 00:00:00",
+        "type": "emotional",
+        "description": "在以青的支持與肯定下，情緒轉為穩定，自我不再較勁，步調放慢。",
+        "keywords": [
+            "支持",
+            "放下較勁",
+            "穩定",
+            "自洽",
+            "節奏"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "8bd219218971c61bd7b4f885f4be1b67"
+    }
+]

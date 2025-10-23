@@ -1,0 +1,236 @@
+[
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "semantic",
+        "description": "我學到雨天時陽台物品移位會造成雨水沿欄杆流入樓梯間，形成積水與滑倒風險，必須注意公共空間的排水與物品擺放。",
+        "keywords": [
+            "陽台花盆移位",
+            "雨水流下",
+            "樓梯積水",
+            "滑倒風險"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "6c9f1c2b2d74924e55103c1093ba5bf7"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "semantic",
+        "description": "隨身攜帶的小物（小手帕、保溫杯、折傘）在突發小事故時非常實用，可以做簡易清潔、提供溫暖與遮蔽，值得養成習慣。",
+        "keywords": [
+            "隨身小物",
+            "小手帕",
+            "保溫杯",
+            "折傘"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "3d4033acf0cea4d3b6ae81753f96662d"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "semantic",
+        "description": "協助年長者時的基礎步驟：先檢查是否有頭暈或胸悶等危險症狀、做簡單包紮、提供陪同或代為聯絡家人/診所，並在情況可控時將危險源回報管理單位。",
+        "keywords": [
+            "檢查症狀",
+            "簡單包紮",
+            "陪同或聯絡家屬",
+            "通報管理員"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "5f911995e80ff7dabcb56f4a37c4e98d"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "episodic",
+        "description": "06:34 我剛把便當盒放回廚櫃、拿起小黑傘要出門時，聽見樓梯間傳來輕微呼救聲，立刻關門掛好鑰匙，沿著狹窄樓梯跑下去發現隔壁樓層的陳伯坐在第一段轉角處，手肘擦到水漬、鞋底沾泥沙。",
+        "keywords": [
+            "06:34",
+            "樓梯呼救",
+            "陳伯",
+            "手肘水漬",
+            "鞋底泥沙"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "021ff9e3c9acfec50bc9f0b83cda3318"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "episodic",
+        "description": "我用包內小手帕幫陳伯擦手並檢查有無擦傷，詢問有無頭暈或胸悶，並請他先坐下喝我帶的熱茶，一邊以平靜語氣聊近況讓他放鬆，說服他接受簡單包紮與陪同去藥局檢查。",
+        "keywords": [
+            "小手帕擦拭",
+            "檢查頭暈胸悶",
+            "熱茶安撫",
+            "說服去藥局"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "f196c658ae3ce1c0a077864ea89bebf9"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "episodic",
+        "description": "我撐傘讓陳伯坐在傘下，慢慢扶他出公寓到巷口，幫他整理鞋底泥沙並確認能順利進站後才離開；因此晚了三、四分鐘出門，但我決定下班後去便利商店補給並把樓梯積水情況回報管理員。",
+        "keywords": [
+            "撐傘護送",
+            "整理鞋底",
+            "確認進站",
+            "晚3-4分鐘",
+            "通報管理員"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "2ec15b21b26a0c9bb1af9e9a8cc52a66"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "emotional",
+        "description": "聽到呼救時感到強烈的關切與急迫，促使我立刻採取行動跑下樓去查看狀況。",
+        "keywords": [
+            "關切",
+            "急迫",
+            "迅速行動"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "815fa21ef0e8da8377265a571fa9eed4"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "emotional",
+        "description": "在處理過程中我保持平靜和耐心，透過溫和語氣安撫陳伯，感受到同理與照護他人的溫暖與沉穩。",
+        "keywords": [
+            "平靜",
+            "耐心",
+            "同理心"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "b88d56a9f00102bcb33301b1ddff5843"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "emotional",
+        "description": "事後有一種滿足與安心感，覺得為人出手相助是值得的；同時有一點微微的內疚因為晚了幾分鐘，但更強的是責任感，決心回報管理員並補買必要物品以防再發生。",
+        "keywords": [
+            "滿足",
+            "微內疚",
+            "責任感",
+            "決心通報"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "8689ea006f12dfe6cb36b63a6b1a0741"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "semantic",
+        "description": "李承翰正在追一部療癒喜劇並邀請羅以青今晚八點臨時一起看（當他的笑點測試員）。",
+        "keywords": [
+            "療癒喜劇",
+            "今晚八點",
+            "笑點測試員",
+            "臨時約看"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "967c3e3254e33ea7caa115c178b57490"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "semantic",
+        "description": "兩人初步約定週六去吃家鄉的海鮮，李承翰主動表示會負責吃光並兼任娛樂角色。",
+        "keywords": [
+            "週六",
+            "海鮮",
+            "約吃飯",
+            "負責吃光"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "cbcda6fc18f7fa6324dafe516020e310"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "semantic",
+        "description": "媽祖廟本週有活動，可能會有遶境，李承翰有意參加並邀請羅以青一起當“救火隊”或湊熱鬧。",
+        "keywords": [
+            "媽祖廟活動",
+            "遶境",
+            "湊熱鬧",
+            "參加邀約"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "82577e1eb8707911213698f7b573d35b"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "episodic",
+        "description": "李承翰在聊天中兩度以幽默口吻邀請羅以青：先是問今晚要不要臨時約看劇（八點），接著用笑點測試員的稱呼加強邀約氣氛。",
+        "keywords": [
+            "今晚約看",
+            "八點",
+            "幽默邀請",
+            "笑點測試員"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "475dfcc54a7442ceeb22302186db15fd"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "episodic",
+        "description": "關於週末計畫的互動：羅以青提出海鮮或去海邊放鬆的選項，李承翰選擇海鮮並確認週六有空，雙方達成初步共識。",
+        "keywords": [
+            "週末計畫",
+            "海鮮或海邊",
+            "週六有空",
+            "達成共識"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "e06440b6b4b661721460133214cfeebe"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "episodic",
+        "description": "聊天中出現多個小插曲：雙方提到補習班或救援情境（學生求助最後只是手機沒電）、以及李承翰回家被爺奶當臨時表演嘉賓、羅以青陪陳伯聊天讓他心情好轉。",
+        "keywords": [
+            "學生手機沒電",
+            "臨時表演嘉賓",
+            "陪陳伯",
+            "補習班趣事"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "a3963613f03c6c55b7026bd18d3aa3c7"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "emotional",
+        "description": "對話整體帶有輕鬆、玩笑和邀約的愉快氛圍——李承翰用幽默邀請看劇，雙方以開玩笑的方式互動。",
+        "keywords": [
+            "輕鬆",
+            "幽默",
+            "邀約",
+            "愉快氛圍"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "a08b0bd11d1aa84cb98cc1531190e72b"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "emotional",
+        "description": "雙方展現出對家人與長輩的關心與責任感：羅以青主動陪伴陳伯、兩人都會在有人需要時想去幫忙（想當救火隊）。",
+        "keywords": [
+            "關心長輩",
+            "責任感",
+            "陪伴陳伯",
+            "願意幫忙"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "bdd61a0a4940277e98c3434e430a2d57"
+    },
+    {
+        "created_time": "2020-06-18T00:00:00",
+        "type": "emotional",
+        "description": "有混合的哭笑不得情緒：補習班和救援情節常帶來尷尬又好笑的場面（例如去救學生結果只是手機沒電；被爺奶當臨時表演嘉賓）。",
+        "keywords": [
+            "哭笑不得",
+            "尷尬好笑",
+            "補習班趣事",
+            "臨時表演"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "ec4068fef90bea9ac3c92a7d71f08eb2"
+    }
+]

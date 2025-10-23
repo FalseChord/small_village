@@ -1,0 +1,247 @@
+[
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "semantic",
+        "description": "短片製作的基本分工與流程：主持人（承翰）帶領內容與表演，剪輯負責後製（張語蓁），演員協調與鏡頭節奏由王子翔協助，現場補拍 B-roll 並用穩定器來提升素材品質。",
+        "keywords": [
+            "短片製作流程",
+            "B-roll",
+            "剪輯",
+            "穩定器",
+            "節奏把握"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "835442d72e3c563d39efc13e580e9bc9"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "semantic",
+        "description": "利用遊戲與即興演出作為教學媒介可以提升粉絲參與度與真實互動，粉絲更容易主動成為群演並提供題材靈感。",
+        "keywords": [
+            "粉絲互動",
+            "即興演出",
+            "參與感",
+            "節目真實感"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "060881f4e071dcf0c7a0a9eff23178b9"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "semantic",
+        "description": "將本地語言元素（如台式俚語）融入英語教學是一個可延續的系列主題，能產生差異化內容與高共鳴題材。",
+        "keywords": [
+            "台式俚語",
+            "英語教學",
+            "系列主題",
+            "內容策劃"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "e795ffedae7530eb7b671b90fe137c9a"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "episodic",
+        "description": "15:10 在巷口的獨立咖啡廳靠窗長桌，李承翰帶著小黑板、幾張英語趣味字卡與短劇腳本，與剪輯好友張語蓁與演員好友王子翔坐下，桌上有三杯冰美式與手工餅乾，現場有三位粉絲（小玲、志明、阿豪）參與熱身玩笑。",
+        "keywords": [
+            "15:10",
+            "小黑板",
+            "英語字卡",
+            "窗邊長桌",
+            "粉絲三人"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "a6b36adf7fa905838d5b086aa07ce40d"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "episodic",
+        "description": "15:20 開始拍第一段 60 秒短片：承翰以誇張表情和誤用情節演出生活英文，現場輪流扮學生與考官，粉絲被逗笑並自願加入群演；張語蓁用手機穩定器補拍 B-roll，王子翔幫忙抓鏡頭節奏，承翰不時即興改台詞。",
+        "keywords": [
+            "15:20拍攝",
+            "60秒短片",
+            "誇張表情",
+            "粉絲群演",
+            "B-roll"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "a1ad94ab3aaef9f89368ac345060ad72"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "episodic",
+        "description": "15:40 結束拍攝後承翰與粉絲交換英語學習困擾，給了兩個實用小技巧並承諾晚上上傳完整版；粉絲提出以台式俚語融入英語教學的題材，三人決定做為下一支系列；拍照時承翰特別叮囑工作人員替粉絲保留甜點並幽默謝過店家。",
+        "keywords": [
+            "15:40交流",
+            "學習困擾",
+            "保留甜點",
+            "承諾上傳",
+            "下一系列"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "bea3d757605a310b6a3fa637e9029641"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "emotional",
+        "description": "活動中充滿歡笑與親切互動，承翰展現出強烈的社交能量與重情義，使現場氣氛溫暖且有人歸屬感。",
+        "keywords": [
+            "歡笑",
+            "親切",
+            "重情義",
+            "社交能量"
+        ],
+        "emotional_intensity": 0.95,
+        "id": "e2ab157003f9c080e984e48abc80196f"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "emotional",
+        "description": "承翰在拍完照時關心粉絲需求並叮嚀保留甜點、以幽默方式謝店家，表現出負責感與對他人尊重的情緒狀態。",
+        "keywords": [
+            "負責感",
+            "尊重店家",
+            "關心粉絲",
+            "領導力"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "5a7bf9355abebed285fbe663d9875f70"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "emotional",
+        "description": "在即興改詞、討論題材與決定下一系列時，承翰與團隊感受到創意激盪與興奮期待，對晚間上傳與後續製作抱有動力。",
+        "keywords": [
+            "創意激盪",
+            "即興改台詞",
+            "興奮期待",
+            "內容策劃"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "8bc01b0536746115ef56a0f32eef89c1"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "semantic",
+        "description": "羅以青主動提供情感支持，表示願意當一個耐心的傾聽者，暗示她是可依靠的朋友。",
+        "keywords": [
+            "羅以青",
+            "提供支持",
+            "傾聽者",
+            "可依靠",
+            "主動關心"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "9515eefc8d097fdc858a049734dc7acb"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "semantic",
+        "description": "李承翰會向朋友抱怨但語氣輕鬆感謝，表示他在日常壓力或情緒時會尋求熟人傾訴且信任對方。",
+        "keywords": [
+            "李承翰",
+            "偶爾抱怨",
+            "尋求傾訴",
+            "信任朋友",
+            "輕鬆感謝"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "c5bc4434553e28b98be496b82eeb33bc"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "semantic",
+        "description": "這段對話屬於日常閒聊性質，不涉及緊急事件，交流以安慰與確認彼此可溝通為主。",
+        "keywords": [
+            "日常閒聊",
+            "非緊急",
+            "安慰",
+            "確認溝通",
+            "社交互動"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "d8c6113c9b25af0ef2dd59a1dd584490"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "episodic",
+        "description": "羅以青開場說「最近還好嗎，要是想說話就跟我說，我會慢慢聽的。」表達主動關心並提供長時間的傾聽。",
+        "keywords": [
+            "羅以青開場",
+            "主動關心",
+            "長時間傾聽",
+            "邀請說話"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "7177eb35b6b02c5c8adb372380b45143"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "episodic",
+        "description": "李承翰回應謝謝並說明偶爾會來抱怨，還半開玩笑詢問對方是否準備好當耐心聽眾，顯示互動輕鬆且有幽默成分。",
+        "keywords": [
+            "李承翰回應",
+            "謝謝",
+            "偶爾抱怨",
+            "幽默詢問",
+            "輕鬆互動"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "4b3cf7cf8df435a38a8ecf79c2a62345"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "episodic",
+        "description": "羅以青再次確認她準備好當傾聽者，鼓勵李承翰隨時說出不滿或抱怨，強化雙方的支持性互動。",
+        "keywords": [
+            "再次確認",
+            "鼓勵傾訴",
+            "支持性互動",
+            "強化信任"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "196e7ca0048a448307d1c50b236087fb"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "emotional",
+        "description": "羅以青表現出溫柔且耐心的關心，讓場景帶有安心與被支持的感覺。",
+        "keywords": [
+            "溫柔",
+            "耐心",
+            "關心",
+            "安心",
+            "被支持"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "13038fad868e34a067fac5e8f9ffc9e6"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "emotional",
+        "description": "李承翰展現感激與輕鬆（帶幽默），情緒上較為放鬆但也暗示可能有需要宣洩的壓力或情緒。",
+        "keywords": [
+            "感激",
+            "輕鬆",
+            "幽默",
+            "釋放情緒",
+            "信任"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "14e94ed96f75cb2a1154f900e9dd50b6"
+    },
+    {
+        "created_time": "2020-06-22 00:00:00",
+        "type": "emotional",
+        "description": "整體互動氛圍是中性偏正向的支持感，沒有緊張或衝突，雙方關係呈現友善與可依賴。",
+        "keywords": [
+            "中性偏正向",
+            "支持感",
+            "無衝突",
+            "友善",
+            "可依賴"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "e396ba9b5c05c3f4bfd553fe75cf7a58"
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "id": "4a140c985d1cb37f8f499848d665aa29",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "semantic",
+        "description": "李承翰在對話中以貼紙（「最佳傾聽獎」）和一杯黑咖啡實際表達感謝並贈予羅以青，作為對她支持與陪伴的回饋。",
+        "keywords": [
+            "最佳傾聽獎貼紙",
+            "黑咖啡",
+            "贈送",
+            "回饋",
+            "感謝"
+        ],
+        "emotional_intensity": 0.4
+    },
+    {
+        "id": "d7caf549ec93f94d453564d02ac607e1",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "semantic",
+        "description": "羅以青會把貼紙貼在她的教案夾上，並計畫放學後慢慢喝咖啡，顯示她對小禮物的實際處理與儀式感。",
+        "keywords": [
+            "貼在教案夾",
+            "放學喝咖啡",
+            "儀式感",
+            "個人物品"
+        ],
+        "emotional_intensity": 0.2
+    },
+    {
+        "id": "469b443e09fdd805eaed2c1bfdd6a473",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "semantic",
+        "description": "雙方在互動中建立一種互相支持的模式：羅以青以靜靜支持和陪伴表達關心，李承翰以誇張的感謝與小獎勵回應，呈現穩定的情感交換方式。",
+        "keywords": [
+            "互相支持",
+            "傾聽",
+            "陪伴",
+            "情感交換",
+            "回應模式"
+        ],
+        "emotional_intensity": 0.6
+    },
+    {
+        "id": "5d763662f1a2b8b977fe40d085289861",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "episodic",
+        "description": "羅以青對李承翰說他今天把大家逗得很開，並表示看出他狀態不錯，會在旁邊靜靜支持他，當下給予溫柔鼓勵。",
+        "keywords": [
+            "羅以青安慰",
+            "逗得很開",
+            "靜靜支持"
+        ],
+        "emotional_intensity": 0.6
+    },
+    {
+        "id": "694671a7b66bc746185deaa52d8e158c",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "episodic",
+        "description": "李承翰回應感謝，說有羅以青在身邊像被充滿電，並當場把「最佳傾聽獎」貼紙和一杯黑咖啡先交給她，表達實際的謝意。",
+        "keywords": [
+            "李承翰回應",
+            "贈送貼紙",
+            "黑咖啡",
+            "被充滿電"
+        ],
+        "emotional_intensity": 0.7
+    },
+    {
+        "id": "5df7ed002cc5501252e9009c295da5f3",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "episodic",
+        "description": "雙方約定放學後交換物品和小獎勵的情節：羅以青會把貼紙貼在教案夾、下午見，李承翰說要把今天的笑聲存好並現場頒發『最佳教案夾』小獎章。",
+        "keywords": [
+            "教案夾小獎章",
+            "笑聲存好",
+            "下午見面",
+            "掌聲獎勵"
+        ],
+        "emotional_intensity": 0.5
+    },
+    {
+        "id": "2e28c756f871fa86fb1a606825d2b12f",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "emotional",
+        "description": "羅以青在看到李承翰放鬆時感到踏實與放心，對他持續帶來的暖意感到溫暖並願意穩定支持。",
+        "keywords": [
+            "踏實",
+            "放心",
+            "暖意",
+            "穩定支持"
+        ],
+        "emotional_intensity": 0.8
+    },
+    {
+        "id": "ac5b2c9f32fae7c4bef2f7ce7abcb738",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "emotional",
+        "description": "李承翰在羅以青陪伴下感到被充電、更加放肆且安心，表現出強烈的感謝與依戀類的溫暖情緒。",
+        "keywords": [
+            "感謝",
+            "被充滿電",
+            "安心",
+            "依戀"
+        ],
+        "emotional_intensity": 0.85
+    },
+    {
+        "id": "5f2fbf8de9c5daff4a30c86071e05d61",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "emotional",
+        "description": "整體互動帶有輕鬆玩鬧與親密感，雙方以小禮物和玩笑交換肯定，產生溫馨且愉悅的互動氛圍。",
+        "keywords": [
+            "輕鬆玩鬧",
+            "親密感",
+            "小禮物",
+            "愉悅氛圍"
+        ],
+        "emotional_intensity": 0.7
+    }
+]

@@ -1,0 +1,240 @@
+[
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "羅以青從事件中確認：在濕滑天候時主動協助年長鄰居可以有效降低跌倒或受傷風險。",
+        "keywords": [
+            "協助長者",
+            "濕滑路面",
+            "降低風險",
+            "主動",
+            "安全"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "b2056a1e6fde6c4b4ead71a6ea5c6de2"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "合理分配購物袋內物品重量並將易碎品放在不會擠壓的位置，是防止食物損壞的有效做法。",
+        "keywords": [
+            "平衡重量",
+            "保護雞蛋",
+            "易碎品",
+            "整理",
+            "細心"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "03918f71cefb2e7367a6d54a2d43a779"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "陪同年長者到公車站確認上車無礙，不僅是安全措施，也是一種具體的鄰里關懷與責任表現。",
+        "keywords": [
+            "陪同到公車",
+            "上車確認",
+            "鄰里關懷",
+            "責任感",
+            "實際行動"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "5c0653a4d24cff0991cd4378a19f7729"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "2020-07-01 07:57，羅以青在住處一樓門口看到同樓層約68歲的林阿姨提著兩袋購物袋與摺疊椅，步伐緩慢且小心。",
+        "keywords": [
+            "07:57",
+            "大樓門口",
+            "林阿姨",
+            "購物袋",
+            "摺疊椅"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "8e1dd54c6732be2b82a137a524abd0c2"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "羅以青放下自己的帆布包，扶住林阿姨的傘，將易碎蔬果和一盒雞蛋轉移到她的購物袋，並把重罐頭與飲料挪到另一袋以平衡重量，同時綁好袋口並提醒路面濕滑。",
+        "keywords": [
+            "扶傘",
+            "轉移雞蛋",
+            "綁袋口",
+            "提醒濕滑",
+            "平衡重心"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "a27c683920c4d7dbd56c46fe8c25b66f"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "她一路穩定林阿姨步伐，陪同走到巷口公車站牌，確認阿姨能順利上車後才離開，並約定下班回家再敲門聊天。",
+        "keywords": [
+            "陪同至公車站",
+            "確認上車",
+            "約定再聊",
+            "穩定步伐",
+            "道別"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "f0ab6c1d521e11101209195b2337975c"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "看到阿姨吃力提物時，羅以青感到強烈的同情與想幫忙的衝動，喚起她一貫的責任感。",
+        "keywords": [
+            "同情",
+            "責任感",
+            "想幫忙",
+            "關懷",
+            "衝動"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "3f548947111f4f3d7d20bcb543d5b81b"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "在協助過程中，她感到平靜且有滿足感，這段短暫互動讓她上班路上的心情更穩定。",
+        "keywords": [
+            "平靜",
+            "滿足感",
+            "心情穩定",
+            "成就感",
+            "安定"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "624202b999e8436fa1178df22de4de6a"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "臨別時被林阿姨拉著手道謝使她感到溫暖與被需要，加深了與鄰里的情感連結。",
+        "keywords": [
+            "被拉手",
+            "感謝",
+            "溫暖",
+            "被需要",
+            "連結"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "184370c880075ede63b1b97f2259a743"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "從對話得知李承翰和羅以青會一起回憶補習班的趣事，回憶帶來溫暖與懷念的感受。",
+        "keywords": [
+            "補習班",
+            "回憶",
+            "暖心",
+            "懷念"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "2df125cb1a97bf36955ff51f75222a59"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "李承翰有主動幫助朋友的習慣，幫忙讓他感到開心，因此自嘲領走今日的「暖心獎」。",
+        "keywords": [
+            "喜歡幫人",
+            "暖心獎",
+            "主動幫忙"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "037957b43b1088c4e2b5f65c752670cc"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "羅以青在有人幫忙時會感到踏實與安心，並對對方表達真心感激，這符合她負責與細心的特質。",
+        "keywords": [
+            "踏實",
+            "感激",
+            "放心",
+            "省心"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "24f6ae78668447e8d0a34a8515220033"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "李承翰說剛剛聽大家回憶補習班的糗事時，心裡意外地溫暖且既滿足又懷念的瞬間。",
+        "keywords": [
+            "李承翰",
+            "回憶補習班",
+            "滿足懷念"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "3bc2356257ee46f362294f14cb8c531b"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "李承翰在對話中提議「自動領走今天的暖心獎」，羅以青回應感謝並拜託他，形成一個互動高潮點。",
+        "keywords": [
+            "自動領走",
+            "暖心獎",
+            "謝謝你出手幫忙"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "1356f35227204aeb2bc0dcd3bc1e1b2c"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "多次互動中，羅以青反覆表示有李承翰在就踏實，李承翰則回應不必客套、喜歡幫朋友，雙方確認彼此支持的關係。",
+        "keywords": [
+            "有你在",
+            "踏實",
+            "喜歡幫朋友",
+            "彼此支持"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "f3de25815cb15d2d5e938ac11f06cc45"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "整體對話流露出溫暖與懷念的情緒，兩人因共同回憶而感到心裡暖和且被連結。",
+        "keywords": [
+            "溫暖",
+            "懷念",
+            "連結"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "efcb514c5b0906729375883128f70dc5"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "羅以青對李承翰的幫忙感到深切的感激與安心，說出多次謝謝並強調省了不少心。",
+        "keywords": [
+            "感激",
+            "安心",
+            "省心",
+            "謝謝"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "7d70e943ce76486c6629c6689c0b24e1"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "李承翰在幫助朋友時感到喜悅與滿足，看到對方沒事就會笑得出來，展現樂於助人的愉悅情緒。",
+        "keywords": [
+            "喜悅",
+            "滿足",
+            "樂於助人"
+        ],
+        "emotional_intensity": 0.78,
+        "id": "cc62c6edce310dbdaedec4eb9c8ea97f"
+    }
+]

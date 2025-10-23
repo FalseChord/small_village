@@ -1,0 +1,230 @@
+[
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "豆子巷咖啡位於彰化市中正路，靠近國立彰化師範大學，是適合小型聚會的咖啡館，店內會提供當季手工甜點（例如檸檬蛋糕）。",
+        "keywords": [
+            "豆子巷咖啡",
+            "彰化市中正路",
+            "手工檸檬蛋糕"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "beca8ced2e46bab475d7eaf6578047d6"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "以幽默的小測驗或即時比喻作開場可以快速活絡氣氛並拉近師生距離，實際上是一種有效的社交與教學互動技巧。",
+        "keywords": [
+            "幽默開場",
+            "小測驗",
+            "社交技巧"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "7b96e54a2a8ac78b34a50bda0647adeb"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "在合照或個人資料發布到社群平台前徵得當事人同意是維護信任與尊重隱私的良好做法；約定未來一同組讀書會與互相交換資源有助於持續建立支持網絡。",
+        "keywords": [
+            "同意發布",
+            "讀書會",
+            "交換資源"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "27c899c9449a4086b8d1cec8be2b4221"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "2020-07-01 14:29，李承翰走進彰化市中正路的豆子巷咖啡，與兩位前學生（吳雅婷、陳柏宇）碰面，三人喝手沖咖啡並回想補習班趣事，氣氛輕鬆愉快。",
+        "keywords": [
+            "2020-07-01 14:29",
+            "豆子巷咖啡",
+            "補習班回憶"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "0e160df4d1fa03183688d869afa780eb"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "坐下後李承翰拿出手機做了三題輕鬆英文小考當玩笑開場，接著即席用幽默比喻幫雅婷修飾生日英文感言，並答應晚間幫柏宇看申請書草稿。",
+        "keywords": [
+            "手機小考",
+            "修飾生日感言",
+            "承諾幫忙審稿"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "547193ed2d3071b0c4c120e6c46d3185"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "聚會期間他向店員推薦當季手工檸檬蛋糕，三人共享後拍了幾張合照（事先徵得同意），並約定下週在他常去的自習室辦小型讀書會互相扶持。",
+        "keywords": [
+            "檸檬蛋糕",
+            "合照同意",
+            "約定讀書會"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "08ef3c44caa208fb41d7f9c0f71ec675"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "與學生重聚時感到溫暖與懷念，聽大家回想補習班趣事讓李承翰內心有強烈的情感連結與滿足感。",
+        "keywords": [
+            "溫暖",
+            "懷念",
+            "情感連結"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "708cb7b62281ea1fc08d0e1d83e11c37"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "以幽默和小測驗活絡氣氛時感到愉悅與自信，享受能讓他人開心並看到交流效果的快樂。",
+        "keywords": [
+            "愉悅",
+            "自信",
+            "幽默"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "d6d2b80849b34d481424336757ecfc97"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "答應幫忙修改申請書及提議讀書會時感到責任感與支持他人的滿足，希望繼續維持師生間的互助關係。",
+        "keywords": [
+            "責任感",
+            "支持",
+            "滿足感"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "6a974f32d075b90cd4688db9e4ea1f09"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "回憶中顯示，大家在談論補習班的往事會引發集體的懷念與暖心感受，回憶本身能強化友誼。",
+        "keywords": [
+            "補習班",
+            "回憶",
+            "懷念",
+            "暖心",
+            "友誼"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "c57476105c75c60d44bdf1cae5b8627b"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "從對話可學到：主動幫忙能顯著減輕朋友的擔憂，同時也帶給幫忙者自身滿足與快樂（李承翰常這麼做）。",
+        "keywords": [
+            "幫助朋友",
+            "減輕煩惱",
+            "滿足感",
+            "李承翰",
+            "責任感"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "bea631d8707ecd3022af105e0d862590"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "semantic",
+        "description": "有可靠的人在身邊會讓他人感到踏實與安心，彼此的確認與感謝增強了信任感。",
+        "keywords": [
+            "可靠",
+            "安心",
+            "踏實",
+            "支持"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "f25c82d48a372823ddd1fdde2973952d"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "在一起回憶補習班的糗事時，李承翰說「心裡暖得出奇」，整個對話氛圍變得溫馨懷舊。",
+        "keywords": [
+            "補習班",
+            "糗事",
+            "暖心",
+            "懷舊"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "7a989b99812a0957cf62574417077942"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "李承翰提議「自動領走今天的暖心獎」，羅以青回應感謝並拜託他接受，前後有李剛剛出手幫忙的具體互動。",
+        "keywords": [
+            "暖心獎",
+            "出手幫忙",
+            "感謝",
+            "羅以青",
+            "李承翰"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "0debe6ccb6ed29ecc2e001878ce1527f"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "episodic",
+        "description": "羅以青多次表達因李在場而踏實、放心，李承翰也多次淡化謝意說他就是喜歡幫人，雙方有反覆的互相安慰與謙讓場景。",
+        "keywords": [
+            "踏實",
+            "放心",
+            "謙讓",
+            "互相安慰"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "f1cd359149096ad82fe064053899a3cc"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "共同回憶喚起強烈的暖心與滿足感，兩人都體會到懷念與溫暖的情緒。",
+        "keywords": [
+            "暖心",
+            "滿足",
+            "懷念",
+            "溫馨"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "70b243cc33c2ee54c48a32372f094144"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "羅以青表現出深切的感激與安心，明顯感受到被支持後的放鬆與依賴感。",
+        "keywords": [
+            "感激",
+            "安心",
+            "依賴",
+            "放心"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "e91cf4acd19c81121c921660539facb2"
+    },
+    {
+        "created_time": "2020-07-01T00:00:00",
+        "type": "emotional",
+        "description": "李承翰從幫助中獲得喜悅，看到朋友沒事就會開心，表現出助人帶來的內在愉悅。",
+        "keywords": [
+            "喜悅",
+            "助人快樂",
+            "幽默",
+            "樂觀"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "ae0d8e2280869eb52474547697010e58"
+    }
+]

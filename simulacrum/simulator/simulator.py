@@ -6,23 +6,63 @@ import json, os, hashlib
 from datetime import datetime
 
 class Simulator:
-    def __init__(self, personas, gpt_interface, embedding_interface):
+    def __init__(self, personas, gpt_interface, embedding_interface, loaded_data_folder=None):
         self.personas = personas
         
         self.event_generator = EventGenerator(gpt_interface)
         self.dialogue_generator = DialogueGenerator(gpt_interface)
         self.gpt = gpt_interface
         self.embedding_interface = embedding_interface
-        self.current_date = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-        self.daily_activities = []
+        self.loaded_data_folder = loaded_data_folder  # 載入記憶的資料夾路徑
         
         # Create a new folder for this execution
         self.base_data_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
         self.execution_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         self.data_dir = os.path.join(self.base_data_dir, self.execution_timestamp)
         
+        # 設定當前日期：讀取載入資料夾中 event 檔案的最新日期加一天
+        self.current_date = self._get_next_simulation_date()
+        self.daily_activities = []
+        
         # Create the execution directory and its subdirectories
         os.makedirs(os.path.join(self.data_dir, "events"), exist_ok=True)
+    
+    def _get_next_simulation_date(self):
+        """獲取下一個模擬日期：從載入的資料夾中找到最新 event 日期加一天"""
+        latest_date = None
+        
+        # 如果有指定載入的資料夾，只檢查該資料夾
+        if self.loaded_data_folder:
+            events_dir = os.path.join(self.loaded_data_folder, "events")
+            if os.path.exists(events_dir):
+                print(f"📁 檢查載入資料夾的 events: {events_dir}")
+                
+                # 檢查該資料夾中的所有 event 檔案
+                for event_file in os.listdir(events_dir):
+                    if event_file.endswith('.json'):
+                        # 從檔名解析日期 (格式: YYYY-MM-DD.json)
+                        date_str = event_file.replace('.json', '')
+                        try:
+                            file_date = datetime.strptime(date_str, '%Y-%m-%d')
+                            if latest_date is None or file_date > latest_date:
+                                latest_date = file_date
+                            print(f"  📄 找到 event 檔案: {date_str}")
+                        except ValueError:
+                            # 跳過無法解析的檔名
+                            print(f"  ⚠️  無法解析檔名: {event_file}")
+                            continue
+        
+        if latest_date:
+            # 返回最新日期加一天
+            next_date = latest_date + timedelta(days=1)
+            print(f"📅 載入資料夾最新 event 日期: {latest_date.strftime('%Y-%m-%d')}")
+            print(f"📅 設定模擬開始日期: {next_date.strftime('%Y-%m-%d')}")
+            return next_date
+        else:
+            # 如果沒有找到任何 event 檔案，使用今天的日期
+            today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+            print(f"📅 載入資料夾中未找到 event 檔案，使用今天日期: {today.strftime('%Y-%m-%d')}")
+            return today
         
     def step_day(self):
         """生成事件和對話"""

@@ -1,0 +1,218 @@
+[
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "semantic",
+        "description": "我學到把學生問題拆成可操作的子項（時間分配、家裡期待、學校資源），有助於從系統性角度提供具體建議。",
+        "keywords": [
+            "問題拆解",
+            "時間分配",
+            "系統性建議"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "e4410cb746cabe8dbd5aade92363cd6e"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "semantic",
+        "description": "建立並展示一週時間表（標出必修、可調整社團、自習）是一種能讓家長與學生共同理解實際可行安排的有效工具。",
+        "keywords": [
+            "一週時間表",
+            "家長溝通",
+            "可視化安排"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "0aceced7d201ea8cf813fcd883fa922d"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "semantic",
+        "description": "教師可以透過陪同家長會面、寫說明短信、引導參加校內同儕支持小組等方式，整合學校資源來支持學生。",
+        "keywords": [
+            "陪同面談",
+            "校內資源",
+            "同儕支持"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "e0075a412f00c65856a969980fdebc63"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "episodic",
+        "description": "16:02 下課鈴響後，我在教室整理投影片時，注意到一位高二男生在走廊角落愁眉不展，便輕聲邀請他到教師辦公室坐下。",
+        "keywords": [
+            "16:02",
+            "走廊發現",
+            "邀請進辦公室"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "9dab6c7b430bc4560b5425bfbd94efb7"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "episodic",
+        "description": "在辦公室我順手倒了一杯熱綠茶給他，先用溫和的開場白讓他放鬆，耐心聽他說家裡為補習與社團帶來的壓力，並和他在我的筆記本上畫出一週時間表，標出必修與可調整時段。",
+        "keywords": [
+            "熱綠茶",
+            "傾聽",
+            "畫時間表"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "d56832365f23bb2d5b11cd62c66bb503"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "episodic",
+        "description": "結束時我在他書頁角貼了一張便條，寫下兩個下週要跟進的項目（家長面談、參加同儕支持小組），會後把對話要點記在教學日誌，並安排下週三午休與學務處及學生協調時間。",
+        "keywords": [
+            "便條跟進",
+            "教學日誌",
+            "安排協調會議"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "0f0a883647b4409b55fecde56d4fa192"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "emotional",
+        "description": "看到成績下滑且站在角落愁眉不展的學生，我感到強烈的同理與關切，想立即提供支持與理解。",
+        "keywords": [
+            "同理心",
+            "關切",
+            "立即支持"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "84faad36faace75319f69cb08ace5947"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "emotional",
+        "description": "在交談與共同製作時間表的過程中，我感到穩定的責任感與耐心，並對自己能提供具體方法感到安心與滿足。",
+        "keywords": [
+            "責任感",
+            "耐心",
+            "安心滿足"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "93831401719e9089899db3c434556769"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "emotional",
+        "description": "在提出陪同面談與學校資源的建議時，我帶著希望但也有些擔心家長的反應，這種期待與不確定並存的情緒很明顯。",
+        "keywords": [
+            "希望",
+            "擔心家長反應",
+            "不確定感"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "97b50c202fdae6c337aad8a4c07ce92b"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "semantic",
+        "description": "我從這段對話得知羅以青主動願意當傾聽者，會邀請對方說話並表示會慢慢聽。",
+        "keywords": [
+            "羅以青願意傾聽",
+            "主動提供支持",
+            "邀請談話"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "c6942ec9b7f7d1c505ce57ac206326fc"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "semantic",
+        "description": "我知道李承翰習慣偶爾向羅以青抱怨，將她視為可以抒發情緒的對象。",
+        "keywords": [
+            "李承翰會抱怨",
+            "尋求抒發",
+            "信任朋友"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "eb5c7a4b257ecfc09582903e982cd7f3"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "semantic",
+        "description": "朋友之間的情感支持可以表現為耐心傾聽與互相確認對方可以說話。",
+        "keywords": [
+            "朋友支持",
+            "耐心傾聽",
+            "情緒抒發"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "2edfd77ee31b9aff6a97ebe2a995627b"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "episodic",
+        "description": "羅以青開場說「最近還好嗎，要是想說話就跟我說，我會慢慢聽的」，主動提出情感支持的邀請。",
+        "keywords": [
+            "羅以青提供幫助",
+            "邀請談話",
+            "開場關心"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "9c71550fb7462068ec485e7057a22f1c"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "episodic",
+        "description": "李承翰回應感謝並說明自己偶爾會來抱怨，並半開玩笑地問羅以青是否準備好當耐心聽眾。",
+        "keywords": [
+            "李承翰感謝",
+            "會來抱怨",
+            "詢問耐心程度"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "5c98f4ffafa5bbfca0a68415390adcb0"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "episodic",
+        "description": "羅以青再次確認「放心，我準備好了」，以肯定語氣保證自己會是耐心的聽眾，結束這段互動在支持性的狀態。",
+        "keywords": [
+            "羅以青確認",
+            "準備好了",
+            "耐心聽眾"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "8963550b6247dff9399cb464605011c9"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "emotional",
+        "description": "從羅以青的語氣感受到關心與支持，讓人有被接納的安心感。",
+        "keywords": [
+            "關心",
+            "支持",
+            "安心感"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "8cef4d106c5a28e38dbced6819ded31b"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "emotional",
+        "description": "李承翰表達感謝並願意依靠對方抒發情緒，顯示出對羅以青的信任與輕鬆依賴感。",
+        "keywords": [
+            "感謝",
+            "信任",
+            "依賴"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "3fe07da26eaccb35e2b69f2ac7fc3a74"
+    },
+    {
+        "created_time": "2020-06-22T00:00:00",
+        "type": "emotional",
+        "description": "整體對話氛圍平靜且中性偏正向，沒有強烈負面情緒，但有穩定的支持性互動。",
+        "keywords": [
+            "平靜",
+            "中性",
+            "支持氛圍"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "82ed5d41e331d4038571c2d697be655a"
+    }
+]

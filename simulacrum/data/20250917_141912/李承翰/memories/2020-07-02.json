@@ -1,0 +1,236 @@
+[
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "我學到慣用語「break the ice」的語意與教學用法，以及可以用一個簡短情境示範來說明寒暄化解尷尬的概念。",
+        "keywords": [
+            "break the ice",
+            "慣用語",
+            "寒暄",
+            "情境示範"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "2d7caf8e76d5715ff88ea3ee794d453e"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "錄製短社群影片的實務要點：使用三腳架與環形燈確保畫面穩定與光線、準備多個鏡頭（多次拍攝）以便選擇最佳片段、助教用秒表掌控時長。",
+        "keywords": [
+            "三腳架",
+            "環形燈",
+            "多次拍攝",
+            "秒表",
+            "影片製作流程"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "2e040dd2ad8e50551b4cbe7aaf8ffd73"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "將教學短片與課堂練習整合的流程：錄製後標記可用的練習題、交代助教上傳至班級雲端、並在白板上寫下當天暖身題目以便課堂接續使用。",
+        "keywords": [
+            "標記練習題",
+            "上傳雲端",
+            "白板暖身題",
+            "課堂整合"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "9a3fbe8d527ec7783f0e0f9f79600492"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "2020-07-02 07:22 我在補習班二樓英語教室架好三腳架與環形燈，白板寫著「今日慣用語：break the ice」，準備錄製60秒的晨間一句，助教小美和王老師在旁協助。",
+        "keywords": [
+            "07:22",
+            "英語教室",
+            "白板",
+            "小美",
+            "王老師"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "71eeb5d7dc76361005252bdf5a45beac"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "錄製過程分為三個鏡頭：第一鏡頭我誇張模仿尷尬寒暄讓大家笑場；第二鏡頭語速太快，小美提醒我減慢；第三鏡頭順利完成並確認收工。",
+        "keywords": [
+            "三個鏡頭",
+            "笑場",
+            "語速太快",
+            "錄製成功"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "272d300966708ebc800b8cc41916d24b"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "錄製結束後我立刻把短片標註與上課練習題目，交代小美把檔案上傳到班級雲端，並在白板右下角寫下今天的暖身題，準備迎接07:30到來的學生。",
+        "keywords": [
+            "標註練習",
+            "交代上傳",
+            "白板暖身題",
+            "學生到來前準備"
+        ],
+        "emotional_intensity": 0.58,
+        "id": "7180332f287767a6f77827f2f2fca61f"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "我感到輕鬆且愉快，全程充滿打趣與互助氛圍，大家笑聲與互相提醒讓工作變得有趣且有活力。",
+        "keywords": [
+            "愉快",
+            "打趣",
+            "互助",
+            "輕鬆"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "46b824b84cbde11788f415484f6b1ec6"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "在第一鏡頭誇張發音引起笑場時，我有短暫的尷尬但很快被幽默化解，感受到被同事接納的安全感。",
+        "keywords": [
+            "尷尬",
+            "被接納",
+            "幽默化解"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "3089c5a6f8787536a95711cdbab7b446"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "完成第三鏡頭並把素材整理交付後，我感到成就與自信，肯定自己的教學風格（幽默、有條理、擅長社交）。",
+        "keywords": [
+            "成就感",
+            "自信",
+            "教學風格",
+            "肯定"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "77d678445be9846945c41911fd0806cf"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "羅以青擔任穩定支點、李承翰負責活絡氣氛，兩人形成互補分工以達到良好社交效果。",
+        "keywords": [
+            "穩重支點",
+            "幽默活絡",
+            "互補分工",
+            "羅以青",
+            "李承翰"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "8807f8ebfba421e1b014c2429ff778ea"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "看到陳伯笑是對努力與耐心的直接回饋，能作為判斷行為是否有效的指標。",
+        "keywords": [
+            "陳伯笑",
+            "耐心回報",
+            "心裡踏實",
+            "行為驗證"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "5ef1eafe5f7c382c7456c17892de528e"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "幽默與笑聲能迅速活絡氣氛，讓在場的人放鬆並促成更自然的互動。",
+        "keywords": [
+            "氣氛活絡",
+            "笑聲",
+            "社交影響",
+            "李承翰幽默"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "5d3906043d6cf90769a53e58c876296c"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "羅以青剛看到陳伯笑了，當下感到踏實並認為自己的耐心沒有白費（「剛看到陳伯笑了，心裡踏實」）。",
+        "keywords": [
+            "看到陳伯笑",
+            "踏實感",
+            "耐心回報"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "32e56c11435dd3115ab4f2c92efcbf42"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "李承翰主動表示會去活絡氣氛並感謝羅以青的穩定支援，兩人明確分工：李逗笑、羅顧細節（多次互動如「你在就像定海神針」「有你幫忙，我能笑得更放肆」）。",
+        "keywords": [
+            "分工協作",
+            "逗樂與支援",
+            "互相感謝",
+            "定海神針"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "dffe32943917b3750ca3facbc60d35a9"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "雙方在對話中互相肯定：羅以青說看到大家笑就心安，李承翰則說認識羅以青沒有白費，表現出互相信任與欣賞的具體互動片段。",
+        "keywords": [
+            "互相肯定",
+            "心安",
+            "欣賞",
+            "信任"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "9046a78d50733045c443254772ef995d"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "羅以青感到踏實與安心，看到笑容讓她確認努力與耐心有成果，內心平靜且被成就感填滿。",
+        "keywords": [
+            "踏實",
+            "安心",
+            "成就感",
+            "耐心回報"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "2317763f8787ea1afa7f139611ece454"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "李承翰感到歡喜與放鬆，能自在逗笑別人讓他感到開心，並對羅以青的穩定感到感激和依賴。",
+        "keywords": [
+            "歡喜",
+            "放開來",
+            "感激",
+            "依賴羅以青"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "c26a2092e8b471ab64adbaf5272e06fa"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "整體情緒為溫暖互助與輕鬆愉快，雙方在合作中建立信賴，氣氛正面且支持性強。",
+        "keywords": [
+            "溫暖互助",
+            "輕鬆愉快",
+            "信賴感"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "3c8822b07a3b1d4efbd141875873b212"
+    }
+]

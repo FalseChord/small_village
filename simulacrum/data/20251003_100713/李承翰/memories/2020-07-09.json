@@ -1,0 +1,116 @@
+[
+    {
+        "id": "08e16950a560870ca6d3483eea9e4c08",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "semantic",
+        "description": "李承翰在對話中以貼紙（「最佳傾聽獎」）和一杯黑咖啡作為感謝與慰勞，羅以青表示會把貼紙貼在教案夾，咖啡放學後再喝。",
+        "keywords": [
+            "貼紙",
+            "黑咖啡",
+            "教案夾",
+            "放學",
+            "小禮物"
+        ],
+        "emotional_intensity": 0.3
+    },
+    {
+        "id": "85431af9bf86a809c20ec5c5207c6c63",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "semantic",
+        "description": "雙方建立了一種互相支持的互動模式：羅以青靜靜支持、觀察並給予肯定，李承翰則以幽默和感謝回應，帶來溫暖的氛圍。",
+        "keywords": [
+            "互相支持",
+            "觀察肯定",
+            "幽默回應",
+            "溫暖氛圍"
+        ],
+        "emotional_intensity": 0.6
+    },
+    {
+        "id": "515ec4d2b3d87ae26cc05acb7c7e3250",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "semantic",
+        "description": "他們使用輕鬆的儀式性互動（如存笑聲、頒小獎章、掌聲）來強化關係並增添日常趣味。",
+        "keywords": [
+            "儀式性互動",
+            "小獎章",
+            "掌聲",
+            "增添趣味"
+        ],
+        "emotional_intensity": 0.4
+    },
+    {
+        "id": "11126c769e67c6098f4af889f77dba62",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "episodic",
+        "description": "羅以青對李承翰說「你今天把大家逗得很開...我會在旁邊靜靜支持你」，表達當天觀察到的狀態並承諾陪伴。",
+        "keywords": [
+            "羅以青觀察",
+            "靜靜支持",
+            "當日狀態"
+        ],
+        "emotional_intensity": 0.6
+    },
+    {
+        "id": "34a21d9a9db1c95ca5a297ce7ca577e0",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "episodic",
+        "description": "李承翰回應感謝，說有羅以青在身邊像被充滿電，並當場送上「最佳傾聽獎」貼紙與黑咖啡作為謝意。",
+        "keywords": [
+            "李承翰感謝",
+            "被充滿電",
+            "貼紙與咖啡"
+        ],
+        "emotional_intensity": 0.7
+    },
+    {
+        "id": "b666b55123cd7e38c753d45fd80dd6f8",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "episodic",
+        "description": "雙方以幽默互動結束當日約定：羅以青把掌聲放進教案夾，李承翰下午現場頒「最佳教案夾」小獎章並交付咖啡與貼紙。",
+        "keywords": [
+            "掌聲放進教案夾",
+            "最佳教案夾",
+            "下午見"
+        ],
+        "emotional_intensity": 0.5
+    },
+    {
+        "id": "f0c9c8862e1aa3506271dbf689fff6d5",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "emotional",
+        "description": "彼此流露出強烈的感激與溫暖：羅以青感到放心且踏實，李承翰感受到被支持與鼓勵。",
+        "keywords": [
+            "感激",
+            "溫暖",
+            "放心",
+            "被支持"
+        ],
+        "emotional_intensity": 0.9
+    },
+    {
+        "id": "2e6e49b96b0e29a69e601b4fcc91382d",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "emotional",
+        "description": "安心與放鬆的情緒明顯：李承翰因有羅以青在場笑得更放肆且安心，羅以青看到李放鬆也感到踏實。",
+        "keywords": [
+            "安心",
+            "放鬆",
+            "踏實"
+        ],
+        "emotional_intensity": 0.8
+    },
+    {
+        "id": "f1697a7ffff33661be16324b30c3c124",
+        "created_time": "2020-07-09 00:00:00",
+        "type": "emotional",
+        "description": "輕快、玩笑式的喜悅與親密感貫穿對話：以掌聲、小獎章和存笑聲等玩笑式表達，增強彼此的親近感。",
+        "keywords": [
+            "喜悅",
+            "玩笑",
+            "親密感",
+            "掌聲"
+        ],
+        "emotional_intensity": 0.7
+    }
+]

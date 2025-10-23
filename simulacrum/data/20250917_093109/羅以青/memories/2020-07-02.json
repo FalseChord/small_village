@@ -1,0 +1,237 @@
+[
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "行草混和字體練習中，必須注意每一筆的起筆與收筆力道以維持字形結構與節奏。",
+        "keywords": [
+            "起筆",
+            "收筆",
+            "力道",
+            "字形結構"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "9f7853270b5a7c998bb917d9f62f284e"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "為協助年長者穩住筆畫，可以用右手穩住腕關節、左手輕扶紙張來減少手抖造成的筆勢不穩。",
+        "keywords": [
+            "穩腕",
+            "輕扶紙張",
+            "減少手抖",
+            "教學技巧"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "245cfe75fcd1e85f0a873625208b43c7"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "拍攝書法作品時需要調整角度與光線，並提醒清除墨滴以確保照片清晰且作品整潔。",
+        "keywords": [
+            "拍照角度",
+            "光線調整",
+            "擦乾墨滴",
+            "作品呈現"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "beef2c264cd180ff757e4d9ce0a26d87"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "2020-07-02 09:10，羅以青提早到社區教室放下教案並專注練習「安」字，使用放大鏡檢查墨色濃淡，持續約半小時。",
+        "keywords": [
+            "提早到達",
+            "練習「安」字",
+            "放大鏡",
+            "半小時專注"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "4e1d2978d39c6b308f7e43c8fcd7acd7"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "在課堂中，羅以青放下自己的筆，耐心示範穩腕與輔助握法，幫助退休的陳伯重新試筆，陳伯試後露出微笑表示字形穩定很多。",
+        "keywords": [
+            "示範幫助",
+            "陳伯手抖",
+            "穩腕示範",
+            "學員微笑"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "3ec32976144e8de7a1a575f072647b9a"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "羅以青幫班上阿姨拍攝剛寫好的字帖，細心調整角度與光線並提醒擦乾墨滴，課後在筆記本記下練習重點與下次想嘗試的字形。",
+        "keywords": [
+            "幫拍照",
+            "調整光線",
+            "提醒擦墨",
+            "寫筆記"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "2040afc7736cce03ad3fe6775d3cd79c"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "在半小時的練習中感到平靜與專注，享受自我修養的時刻，短暫遠離教學忙碌帶來的紛擾。",
+        "keywords": [
+            "平靜",
+            "專注",
+            "自我修養",
+            "放鬆"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "42607bdca02290e80184518f15c0546a"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "看到陳伯因教導後露出微笑，羅以青感到滿足與成就，確認自己的耐心教學有效果。",
+        "keywords": [
+            "滿足",
+            "成就感",
+            "同理心",
+            "教學回饋"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "c0a24adbad51241cd4d964e500ba8370"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "在照顧年長學員並替阿姨拍照時感到責任感與細心投入，願意花時間關注細節以照顧他人需要。",
+        "keywords": [
+            "責任感",
+            "細心",
+            "關懷",
+            "耐心投入"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "88f3dfce5b03447fce3166dbb88501f1"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "觀察到羅以青以耐心和穩重為基礎，在有人（陳伯）笑的情況下能讓場面穩定並帶來踏實感。",
+        "keywords": [
+            "羅以青",
+            "耐心",
+            "穩重",
+            "陳伯笑"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "b839c27290a31d8c66f2f6b417059aaa"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "李承翰習慣透過幽默活絡氣氛，他的逗趣行為能使整體氛圍變得熱鬧且帶來笑聲。",
+        "keywords": [
+            "李承翰",
+            "幽默",
+            "活絡氣氛",
+            "逗樂"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "cc39150efc6ffeedb8374b5f37706391"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "semantic",
+        "description": "兩人有明確的互補分工：一方負責穩定與細節，另一方負責製造笑點，這種分工提升團隊的舒適感與效率。",
+        "keywords": [
+            "分工",
+            "互補",
+            "穩重",
+            "幽默",
+            "團隊氣氛"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "19b14858758c076080cd0e017c7e79b2"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "羅以青說「剛看到陳伯笑了，心裡踏實，覺得自己的耐心沒有白費」，當下她因陳伯的笑而感到放心。",
+        "keywords": [
+            "羅以青",
+            "陳伯笑",
+            "踏實",
+            "耐心"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "0f0cacfbacc059116254f4340a94581c"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "李承翰多次以幽默回應並稱讚羅以青是『定海神針』，表達出他對羅穩定角色的認可與感謝。",
+        "keywords": [
+            "李承翰",
+            "定海神針",
+            "稱讚",
+            "感謝"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "73dd4b91f1446455f404a357e286c85f"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "episodic",
+        "description": "兩人明確協商分工：李承翰去活絡氣氛，羅以青安靜穩重地處理該做的事，雙方因笑聲而互相放心。",
+        "keywords": [
+            "分工",
+            "活絡氣氛",
+            "細節",
+            "笑聲"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "a7be231581e026dddaf9fa35811b9d80"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "羅以青感到安心與踏實，看到他人因她的耐心得到快樂時，自我價值被肯定。",
+        "keywords": [
+            "安心",
+            "踏實",
+            "肯定",
+            "耐心"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "975ccc042914cb4e28d07d3994647669"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "李承翰感到開心與感激，因為羅的穩重讓他能放鬆表現幽默並享受逗笑的過程。",
+        "keywords": [
+            "開心",
+            "感激",
+            "放鬆",
+            "幽默"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "d0afec5899264604a9d6fbb50e340a19"
+    },
+    {
+        "created_time": "2020-07-02T00:00:00",
+        "type": "emotional",
+        "description": "雙方共享的愉悅氛圍帶來信任與協作感，笑聲成為他們互相依賴與配合的情緒紐帶。",
+        "keywords": [
+            "愉悅",
+            "信任",
+            "協作",
+            "笑聲"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "7f57aea42b01d94c97f3e61510abb83c"
+    }
+]

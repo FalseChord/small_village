@@ -1,0 +1,240 @@
+[
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "使用顏色標籤與檔案夾系統化管理學生分級名單與分班測驗準備，以便快速查找與後續操作。",
+        "keywords": [
+            "色彩標籤",
+            "分級名單",
+            "檔案夾",
+            "分班測驗"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "1fa147594c8778d23200979b9e6474e7"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "定期盤點與補充教學耗材（如白板筆、貼紙、獎品），並以拍照備份到雲端維持耗材記錄與供應鏈可追溯性。",
+        "keywords": [
+            "耗材管理",
+            "雲端備份",
+            "補貨計畫",
+            "白板筆",
+            "貼紙"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "064f49aab5574868ad5368b0258e8f79"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "在投入新教具（磁性單字卡）前進行適配測試（檢查字體大小與視距），以及事先排演遊戲化教學流程以評估是否適合錄製示範片。",
+        "keywords": [
+            "字卡測試",
+            "字體大小",
+            "視距適配",
+            "教學示範流程",
+            "遊戲化教學"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "ce78f13b1b337a545b0825acdebd31aa"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "2020-06-29 10:19 在彰化補習班二樓老師辦公室，因上午一堂課取消，李承翰趁空檔把櫃子裡多年累積的練習卷、單字卡與小獎品分類並補充耗材。",
+        "keywords": [
+            "2020-06-29 10:19",
+            "整理教具",
+            "取消課程",
+            "分類補充"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "3ecc15cf3c76b02f1a174c71c84bbea7"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "在整理期間，李承翰與助教小詩一邊泡熱茶一邊用幽默比喻討論並排演哪套遊戲更能吸引學生、方便拍成教學示範（當下只做流程排演，不實際拍片）。",
+        "keywords": [
+            "小詩",
+            "泡熱茶",
+            "幽默比喻",
+            "流程排演",
+            "不拍片"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "635b7907ef0cc32b10ef9a9579c4be4d"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "整理時發現有幾位學生的週末補課未記錄，李承翰翻起家長聯絡簿準備下課時補登記，並與小詩約定下午更新線上課程檔案命名規則以利管理，還提醒拍照備份耗材清單並約好下週去文具行補貨。",
+        "keywords": [
+            "補課未記錄",
+            "家長聯絡簿",
+            "檔名規則",
+            "雲端備份",
+            "補貨約定"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "1c68add7bac2c45f5136e88b7a4b763f"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "李承翰在整個整理過程中保持輕鬆且樂觀的心態，常以笑話緩解單調的工作，感受到放鬆與愉快。",
+        "keywords": [
+            "輕鬆",
+            "樂觀",
+            "幽默",
+            "放鬆"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "81c9e9aae2893ee55232dcc05eab3ac9"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "與助教小詩共同作業時感受到的合作感與同事情誼，透過共同排演與約定後續行動增強彼此信任與歸屬感。",
+        "keywords": [
+            "合作感",
+            "同事情誼",
+            "信任",
+            "共同計畫"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "b87d441354ecc930f8b29e83ebb50447"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "發現行政紀錄（週末補課）缺漏時產生的責任感與輕微擔憂，促使他主動準備補登記並建立更好的檔案命名與備份流程。",
+        "keywords": [
+            "責任感",
+            "擔憂",
+            "細節注意",
+            "行政責任"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "b0d1f8c0c2169a82f59e96b70681a50c"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "羅以青提到她對魚丸配方做了幾處改良，改良後可以冷凍保存，這是具體的烹飪/保存知識點。",
+        "keywords": [
+            "魚丸",
+            "配方改良",
+            "冷凍保存",
+            "食物保存"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "2343552f3c751da32db4f95b24f5a8c6"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "朋友之間會用虛擬獎牌或綽號作為互相鼓勵與調侃的社交互動手段，達到肯定與幽默的效果。",
+        "keywords": [
+            "虛擬金牌",
+            "綽號",
+            "鼓勵",
+            "社交互動"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "237a77ae040ab88088ac588b1ce7aff4"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "在日常閒聊中，接受方會以謙虛方式回應稱讚，同時允許對方低調炫耀，這是一種維持友誼平衡的互動模式。",
+        "keywords": [
+            "謙虛回應",
+            "低調炫耀",
+            "友誼平衡",
+            "互動模式"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "62f4016c380a509f2fb69bb503ddfbef"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "羅以青向李承翰告知她把魚丸配方改了幾處，現在可以冷凍保存，並表示自己有點小驕傲與得意。",
+        "keywords": [
+            "羅以青",
+            "魚丸改良",
+            "冷凍保存",
+            "得意"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "04bfc499b1f975225d7e7096515ceca7"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "李承翰用幽默方式回應，稱讚她細心有成果，並頒發『虛擬金牌』，後來又暗地封她為『心安達人』，還說會向朋友炫耀。",
+        "keywords": [
+            "李承翰",
+            "虛擬金牌",
+            "心安達人",
+            "幽默鼓勵",
+            "炫耀"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "030ada3c7ae862546081392461322f8c"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "羅以青多次謙虛地收下稱讚，但提醒李承翰不要把她說成什麼大師，要求保持適度得意與笑容。",
+        "keywords": [
+            "謙虛接受",
+            "界線設定",
+            "適度得意",
+            "笑容"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "6442ff33be36ce6d2d14c6e59d484e79"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "羅以青表現出小驕傲與踏實感，因為她的細心改良帶來實際成果（可冷凍保存）。",
+        "keywords": [
+            "小驕傲",
+            "踏實",
+            "自豪"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "afdeeb37719ae75bfcc636605116d18e"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "李承翰展現幽默與鼓勵的情緒，透過誇獎和頒獎式玩笑來表達支持與欣賞，帶有輕鬆愉快的情緒色彩。",
+        "keywords": [
+            "幽默",
+            "鼓勵",
+            "欣賞",
+            "輕鬆"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "9e483866ba56d43fb8e6ee266c0d5143"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "整段對話氛圍溫暖且帶有友善調侃，雙方互動親近但保持適度謙遜，情緒整體偏正向且舒適。",
+        "keywords": [
+            "溫暖",
+            "調侃",
+            "親近",
+            "正向"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "302bb040699672795e7a18dd308e34f1"
+    }
+]

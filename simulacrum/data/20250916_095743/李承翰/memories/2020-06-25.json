@@ -1,0 +1,228 @@
+[
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "semantic",
+        "description": "設計一個簡短的英語暖身活動可以在短時間內（約60秒）喚醒學生的語言狀態並產出可上傳的短片內容，適合用於課前熱身與社群經營。",
+        "keywords": [
+            "60秒暖身",
+            "短片產出",
+            "課前熱身",
+            "社群經營"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "818a1c97b6d5beaad693e8677f9344f0"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "semantic",
+        "description": "明確分工（出題、掌鏡/收道具、帶場示範）能在有限時間內完成準備與拍攝；有效的時間管理可將整個流程控制在六分鐘以內以配合上課時間。",
+        "keywords": [
+            "分工合作",
+            "掌鏡與道具管理",
+            "時間管理",
+            "六分鐘流程"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "2f9195dd85ed6a3dbd47284b0e7062bd"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "semantic",
+        "description": "結合幽默、誇張肢體語言、即興出題與中文補刀的教學方式，能提升學生參與度與互動效果，並且方便拍成具吸引力的短影音素材。",
+        "keywords": [
+            "幽默教學",
+            "肢體語言",
+            "即興出題",
+            "互動參與"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "892cc7f0d066a9852bb0a034c7f809eb"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "episodic",
+        "description": "2020-06-25 08:26 在補習班門口小廣場發起「60秒英語暖身挑戰」，我（李承翰）用招牌幽默對早到學生代表吳小龍講英文冷笑話，引發大家大笑，拉開活動序幕。",
+        "keywords": [
+            "08:26發起",
+            "英文冷笑話",
+            "吳小龍",
+            "廣場開場"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "3bfdeb93fa3081a120f105eb8a84c058"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "episodic",
+        "description": "拍攝過程中黃雅婷即興出題、陳志明掌鏡並收拾粉筆、小白板與紙牌，我在兩個鏡頭後立刻改良台詞與調整節奏，整個準備與拍攝在六分鐘內完成以趕上08:30上課。",
+        "keywords": [
+            "黃雅婷出題",
+            "陳志明掌鏡",
+            "改良台詞",
+            "六分鐘完成",
+            "趕上上課"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "d2dfb22b31f8c6769d0ee588161d1593"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "episodic",
+        "description": "附近咖啡店店員被吵到後順手送來兩杯小咖啡作為『暖場獎勵』，我笑著接受並在鏡頭前假裝把咖啡當頒獎獎盃頒給學生，最後交代黃雅婷回剪輯並標註班級準備午休上傳。",
+        "keywords": [
+            "咖啡暖場獎勵",
+            "店員贈送",
+            "假裝頒獎",
+            "剪輯上傳指示"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "1db77f7a9f9416a082324b09c41d7c37"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "emotional",
+        "description": "活動帶來的活力與興奮感：開場引笑與快速互動讓我感到充滿能量與成就，覺得這種即時互動非常有效且令人振奮。",
+        "keywords": [
+            "興奮",
+            "活力",
+            "成就感",
+            "即時互動"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "d0f26e99eb6958a086bb52931e18781f"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "emotional",
+        "description": "對團隊協作的信任與欣慰：看到黃雅婷、陳志明各司其職、咖啡店店員友善幫忙，讓我感到溫暖和被支持，信任團隊能在短時間內完成目標。",
+        "keywords": [
+            "信任團隊",
+            "被支持",
+            "溫暖",
+            "欣慰"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "d08d09a860f9c4265af258acf7c66c71"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "emotional",
+        "description": "幽默與連結帶來的愉悅和親近感：和學生一起大笑、用戲謔方式頒獎讓我感覺與學生距離拉近，產生愉快的師生連結。",
+        "keywords": [
+            "愉悅",
+            "親近感",
+            "師生連結",
+            "幽默共鳴"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "d5270fd5940522fff9504e4bc4163417"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "semantic",
+        "description": "李承翰邀請羅以青出來喝一杯，兩人討論改天見面這件事。",
+        "keywords": [
+            "邀請",
+            "喝一杯",
+            "見面計畫"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "86fdfa84e641c267f9b7dbc8df9f2f2f"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "semantic",
+        "description": "對話提到之前有一次「英語小挑戰」活動，李承翰曾經讓羅以青上台（或有逼上台的情況）。",
+        "keywords": [
+            "英語小挑戰",
+            "上台",
+            "過往事件"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "b6ae16e6ca0995091ea762a3a32920f8"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "semantic",
+        "description": "羅以青最近自己煮幾次覺得比較放鬆，烹飪被用作放鬆的方式。",
+        "keywords": [
+            "自己煮",
+            "放鬆",
+            "烹飪習慣"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "f8124b6302c53b21fd90c43d62aa090f"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "episodic",
+        "description": "李承翰主動發起對話，開頭以輕鬆口吻提起過去的英語小挑戰並邀請羅以青出來喝東西聊天，表達保證不會再逼她上台。",
+        "keywords": [
+            "李承翰邀請",
+            "不再逼上台",
+            "開場白"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "988de123d17b038d9b711d4762a5e994"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "episodic",
+        "description": "羅以青回應接受邀約但帶有條件（要相信李承翰真的不再逼她上台一半），並提到她最近自己煮幾次覺得比較放鬆，詢問對方何時有空。",
+        "keywords": [
+            "條件接受",
+            "半信半疑",
+            "提到煮飯"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "d90e8c423cbcc06a96f5e5b1de857195"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "episodic",
+        "description": "李承翰再一次重申保證不逼她上台，並追問具體時間：哪天有空出來喝一杯，展現積極促成見面的意圖。",
+        "keywords": [
+            "重申保證",
+            "追問時間",
+            "積極促成"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "87f01e4b2a074c598216adba8918b729"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "emotional",
+        "description": "整體語氣友善且輕鬆：李承翰以幽默、樂觀的方式邀約，呈現社交與重情義的特質。",
+        "keywords": [
+            "友善",
+            "幽默",
+            "樂觀"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "94cac81e217cc390fb179438e979699f"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "emotional",
+        "description": "羅以青對李承翰的保證持半信半疑的態度，表現出小心但願意嘗試的開放感。",
+        "keywords": [
+            "懷疑",
+            "保留",
+            "開放嘗試"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "c01e218e970e965f6aade4d4855410ac"
+    },
+    {
+        "created_time": "2020-06-25T00:00:00",
+        "type": "emotional",
+        "description": "雙方互動帶有輕快期待感，都想安排見面，但仍有小小的不確定性（時間未定、信任度未完全建立）。",
+        "keywords": [
+            "期待",
+            "不確定性",
+            "信任建立"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "9394361a6c362b516e1bc5d80a503fbb"
+    }
+]

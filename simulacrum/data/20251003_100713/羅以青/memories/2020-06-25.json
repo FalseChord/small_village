@@ -1,0 +1,227 @@
+[
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "semantic",
+        "description": "把鹽漬鯖魚用米酒、醬油、少許糖、薑片與蔥段腌製約10分鐘即可入味，之後兩面略煎再加入腌料和半碗熱水小火燜煮能保持魚肉濕潤。",
+        "keywords": [
+            "鹽漬鯖魚",
+            "腌製10分鐘",
+            "米酒醬油薑蔥"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "ecdaa5ad528b30e6f990322d55aca9ed"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "semantic",
+        "description": "在小套房做飯可同時使用電鍋煮飯與電陶爐/小鍋烹調不同菜色，保持廚台整潔與分裝可以提高效率並延長食物保存。",
+        "keywords": [
+            "電鍋",
+            "電陶爐",
+            "分裝與標註",
+            "廚台整潔"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "37a72ff0b5cf7f1ef92bd0a1713574d6"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "semantic",
+        "description": "將家常菜改良為可帶去學校分享的便當菜，並在包裝上標註料理日期與成分，有助於食品安全與教學互動，是以食促進社群連結的實務做法。",
+        "keywords": [
+            "便當分享",
+            "標註日期成分",
+            "教學互動",
+            "社群連結"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "8d9082c0553973ebc944742fe5ef2442"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "episodic",
+        "description": "2020-06-25 19:10，羅以青回到台北的小套房，放下公文包後在廚房開始備料與在小筆記本上記錄這次調味份量，計畫把這道菜改良為可帶去學校分享的便當菜。",
+        "keywords": [
+            "19:10",
+            "備料記錄",
+            "便當改良",
+            "小筆記本"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "638eb2643654d6a4927ced27c78b717f"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "episodic",
+        "description": "19:20–19:25 的烹飪流程：19:20開電鍋煮白飯，19:25在單口電陶爐把魚略煎定型後燜煮，同時用另一小鍋快炒青江菜，最後分成兩份並用小貼紙標註料理日期與成分。",
+        "keywords": [
+            "煮飯",
+            "煎魚燜煮",
+            "快炒青江菜",
+            "分裝標註"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "ea39f85b9ce6e3a062483fc53dd1fdc4"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "episodic",
+        "description": "19:35，她端了一小碟熱魚湯到隔壁王伯家簡短問候並把剩餘薑湯交給王伯，兩人在門口聊了幾句後她回家繼續收拾，整個互動短暫但有儀式感。",
+        "keywords": [
+            "19:35",
+            "王伯",
+            "薑湯",
+            "門口問候",
+            "短暫聊天"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "b27ad3ac32c0cd3d4775cc633cf1f358"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "emotional",
+        "description": "做菜過程讓羅以青從教學壓力中放鬆，烹飪成為她整理思緒、回想學生對話與激發教案靈感的內在療癒時間。",
+        "keywords": [
+            "放鬆",
+            "紓壓",
+            "整理思緒",
+            "教案靈感"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "3091202c99de264853733c2b0deadfe7"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "emotional",
+        "description": "她在備料、記錄配方與標註便當的細節上感到負責且有成就感，這種細心與周到反映了她對學生與鄰里的關懷。",
+        "keywords": [
+            "細心",
+            "負責",
+            "成就感",
+            "關懷"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "469e85d2c0b7eb3ea27ac3bbdeae6642"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "emotional",
+        "description": "把熱魚湯送給王伯並關心他的關節狀況帶來溫暖與連結感，使她感受到社區互助與人際溫情。",
+        "keywords": [
+            "溫暖",
+            "關懷鄰里",
+            "連結感",
+            "社區互助"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "88fb91e2990d66b16f0cebd0176342d6"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "semantic",
+        "description": "李承翰邀請羅以青改天出來喝一杯，並承諾不會再逼她上台，這是目前雙方約見的主要意圖與條件。",
+        "keywords": [
+            "出來喝一杯",
+            "不再逼上台",
+            "邀約條件"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "6adb64945de216bdfff99c9a5d4dbe93"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "semantic",
+        "description": "羅以青最近幾次靠自己煮飯來放鬆，表示她有透過烹飪紓解壓力的習慣。",
+        "keywords": [
+            "自己煮",
+            "放鬆",
+            "烹飪紓壓"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "c0744140682ff709c0228b50a9d89a49"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "semantic",
+        "description": "對話提到先前有一次「英語小挑戰」，暗示李承翰曾經在那次情境中催促羅以青上台（過去發生的互動事件）。",
+        "keywords": [
+            "英語小挑戰",
+            "逼上台",
+            "過往互動"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "781a04bb5145114156c68be909cc7761"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "episodic",
+        "description": "李承翰發出第一則訊息：關心羅以青近況、提到英語小挑戰的往事，並以「改天出來喝杯東西」邀約，同時保證不再逼她上台。",
+        "keywords": [
+            "李承翰邀約",
+            "關心近況",
+            "保證不逼"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "e35c6fd07f627ab33d86708dd7001867"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "episodic",
+        "description": "羅以青回覆接受邀約，表示最近靠自己煮比較放鬆，但對不再被逼上台持半信半疑態度，並反問哪天有空。",
+        "keywords": [
+            "接受邀約",
+            "半信半疑",
+            "自己煮放鬆"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "f7802740d8caec8a88b67b01e089df04"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "episodic",
+        "description": "李承翰再次回應，重申不會逼她上台，並直接詢問對方哪天有空出來喝一杯，推進實際約定的安排。",
+        "keywords": [
+            "重申承諾",
+            "詢問時間",
+            "推進約定"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "9a1f208032b1a6041817ddc7f1d42944"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "emotional",
+        "description": "李承翰表現出友善與願意安撫的情緒：透過保證不再逼羅以青上台來降低對方的顧慮，態度溫和且有誠意。",
+        "keywords": [
+            "友善",
+            "安撫",
+            "誠意邀約"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "6dd2c1b989a8e614bac19146b301f3bc"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "emotional",
+        "description": "羅以青表現出謹慎且半信半疑的情緒：她接受邀約但明確表示只相信一半，顯示信任正在逐步建立但仍保有防備。",
+        "keywords": [
+            "謹慎",
+            "半信半疑",
+            "信任逐步建立"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "2faa0c3c2f31d8cfdcef8d077104f7f9"
+    },
+    {
+        "created_time": "2020-06-25 00:00:00",
+        "type": "emotional",
+        "description": "整體對話帶有輕鬆日常的情緒色彩：提到自己煮飯放鬆與喝一杯的社交邀約，氛圍偏向平常的朋友相處與放鬆聊天。",
+        "keywords": [
+            "放鬆",
+            "日常閒聊",
+            "社交邀約"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "ada8c8600bd12843e024e4bb0368f730"
+    }
+]

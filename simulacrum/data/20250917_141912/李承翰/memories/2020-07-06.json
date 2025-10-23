@@ -1,0 +1,122 @@
+[
+    {
+        "created_time": "2020-07-06T00:00:00",
+        "type": "semantic",
+        "description": "雙方約定於週六下午4點見面喝咖啡，李承翰提出請客，羅以青同意並會準時到場。",
+        "keywords": [
+            "週六",
+            "下午4點",
+            "喝咖啡",
+            "李承翰請客",
+            "羅以青準時"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "03470fa4fb1315314d291bdef67e36c2"
+    },
+    {
+        "created_time": "2020-07-06T00:00:00",
+        "type": "semantic",
+        "description": "李承翰以幽默風格反覆承諾準備笑話並用請咖啡作為補償，將幽默作為互動手段。",
+        "keywords": [
+            "幽默",
+            "笑話",
+            "請咖啡",
+            "暖場",
+            "承諾"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "7983144701ced2a75251b6242d43012e"
+    },
+    {
+        "created_time": "2020-07-06T00:00:00",
+        "type": "semantic",
+        "description": "羅以青表現出耐心與配合，願意接受輕鬆聊天的邀約並提醒李承翰要努力暖場。",
+        "keywords": [
+            "耐心",
+            "輕鬆聊天",
+            "接受邀約",
+            "配合",
+            "提醒暖場"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "4772dc90d2585ed50ffec3c572e7148b"
+    },
+    {
+        "created_time": "2020-07-06T00:00:00",
+        "type": "episodic",
+        "description": "李承翰以「你那句肯定我還放在心裡」為切入邀約羅以青喝咖啡並說出鼓舞之意，開啟見面提議。",
+        "keywords": [
+            "邀約",
+            "肯定的話",
+            "開場",
+            "李承翰提議"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "4558205591a32a13f670574a4c133254"
+    },
+    {
+        "created_time": "2020-07-06T00:00:00",
+        "type": "episodic",
+        "description": "雙方多次確認週六下午見面時間，最終定於4點，李承翰多次重申自己請咖啡，羅以青確認準時且放心交給他。",
+        "keywords": [
+            "確認時間",
+            "週六四點",
+            "多次重申",
+            "李承翰請咖啡"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "56008b87ca7e0a2c937c5ad3a9a44b1a"
+    },
+    {
+        "created_time": "2020-07-06T00:00:00",
+        "type": "episodic",
+        "description": "在多次來回中出現輕鬆的打趣：李承翰自嘲笑話品質無保證並提出若出包請第二杯，羅以青接受條件並同樣以玩笑回應。",
+        "keywords": [
+            "打趣",
+            "第二杯賠償",
+            "笑話品質",
+            "玩笑互動"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "027e5711c44d596927b0bcba48beba00"
+    },
+    {
+        "created_time": "2020-07-06T00:00:00",
+        "type": "emotional",
+        "description": "李承翰因羅以青先前的肯定感到被鼓舞與感激，這份被肯定感成為他主動邀約的情感動力。",
+        "keywords": [
+            "被鼓舞",
+            "感激",
+            "肯定的影響"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "ebc90f700b52680a8d28e69b947812fb"
+    },
+    {
+        "created_time": "2020-07-06T00:00:00",
+        "type": "emotional",
+        "description": "雙方對見面表現出期待與輕鬆的心情，整體對話氛圍友好且無壓力，帶有平和的期待感。",
+        "keywords": [
+            "期待",
+            "輕鬆",
+            "友好",
+            "無壓力"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "548cc64712c3eee0226f9d97cbf32666"
+    },
+    {
+        "created_time": "2020-07-06T00:00:00",
+        "type": "emotional",
+        "description": "對話充滿玩笑與互信的氛圍：李承翰以幽默試探場面，羅以青以耐心和善意回應，顯示熟悉與舒適感。",
+        "keywords": [
+            "玩笑",
+            "互信",
+            "耐心",
+            "舒適感",
+            "熟悉"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "ab6b3e7c8c5d8c3e0939ae2f05b8b2f7"
+    }
+]

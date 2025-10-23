@@ -1,0 +1,239 @@
+[
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "semantic",
+        "description": "我學到在家用簡單器材也能拍出短影片的技術細節：環形燈、手機穩定器與小單眼（Sony A6400）搭配橫拍與近距離手部鏡頭能有效呈現烹飪動作與細節。",
+        "keywords": [
+            "環形燈",
+            "Sony A6400",
+            "穩定器",
+            "橫拍",
+            "手部近距鏡頭"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "ba522473678b9582f74e3c38b6cdd200"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "semantic",
+        "description": "短影片的社群節奏與發佈策略：先在上下午放一則預告（例如14:00），將完整短片排到晚間發佈，並針對平台（Instagram Reels、YouTube Shorts）優化內容與版面（如俐落字幕、快速食譜卡）。",
+        "keywords": [
+            "Instagram Reels",
+            "YouTube Shorts",
+            "發佈時程",
+            "字幕",
+            "食譜卡"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "83fee92443a134986c10ca92241d776d"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "semantic",
+        "description": "內容增進親和力的方法：在影片中加入英語單字小教學、即興互動（把外來打擾變成梗）、以及保留小失誤花絮（掉美乃滋）都能增加真實感與觀眾黏著度。",
+        "keywords": [
+            "幽默風格",
+            "英語教學",
+            "即興互動",
+            "花絮",
+            "親和力"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "932f7da7485002904f95e8912edbd8a5"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "episodic",
+        "description": "2020-06-21 13:19 在北區公寓的小廚房開始試錄「補教老師的快速午餐：5分鐘能量三明治」，我架好環形燈、手機穩定器和Sony A6400，設定橫拍與近距離手部鏡頭，測試新的拍攝角度與台詞節奏，並用風趣自嘲的口吻示範備料，同時插入英語單字教學。",
+        "keywords": [
+            "13:19",
+            "小廚房錄影",
+            "測試台詞節奏",
+            "英語單字教學"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "35c262d097e5db9c746cfb973461d45f"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "episodic",
+        "description": "在第二次示範抹美乃滋時，鄰居林小姐敲門借糖，我一邊應付她一邊把這件事即興變成梗（稱作「教師界交換能量」），並邀請她進來當臨時試吃員，整個片段成為拍攝中的亮點。",
+        "keywords": [
+            "林小姐",
+            "敲門借糖",
+            "即興梗",
+            "臨時試吃員"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "d886678dca55291629b99764b98e966c"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "episodic",
+        "description": "錄影結束後，好友兼同事阿瑋短暫來訪並幫我回放影片給予鏡頭與字幕建議（建議做俐落字幕、加快速食譜卡），我在13:40前剪下幾個好梗，準備14:00的預告貼文並排晚間發佈完整影片。",
+        "keywords": [
+            "阿瑋回放建議",
+            "剪輯好梗",
+            "預告上傳",
+            "發佈排程"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "485c817722301fe1567e01f4ff880d60"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "emotional",
+        "description": "因為能把突發狀況融入內容而感到有趣與興奮，當鄰居變成即興配角時，我覺得既好玩又被社交能量激勵。",
+        "keywords": [
+            "幽默",
+            "興奮",
+            "即興",
+            "社交互動"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "a4ff846d68ec4137a11f30311a17a102"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "emotional",
+        "description": "對於錄影中掉了點美乃滋有短暫的尷尬，但我以自嘲和保留花絮的方式轉化成親和力，感到一種帶點慶幸的釋放感。",
+        "keywords": [
+            "尷尬",
+            "掉美乃滋",
+            "自嘲",
+            "真實感"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "5af838bf5486298eec0392e317b571be"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "emotional",
+        "description": "在有同事幫忙回放給建議、並能迅速剪好預告與排程後，我感到自豪與滿足，覺得自己能同時兼顧教學工作與社群經營。",
+        "keywords": [
+            "自豪",
+            "滿足",
+            "團隊協作",
+            "效率"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "6992dd6277df7e509bdc66771004a8d9"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "semantic",
+        "description": "會話中出現一個即興的笑梗，內容與美乃滋（抹美乃滋）有關，並且曾用來化解尷尬場面。",
+        "keywords": [
+            "即興梗",
+            "美乃滋",
+            "化解尷尬",
+            "幽默救場"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "5cc579fa2d4e81331e90811b5e1059b3"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "semantic",
+        "description": "羅以青有主動交代魚販不要把食物弄得太鹹，特別是為了家中年長成員的健康著想。",
+        "keywords": [
+            "交代魚販",
+            "食物不要太鹹",
+            "老人家健康",
+            "飲食注意"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "cea25773f07cd9f281d7af860dccd714"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "semantic",
+        "description": "李承翰用玩笑式提議（「鹽味臨檢員」）表示願意實際陪同去處理或監督魚販，帶有輕鬆戲謔的語氣。",
+        "keywords": [
+            "鹽味臨檢員",
+            "陪同提議",
+            "戲謔",
+            "社交支持"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "62381f091cdc9a1540d3171e8f48bdd3"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "episodic",
+        "description": "李承翰回憶起一次場景：一邊應付敲門借糖的林小姐，一邊即興把抹美乃滋當成笑梗來解圍，那次即興令他印象深刻並覺得好笑。",
+        "keywords": [
+            "李承翰回憶",
+            "敲門借糖的林小姐",
+            "抹美乃滋梗",
+            "即興救場"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "7545dc86ac8e514195922dc1377983b2"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "episodic",
+        "description": "羅以青在對話中提到自己曾經特意交代魚販，強調不要讓家裡的老人吃太鹹，這是一個具體的關心行為和已發生的指示。",
+        "keywords": [
+            "羅以青關心",
+            "交代魚販",
+            "避免太鹹",
+            "照顧老人"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "d72ab4d5caf25be9f022593c4effda9f"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "episodic",
+        "description": "李承翰在對話中即時回應羅以青的話，開玩笑提出下次陪她去當「鹽味臨檢員」，這是一段友好互動並帶有戲謔的邀約。",
+        "keywords": [
+            "李承翰邀約",
+            "鹽味臨檢員",
+            "友好互動",
+            "戲謔邀請"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "41797bb5f4d93b37a4301cd57a4069bf"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "emotional",
+        "description": "對即興梗和回憶那次尷尬救場有明顯的愉快與好笑感受，雙方對那段回憶都帶有輕鬆和笑意。",
+        "keywords": [
+            "愉快",
+            "好笑",
+            "懷舊",
+            "輕鬆氛圍"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "38a549b9a9702c21d10a4c7ed03970c4"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "emotional",
+        "description": "羅以青表現出對家中長輩健康的擔憂與負責感，對食物鹹度問題較為在意，情緒偏向小心與關切。",
+        "keywords": [
+            "擔憂",
+            "關切長輩",
+            "負責感",
+            "飲食安全"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "4c1290eb8b732835b5072cbda9a6af45"
+    },
+    {
+        "created_time": "2020-06-21T00:00:00",
+        "type": "emotional",
+        "description": "李承翰展現出幽默與親近感，透過開玩笑的陪伴提議表達支持與友善，情緒上帶有溫暖的戲謔感。",
+        "keywords": [
+            "幽默",
+            "親近感",
+            "支持",
+            "戲謔溫暖"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "08e22e002d9f13fee61bbc8044ecdeb6"
+    }
+]

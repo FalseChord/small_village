@@ -292,30 +292,34 @@ def main():
     # 初始化所有人格
     personas = initialize_personas(gpt_interface, embedding_interface)
     
-    # 初始化模擬器
-    simulator = Simulator(
-        personas=personas,
-        gpt_interface=gpt_interface,
-        embedding_interface=embedding_interface
-    )
-    
     # 獲取啟動選項並載入記憶
     startup_option = get_startup_option()
     if startup_option is None:
         return
     
+    loaded_data_folder = None
     if startup_option == 1:
         # 選擇資料夾載入記憶
         selected_folder = select_data_folder()
         if selected_folder:
+            loaded_data_folder = selected_folder
             load_memories_from_folder(personas, selected_folder)
         else:
             print("❌ 未選擇資料夾，程式終止")
             return
-    elif startup_option == 2:
+    
+    # 初始化模擬器（傳入載入的資料夾路徑）
+    simulator = Simulator(
+        personas=personas,
+        gpt_interface=gpt_interface,
+        embedding_interface=embedding_interface,
+        loaded_data_folder=loaded_data_folder
+    )
+    
+    if startup_option == 2:
         # 載入初始化記憶檔案
         load_initial_memories(personas, simulator.data_dir)
-    else:
+    elif startup_option == 3:
         # 選項 3：不載入任何記憶
         print("🆕 以空白記憶開始模擬")
     

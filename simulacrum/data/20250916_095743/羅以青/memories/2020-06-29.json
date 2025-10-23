@@ -1,0 +1,251 @@
+[
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "魚丸的基本製作知識：以冷凍鱈魚切塊退冰後打成魚漿，分次加入太白粉、少許鹽、白胡椒與冰水，用手持攪拌棒搗打以取得適當黏性，再以滾水試煮檢驗成形與熟度。",
+        "keywords": [
+            "鱈魚魚漿",
+            "太白粉",
+            "冰水",
+            "攪拌與試煮",
+            "調味"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "8189f00809baff0a57b5cd1ebde8b1e4"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "配方與口感控制的概念：透過記錄魚肉與粉的比例、攪拌時間和冰水用量來調整彈性與口感，並以小批量試煮作為反覆改良的方法。",
+        "keywords": [
+            "比例紀錄",
+            "攪拌時間",
+            "口感調整",
+            "試煮改良",
+            "筆記習慣"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "08dd3ea495ec6afea69850486afeaaa0"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "實務廚房流程與保存方式：烹飪前換上圍裙、檢查火力穩定、分裝成功品並標註日期後冷凍保存，以及在社區內分享試吃樣品的鄰里互動流程。",
+        "keywords": [
+            "衛生習慣",
+            "火力檢查",
+            "分裝冷凍",
+            "標註日期",
+            "分享樣品"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "ebad2893dbfd694c34beb98d6d0ad948"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "2020-06-29 18:06 在台北小套房廚房開始做魚丸：羅以青把學校文件放下、換上圍裙，從冰箱取出昨天下午買的冷凍鱈魚並切塊放袋退冰，準備重現母親的家鄉做法帶回給祖父母。",
+        "keywords": [
+            "18:06",
+            "小套房廚房",
+            "換圍裙",
+            "鱈魚退冰",
+            "帶回家"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "4b9f7865ea4a62bb47cdba54fff0a5eb"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "18:20 試煮與調整過程的片段：她用手持攪拌棒打成魚漿，一邊做筆記記錄每一步的份量與口感，挾一小球魚漿投入滾水觀察是否會裂開並記下改良點，中間擦汗並檢查火力穩定性。",
+        "keywords": [
+            "18:20",
+            "滾水測試",
+            "挾球檢查",
+            "記筆記",
+            "擦汗"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "bd86ca5dd78db3be182ba80c1bf31a60"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "完成與鄰里互動的結尾場景：把成功的一批魚丸分裝好標註日期冷凍保存，隔壁王小姐聞香敲門稱讚並問要不要幫忙換果菜籃，羅以青給了她一小盒試吃樣品，約好週末交換家常菜心得。",
+        "keywords": [
+            "分裝冷凍",
+            "王小姐敲門",
+            "稱讚",
+            "試吃樣品",
+            "週末交換"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "428ab04aee2e50cce51fe2abe9905580"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "思鄉與溫馨的念想：在料理過程中頻繁回想起小鎮味道，心中有強烈的想把家鄉口味做給父母和祖父母吃的渴望與溫暖牽繫感。",
+        "keywords": [
+            "思鄉",
+            "懷念家鄉味",
+            "想念家人",
+            "回家計劃"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "dc6505ac26571889ac8a2e638e3bc17f"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "成就感與自豪：細心記錄配方、成功做出能冷凍保存的魚丸並標註改良註記，讓她感到自信、認真與對自己手藝的驕傲。",
+        "keywords": [
+            "成就感",
+            "自豪",
+            "細心記錄",
+            "技藝熟練"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "f12ea481fae232324d9d863f427c07b0"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "被肯定的溫暖與社交舒適感：鄰居的稱讚與友善寒暄帶來被認可的喜悅，與王小姐短暫交流與未來交換心得的約定增加了社區連結感。",
+        "keywords": [
+            "被稱讚",
+            "鄰里互動",
+            "分享喜悅",
+            "社區連結"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "be9a100f092304d8926de4ef47e74311"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "羅以青把魚丸配方做了幾處改良，現在能夠冷凍保存——這是一個可行的烹飪/保存方法改進。",
+        "keywords": [
+            "魚丸",
+            "配方改良",
+            "冷凍保存",
+            "保存穩定性",
+            "烹飪技巧"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "70c01978fd51f51933b54560392349f8"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "朋友之間常用誇張的讚美或虛擬獎牌來表達鼓勵，這種社交互動能強化成就感。",
+        "keywords": [
+            "虛擬金牌",
+            "讚美",
+            "社交強化",
+            "鼓勵",
+            "幽默表達"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "782bac0605541d52cd4f3d7197f7974b"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "semantic",
+        "description": "給予暱稱或稱號（例如「心安達人」）可以作為簡短的肯定，並可能引發對方願意被炫耀或分享的行為。",
+        "keywords": [
+            "心安達人",
+            "稱號",
+            "肯定",
+            "炫耀",
+            "分享動機"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "9c5bcc2e01ca14d1fb6e0773efde65e3"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "羅以青向李承翰說明自己把魚丸配方改了幾處，能冷凍保存，並表達自己對此有點小驕傲。",
+        "keywords": [
+            "羅以青",
+            "告知",
+            "魚丸配方",
+            "冷凍",
+            "小驕傲"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "581e808196c9524be1d5ed2d8eda0da1"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "李承翰以誇張的讚美和虛擬金牌回應，稱讚羅以青細心有成果，並暗示要向朋友炫耀她是「心安達人」。",
+        "keywords": [
+            "李承翰",
+            "虛擬金牌",
+            "讚美回應",
+            "炫耀計畫",
+            "心安達人"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "68fbb5f66936e8e67a96b21210de1689"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "episodic",
+        "description": "羅以青接受稱讚但保持低調，提醒對方別把她說成大師，雙方以輕鬆玩笑和互相收下稱號收尾。",
+        "keywords": [
+            "接受稱讚",
+            "低調",
+            "避免誇大",
+            "玩笑收尾",
+            "互動結束"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "bf7bc9eb8cdfaddb8deb29b29e11c501"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "羅以青感到小驕傲與心安，因為她的細心改良讓配方更穩定，這帶來內在的成就感與踏實感。",
+        "keywords": [
+            "驕傲",
+            "心安",
+            "成就感",
+            "細心",
+            "踏實"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "ea358319564fd8cfee9ab874938025de"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "李承翰表現出支持與幽默，用誇張讚美和虛擬獎勵來鼓勵朋友，氣氛輕鬆且溫暖。",
+        "keywords": [
+            "支持",
+            "幽默",
+            "鼓勵",
+            "溫暖",
+            "輕鬆氛圍"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "3b49ee1e24ea7009ce1f833a7db057ad"
+    },
+    {
+        "created_time": "2020-06-29T00:00:00",
+        "type": "emotional",
+        "description": "互動中同時流露謙遜與愉悅：羅以青謹慎避免被過度誇大，而雙方的玩笑與炫耀意圖帶來友好的愉悅感。",
+        "keywords": [
+            "謙遜",
+            "自我保護",
+            "愉悅",
+            "友好炫耀",
+            "界限感"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "7fd50e5fce2ecd9278bcb03b22225178"
+    }
+]

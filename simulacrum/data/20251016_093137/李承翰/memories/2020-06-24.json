@@ -1,0 +1,236 @@
+[
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "semantic",
+        "description": "李承翰把 because / since / as 三個連接詞的差異用生活化例句拆解，並將句子口語化以適合短影片呈現，形成教學素材轉化為社群內容的流程知識。",
+        "keywords": [
+            "連接詞差異",
+            "教學口語化",
+            "短影片腳本"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "9eb6c648d9d8ff066d507d1928898975"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "semantic",
+        "description": "使用三個小道具（咖啡杯、鬧鐘、笑臉貼紙）作為語法功能的視覺提示，能提高觀眾理解與記憶效果，適合做為教學示範的媒介策略。",
+        "keywords": [
+            "教學道具",
+            "視覺提示",
+            "記憶強化"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "0c5acce9b0cf35325bf6f6b8c84fe8f3"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "semantic",
+        "description": "把教學短片存到班務雲端資料夾並標註發佈時間（7:45）以及在備課表上把課堂練習分成兩個小組活動，形成課前暖場與課堂分組流程的時間管理與組織方法。",
+        "keywords": [
+            "雲端備份",
+            "發佈排程",
+            "分組流程"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "7688c94f2624c11e7e6e20bf66e50ee4"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "episodic",
+        "description": "2020-06-24 07:32 在補習班二樓備課室，李承翰在小白板列出 because / since / as 並用幽默日常例句拆解差異，邊講邊把例句改成適合 Reels 的口語版本，為上午 8:00 的課做最後準備。",
+        "keywords": [
+            "07:32",
+            "備課室",
+            "連接詞教學"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "c3a6fe65bf6da1b7a80b5e706d4ff443"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "episodic",
+        "description": "他趁機錄製一段 90 秒的 Instagram Reels：開場誇張吸睛表情、用咖啡杯/鬧鐘/笑臉貼紙示範、最後拋出互動問題，計畫在 7:45 發佈作為課前暖場。",
+        "keywords": [
+            "Instagram Reels",
+            "90秒錄影",
+            "7:45 發佈"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "c790b14ca191a7ea3a935496544c6ea3"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "episodic",
+        "description": "錄影時同事陳小雅來借投影檔案，兩人即興對話、互相調整例句與投影片順序，承翰把影片存到班務雲端資料夾並在備課表上寫好兩組小組活動的流程。",
+        "keywords": [
+            "陳小雅",
+            "即興對話",
+            "雲端存檔"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "19deb3eb031074affc29ffbc0cdc5677"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "emotional",
+        "description": "錄製與教學準備過程中感到自信與興奮——因為能把教學重點轉成有趣的短片，並預期能吸引學生互動，李承翰感到有成就感。",
+        "keywords": [
+            "自信",
+            "興奮",
+            "成就感"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "6f320a30d432937453f4ea5cee1d13e9"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "emotional",
+        "description": "與陳小雅的即興互動帶來輕鬆與幽默感，兩人的打趣與合作讓他感受到社交愉悅與同事情誼的溫暖。",
+        "keywords": [
+            "幽默",
+            "合作",
+            "情誼溫暖"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "948f706cd1d46e57c5e3a7daab47f03c"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "emotional",
+        "description": "在時間管理與課程安排上有效率完成多項任務（錄影、存檔、分組流程），產生安心與準備充分的踏實感。",
+        "keywords": [
+            "效率感",
+            "安心",
+            "踏實"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "144b01c5efc42f3d5ebf962a228919c3"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "semantic",
+        "description": "羅以青計畫隔天早上去和學生談話，因為她看到學生寫的那段讓她放心不下，這是她接下來要採取的行動計畫。",
+        "keywords": [
+            "羅以青",
+            "學生寫作",
+            "隔天早上",
+            "談話",
+            "行動計畫"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "0559c816dbe93691e38179b57e64caf0"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "semantic",
+        "description": "李承翰同意陪羅以青去並提出請咖啡，且主動表示可以順便帶甜點以示安慰，顯示他傾向以陪伴和小點心作為支持方式。",
+        "keywords": [
+            "李承翰",
+            "陪伴",
+            "請咖啡",
+            "帶甜點",
+            "支持方式"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "bb30c278ff152a5cc621cd30c1b111d6"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "semantic",
+        "description": "兩人使用喝咖啡聊天作為處理疑慮與提供情感支持的非正式方式，強調陪伴勝於形式上的安排。",
+        "keywords": [
+            "喝咖啡",
+            "聊天",
+            "陪伴安慰",
+            "非正式會談",
+            "情感支持"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "7f79d892f54e2e7f001e104bf47ffe17"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "episodic",
+        "description": "羅以青向李承翰表達她看到學生寫的那段讓她放心不下，並提出明早要去和學生聊聊，同時邀請李承翰陪她喝杯咖啡。",
+        "keywords": [
+            "羅以青擔憂",
+            "邀請陪伴",
+            "明早",
+            "喝咖啡",
+            "和學生談話"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "6642b14d51c30a98d202c21c4429cea0"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "episodic",
+        "description": "李承翰回應願意明早陪同，並主動提出請咖啡與帶甜點來安慰，展現具體的支持與關懷行為。",
+        "keywords": [
+            "李承翰答應",
+            "主動提供",
+            "請咖啡",
+            "帶甜點",
+            "關懷行為"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "0a21ccb503713027c7b5ffae20785289"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "episodic",
+        "description": "羅以青接受李承翰的提議並表達感謝，強調早上有人陪伴聊天就足夠，雙方達成簡單的陪伴安排。",
+        "keywords": [
+            "接受提議",
+            "感謝",
+            "陪伴重要",
+            "達成共識",
+            "簡單安排"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "91dfdff79e357780414cb0584b954b1f"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "emotional",
+        "description": "羅以青對學生寫作內容感到擔心與不安，這份負擔驅使她想親自跟學生聊聊以釐清情況。",
+        "keywords": [
+            "擔心",
+            "不安",
+            "學生寫作",
+            "責任感",
+            "焦慮"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "871853113f7b9410be66e69fcf90802a"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "emotional",
+        "description": "李承翰展現溫暖且支持的情緒，透過願意陪伴與提出甜點來安慰，帶有樂觀與關懷的氛圍。",
+        "keywords": [
+            "支持",
+            "安慰",
+            "溫暖",
+            "樂觀",
+            "主動"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "ef68595d2fe3df808e583fb8eb0637c2"
+    },
+    {
+        "created_time": "2020-06-24 00:00:00",
+        "type": "emotional",
+        "description": "在李承翰答應陪伴後，羅以青感到些許放心與感激，重視被理解與有人在場的安心感多於物質慰藉。",
+        "keywords": [
+            "放心",
+            "感激",
+            "被支持",
+            "陪伴安心",
+            "釋然"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "1856adf865daa0ac699ed5218369a76f"
+    }
+]

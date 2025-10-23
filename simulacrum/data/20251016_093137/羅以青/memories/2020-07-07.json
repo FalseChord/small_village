@@ -1,0 +1,119 @@
+[
+    {
+        "created_time": "2020-07-07 00:00:00",
+        "type": "semantic",
+        "description": "支持性語言（簡短鼓勵和肯定）可以立即減少上課前或上課中的緊張，幫助行為表現更穩定。",
+        "keywords": [
+            "支持性語言",
+            "減緩緊張",
+            "上課穩定",
+            "鼓勵"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "359d5d343cd0112c9b6d99454de0b981"
+    },
+    {
+        "created_time": "2020-07-07 00:00:00",
+        "type": "semantic",
+        "description": "他人明確表示看到努力（被看見）能強化自信心，讓當事人在場景中更能自在應對。",
+        "keywords": [
+            "看到努力",
+            "增強自信",
+            "被看見",
+            "自在應對"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "8222e0b756a4ddf642b87c9a9c3eb430"
+    },
+    {
+        "created_time": "2020-07-07 00:00:00",
+        "type": "semantic",
+        "description": "給予實用建議（如放輕鬆、照自己的節奏、你有這個底子）是一種有效的短期情緒與表現調節策略。",
+        "keywords": [
+            "放輕鬆",
+            "照節奏",
+            "實用建議",
+            "情緒調節"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "11010aecff61369eff2eb56f2bc9bcbe"
+    },
+    {
+        "created_time": "2020-07-07 00:00:00",
+        "type": "episodic",
+        "description": "李承翰多次向羅以青表達感謝，說她的一句話就讓他上課穩多了，表示支持直接改善了他的緊張狀態。",
+        "keywords": [
+            "李承翰感謝",
+            "一句話改變",
+            "上課穩定",
+            "緩解緊張"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "a39ce3e2803c2b26663254b92ead66de"
+    },
+    {
+        "created_time": "2020-07-07 00:00:00",
+        "type": "episodic",
+        "description": "羅以青回應說看到李的努力讓她放心，並多次鼓勵他放輕鬆、照自己的節奏走，展現出耐心與負責的支持方式。",
+        "keywords": [
+            "羅以青鼓勵",
+            "看到努力",
+            "放輕鬆",
+            "照節奏"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "dba49063ae8d9400addcda3d44bcf436"
+    },
+    {
+        "created_time": "2020-07-07 00:00:00",
+        "type": "episodic",
+        "description": "整段對話為日常閒聊式的互動，雙方透過肯定與回應建立短期的情感連結與信任感（李感謝、羅感到踏實）。",
+        "keywords": [
+            "日常閒聊",
+            "互相肯定",
+            "建立信任",
+            "情感連結"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "95609dc43200c3283c4f70ac00e42b8a"
+    },
+    {
+        "created_time": "2020-07-07 00:00:00",
+        "type": "emotional",
+        "description": "李承翰感到強烈的感激與放鬆，被羅以青的話語支持後情緒由緊張轉為輕鬆、安心。",
+        "keywords": [
+            "感激",
+            "放鬆",
+            "安心",
+            "被支持"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "cbe6d77af57f9ee7490d4f937d063183"
+    },
+    {
+        "created_time": "2020-07-07 00:00:00",
+        "type": "emotional",
+        "description": "羅以青感到踏實與安心，因為她看到李的努力並相信他的準備，回應中帶有溫暖與穩重。",
+        "keywords": [
+            "踏實",
+            "安心",
+            "溫暖",
+            "穩重"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "6eae53927602319a403d23212c737059"
+    },
+    {
+        "created_time": "2020-07-07 00:00:00",
+        "type": "emotional",
+        "description": "整體對話氛圍為溫暖且鼓勵性的互動，使雙方感受到互相支援與情緒穩定。",
+        "keywords": [
+            "溫暖",
+            "鼓勵",
+            "互相支援",
+            "情緒穩定"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "52a749e1d2449bf7075a6fc9ef1f0d65"
+    }
+]

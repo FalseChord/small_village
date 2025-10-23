@@ -1,0 +1,121 @@
+[
+    {
+        "id": "9673db27f8829411098e50b2c7ef59af",
+        "created_time": "2020-07-10 00:00:00",
+        "type": "semantic",
+        "description": "在日常互動中，透過小物（如黑咖啡、貼紙、迷你獎章）作為獎勵或儀式來表達關心與鼓勵是一種常見的社交策略。",
+        "keywords": [
+            "小儀式",
+            "黑咖啡",
+            "貼紙",
+            "獎勵",
+            "鼓勵"
+        ],
+        "emotional_intensity": 0.3
+    },
+    {
+        "id": "adf97266a89113e393ecf694571a24dd",
+        "created_time": "2020-07-10 00:00:00",
+        "type": "semantic",
+        "description": "以幽默化、非正式的『獎項』（例如「最佳傾聽獎」）來肯定對方，是建立親密感和輕鬆氛圍的溝通方式。",
+        "keywords": [
+            "最佳傾聽獎",
+            "口頭獎勵",
+            "幽默互動",
+            "社交肯定"
+        ],
+        "emotional_intensity": 0.2
+    },
+    {
+        "id": "32e4fec10700e98bcaede4bb80c2e63f",
+        "created_time": "2020-07-10 00:00:00",
+        "type": "semantic",
+        "description": "肢體或象徵性動作（掌聲、頒獎、獎章）能在短時間內傳遞支持與溫暖，增強人際連結。",
+        "keywords": [
+            "掌聲",
+            "迷你獎章",
+            "社交連結",
+            "溫暖"
+        ],
+        "emotional_intensity": 0.25
+    },
+    {
+        "id": "22b2143fa5824c9f4eac6a60bceb605c",
+        "created_time": "2020-07-10 00:00:00",
+        "type": "episodic",
+        "description": "李承翰在課堂中多次逗趣地邀請羅以青「先領最佳傾聽獎」，並提議放學把他買的黑咖啡親手交給她。",
+        "keywords": [
+            "李承翰",
+            "羅以青",
+            "放學見",
+            "黑咖啡",
+            "最佳傾聽獎"
+        ],
+        "emotional_intensity": 0.6
+    },
+    {
+        "id": "08bec8883bf394cdae91bb315a2a55d4",
+        "created_time": "2020-07-10 00:00:00",
+        "type": "episodic",
+        "description": "羅以青回應會把貼紙貼在教案夾上，把咖啡留到放學作為小儀式，並向李承翰表達謝意。",
+        "keywords": [
+            "教案夾",
+            "貼紙",
+            "小儀式",
+            "感謝"
+        ],
+        "emotional_intensity": 0.55
+    },
+    {
+        "id": "9fb6b1de57604ab0c05053f3e86f60f0",
+        "created_time": "2020-07-10 00:00:00",
+        "type": "episodic",
+        "description": "李承翰進一步承諾課後把暖心的黑咖啡和一枚『心安達人』迷你獎章親手交給羅以青，並預期每次看到會讓她想笑。",
+        "keywords": [
+            "心安達人",
+            "迷你獎章",
+            "親手交付",
+            "暖心"
+        ],
+        "emotional_intensity": 0.65
+    },
+    {
+        "id": "0187b962359186b46fb60aae4646edcc",
+        "created_time": "2020-07-10 00:00:00",
+        "type": "emotional",
+        "description": "羅以青表現出真誠的感激，讓她感到踏實與被支持（「謝謝你讓我今天踏實了些」）。",
+        "keywords": [
+            "感激",
+            "踏實",
+            "被支持",
+            "安心"
+        ],
+        "emotional_intensity": 0.8
+    },
+    {
+        "id": "b6c28720f36646479380122d2d881810",
+        "created_time": "2020-07-10 00:00:00",
+        "type": "emotional",
+        "description": "李承翰以幽默和溫暖的方式給予鼓勵，展現出關心與俏皮，帶來輕鬆、親切的氛圍。",
+        "keywords": [
+            "幽默",
+            "溫暖",
+            "鼓勵",
+            "俏皮"
+        ],
+        "emotional_intensity": 0.75
+    },
+    {
+        "id": "66d42831d950693cc3883edac9f24976",
+        "created_time": "2020-07-10 00:00:00",
+        "type": "emotional",
+        "description": "雙方共享的小儀式（咖啡與獎章）產生了微小但真實的幸福感與連結，屬於日常中的小確幸。",
+        "keywords": [
+            "小確幸",
+            "親近感",
+            "安慰",
+            "連結"
+        ],
+        "emotional_intensity": 0.7
+    }
+]

@@ -1,0 +1,245 @@
+[
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "semantic",
+        "description": "李承翰將不規則動詞透過幽默故事、英語記憶卡與小白板，形成可在三分鐘內把常考動詞轉成生活場景的快記教學法。",
+        "keywords": [
+            "不規則動詞",
+            "快記法",
+            "生活場景",
+            "記憶卡",
+            "小白板"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "a15d6799234117b71006b66811064e09"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "semantic",
+        "description": "可將現場教學的短片化為社群素材：用手機側錄30秒精華上傳Instagram Reels，達到教學與招生雙重目的。",
+        "keywords": [
+            "Instagram Reels",
+            "30秒精華",
+            "側錄",
+            "招生短片",
+            "社群內容"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "37baab7cb989f182d7f6f07fb39216ca"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "semantic",
+        "description": "簡短會後分工流程：李承翰負責編教案與錄製三支短片，社群小編負責剪輯與上傳並於19:30在工作群回報進度。",
+        "keywords": [
+            "分工",
+            "教案",
+            "錄影",
+            "剪輯上傳",
+            "進度回報"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "3717f746f4a525861f68041574b9e006"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "episodic",
+        "description": "2020-06-30 17:06 在補習班二樓示範教室，李承翰臨時主持短會並示範微課，用自製記憶卡與小白板串聯不規則動詞，現場互動與笑聲不斷。",
+        "keywords": [
+            "示範微課",
+            "補習班二樓",
+            "記憶卡",
+            "小白板",
+            "教室笑聲"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "61f813c73f0f2c019bbc990291a4b61b"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "episodic",
+        "description": "會中讓兩位同事當志願學生，錯誤要表演搞笑肢體記憶法，並請社群小編側錄數段30秒精華片段以便當晚上傳。",
+        "keywords": [
+            "志願學生",
+            "肢體記憶法",
+            "搞笑表演",
+            "側錄30秒",
+            "同事互動"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "751f780fbb555376dee5afc39472635b"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "episodic",
+        "description": "與主任討論下週模擬考衝刺班是否加入此快記法，聽到主任擔心週末人力後，李承翰爽快答應幫忙代一堂並提議將微課做為招生素材。",
+        "keywords": [
+            "與主任討論",
+            "週末人力",
+            "代課承諾",
+            "招生建議",
+            "模擬考衝刺班"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "f795475e462bfd264337dca9e218b272"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "emotional",
+        "description": "在示範時感受到現場歡笑與熱鬧，李承翰從互動中獲得教學的快樂與成就感。",
+        "keywords": [
+            "歡笑",
+            "熱鬧",
+            "教學快樂",
+            "成就感",
+            "幽默"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "561d68060fdaa5637798b9fcaf035c68"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "emotional",
+        "description": "對於能把教學轉化為社群素材並幫補習班招生感到樂觀與自豪，展現他擅長社交與創造價值的情緒。",
+        "keywords": [
+            "自豪",
+            "樂觀",
+            "社交能力",
+            "創造性",
+            "成就期待"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "d82d4827b7ad08f528f79439d4c45014"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "emotional",
+        "description": "在主任擔心人力時，感受到責任感與對同事的情義，因而爽快答應代課以支援團隊。",
+        "keywords": [
+            "責任感",
+            "重情義",
+            "支援團隊",
+            "可靠",
+            "積極"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "9aaa7cc12a38ae2af544542fd600dee4"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "semantic",
+        "description": "小美最近情緒或壓力狀況不佳，表現出比平時安靜和疲憊的行為，可能需要朋友關注與支持。",
+        "keywords": [
+            "小美",
+            "壓力",
+            "安靜",
+            "疲憊"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "c72b01c1704cca34cf89781e7cce00ac"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "semantic",
+        "description": "李承翰習慣用幽默和開玩笑來活躍氣氛，願意在群體中扮演那個負責搞笑、讓大家放鬆的角色。",
+        "keywords": [
+            "李承翰",
+            "幽默",
+            "活躍氣氛",
+            "搞笑角色"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "1c964d5c263b0924f7e2ed4e771ea270"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "semantic",
+        "description": "羅以青偏好穩重陪伴，傾向安靜地關心他人，並且在有值得信賴的人在場時會感到踏實放心。",
+        "keywords": [
+            "羅以青",
+            "穩重陪伴",
+            "信任",
+            "安心"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "7a06f325863b8ba8714b48198adcbeb6"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "episodic",
+        "description": "在聚會中李承翰用幽默讓大家笑成一片，他自己還打趣說差點以為在開演唱會，場面輕鬆歡樂。",
+        "keywords": [
+            "聚會",
+            "大笑",
+            "演唱會比喻",
+            "李承翰開玩笑"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "460ef24311966bafd486267b0d886b5c"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "episodic",
+        "description": "羅以青在對話中多次表達對小美的擔心，提到小美最近壓力大且挺累，李承翰也回應注意到她較安靜並感到牽掛。",
+        "keywords": [
+            "小美擔心",
+            "壓力大",
+            "注意到安靜",
+            "李承翰回應"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "c5c5dee4534cdabc449e1ac471737412"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "episodic",
+        "description": "兩人達成默契：羅以青會靜靜陪在小美身邊保持穩定，李承翰自願負責鬧場逗樂大家，彼此因此感到放心和被支持。",
+        "keywords": [
+            "分工默契",
+            "靜靜陪伴",
+            "鬧場逗樂",
+            "相互放心"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "e1e978d9abccf8502bf23ee963d34701"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "emotional",
+        "description": "來自羅以青和李承翰對小美的強烈擔憂與牽掛，感到她目前情緒或壓力狀態令人不安。",
+        "keywords": [
+            "擔憂",
+            "牽掛",
+            "不安",
+            "小美"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "6db908762353e836cacc1be207755b8e"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "emotional",
+        "description": "在被對方關心與分工照顧後，雙方感受到放下心、安心和互相支持的安心感與放鬆。",
+        "keywords": [
+            "安心",
+            "放鬆",
+            "被支持",
+            "放心"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "db9cad91728883cf9486412359fe790f"
+    },
+    {
+        "created_time": "2020-06-30 00:00:00",
+        "type": "emotional",
+        "description": "李承翰因能透過幽默幫助他人而感到認同，羅以青則因有人在身邊而感到踏實與感激，雙方的信任感被強化。",
+        "keywords": [
+            "感激",
+            "踏實",
+            "信任強化",
+            "認同感"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "e4d092c7ce2f991dc601df20de1dc228"
+    }
+]

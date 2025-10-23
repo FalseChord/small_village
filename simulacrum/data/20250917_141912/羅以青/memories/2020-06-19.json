@@ -1,0 +1,247 @@
+[
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "semantic",
+        "description": "我學到短時間內可用簡單步驟幫學生處理考前焦慮：先做放鬆練習（兩分鐘深呼吸），再把模糊的擔心拆解成具體問題（時間分配、題型弱點、複習方法），接著設定可執行的小目標。",
+        "keywords": [
+            "放鬆呼吸",
+            "拆解擔心",
+            "小目標",
+            "時間管理",
+            "題型弱點"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "3eb39fd2a9462148832666f1116d8545"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "semantic",
+        "description": "使用簡單工具（便利貼、書寫鼓勵語、示範記憶技巧）可以同時提供記憶支援與情緒安定，能提高學生後續執行計畫的可能性。",
+        "keywords": [
+            "便利貼",
+            "記憶技巧",
+            "正向鼓勵",
+            "筆記本"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "a43c63b83d4f7c7663787fadf36613f7"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "semantic",
+        "description": "短時且有結構的跟進（午休十到十五分鐘解析、放學後短時間補救課、與班導協調）是可行的介入方式，能在不打斷學生整體課程的情況下提供支持。",
+        "keywords": [
+            "班導溝通",
+            "補救課",
+            "午休短時解析",
+            "優先順序"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "9624f03a938a625eabca7cc8220d54de"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "episodic",
+        "description": "2020-06-19 11:18 我在輔導室靠走廊的桌上整理上午班級的考卷，牆上時鐘指向11:18，這時高二（3）班的林小君推門進來，臉色慌張地說早上做不完模擬題、擔心月底大考。",
+        "keywords": [
+            "11:18",
+            "輔導室",
+            "林小君",
+            "時鐘"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "7b76d29fb8d6e7acbfebac75e4feffde"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "episodic",
+        "description": "我讓他坐到沙發，先帶他做兩分鐘深呼吸，然後溫和地把他的擔心拆成時間分配、題型弱點與複習方法三個具體問題，並和他一起在便利貼上列出三個優先處理的小目標與示範一個記憶小技巧。",
+        "keywords": [
+            "深呼吸",
+            "拆解問題",
+            "三個小目標",
+            "便利貼",
+            "示範技巧"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "205468aadbf984db646c012aa9e76f4e"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "episodic",
+        "description": "我把鼓勵話語貼在他的筆記本封面、提醒午休後找我做十到十五分鐘的解析，並與班導約好放學後安排短時間補救課；整個過程中我保持耐心、細心，離開時他露出放鬆的微笑。",
+        "keywords": [
+            "鼓勵話語",
+            "午休解析",
+            "放學補救課",
+            "放鬆微笑"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "dc2643609f917a96a71e67becacee523"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "emotional",
+        "description": "我明顯感到林小君的強烈焦慮與擔心——他對做不完題目與月底大考失敗的恐懼，使他進門時表情慌張、語氣急促。",
+        "keywords": [
+            "焦慮",
+            "擔心成績",
+            "慌張",
+            "急促語氣"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "8141085cacd3c5da62ecb5fbe4605d32"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "emotional",
+        "description": "在與他互動時，我感到一股責任感與專注的平靜：想要用耐心和具體方法穩定他的情緒並提供可行的步驟。",
+        "keywords": [
+            "耐心",
+            "責任感",
+            "專注",
+            "關懷"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "659fd82a0dd0479a013b90d4c97c778b"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "emotional",
+        "description": "當他在臨走時露出放鬆的微笑，我感到欣慰和成就感，確認短時間的支持可以帶來情緒改善與可行的行動計畫。",
+        "keywords": [
+            "放鬆",
+            "微笑",
+            "欣慰",
+            "成就感"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "f23b8ac2b6489a4a206ebc02a97cea77"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "semantic",
+        "description": "李承翰擅長用即興幽默逗人發笑並讓人放鬆，這是他處理緊張場面的常用方式。",
+        "keywords": [
+            "李承翰",
+            "即興",
+            "逗笑",
+            "放鬆",
+            "技巧"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "1c92780432851c28adb9bf079ab8b281"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "semantic",
+        "description": "在一次拍片時，李承翰即興逗陳小潔笑，該行為被視為一個成功的救場例子。",
+        "keywords": [
+            "拍片",
+            "陳小潔",
+            "救場",
+            "即興",
+            "逗笑"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "e63d94da52a36432c0fa9fdea894b0b5"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "semantic",
+        "description": "羅以青希望學習這類逗笑/放鬆的技巧，以便在月底考試時幫助自己緩解緊張。",
+        "keywords": [
+            "羅以青",
+            "學習",
+            "考試",
+            "緊張緩解",
+            "技巧"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "2e073995d0e47ee5923d0402f28701a2"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "episodic",
+        "description": "羅以青對李承翰說：看到小君那麼慌她也跟著緊張，同時稱讚李承翰有讓人放鬆、逗笑的本事。",
+        "keywords": [
+            "羅以青",
+            "小君",
+            "讚賞",
+            "緊張",
+            "互動"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "47eb330746132b9e427bd32891d59085"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "episodic",
+        "description": "李承翰回應說這些不是學來的，而是現場亂練出來，並舉例『上次拍片陳小潔一進來我就即興逗她笑』。",
+        "keywords": [
+            "李承翰",
+            "自述",
+            "即興",
+            "例子",
+            "拍片"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "f15eec66f0518e5d957adc765528fdf6"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "episodic",
+        "description": "羅以青說那次把小君逗笑的場面是救場，並表示想偷學幾招在月底考試時派上用場。",
+        "keywords": [
+            "羅以青",
+            "救場",
+            "學習請求",
+            "考試",
+            "緊張管理"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "bfa4b735e37ece0516ae9700d1ca7875"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "emotional",
+        "description": "羅以青在談話中表現出欽佩與感激，因為李承翰的幽默能讓周圍人從緊張中放鬆。",
+        "keywords": [
+            "欽佩",
+            "感激",
+            "安心",
+            "緊張減少",
+            "信任李承翰"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "d410313106e517a94e83c07fd06ae04c"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "emotional",
+        "description": "李承翰表現出輕鬆、自信且帶點自我調侃的情緒，語氣中有幽默感和隨性。",
+        "keywords": [
+            "輕鬆",
+            "幽默",
+            "自信",
+            "自我調侃",
+            "風趣"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "0ddd219db4204a48cf7626325098651e"
+    },
+    {
+        "created_time": "2020-06-19T00:00:00",
+        "type": "emotional",
+        "description": "對話整體帶有溫暖支持的氛圍：羅以青希望透過學習得到情緒上的幫助，顯示出期待與依賴感。",
+        "keywords": [
+            "支持感",
+            "溫暖",
+            "希望",
+            "學習以應對壓力",
+            "互助"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "201d2589c3b11ec22d13d25360b452f5"
+    }
+]

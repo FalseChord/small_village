@@ -1,0 +1,254 @@
+[
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "向生鮮店員確認到貨時間有助判斷新鮮度；瘦的雞胸肉適合做水煮，口感清爽、油脂少。",
+        "keywords": [
+            "雞胸肉",
+            "到貨時間",
+            "新鮮度",
+            "瘦肉",
+            "水煮"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "937d5ca40785b03667f756ce734cee25"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "挑選乳品與蔬果時，同時比較產地與保存期限可延長可用時間；冷藏品與常溫品分開裝，加買小保冷袋可減少通勤中的回溫風險。",
+        "keywords": [
+            "保存期限",
+            "產地標示",
+            "鮮奶",
+            "保冷小冰袋",
+            "分裝"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "ff917da10f701eacf98c5270e045764a"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "全聯結帳可出示會員條碼累積點數，也能以點數兌換小品項（如洗衣精）；依當下需求選擇累積或兌換更划算。",
+        "keywords": [
+            "會員條碼",
+            "點數兌換",
+            "洗衣精小袋",
+            "結帳流程",
+            "累積點數"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "0d4df02db0101b67b5fafb50a132a20f"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "下班在民權西路站旁的全聯，對照本週便當清單，細看標示後挑了雲林產、保存到9/20的青花菜與一把空心菜。",
+        "keywords": [
+            "民權西路站",
+            "全聯",
+            "雲林青花菜",
+            "9/20",
+            "便當清單"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "abf5eae1c31b43389bec1697f96e600c"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "在生鮮區問阿宏這批雞胸是否今日到貨，他回下午三點剛到；我挑了較瘦的一盒，順手拿豆腐與小包糙米，準備做水煮雞胸。",
+        "keywords": [
+            "阿宏",
+            "雞胸肉",
+            "下午三點到貨",
+            "豆腐",
+            "糙米"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "c2b3e4068b9dc99b2a2d789c23ffeb32"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "排隊時與同棟林太太聊今晚風大；結帳出示會員條碼，對小惠提出的點數換洗衣精選擇先累積，將冷藏與常溫分開，另外買2元保冷小冰袋帶鮮奶回家。",
+        "keywords": [
+            "林太太",
+            "小惠",
+            "會員點數",
+            "保冷小冰袋2元",
+            "鮮奶"
+        ],
+        "emotional_intensity": 0.38,
+        "id": "18a9eef3fb2f359007792006b3eb2497"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "把採買與本週便當規劃扣合，確認產地與日期後心裡踏實，對自己的條理與效率感到滿意。",
+        "keywords": [
+            "踏實",
+            "規劃感",
+            "保存期限",
+            "便當準備",
+            "滿意"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "dd03e55baca6a60233d859c53aaf64fc"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "得知雞胸是下午剛到的新貨，對今晚水煮菜單更有把握，對食材新鮮度感到安心。",
+        "keywords": [
+            "安心",
+            "新鮮度",
+            "到貨資訊",
+            "水煮雞胸",
+            "把握感"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "23d6e5ad3f26b1fdc3fab41d321b32ff"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "結帳時選擇累積點數並加購小冰袋，自覺細心又實際；與鄰居的短暫寒暄帶來些許溫暖與連結感。",
+        "keywords": [
+            "細心",
+            "節制",
+            "保冷",
+            "鄰里互動",
+            "溫暖"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "f7c5af8286ec92b5b272356bb1af56b8"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "李承翰從事教學，近期講課表現變得穩定，學生已展現信任與肯定。",
+        "keywords": [
+            "李承翰",
+            "教學",
+            "穩定",
+            "學生信任",
+            "表現提升"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "b19c29800c2cb69baac10ee894d728ee"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "學生與同儕的正向回饋能提升教師自信與放鬆感，讓教學更順手。",
+        "keywords": [
+            "正向回饋",
+            "自信",
+            "放鬆",
+            "教學手感",
+            "肯定"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "0fa05bd224a8ed1bbe21194d60806cf4"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "semantic",
+        "description": "同儕支持（羅以青的鼓勵）強化了李承翰對當天表現「過關」的認知。",
+        "keywords": [
+            "同儕支持",
+            "鼓勵",
+            "過關",
+            "認同感",
+            "動機"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "ac7776e5de46ce13c8fa5e21919eb59f"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "一次課後閒聊中，羅以青直接稱讚：「你講課很穩，學生看得出來信任你。」",
+        "keywords": [
+            "課後對話",
+            "稱讚",
+            "講課很穩",
+            "學生信任",
+            "肯定"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "707c6ad32a87711f6fc95006848359b5"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "李承翰回應自己「上軌道、手感不錯、今晚沒漏氣」，表示今天終於過關並放鬆下來。",
+        "keywords": [
+            "上軌道",
+            "手感不錯",
+            "過關",
+            "沒漏氣",
+            "放鬆"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "d5e44a50d1abcf943555cf47a66d6018"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "episodic",
+        "description": "羅以青多次回饋「看得出來你穩了、學生會被你帶起來」，持續給出正向鼓勵。",
+        "keywords": [
+            "連續鼓勵",
+            "穩了",
+            "帶起來",
+            "學生認同",
+            "支持"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "2c71019b434d7158b2b0a9d7f1093525"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "李承翰感到如釋重負與輕盈，從先前的「卡住」轉為放鬆且自信。",
+        "keywords": [
+            "放鬆",
+            "如釋重負",
+            "自信",
+            "不卡",
+            "輕盈"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "f8edd956fa81b3695fd3b7f26901ed7c"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "羅以青感到欣慰與踏實，看到對方狀態穩定並被學生肯定。",
+        "keywords": [
+            "欣慰",
+            "踏實",
+            "穩定",
+            "學生肯定",
+            "關懷"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "787a42f366b503c2c13cdb24934ff300"
+    },
+    {
+        "created_time": "2020-07-05T00:00:00",
+        "type": "emotional",
+        "description": "整段對話氛圍正向，彼此鼓舞帶來信心被「充電」的感受。",
+        "keywords": [
+            "正向氛圍",
+            "互相鼓勵",
+            "信心充電",
+            "認可",
+            "放心"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "ee3c5f7430e8374c1bb4722943b88ce9"
+    }
+]

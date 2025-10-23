@@ -1,0 +1,230 @@
+[
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "semantic",
+        "description": "短時間內以簡短放鬆呼吸與具體時間表視覺化，可以有效緩和學生的急性情緒並找出可調整的課業或社團負擔。",
+        "keywords": [
+            "放鬆呼吸",
+            "時間表視覺化",
+            "短期調整",
+            "情緒緩和"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "e3d7df49e09e250cdd7228f092438026"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "semantic",
+        "description": "教師在與學生相談後，記錄重點並與輔導資源溝通（非當下打擾學生）是兼顧即時支持與保護學生隱私的良好做法。",
+        "keywords": [
+            "紀錄與轉介",
+            "保護隱私",
+            "跨專業合作",
+            "時機掌握"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "50d203325f133e420c23a020bbc773a6"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "semantic",
+        "description": "為學生準備可操作的短期目標（例如減一項課外負擔、兩分鐘呼吸法、定期回報）能提升可行性與追蹤性，利於後續介入成效。",
+        "keywords": [
+            "短期目標",
+            "可操作性",
+            "追蹤回報",
+            "壓力因應策略"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "ed9cffaf2485f5b58812adecd19c8aa7"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "episodic",
+        "description": "17:33 放學後在305教室看到林佳如獨自坐在最後一排，我放下教材、輕聲邀請她留下來聊聊並開始傾聽她的困擾。",
+        "keywords": [
+            "17:33",
+            "305教室",
+            "邀請對話",
+            "傾聽"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "9c04de64b09b802f64af562a029ecd6c"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "episodic",
+        "description": "我先引導佳如做簡短的放鬆呼吸，接著把白板拉出來和她一起畫近期時間表，找出可以短期調整的項目並同意三項短期目標。",
+        "keywords": [
+            "放鬆呼吸",
+            "畫時間表",
+            "短期目標",
+            "共同商議"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "e14393420c9fd60f3cbea45cfb753843"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "episodic",
+        "description": "離開前我把簡易鬆弛練習清單和學習時間表印給佳如，記下對話重點在教師備忘錄，計畫隔天在教學會議口頭提醒輔導老師跟進，並在傍晚收拾準備搭17:45捷運回套房。",
+        "keywords": [
+            "印製資源",
+            "備忘錄",
+            "口頭提醒輔導",
+            "17:45捷運"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "ca8db67bd17a0058159ae24ed292e467"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "emotional",
+        "description": "與學生一對一傾聽時感到強烈的同理與責任感，想要為佳如提供實際可行的協助，且保持耐心與溫柔。",
+        "keywords": [
+            "同理心",
+            "責任感",
+            "耐心",
+            "溫柔"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "a2335989679f2c79094c6642fc681d08"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "emotional",
+        "description": "看到平時活潑的學生低著頭、表達與父母溝通壓力時感到擔憂與心疼，擔心她會因過重負擔而受挫。",
+        "keywords": [
+            "擔憂",
+            "心疼",
+            "壓力",
+            "擔心失望"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "0489da4201e3f0a01d04eb808b8d8e91"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "emotional",
+        "description": "在結束時感到一種寬慰與務實的滿足，因為有提供具體工具並安排後續追蹤，但同時保持尊重學生空間不當下強行介入。",
+        "keywords": [
+            "寬慰",
+            "務實滿足",
+            "尊重空間",
+            "保留追蹤"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "c57606f97cf3b836aed206730f837dac"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "semantic",
+        "description": "學生之間的互相鼓勵會產生暖心的正向氛圍，教師有時會以象徵性回饋（如發獎狀）來肯定這種行為。",
+        "keywords": [
+            "學生鼓勵",
+            "正向氛圍",
+            "象徵性回饋",
+            "獎狀"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "f10ea5c8046d30b404af07a657e0673f"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "semantic",
+        "description": "一對一的傾聽能讓學生放心地把心裡的事說完，當對方能完全表達時，傾聽者會感到值得與成就感。",
+        "keywords": [
+            "一對一傾聽",
+            "放心吐露",
+            "成就感",
+            "信任"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "a3fd08d176316b1afa5852bf5a5873d0"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "semantic",
+        "description": "用幽默或自我獎勵（例如『最佳傾聽獎』）是同事間用來表達讚賞與輕鬆互動的方式。",
+        "keywords": [
+            "幽默",
+            "自我獎勵",
+            "讚賞",
+            "輕鬆互動"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "17915f1ea5d34e99511fd324a36dada8"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "episodic",
+        "description": "李承翰剛看到學生互相鼓勵，當下心裡感到暖暖的，甚至差點想要發獎狀給大家作為肯定。",
+        "keywords": [
+            "李承翰",
+            "學生互相鼓勵",
+            "想發獎狀"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "073915120af39c0dd91ff27c95052119"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "episodic",
+        "description": "羅以青描述：前幾天在一對一中聽一個學生把心裡的事慢慢說完，當學生能放心把話說完的那一刻，羅以青覺得很值得。",
+        "keywords": [
+            "羅以青",
+            "前幾天",
+            "學生把心裡的事說完"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "e907b834abe49806b4f6f05f05e3c44c"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "episodic",
+        "description": "李承翰對羅以青的傾聽回應以幽默方式稱讚，建議她可能想自己頒發『最佳傾聽獎』給自己，增添輕鬆氛圍。",
+        "keywords": [
+            "李承翰",
+            "最佳傾聽獎",
+            "幽默稱讚"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "555e9126782fc9c61f567a82b4e04f86"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "emotional",
+        "description": "看到學生互相鼓勵時產生的暖心感覺——一種被正向互動感染的溫暖與欣慰（李承翰的感受）。",
+        "keywords": [
+            "溫暖",
+            "欣慰",
+            "正向感染"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "25e780e686ad81cc1d715cb671977153"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "emotional",
+        "description": "在一對一傾聽中，當學生能放心說完心裡話時帶來的深度滿足與被需要感（羅以青的感受，與她的耐心、內省特質相符）。",
+        "keywords": [
+            "滿足感",
+            "被需要",
+            "安心"
+        ],
+        "emotional_intensity": 0.95,
+        "id": "2861b53a8945c1f8a6a25f635687ebfa"
+    },
+    {
+        "created_time": "2020-06-26 00:00:00",
+        "type": "emotional",
+        "description": "對話中的輕鬆幽默感——同事間以玩笑互相肯定，帶來親切且輕鬆的情緒氛圍。",
+        "keywords": [
+            "幽默",
+            "親切",
+            "輕鬆氛圍"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "cc38fc19e9a998d48a9442e9ad02afde"
+    }
+]

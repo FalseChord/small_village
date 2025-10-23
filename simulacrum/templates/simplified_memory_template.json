@@ -1,0 +1,13 @@
+{
+  "persona_name": "角色名稱",
+  "version": "1.0",
+  "memories": [
+    {
+      "type": "episodic",
+      "description": "記憶描述",
+      "keywords": ["關鍵字1", "關鍵字2", "關鍵字3"],
+      "emotional_intensity": 0.3,
+      "created_time": "YYYY-MM-DDTHH:MM:SS"
+    }
+  ]
+}
