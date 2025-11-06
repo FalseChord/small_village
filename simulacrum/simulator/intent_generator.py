@@ -5,67 +5,6 @@ class IntentGenerator:
     def __init__(self, gpt_interface):
         self.gpt = gpt_interface
     
-    def generate_intents_for_topic(
-        self,
-        topic: str,
-        personas: Dict[str, Persona],
-        dialogue_context: Dict = None
-    ) -> Dict[str, str]:
-        """為特定主題生成每個角色的對話意圖
-        
-        Args:
-            topic: 對話主題
-            personas: 參與對話的角色字典
-            
-        Returns:
-            角色名稱到意圖的字典映射
-        """
-        intents = {}
-        
-        for persona_name, persona in personas.items():
-            intent = self._generate_intent_for_persona(topic, persona, personas, dialogue_context)
-            if intent:
-                intents[persona_name] = intent
-            else:
-                # 如果生成失敗，使用預設意圖
-                intents[persona_name] = f"想要與朋友就{topic}進行輕鬆的交流"
-        
-        return intents
-    
-    def _generate_intent_for_persona(
-        self,
-        topic: str,
-        persona: Persona,
-        all_personas: Dict[str, Persona],
-        dialogue_context: Dict = None
-    ) -> Optional[str]:
-        """為特定角色生成對話意圖"""
-        
-        # 準備角色資訊
-        persona_info = self._prepare_persona_info(persona)
-        
-        # 準備其他參與者資訊
-        other_participants = []
-        for name, other_persona in all_personas.items():
-            if name != persona.name:
-                relationship = persona.get_relationship_with(name)
-                other_info = {
-                    'name': name,
-                    'relationship': relationship.get('role', '朋友') if relationship else '朋友',
-                    'attitude': relationship.get('attitude', '友好') if relationship else '友好'
-                }
-                other_participants.append(other_info)
-        
-        prompt = self._create_intent_prompt(topic, persona_info, other_participants, dialogue_context)
-        
-        response = self.gpt._call_gpt(prompt, 'intent_generator', temperature=0.7)
-        
-        if response and 'intent' in response:
-            return response['intent']
-        else:
-            print(f"⚠️ 為 {persona.name} 生成意圖失敗")
-            return None
-    
     def _prepare_persona_info(self, persona: Persona) -> Dict:
         """準備角色資訊"""
         return {
@@ -80,46 +19,54 @@ class IntentGenerator:
     def _create_intent_prompt(
         self,
         topic: str,
-        persona_info: Dict,
-        other_participants: List[Dict],
+        turn_speaker: Persona,
+        turn_listener: Persona,
+        dialogue_history: List[Dict],
+        end_reason: str = "",
         dialogue_context: Dict = None
     ) -> str:
-        """創建意圖生成的提示詞"""
+        """創建逐句意圖生成的提示詞"""
+
+        # 準備角色資訊
+        persona_info = self._prepare_persona_info(turn_speaker)
         
-        # 準備其他參與者資訊
-        participants_info = []
-        for participant in other_participants:
-            participants_info.append(
-                f"- {participant['name']}（關係：{participant['relationship']}，態度：{participant['attitude']}）"
-            )
+        # 準備對話參與者資訊
+        relationship = turn_speaker.get_relationship_with(turn_listener.name)
+        participants_info = [
+            f"- {turn_listener.name}（關係：{relationship.get('role', '朋友') if relationship else '朋友'}"
+        ]
         participants_str = "\n".join(participants_info)
-        
-        # 準備情境資訊
+
+        # 最近對話（簡短）
+        recent_turns = dialogue_history[-4:] if dialogue_history and len(dialogue_history) >= 4 else (dialogue_history or [])
+        recent_text = "\n".join([f"{t['speaker']}: {t['content']}" for t in recent_turns]) if recent_turns else "(無)"
+
         context_info = ""
         if dialogue_context:
-            context_info = (
-                f"對話情境：{dialogue_context.get('description', '未知')}\n\n"
-            )
-        
-        prompt = (
-            f"請根據以下角色資訊和對話主題，生成該角色在朋友聊天時的自然動機：\n\n"
+            context_info = f"對話情境：{dialogue_context.get('description', '未知')}\n\n"
+
+        end_reason_info = ""
+        if end_reason:
+            end_reason_info = f"對話未結束的原因（分析器判斷）：{end_reason}\n\n"
+
+        return (
+            f"請基於以下資訊，生成{turn_speaker.name}此刻即將說出的下一句話的意圖：\n\n"
             f"角色資訊：\n"
-            f"姓名：{persona_info['name']}\n"
             f"年齡：{persona_info['age']}\n"
             f"個性特質：{', '.join(persona_info['innate_traits'])}\n"
-            f"學習經歷：{persona_info['learned']}\n"
             f"生活方式：{persona_info['lifestyle']}\n"
             f"背景故事：{persona_info['biography']}\n\n"
             f"對話參與者：\n{participants_str}\n\n"
             f"對話主題：{topic}\n\n"
             + context_info +
+            f"最近對話：\n{recent_text}\n\n"
+            + end_reason_info +
             f"請生成該角色在聊這個話題時的自然想法，要求：\n"
             f"1. 基於角色的個性特質和背景\n"
             f"2. 考慮與其他參與者的關係\n"
-            f"3. 像朋友聊天時會有的自然動機\n"
-            f"4. 一句話簡潔描述\n"
-            f"5. 避免正式或任務導向的表達\n"
-            f"6. 考慮當前對話情境的類別和描述\n\n"
+            f"3. 簡潔描述，避免正式或任務導向的表達\n"
+            f"4. 考慮當前對話情境的類別和描述\n"
+            f"5. 參考對話未結束的原因，推進對話的進行\n"
             f"範例：\n"
             f"- 想分享近況\n"
             f"- 關心朋友\n"
@@ -133,5 +80,3 @@ class IntentGenerator:
             f'  "intent": "對話意圖"\n'
             f'}}\n'
         )
-        
-        return prompt

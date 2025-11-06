@@ -149,8 +149,15 @@ class Simulator:
                 except Exception as e:
                     print(f"對話記憶分割失敗 ({participant_name}): {e}")
                     # 如果分割失敗，使用原始方式儲存
+                    # 從新的 topics 結構中構建對話內容
+                    content_lines = []
+                    for topic_data in dialogue.get('topics', []):
+                        for turn in topic_data.get('turns', []):
+                            content_lines.append(f"{turn.get('speaker', '')}: {turn.get('content', '')}")
+                    dialogue_content = content_lines if content_lines else dialogue.get('content', [])
+
                     summary = self.gpt.dialogue_handler.summarize_dialogue(
-                        dialogue['content'],
+                        dialogue_content,
                         dialogue['participants']
                     )
                     persona.add_event_memory(

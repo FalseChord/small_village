@@ -1,0 +1,122 @@
+[
+    {
+        "id": "d6b8a8c7ee33771bf359156c945cb3be",
+        "created_time": "2020-07-23 00:00:00",
+        "type": "semantic",
+        "description": "羅以青會每天量體溫、密切監測有無症狀，若有不舒服會改期並把體溫紀錄與確定的回鄉日期傳給王淑華。",
+        "keywords": [
+            "每天量體溫",
+            "監測症狀",
+            "改期",
+            "傳送紀錄",
+            "回鄉日期"
+        ],
+        "emotional_intensity": 0.45
+    },
+    {
+        "id": "badd4c864d77dd71970990a1407a812a",
+        "created_time": "2020-07-23 00:00:00",
+        "type": "semantic",
+        "description": "在奈良被小鹿搶走仙貝是一個具體的旅行插曲，兩人會以這個糗事作為互動中的笑點來緩解擔心情緒。",
+        "keywords": [
+            "奈良",
+            "鹿搶仙貝",
+            "旅行糗事",
+            "幽默安慰"
+        ],
+        "emotional_intensity": 0.35
+    },
+    {
+        "id": "01ea8f5c3cef7cd9fda4e055c3f1e15c",
+        "created_time": "2020-07-23 00:00:00",
+        "type": "semantic",
+        "description": "哼那首讓人想到家的歌能安撫王淑華，母女以哼歌作為情緒調節與互相安慰的方式。",
+        "keywords": [
+            "哼歌",
+            "想家",
+            "安撫",
+            "母女情感"
+        ],
+        "emotional_intensity": 0.5
+    },
+    {
+        "id": "74d286b38ba1cfdbc9fd6acd374b16ad",
+        "created_time": "2020-07-23 00:00:00",
+        "type": "episodic",
+        "description": "多次對話中，王淑華反覆要求羅以青回鄉前每天量體溫並把這幾天的數字或截圖傳給她，羅以青最終傳了體溫紀錄和回鄉日期截圖並哼歌安撫。",
+        "keywords": [
+            "反覆要求",
+            "傳送截圖",
+            "體溫紀錄",
+            "哼歌安撫"
+        ],
+        "emotional_intensity": 0.8
+    },
+    {
+        "id": "1402a1542e488e04016823b768dcfeb1",
+        "created_time": "2020-07-23 00:00:00",
+        "type": "episodic",
+        "description": "羅以青多次敘述奈良被鹿搶仙貝的經過（鹿叼走仙貝、她追著跑被人笑翻），這段重複敘述成為對話中的幽默段落。",
+        "keywords": [
+            "追鹿",
+            "被人笑翻",
+            "重複敘述",
+            "幽默段落"
+        ],
+        "emotional_intensity": 0.6
+    },
+    {
+        "id": "5e6e170fca7202b94f2fbea29e64b235",
+        "created_time": "2020-07-23 00:00:00",
+        "type": "episodic",
+        "description": "在多段交換中，王淑華不斷囑咐戴口罩、多休息並關心阿公阿嬤，顯示她在對話裡以具體提醒表達操心與照護意圖。",
+        "keywords": [
+            "囑咐戴口罩",
+            "多休息",
+            "關心阿公阿嬤",
+            "照護提醒"
+        ],
+        "emotional_intensity": 0.7
+    },
+    {
+        "id": "878e34965af4227ba2708218fdc655cc",
+        "created_time": "2020-07-23 00:00:00",
+        "type": "emotional",
+        "description": "王淑華強烈的擔心與焦慮：對家人健康非常在意，透過反覆確認時間與體溫並要求哼歌來自我安撫與獲得安全感。",
+        "keywords": [
+            "擔心",
+            "焦慮",
+            "反覆確認",
+            "自我安撫",
+            "尋求安全感"
+        ],
+        "emotional_intensity": 0.95
+    },
+    {
+        "id": "c4f622c34c5ea549aa3a4c700c2275f2",
+        "created_time": "2020-07-23 00:00:00",
+        "type": "emotional",
+        "description": "羅以青展現出的責任感與安撫情緒：她溫和承諾會量體溫、報備並用哼歌讓媽媽安心，但偶爾顯露出輕微不耐（'別再一直問了'）。",
+        "keywords": [
+            "責任感",
+            "安撫",
+            "溫和承諾",
+            "輕微不耐"
+        ],
+        "emotional_intensity": 0.6
+    },
+    {
+        "id": "4ba2c9bacd297db9e2e07e5b57b20568",
+        "created_time": "2020-07-23 00:00:00",
+        "type": "emotional",
+        "description": "母女之間的溫暖與安心感：透過分享糗事、哼歌和資訊交換，雙方建立了安撫與連結，使對話整體帶有安定感與親密性。",
+        "keywords": [
+            "溫暖",
+            "安心",
+            "親密連結",
+            "共享幽默",
+            "情感支持"
+        ],
+        "emotional_intensity": 0.85
+    }
+]

@@ -1,6 +1,7 @@
 import numpy as np
 from datetime import datetime, date, timedelta
 from typing import List, Optional, Dict
+import random
 import json
 import os
 import hashlib
@@ -200,7 +201,9 @@ class Memory:
                 json.dump(embeddings_by_date[date_str], f, ensure_ascii=False, indent=4)
 
     def get_relevant_memories(self, query: str, limit: int = 5, current_date: datetime = None) -> List[MemoryNode]:
-        """檢索相關記憶（基於語義搜尋）
+        """檢索相關記憶（暫時改為隨機抽樣以加速）
+
+        注意：原本的語義檢索（embedding + 遺忘曲線）已保留於下方註解，待之後恢復。
 
         Args:
             query: 查詢字符串
@@ -210,25 +213,32 @@ class Memory:
         if not self.memories:
             return []
 
-        # 使用指定的當前日期或真實當前日期
-        if current_date is None:
-            current_time = datetime.now()
-        else:
-            current_time = current_date
+        # 方案A（目前生效）：隨機抽樣以加速
+        if len(self.memories) <= limit:
+            return list(self.memories)
+        return random.sample(self.memories, k=limit)
 
-        # 計算所有記憶的綜合分數
-        memory_scores = []
-        for node in self.memories:
-            score = self._calculate_semantic_score(query, node, current_time)
-
-            if score > 0:
-                memory_scores.append((node, score))
-
-        # 按綜合分數排序
-        memory_scores.sort(key=lambda x: x[1], reverse=True)
-
-        # 返回分數最高的記憶
-        return [node for node, _ in memory_scores[:limit]]
+        # 方案B（暫時停用）：基於語義搜尋 + 遺忘曲線加權
+        # -------------------------------------------------
+        # if not self.memories:
+        #     return []
+        #
+        # # 使用指定的當前日期或真實當前日期
+        # if current_date is None:
+        #     current_time = datetime.now()
+        # else:
+        #     current_time = current_date
+        #
+        # # 計算所有記憶的綜合分數
+        # memory_scores = []
+        # for node in self.memories:
+        #     score = self._calculate_semantic_score(query, node, current_time)
+        #     if score > 0:
+        #         memory_scores.append((node, score))
+        #
+        # # 按綜合分數排序並回傳前N筆
+        # memory_scores.sort(key=lambda x: x[1], reverse=True)
+        # return [node for node, _ in memory_scores[:limit]]
 
     def _calculate_semantic_score(self, query: str, node: dict, current_time: datetime) -> float:
         """計算語義搜尋分數（基於艾賓浩斯遺忘曲線）"""

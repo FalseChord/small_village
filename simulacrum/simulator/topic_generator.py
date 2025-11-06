@@ -54,12 +54,50 @@ class TopicGenerator:
     
 
     def _select_memories_for_topic(self, all_memories: List[Dict], recent_dialogue_turns: List[Dict], limit: int = 5) -> List[Dict]:
-        """使用 GPT 從所有記憶中挑選與最近三句對話有關的記憶"""
-        if not recent_dialogue_turns:
-            return []
+        """挑選作為主題依據的記憶
 
-        # 準備最近三句對話
-        recent_lines = [f"{turn['speaker']}: {turn['content']}" for turn in recent_dialogue_turns]
+        - 若有最近對話：用 GPT 從所有記憶挑與最近三句相關的1條
+        - 若無最近對話：從所有記憶中隨機挑1條
+        """
+        if not recent_dialogue_turns:
+            # 隨機挑選一條記憶，增加多樣性
+            valid_memories = [m for m in all_memories if isinstance(m, dict)]
+            if not valid_memories:
+                return []
+
+            selected = random.choice(valid_memories)
+            # 確保有 owner 欄位
+            if 'owner' not in selected:
+                selected = selected.copy()
+                selected['owner'] = selected.get('owner', 'unknown')
+
+            return [{
+                'description': selected.get('description', ''),
+                'type': selected.get('type', ''),
+                'owner': selected.get('owner', 'unknown')
+            }]
+
+        # 準備最近三句對話（忽略沒有 speaker/content 的輔助節點，如情緒紀錄 _meta 節點）
+        safe_turns = [
+            turn for turn in recent_dialogue_turns
+            if isinstance(turn, dict) and 'speaker' in turn and 'content' in turn
+        ]
+        recent_lines = [f"{turn['speaker']}: {turn['content']}" for turn in safe_turns]
+        # 若篩完後沒有可用對話，退回隨機記憶模式
+        if not recent_lines:
+            valid_memories = [m for m in all_memories if isinstance(m, dict)]
+            if not valid_memories:
+                return []
+            selected = random.choice(valid_memories)
+            if 'owner' not in selected:
+                selected = selected.copy()
+                selected['owner'] = selected.get('owner', 'unknown')
+            return [{
+                'description': selected.get('description', ''),
+                'type': selected.get('type', ''),
+                'owner': selected.get('owner', 'unknown')
+            }]
+
         recent_text = "\n".join(recent_lines)
 
         # 準備記憶清單（只傳必要欄位，避免提示詞過長）

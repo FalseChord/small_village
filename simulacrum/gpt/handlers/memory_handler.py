@@ -141,11 +141,21 @@ class MemoryHandler(BaseHandler):
 
     def _create_dialogue_memory_prompt(self, dialogue: Dict, persona_data: Dict) -> str:
         """創建對話記憶分割的 prompt"""
+        # 從新的 topics 結構中構建對話內容
+        content_lines = []
+        topics_list = []
+        for topic_data in dialogue.get('topics', []):
+            topics_list.append(topic_data.get('topic', ''))
+            for turn in topic_data.get('turns', []):
+                content_lines.append(f"{turn.get('speaker', '')}: {turn.get('content', '')}")
+
+        dialogue_content = "\n".join(content_lines) if content_lines else dialogue.get('content', '')
+
         prompt = (
             "請分析以下對話，並將其分割成三種不同類型的記憶。\n\n"
-            f"對話內容：{dialogue.get('content', '')}\n"
+            f"對話內容：{dialogue_content}\n"
             f"參與者：{', '.join(dialogue.get('participants', []))}\n"
-            f"主題：{', '.join(dialogue.get('topics', []))}\n"
+            f"主題：{', '.join(topics_list)}\n"
             f"心情：{dialogue.get('mood', 'neutral')}\n"
             f"時間：{dialogue.get('time', '')}\n\n"
 

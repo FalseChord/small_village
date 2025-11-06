@@ -1,0 +1,238 @@
+[
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "semantic",
+        "description": "用幽默、誇張示範加上互動式問題，是教導生活片語（如 'break the ice'）的有效方式，能提高觀眾記憶與留言互動率。",
+        "keywords": [
+            "教學方法",
+            "幽默示範",
+            "互動提問",
+            "break the ice",
+            "記憶點"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "ced247aca86f8b21c7aaa67117e71b2a"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "semantic",
+        "description": "小型手機拍片常用裝備與分工：三腳架、環形燈、手寫札記卡、迷你白板可快速建立場景；自由職業攝影師可協助構圖與收音，提高成片品質。",
+        "keywords": [
+            "三腳架",
+            "環形燈",
+            "收音",
+            "自由攝影師",
+            "道具管理"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "58ab044d7e17f99f8fd9d168c27c22b1"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "semantic",
+        "description": "短影片製作與上傳節奏可這樣安排：早上拍攝 → 午休時間剪輯 → 晚上固定時段上傳（例如晚上七點），並以簡短標題吸引用戶（例：'今天學一個實用又好玩的片語'）。",
+        "keywords": [
+            "拍片流程",
+            "剪輯時段",
+            "上傳時機",
+            "標題策略"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "f93ef621e3d5a9993356a3264cedc87a"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "episodic",
+        "description": "我在 2020-06-19 10:31 到彰化市 Simple Brew，先在吧台角落擺好三腳架、環形燈、手寫札記卡和迷你白板，佈置成拍片場景的那個瞬間。",
+        "keywords": [
+            "Simple Brew",
+            "吧台場景",
+            "10:31",
+            "擺道具"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "aa838c6b868c0a7fea794bd455ab6608"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "episodic",
+        "description": "和受朋友推薦的自由職業攝影師吳阿銘一起彩排三段台詞（開場自嘲、教學例句、互動式問題），他負責構圖與收音，我們討論節奏與鏡位。",
+        "keywords": [
+            "吳阿銘",
+            "彩排",
+            "構圖與收音",
+            "三段台詞"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "533fcb7dc0e4ab05cd020d5a35ae0631"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "episodic",
+        "description": "拍攝過程中學生陳小潔認出我並進來打招呼，成為臨時示範對象，我即興和她演練一段對話；小芳借了木頭椅並給了我寫著『Grammar Latte』的熱拿鐵作為笑點道具。",
+        "keywords": [
+            "陳小潔",
+            "臨時示範",
+            "Grammar Latte",
+            "即興對話",
+            "小芳"
+        ],
+        "emotional_intensity": 0.9,
+        "id": "6aa257926690bffb6ae89afdfb324da4"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "emotional",
+        "description": "在現場進行幽默教學時感到強烈的成就感與創作樂趣，因為能把教學和娛樂結合，並想像觀眾的互動反應。",
+        "keywords": [
+            "成就感",
+            "創作樂趣",
+            "教學熱情",
+            "期待互動"
+        ],
+        "emotional_intensity": 0.8,
+        "id": "c17458732105032167005370cb59950f"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "emotional",
+        "description": "對於夥伴與店員的幫忙感到溫暖與感激：吳阿銘專業協助、店員小芳借道具並提供拿鐵、學生臨時加入都讓過程更順利且有人情味。",
+        "keywords": [
+            "感激",
+            "合作",
+            "人情溫度",
+            "團隊支持"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "8c6d3f0323f371803c99bf2df8bf9420"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "emotional",
+        "description": "在即興示範和笑場出現時感到一點自我意識與小緊張，所以事後要討論哪些笑場要剪掉，兼顧真實感與成片節奏。",
+        "keywords": [
+            "害羞",
+            "即興笑場",
+            "自我意識",
+            "剪輯取捨"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "fb25aef02d81d3f2e263f507c6ac0c56"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "semantic",
+        "description": "從對話得知李承翰擅長即興幽默，會用逗笑的方法讓人放鬆與紓解場面。",
+        "keywords": [
+            "李承翰",
+            "即興幽默",
+            "放鬆技巧",
+            "社交能力"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "5f4bf5bce3cb55b05839070c2258ae12"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "semantic",
+        "description": "有一段拍片經驗：當陳小潔進場時，李承翰即興逗笑陳小潔，當下起到救場效果。",
+        "keywords": [
+            "拍片經驗",
+            "陳小潔",
+            "救場",
+            "逗笑",
+            "現場"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "61f44d495c91ae8402f4568d0b481727"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "semantic",
+        "description": "羅以青月底有考試，並認為學會逗笑的技巧可以在考試前緩解緊張。",
+        "keywords": [
+            "羅以青",
+            "月底考試",
+            "緩解緊張",
+            "學習技巧"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "9256740f9684c11b7108fd0127c5935a"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "episodic",
+        "description": "羅以青在對話中對李承翰表示關心並讚賞他逗笑小君的本事，提到看到小君慌張自己也緊張。",
+        "keywords": [
+            "羅以青稱讚",
+            "小君慌張",
+            "關心對話"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "f6df260498b7b5b868d3e8dc2f9f7e06"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "episodic",
+        "description": "李承翰回憶並描述自己『現場亂練』的做法，提到上次拍片時即興逗陳小潔笑的場景。",
+        "keywords": [
+            "李承翰回應",
+            "現場亂練",
+            "拍片回憶",
+            "陳小潔"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "e8d14747acf4327f516111dce606a949"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "episodic",
+        "description": "羅以青表示想偷學李承翰的幾招，覺得在月底考試緊張時可以派上用場，帶出學習動機與實際應用場景。",
+        "keywords": [
+            "想偷學",
+            "考試應用",
+            "月底考試",
+            "緊張緩解"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "f8a5c5e49dc1cc804292cc386f445612"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "emotional",
+        "description": "羅以青對李承翰的幽默感到欽佩，同時帶有緊張與期待的情緒，希望學到可以自用的技巧。",
+        "keywords": [
+            "欽佩",
+            "期待",
+            "緊張",
+            "學習意願"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "da09a97dfd1ceda75ed3c2ba52895aa0"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "emotional",
+        "description": "李承翰表現出輕鬆、幽默與自嘲的態度，讓整體對話氣氛更放鬆且親切。",
+        "keywords": [
+            "輕鬆",
+            "幽默",
+            "自嘲",
+            "親切"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "ce6613716bb18cc9dbe771e08a4f1bc3"
+    },
+    {
+        "created_time": "2020-06-19 00:00:00",
+        "type": "emotional",
+        "description": "整體對話呈現友善的關懷與解壓氛圍，雙方互動溫和且帶有正向情緒。",
+        "keywords": [
+            "友善關懷",
+            "解壓",
+            "正向氛圍"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "57d3d4934d0783e5f27fbb394483896c"
+    }
+]

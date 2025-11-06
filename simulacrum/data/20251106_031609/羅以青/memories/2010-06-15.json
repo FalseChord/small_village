@@ -1,0 +1,4880 @@
+[
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我記得爸爸在鎮上經營一家雜貨店，櫃檯上擺滿糖果與香菸，後方貨架堆著米、醬油、洗衣粉等生活必需品。",
+        "keywords": [
+            "爸爸",
+            "雜貨店",
+            "櫃檯",
+            "糖果",
+            "香菸",
+            "貨架",
+            "米",
+            "醬油",
+            "洗衣粉"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "a40e9b96ef5d019ffba3a4dd20f3118a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我記得媽媽經常在店裡幫忙，空閒時會和鄰居聊天，語速很快。",
+        "keywords": [
+            "媽媽",
+            "店裡幫忙",
+            "鄰居聊天",
+            "語速很快",
+            "空閒時"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "e3949799b00e1dd764cd67ed73a1c2f7"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我的姐姐比我大三歲，而我小時候常帶她去海邊撿貝殼。",
+        "keywords": [
+            "姐姐",
+            "大三歲",
+            "小時候",
+            "海邊",
+            "貝殼",
+            "撿貝殼"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "84834252f27fca9300771cf88305e8f8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我的祖父母住在隔壁的老木屋。每到黃昏，阿嬤就會叫我回家吃飯。",
+        "keywords": [
+            "隔壁",
+            "老木屋",
+            "黃昏",
+            "阿嬤",
+            "回家吃飯"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "fb11b64d8c4701c7621cb4c227840780"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我居住在一個位於海邊的小鎮，早晨的空氣帶著鹹味。",
+        "keywords": [
+            "小鎮",
+            "海邊",
+            "早晨",
+            "鹹味",
+            "空氣"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "99fe5906d87cd4ec560c770d2dab7bc0"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "每逢週末，我在鎮上的廟口，看見小吃攤，聽見叫賣聲。",
+        "keywords": [
+            "週末",
+            "廟口",
+            "小吃攤",
+            "叫賣聲",
+            "鎮上"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "fdee9e4b84ad5c1b0a1a6cb82f3670dd"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "去上學的時候，我要走過一條窄窄的石板路，雨天時它會滑。",
+        "keywords": [
+            "上學",
+            "窄路",
+            "石板路",
+            "雨天",
+            "路滑"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "871651e6ff7d3f6ec4b750404164bef6"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我在雜貨店幫爸爸補貨，搬米袋時覺得很重。",
+        "keywords": [
+            "雜貨店",
+            "補貨",
+            "搬米袋",
+            "很重",
+            "爸爸"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "ca9a0c003226831cef2de947790d6864"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我幫媽媽收錢找零，偶爾算錯，被媽媽糾正。",
+        "keywords": [
+            "找零",
+            "收錢",
+            "幫忙",
+            "算錯",
+            "糾正",
+            "媽媽"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "8e783797d6c6d2a29e51433c48823d9a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在上學的路上，我和同學一起買了豆漿和油條當早餐。",
+        "keywords": [
+            "上學途中",
+            "同學",
+            "豆漿",
+            "油條",
+            "早餐"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "562e4552f838c486bb3589945384cdfa"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "每年的中秋節家族聚會，我和家人會在院子裡圍著烤肉。",
+        "keywords": [
+            "中秋節",
+            "家族聚會",
+            "院子",
+            "烤肉",
+            "團聚"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "3d0fe6e581163f1e9b21cdacf60d5ec8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "小時候我跟著家人去媽祖廟拜拜，會拿香跟著大人祈願。",
+        "keywords": [
+            "小時候",
+            "家人",
+            "媽祖廟",
+            "拜拜",
+            "拿香",
+            "祈願",
+            "跟著大人"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "146e27dc084a93db97a27e24dc78d455"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "每年媽祖遶境時，我會和家人一起走幾公里，沿路領平安符。",
+        "keywords": [
+            "媽祖遶境",
+            "家人",
+            "走路",
+            "平安符",
+            "沿路"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "3542f3c39f68bc590bd06d9dcde3acd1"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "有一次，阿嬤幫我求籤，解籤時說我未來會讀很多書。",
+        "keywords": [
+            "阿嬤",
+            "求籤",
+            "解籤",
+            "未來讀書",
+            "讀很多書"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "f3415ccd37f9f94de1b6dad7cbf17878"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我喜歡在下課時和同學一起跳橡皮筋、打躲避球。",
+        "keywords": [
+            "下課",
+            "橡皮筋",
+            "躲避球",
+            "同學"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "ceff341f730e3f84d9c1817f7818b59e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在中學時，我參加了英語朗讀比賽，第一次在全校師生面前得獎。",
+        "keywords": [
+            "中學時",
+            "英語朗讀",
+            "比賽",
+            "獲獎",
+            "全校",
+            "師生",
+            "第一次"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "019024d899c53cbb25484a8144bb016e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "每次段考後，我都會聽到媽媽問我的成績名次，還和親戚比較。",
+        "keywords": [
+            "段考",
+            "成績名次",
+            "媽媽",
+            "比較",
+            "親戚"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "16ce443e722097cd7aa822a4a5d76f8f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我參加了英語戲劇社，第一次用全英文演出莎士比亞的戲劇。",
+        "keywords": [
+            "英語戲劇社",
+            "第一次",
+            "全英文",
+            "莎士比亞",
+            "演出"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "f9a04157f4113b86f415bc7a7cf3c519"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我和同學在校園咖啡廳討論作業，直到深夜。",
+        "keywords": [
+            "我與同學",
+            "校園",
+            "咖啡廳",
+            "討論作業",
+            "深夜"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "4b39f0994ec3d99894dc4005d11fee12"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我報名英語教學碩士班的入學考，花時間準備教學法與語言學理論。",
+        "keywords": [
+            "報名",
+            "英教碩士",
+            "入學考",
+            "教學法",
+            "語言學",
+            "理論",
+            "準備",
+            "時間"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "7d13d9e16409b7677276644ebaa473d3"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我每天早上5點起床背英文單字與專業詞彙。",
+        "keywords": [
+            "每天",
+            "早上",
+            "起床",
+            "英文單字",
+            "專業詞彙"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "e30ad5a76f0bee0a995169047fc058da"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我每天早上7:10搭捷運去學校，穿著簡單的針織上衣與西裝褲，進教室前我會先到辦公室沖一杯黑咖啡。",
+        "keywords": [
+            "捷運",
+            "到校",
+            "辦公室",
+            "黑咖啡",
+            "針織上衣",
+            "西裝褲"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "3bdda1a90d879ff1db09d5883da8aae8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在第一節課前，我會在教室外等學生進場，趁機與幾個熟悉的學生閒聊昨晚的作業或週末活動。",
+        "keywords": [
+            "教室外",
+            "等學生",
+            "熟悉學生",
+            "昨晚作業",
+            "週末活動",
+            "閒聊"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "31fe4c752e43695f0285728b16f29aa5"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "下課時，我常看到學生圍在我的講桌前，詢問單字的用法，或分享他們的生活趣事。",
+        "keywords": [
+            "下課後",
+            "學生",
+            "講桌前",
+            "單字用法",
+            "生活趣事"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "37871e6b547e3a90985aecec89f0c4e9"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "午休時間，我偶爾和幾位同事一起去校門口的早餐店吃蛋餅或三明治；有時我也會獨自批改作業。",
+        "keywords": [
+            "午休",
+            "同事",
+            "早餐店",
+            "蛋餅",
+            "三明治",
+            "獨自",
+            "批改",
+            "作業"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "2fda12634cfa86be975c62a570708a34"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "放學後，我留在教室裡輔導幾位程度較弱的學生，直到校工提醒關燈才離開。",
+        "keywords": [
+            "放學後",
+            "教室",
+            "輔導",
+            "弱學生",
+            "校工提醒",
+            "關燈",
+            "離開"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "193eb7a16ec22dd6369598b539210f61"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我常與隔壁班的數學老師一起討論學生狀況，互相交換班級管理的技巧。",
+        "keywords": [
+            "隔壁班",
+            "數學老師",
+            "討論學生",
+            "學生狀況",
+            "管理技巧"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "34bfe2af6ef4aa3e21d0408e634ad36d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我是個頑皮的男學生，曾在課堂上故意用台語大聲回答問題，結果全班哄笑。",
+        "keywords": [
+            "頑皮",
+            "男學生",
+            "課堂",
+            "台語",
+            "哄笑",
+            "全班"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "5d6005fca777ef9f0072a6ffa57a0c29"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在學期末，我收到了幾位學生親手寫的卡片與小禮物，感動得一時說不出話。",
+        "keywords": [
+            "學期末",
+            "學生",
+            "卡片",
+            "小禮物",
+            "感動",
+            "說不出話"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "3f7a3608439f190c3f38ed696b88a493"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我曾嘗試用全英文授課，發現大多數學生跟不上，於是我只好臨時改回雙語教學。",
+        "keywords": [
+            "全英文",
+            "授課",
+            "學生",
+            "跟不上",
+            "雙語教學"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "0b82ca43613080008165c0d571390067"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我參加市級英語朗讀比賽，班上兩位學生獲得優勝，我在台下看到她激動得差點流淚。",
+        "keywords": [
+            "市級",
+            "英語",
+            "朗讀",
+            "比賽",
+            "班上",
+            "學生",
+            "優勝",
+            "激動",
+            "台下",
+            "流淚"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "4ffd2ebcd8a89def1055f961a8d836a5"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我曾因班上兩位學生打架而被叫到導師辦公室處理，耽誤了備課時間。",
+        "keywords": [
+            "打架",
+            "班上",
+            "導師",
+            "辦公室",
+            "備課",
+            "耽誤",
+            "時間",
+            "處理"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "630112e0ae7709f68430dae479ad952d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "每年寒暑假前夕，等待是否續聘的電話，總是讓我忐忑不安。",
+        "keywords": [
+            "寒暑假",
+            "等待",
+            "續聘",
+            "電話",
+            "忐忑不安"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "956d2e569c89482d0492764ee2d61771"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "每逢週末，我都回到小鎮探望父母，在雜貨店幫忙整理貨架或收錢。",
+        "keywords": [
+            "週末",
+            "小鎮",
+            "父母",
+            "雜貨店",
+            "整理貨架",
+            "收錢"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "25db905845b5ce8e54abfc98eb61c8f8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "媽媽常在電話中提醒我注意飲食與休息，並催促我多考慮回鄉找穩定的工作。",
+        "keywords": [
+            "飲食",
+            "休息",
+            "回鄉",
+            "穩定工作",
+            "催促",
+            "多考慮"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "4ca4d875d919877d72d40925d532ab85"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "每次我回家時，爸爸雖然話不多，但總會替我準備我愛吃的蛋餅與豆漿。",
+        "keywords": [
+            "爸爸",
+            "回家時",
+            "蛋餅",
+            "豆漿",
+            "陪伴",
+            "溫暖",
+            "愛吃"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "bf6566288694cb2ee45bf94db703084f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在家庭聚餐時，親戚不斷詢問我的婚姻與工作情況，讓我感到有些尷尬。",
+        "keywords": [
+            "家庭聚餐",
+            "親戚",
+            "婚姻",
+            "工作",
+            "情況",
+            "尷尬",
+            "詢問"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "ba170f7d6f3646192c31ea72321aed68"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "婚前，我和姐姐會一起逛街、看電影、在夜市吃小吃；婚後，我們見面的次數明顯減少。",
+        "keywords": [
+            "婚前",
+            "逛街",
+            "看電影",
+            "夜市",
+            "小吃",
+            "婚後",
+            "見面次數",
+            "減少"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "7fe54bd13797d8e812e56c4b88ef0072"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我偶爾會接到姐姐的電話，聽她分享我姪女的趣事與她的照顧壓力。",
+        "keywords": [
+            "姐姐",
+            "電話",
+            "姪女",
+            "趣事",
+            "照顧壓力",
+            "分享"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "e8706e04416169731ffe45f4fc36be34"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "當姐姐的姪女出生時，我特地請假回家探望，並帶了嬰兒用品作為禮物。",
+        "keywords": [
+            "姐姐",
+            "姪女",
+            "出生",
+            "請假",
+            "回家",
+            "探望",
+            "嬰兒用品",
+            "禮物"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "bb300292da7cfbf4953a57dd4c9431e9"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我經常與年紀相近的代課老師一起午餐，交換備課心得與教學資源。",
+        "keywords": [
+            "午餐",
+            "代課",
+            "同齡",
+            "心得",
+            "教學",
+            "資源",
+            "交流"
+        ],
+        "emotional_intensity": 0.18,
+        "id": "3efb30eace414bb739ecba9114400322"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "某次校內活動後，我和同事們一起去KTV唱歌，聊到深夜才離開。",
+        "keywords": [
+            "校內活動",
+            "同事們",
+            "KTV",
+            "唱歌",
+            "深夜離開"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "9e6bcd3cb0d81ab78039ad3442aec950"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "有一次我在會議上被資深老師公開批評我的教案準備不足，感到委屈卻選擇沉默。",
+        "keywords": [
+            "資深老師",
+            "會議",
+            "教案準備",
+            "準備不足",
+            "委屈",
+            "沉默",
+            "公開批評"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "3069c20faec95e9311883afd9c86cc08"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我是老師，看到一位成績平平但努力不懈的學生在期末考取得進步，因此我特地在課後表揚他。",
+        "keywords": [
+            "成績平平",
+            "努力不懈",
+            "期末進步",
+            "課後表揚",
+            "老師表揚",
+            "學生進步"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "3655dca9f2aa491737cea37ca8637d27"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在下雨天，我主動為她撐傘，陪她走到校門口。",
+        "keywords": [
+            "下雨天",
+            "撐傘",
+            "校門口",
+            "主動",
+            "關懷"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "101207e920a94bc5da8013d7f2ef668f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我曾在教室裡陪伴一位情緒低落的學生談心，結果錯過了與同事的午餐約。",
+        "keywords": [
+            "情緒低落",
+            "教室談心",
+            "午餐約",
+            "同事",
+            "陪伴"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "d2b2d1fd13630706ed1ed5f78723f1f7"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在一次朋友聚會中，我被安排相親，但雙方沒有後續發展。",
+        "keywords": [
+            "朋友聚會",
+            "相親",
+            "安排",
+            "無發展",
+            "初見",
+            "雙方"
+        ],
+        "emotional_intensity": 0.32,
+        "id": "9bc9c0da138fc8a38c4286f724798851"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "有時我會在婚禮上被同齡朋友詢問為何還單身，我總是笑著把話題帶過。",
+        "keywords": [
+            "婚禮",
+            "單身",
+            "同齡",
+            "朋友",
+            "詢問",
+            "微笑",
+            "帶過"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "4caf061909b93db25fa7f892b1ea4c25"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "每年春天，我和家人會早起集合，帶著供品和香，搭乘鄉親租的遊覽車前往廟口集合。",
+        "keywords": [
+            "春天",
+            "家人",
+            "早起",
+            "供品",
+            "香",
+            "遊覽車",
+            "廟口",
+            "集合"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "416db76a785b74eb2fa004ced442c586"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在遶境開始前，媽媽會幫我在手腕綁上紅線，說是保平安。",
+        "keywords": [
+            "遶境",
+            "媽媽",
+            "手腕",
+            "紅線",
+            "保平安",
+            "祈福"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "bbe4b56a6c10b8d3902cff3edbd66eff"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我走在遶境隊伍中，沿路有居民端出茶水與餅乾給信眾休息。",
+        "keywords": [
+            "遶境",
+            "隊伍",
+            "居民",
+            "茶水",
+            "餅乾",
+            "信眾",
+            "休息"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "03c9143d6130ab5ac11aa61e97456539"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "有一次在進香回程的車上，我和大家一邊吃便當，一邊分享今年的心願與祈求。",
+        "keywords": [
+            "進香",
+            "回程",
+            "車上",
+            "便當",
+            "心願",
+            "祈求",
+            "大家",
+            "分享"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "06957804ad606175891cd3e2ea8786bb"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "當時我在路上，遇到了多年未見的鄉親，我們彼此寒暄、交換近況。",
+        "keywords": [
+            "路上遇見",
+            "多年未見",
+            "鄉親",
+            "寒暄",
+            "近況"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "99839b95fba1cf33feb98007527d34fb"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我看到有小販沿路叫賣香火袋、平安符與飲料，攤位前人潮熱鬧。",
+        "keywords": [
+            "小販",
+            "沿路",
+            "香火袋",
+            "平安符",
+            "飲料",
+            "攤位",
+            "人潮",
+            "熱鬧"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "dde108dc6b41c34fc9754d1bc5d5157a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我曾在休息點和一位年長婦人聊天，聽她講述年輕時跟著遶境的故事。",
+        "keywords": [
+            "休息點",
+            "年長婦人",
+            "遶境",
+            "故事",
+            "年輕時"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "259f12641cdce4d6b29c3c56a7e68bda"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在求職前，我跟著媽媽到媽祖廟求籤，解籤時聽到解籤人說我要耐心等待。",
+        "keywords": [
+            "求職前",
+            "媽祖廟",
+            "求籤",
+            "解籤",
+            "耐心等待"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "9687ff532ce19bebef61034da8ad9cc3"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "有一次，我和家人為了感謝病癒，帶著水果與金紙到廟裡還願。",
+        "keywords": [
+            "我和家人",
+            "家人",
+            "感謝",
+            "病癒",
+            "水果",
+            "金紙",
+            "廟裡",
+            "還願"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "4cc9f40c0a053cb55665a2bf45d9e041"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我看到阿公在擲筊時連續得到聖筊，大家都驚呼這是媽祖的肯定。",
+        "keywords": [
+            "阿公",
+            "擲筊",
+            "聖筊",
+            "媽祖",
+            "肯定"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "2c953dc6329e0395ffe63cb9064fa2e1"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "當我在北上工作遇到挫折時，我會回想起媽祖遶境時與家人並肩走路的畫面。",
+        "keywords": [
+            "北上",
+            "工作",
+            "挫折",
+            "媽祖遶境",
+            "家人",
+            "並肩走路"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "ac272aa632ab2425c8fd66b1565c8aba"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我每逢農曆三月媽祖生日前後，會在家族群組裡聽到大家討論誰要參加進香。",
+        "keywords": [
+            "農曆三月",
+            "媽祖生日",
+            "家族群組",
+            "討論",
+            "參加進香"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "941e7cca4627d6a14752afebd3c215dd"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我聽到路旁的鑼鼓聲與鞭炮聲不斷，空氣中充滿煙硝與香火味。",
+        "keywords": [
+            "鑼鼓聲",
+            "鞭炮聲",
+            "煙硝",
+            "香火味",
+            "路旁"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "de2179ee796e03977063166c2d0ea086"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我看著孩子們追逐著陣頭舞獅，拍手歡呼。",
+        "keywords": [
+            "孩子們",
+            "陣頭",
+            "舞獅",
+            "拍手",
+            "歡呼",
+            "追逐"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "ed10bf9831290dcfb9d14f081ba2bd53"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "當我們隊伍經過時，居民端出西瓜、冰茶與花生糖招待我們。",
+        "keywords": [
+            "隊伍",
+            "經過",
+            "居民",
+            "西瓜",
+            "冰茶",
+            "花生糖",
+            "招待"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "54502f9c503f4b5a3e6317a0e5c92755"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "當媽祖鑾轎經過時，我看見人群自動跪下，雙手合十祈福。",
+        "keywords": [
+            "媽祖",
+            "鑾轎",
+            "經過",
+            "人群",
+            "跪下",
+            "祈福",
+            "合十"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "9b1d651f037916ee7eb63228dfb67795"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在夜間繞境時，我看到火光映照出媽祖神像的莊嚴臉龐。",
+        "keywords": [
+            "夜間",
+            "繞境",
+            "火光",
+            "媽祖",
+            "神像",
+            "莊嚴",
+            "臉龐",
+            "映照"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "a7a6b88b8f620690c03f890f4df2d778"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在一次擁擠中，我被拉回隊伍的安全區，回頭看到鑾轎與護駕人員緊密行進。",
+        "keywords": [
+            "擁擠",
+            "被拉回",
+            "安全區",
+            "鑾轎",
+            "護駕人員",
+            "緊密行進"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "f40e77dd1b752924f6dc698f22c1fa61"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我平日下班後會泡一杯茶，坐在小客廳閱讀文學小說或教育心理類書籍。",
+        "keywords": [
+            "下班",
+            "泡茶",
+            "小客廳",
+            "文學小說",
+            "教育心理"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "abea63dc0fdc595c37aa5f906c5abd8c"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我偶爾在週末追韓劇或日劇，習慣一次連看兩三集。",
+        "keywords": [
+            "週末",
+            "韓劇",
+            "日劇",
+            "連看",
+            "兩三集"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "a57c375c24d055fcab053d9ba91eade2"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我曾參加過社區的攝影展與志工活動，幫忙布置場地並招呼來賓。",
+        "keywords": [
+            "社區",
+            "攝影展",
+            "志工",
+            "布置",
+            "招呼",
+            "來賓"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "484bbbb1f07dd57526d62c73b21761c8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我常在小餐館或咖啡廳與好友聚會，邊吃邊聊近況。",
+        "keywords": [
+            "小餐館",
+            "咖啡廳",
+            "好友",
+            "聚會",
+            "聊天",
+            "近況"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "75d06803bc001bc4bf88d1d4ac0889d3"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我偶爾參加同事的聚餐或生日慶祝，會準備小禮物。",
+        "keywords": [
+            "偶爾",
+            "參加",
+            "同事",
+            "聚餐",
+            "生日慶祝",
+            "準備",
+            "小禮物"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "e00247a1254180f77b732629d7066376"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我每個月都會搭車回小鎮看父母，順便幫忙雜貨店整理貨架。",
+        "keywords": [
+            "每月",
+            "回小鎮",
+            "父母",
+            "雜貨店",
+            "整理",
+            "貨架"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "138eb8911c23ad8baee6127a375d487c"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "每逢農曆節慶，我會和家人一起到廟裡拜拜。",
+        "keywords": [
+            "農曆節慶",
+            "家人",
+            "廟裡",
+            "拜拜",
+            "習慣"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "09d048f7c17b2c5bc52d1c62168826b9"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我偶爾會在台北休息，整理房間，煮簡單的家常菜。",
+        "keywords": [
+            "台北",
+            "休息",
+            "整理房間",
+            "家常菜",
+            "煮菜"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "f36d31b9f90621f84aa5278281882b4f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我每週都會到附近的公園快走或慢跑半小時。",
+        "keywords": [
+            "每週",
+            "附近公園",
+            "快走",
+            "慢跑",
+            "半小時"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "3db2b1a5a475c7469a5f16cf22dca283"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我曾與同事一起報名瑜伽課，持續了三個月。",
+        "keywords": [
+            "瑜伽課",
+            "同事",
+            "報名",
+            "三個月",
+            "一起"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "b879f06d93214fb7cc035ae74c368cf4"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我喜歡在假日的早晨到河堤騎腳踏車，看著河面晨霧。",
+        "keywords": [
+            "假日早晨",
+            "河堤",
+            "騎腳踏車",
+            "河面",
+            "晨霧"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "d041d4749b719476cbc0b4d8ab4fd0cc"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我第一次參加教師甄試，前一晚我反覆練習自我介紹與教學示範，但仍因焦慮而失眠。",
+        "keywords": [
+            "第一次",
+            "教師甄試",
+            "前一晚",
+            "自我介紹",
+            "教學示範",
+            "焦慮",
+            "失眠"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "531762724c16da9bdcd26fd9a74542d5"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在面試當天，我穿著新買的淺藍色襯衫與黑色西裝褲，握著簡報稿走進教室，手心冒汗。",
+        "keywords": [
+            "面試當天",
+            "新藍襯衫",
+            "黑西裝褲",
+            "走進教室",
+            "手心汗"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "11d00f7ec736d0bbc5a2270a36ca3234"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在教學模擬的環節裡，我因過度緊張卡詞，導致後面的內容被我匆匆帶過。",
+        "keywords": [
+            "緊張",
+            "卡詞",
+            "教學",
+            "模擬",
+            "匆匆",
+            "影響"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "e05649fce2d4b1b93c2710534dcb699b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "午休時，我坐在考場外的階梯上吃著便當，望著其他考生互相討論考題，感到壓力倍增。",
+        "keywords": [
+            "午休",
+            "考場",
+            "階梯",
+            "便當",
+            "討論",
+            "考題",
+            "壓力"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "378d00dc280d610ff5d29ff6ba47e396"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "成績公布當天，手機震動的那一刻，我的心跳立刻加速。打開網頁看到榜單上沒有我的名字，我愣在原地許久。",
+        "keywords": [
+            "手機震動",
+            "心跳加速",
+            "榜單無名",
+            "名字缺失",
+            "愣在原地",
+            "成績日"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "b3630372055e6897ba5dba139509ccbe"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "晚上我回到自己的小套房，拉上窗簾，在床邊抱著膝蓋哭了一整晚，枕頭全濕。",
+        "keywords": [
+            "夜晚",
+            "小套房",
+            "窗簾",
+            "哭泣",
+            "膝蓋",
+            "枕頭濕"
+        ],
+        "emotional_intensity": 0.82,
+        "id": "bbf8d60a615895828efd900025ba5228"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "落榜後的半年，我同時嘗試準備二度考試與投遞履歷。",
+        "keywords": [
+            "落榜",
+            "半年",
+            "二度考試",
+            "投遞履歷",
+            "準備"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "eee033592dc9cb39b57e16aeb9410683"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "夜晚裡，我獨自翻看職缺資訊，並計算房租與生活開銷。",
+        "keywords": [
+            "夜晚",
+            "職缺資訊",
+            "房租",
+            "生活開銷",
+            "獨自"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "8715d636d1c04ac9203d0322ef7d33bc"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "有一晚，我在筆記本上寫下『要走的路不能只有一條』。",
+        "keywords": [
+            "夜晚",
+            "筆記本",
+            "寫下",
+            "要走的路",
+            "路"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "f95fdb8ea6f3acf0a542829406f1d3d6"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在寒暑假裡，我負責餵食、翻身、聊天，並學會了量血壓與簡單的復健。",
+        "keywords": [
+            "餵食",
+            "翻身",
+            "聊天",
+            "血壓",
+            "復健",
+            "寒暑假"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "c47494faa6c85d658bc88ca3dacabf35"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我記得，母親因長期勞累而腰痛，她和我的姐姐一起分擔家務與雜貨店的工作。",
+        "keywords": [
+            "腰痛",
+            "長期勞累",
+            "家務",
+            "雜貨店",
+            "姐姐"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "8effa8f9384666a25f46d0c74beb2e16"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我因祖母的健康需要更多照顧，特地請假回鄉，協助母親照顧她，例如陪同就醫、準備餐點、聊天解悶。",
+        "keywords": [
+            "請假回鄉",
+            "協助照顧",
+            "陪同就醫",
+            "準備餐點",
+            "聊天解悶"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "10a2339e9ed1d5606cb2f54afc1a51e3"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我在京都迷路時遇到了一位當地的阿嬤，她熱心地幫我指路。",
+        "keywords": [
+            "京都",
+            "迷路",
+            "阿嬤",
+            "熱心",
+            "指路"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "482e8acf785bb8d51c3c1100e565bf69"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在奈良餵鹿時，我被搶走了仙貝，這件事引發了一陣笑鬧。",
+        "keywords": [
+            "奈良",
+            "餵鹿",
+            "仙貝",
+            "被搶走",
+            "笑鬧"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "b672705874cb8dca53e85742b6b3624d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "回國後，我整理旅行照片，做成相簿，送給同行的朋友們。",
+        "keywords": [
+            "回國",
+            "整理",
+            "旅行照片",
+            "相簿",
+            "同行朋友"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "6f85b51796ed691fc655b91c97048395"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "當我得知消息時，我正在課堂上，愣在座位上許久才回過神。",
+        "keywords": [
+            "消息",
+            "課堂",
+            "愣住",
+            "座位",
+            "回神",
+            "震驚"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "e11a917a9d18ec3ada9413a52317b9eb"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我在參加告別式時，和朋友們擁抱並落淚。",
+        "keywords": [
+            "告別式",
+            "朋友",
+            "擁抱",
+            "落淚",
+            "悲傷"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "8d82a3f0fa509341f244e435db4f4bc7"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "之後我常在特定節日翻出合照與對話紀錄。",
+        "keywords": [
+            "特定節日",
+            "合照",
+            "對話紀錄",
+            "翻出",
+            "我"
+        ],
+        "emotional_intensity": 0.25,
+        "id": "45859958a6326f0895113910140da725"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我曾遇到一名因家庭問題影響課業的學生，下課時我陪著他聊天，並協助他聯繫輔導室。",
+        "keywords": [
+            "學生",
+            "家庭問題",
+            "課業",
+            "下課",
+            "陪伴",
+            "輔導室",
+            "聯繫"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "ab2c96816558d5638354edb159cd9158"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我參加了姐姐的婚禮，看到父母在喜宴上滿臉笑容，深深感受到婚姻對家庭的重要性。",
+        "keywords": [
+            "姐姐婚禮",
+            "父母笑容",
+            "喜宴",
+            "婚姻價值",
+            "家庭"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "f9116f3f17aaa5ee1097940254756dd1"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "過年回家時，親戚會關心我的感情狀況，讓我感到壓力。",
+        "keywords": [
+            "過年",
+            "回家",
+            "親戚",
+            "感情狀況",
+            "壓力"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "90b78188f6b1f93ad963f0ca8057379e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我曾與朋友討論過單身與婚姻的選擇，對「一定要結婚」的觀念存有疑慮。",
+        "keywords": [
+            "單身",
+            "婚姻",
+            "選擇",
+            "疑慮",
+            "朋友",
+            "討論",
+            "觀念",
+            "結婚"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "28e28baf9cfb2063ab0a5ae537444cf3"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "小時候我跟著家人參加媽祖遶境，第一次走到腳酸，卻覺得自己特別有成就感。",
+        "keywords": [
+            "小時候",
+            "家人",
+            "媽祖遶境",
+            "腳酸",
+            "成就感"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "00c76a1aaaba1a9ddd3bd63141703c8e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "教師甄試失利後，我獨自去河濱公園散步直到天黑，試著整理思緒。",
+        "keywords": [
+            "教師甄試",
+            "失利",
+            "河濱公園",
+            "散步",
+            "天黑",
+            "整理思緒"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "d9cfb8d237a38eb4c3953ad15e49647d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在課堂上，我被學生挑戰了我的權威；下課後，我向資深同事請教該如何應對。",
+        "keywords": [
+            "課堂",
+            "學生",
+            "挑戰",
+            "權威",
+            "下課",
+            "資深同事"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "6e2ae9c5c26771d2d47d711286d834cc"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "在學期中，我被臨時通知要接手另一班的課程，雖然課綱和進度完全不同，但我利用週末時間重新備課並調整教材。",
+        "keywords": [
+            "臨時通知",
+            "接手課程",
+            "不同課綱",
+            "週末備課",
+            "調整教材"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "8fd9daaab8bf510080e751f228402c74"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我的套房位於捷運站步行十分鐘的舊公寓四樓，房間不大，但有落地窗，能看到對街的早餐店。",
+        "keywords": [
+            "捷運站",
+            "落地窗",
+            "早餐店",
+            "舊公寓",
+            "四樓",
+            "套房"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "3d9b99353ffb359bdef373e3a650f74f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "早上出門前，我會去樓下的便利商店買一杯美式咖啡，有時搭配蛋餅或飯糰。",
+        "keywords": [
+            "早上",
+            "便利商店",
+            "美式咖啡",
+            "蛋餅",
+            "飯糰"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "244fd4babff23ae0cd1d7baa5237b6ca"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我的通勤方式是先走路到捷運站，搭兩站轉公車到學校，全程約四十五分鐘。",
+        "keywords": [
+            "通勤",
+            "走路",
+            "捷運站",
+            "公車",
+            "學校"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "9ce07e69259e0a63cf0d4b7f98f2f164"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我平日晚餐多在學校附近的小吃店解決，偶爾自己煮簡單的麵或煎蛋。",
+        "keywords": [
+            "晚餐",
+            "小吃店",
+            "學校附近",
+            "自己煮",
+            "煎蛋",
+            "麵"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "8c6711f7adf58e9a9b53c6c33c5f6430"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "假日我常安排打掃房間、洗衣服，或到誠品書店待上幾小時看書。",
+        "keywords": [
+            "假日",
+            "打掃",
+            "房間",
+            "洗衣",
+            "誠品書店",
+            "看書"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "2063f9cb4388ac55a2c32b76295ee4f4"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我每月都搭高鐵回家探親，回到小鎮時就會去廟口吃我小時候喜歡的米粉湯。",
+        "keywords": [
+            "高鐵",
+            "回家",
+            "探親",
+            "小鎮",
+            "廟口",
+            "米粉湯"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "36896dcc3b83ab5feea4856b30ecb1c5"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "早上 7:10，我出門，沿著社區小路走到捷運站，經過一排早餐店與水果攤。",
+        "keywords": [
+            "7:10",
+            "出門",
+            "捷運站",
+            "社區小路",
+            "早餐店",
+            "水果攤"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "ab33e1e4618ea8158503372fc9f911cd"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我搭乘捷運兩站到轉運站，再轉乘公車約 20 分鐘到學校門口。",
+        "keywords": [
+            "捷運",
+            "兩站",
+            "轉運站",
+            "公車",
+            "轉乘",
+            "學校門口",
+            "路程"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "d7f58b0363b8dfd3664e68848d0440a2"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我的通勤全程約 45 分鐘，遇到塞車時會超過一小時。",
+        "keywords": [
+            "通勤",
+            "塞車",
+            "時間",
+            "分鐘",
+            "一小時"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "c9d0d1b8128eaca835640cb3a5a2e90e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我下班時間通常是在下午 5:30 左右，回程時我會在捷運站附近的超商或書店停留片刻再回家。",
+        "keywords": [
+            "下班",
+            "五點半",
+            "回程",
+            "捷運站",
+            "超商",
+            "書店",
+            "停留",
+            "片刻",
+            "回家"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "ee9a5bcabc19fe1ea22ed676fc29e4c2"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我早餐多數在家簡單準備，以全麥吐司、水煮蛋或無糖豆漿為主。",
+        "keywords": [
+            "早餐",
+            "在家",
+            "簡單",
+            "準備",
+            "全麥吐司",
+            "水煮蛋",
+            "無糖豆漿"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "4d41b6b1315d43f7f42f6851c2caecee"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "午餐時我和學校的老師一起訂便當，我喜歡吃健康的餐點，盡量少油少鹽，且搭配大量蔬菜。",
+        "keywords": [
+            "午餐",
+            "便當",
+            "老師",
+            "健康餐",
+            "少油",
+            "少鹽",
+            "蔬菜"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "8674e7462802ccbc2d924956d798ae38"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "下班後我偶爾會到社區附近的小餐館用餐，選擇以清淡口味為主。",
+        "keywords": [
+            "下班後",
+            "社區附近",
+            "小餐館",
+            "用餐",
+            "清淡口味",
+            "偶爾"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "6f2fd3647b44617bdba1a36b4fd1c4c4"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "週末回到家鄉時，我會和父母一起享用家常菜，尤其是媽媽做的清蒸魚和燉湯，這樣的時光讓我感到溫暖。",
+        "keywords": [
+            "週末",
+            "家鄉",
+            "父母",
+            "媽媽",
+            "清蒸魚",
+            "燉湯",
+            "家常菜"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "67e8fdfc7468deaf64ed2802ecbbd365"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我平日早起，準備上班，晚間回家後通常看書、追劇或批改作業。",
+        "keywords": [
+            "早起",
+            "準備上班",
+            "晚間回家",
+            "看書",
+            "追劇",
+            "批改作業"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "c93b389117061f3e970c5995e443d6a2"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "假日我會安排打掃房間、洗衣、買菜，並去書店待半天。",
+        "keywords": [
+            "打掃房間",
+            "洗衣",
+            "買菜",
+            "書店",
+            "半天"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "7d2f203a6c50ce9a7b35846417fc55fa"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "episodic",
+        "description": "我每個月都會回家探親，和家人一起吃飯聊天，也會去廟口走走。",
+        "keywords": [
+            "回家探親",
+            "家人",
+            "吃飯",
+            "聊天",
+            "廟口",
+            "每月"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "810fa55f258754d31b682ad450e89b0d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我記得爸爸性格節儉又固執，對做生意有一套自己的方式。",
+        "keywords": [
+            "爸爸",
+            "節儉",
+            "固執",
+            "生意之道",
+            "做法"
+        ],
+        "emotional_intensity": 0.18,
+        "id": "a8586c506c437ce6323f9d1c8f813753"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我記得我的媽媽很熱情健談，社交圈廣，熟悉鎮上所有人的近況。",
+        "keywords": [
+            "媽媽",
+            "熱情健談",
+            "社交圈廣",
+            "熟悉",
+            "鎮上近況"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "d59f9f0b10034d0cca637c700eeefa9e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的姐姐成績優異，是父母口中的榜樣。",
+        "keywords": [
+            "姐姐",
+            "成績",
+            "優異",
+            "父母",
+            "榜樣"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "3b5f95b43f3e389b12510f73c414a55d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我記得阿公阿嬤非常重視傳統禮節與宗教信仰。",
+        "keywords": [
+            "傳統禮節",
+            "宗教信仰",
+            "重視",
+            "家族價值",
+            "長輩教誨"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "4bdf01749e50278a46a23dc51579128b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我身處這個鎮上，居民彼此熟識，彼此照應，但也容易八卦。",
+        "keywords": [
+            "鎮上",
+            "居民",
+            "熟識",
+            "照應",
+            "八卦"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "5516d9a8a80c31af298e41ceeda7d701"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的主要經濟來源是漁獲和小雜貨店。",
+        "keywords": [
+            "漁獲",
+            "小雜貨店",
+            "經濟來源",
+            "收入"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "9c05aa1ef637548077b505c8264209b0"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的雜貨店是家庭收入的主要來源。",
+        "keywords": [
+            "雜貨店",
+            "家庭",
+            "收入",
+            "來源",
+            "生計"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "108c735b95d4bbfbfc58309b6dd44da6"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在節慶時，我和家人聚在一起，這對我而言是一種重要的文化習慣。",
+        "keywords": [
+            "節慶",
+            "家人",
+            "聚在一起",
+            "文化習慣",
+            "重要"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "7c3f9a72041efc89c47f31501c160349"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "媽祖是我鎮上最重要的信仰中心，廟口是我們社區居民社交的核心地點。",
+        "keywords": [
+            "媽祖",
+            "鎮上",
+            "信仰中心",
+            "廟口",
+            "居民",
+            "社交",
+            "核心地點"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "e9eab39deefc2fb267be043169b3bbba"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "遶境對我而言，是結合信仰與社交的年度大事。",
+        "keywords": [
+            "遶境",
+            "信仰",
+            "社交",
+            "年度",
+            "大事"
+        ],
+        "emotional_intensity": 0.18,
+        "id": "f05833269c60d1b70d279131c54154bf"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我覺得社團活動是我與人建立連結的重要平台。",
+        "keywords": [
+            "社團",
+            "活動",
+            "人際連結",
+            "平台",
+            "建立",
+            "重要"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "12b2b53e5705bf709d8cacfa1c26d44f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的申請過程需要準備讀書計畫、研究興趣陳述與推薦信。",
+        "keywords": [
+            "申請",
+            "過程",
+            "準備",
+            "讀書計畫",
+            "研究興趣",
+            "陳述",
+            "推薦信"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "f5ddbff47d73aa417944e516d33d6cab"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "身為代理老師，我得自行設計教案，並且常被臨時要求代替請假的同事上課。",
+        "keywords": [
+            "代理老師",
+            "自行設計",
+            "教案",
+            "臨時代課",
+            "請假同事",
+            "上課"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "4e76b2a32f744958599243b48e460ebe"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我在12到15歲時，正處於青春期，情緒與行為波動很大，因此我需要額外的情緒管理技巧。",
+        "keywords": [
+            "青春期",
+            "情緒波動",
+            "情緒管理",
+            "自我調適",
+            "成長",
+            "學習"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "d539347e928021a5c5c248350f9ba4e8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在學校的文化裡，我感受到資深教師的意見被高度重視，代理老師在重大決策中較少參與。",
+        "keywords": [
+            "資深教師",
+            "意見重視",
+            "代理老師",
+            "重大決策",
+            "參與度低"
+        ],
+        "emotional_intensity": 0.18,
+        "id": "17ed9fc81e9e65755822dfa67028591b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我知道與同事之間的關係會直接影響課堂支援與工作氛圍。",
+        "keywords": [
+            "同事",
+            "關係",
+            "課堂支援",
+            "工作氛圍",
+            "影響"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "19f078a0e7b415c41341f0439ceb6db1"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在台灣文化中，我常感受到師生關係混合著尊敬、依賴與情感連結。",
+        "keywords": [
+            "師生關係",
+            "尊敬",
+            "依賴",
+            "情感連結",
+            "台灣",
+            "文化"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "35888b22cb78a7a53a732a4c1a60cb93"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的學生的英語程度差距很大，讓我的課堂設計必須同時照顧基礎與進階學習者。",
+        "keywords": [
+            "學生",
+            "英語",
+            "差距",
+            "課堂設計",
+            "基礎",
+            "進階",
+            "學習者"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "2625a9b9e860371b29ecd4cab1d1b5de"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的比賽成績不僅影響同學們的自信，也會影響在校內老師對我的評價。",
+        "keywords": [
+            "比賽成績",
+            "同學自信",
+            "老師評價",
+            "校內影響",
+            "自信心"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "30bbe2141b1d3cd78d0a4eee11ea865c"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我對代理老師的續聘與否感到不確定，常受到學校預算與正式教師調動的影響，讓我感到缺乏穩定的保障。",
+        "keywords": [
+            "代理老師",
+            "續聘",
+            "預算",
+            "調動",
+            "穩定",
+            "保障"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "216b43cf5d5b74f68b0e0ca882a90413"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我在台灣的小鎮家庭長大，感受到父母對我的職涯與婚姻的期望仍深受傳統觀念影響。",
+        "keywords": [
+            "台灣",
+            "小鎮",
+            "家庭",
+            "父母",
+            "職涯",
+            "婚姻",
+            "傳統觀念"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "1d89e6680c799cbf338686b21d62710e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的家庭支持不僅包括情感鼓勵，也包含經濟與生活上的實質幫助。",
+        "keywords": [
+            "家庭",
+            "支持",
+            "情感",
+            "經濟",
+            "生活",
+            "幫助",
+            "鼓勵",
+            "實質"
+        ],
+        "emotional_intensity": 0.32,
+        "id": "8b3a0a76d94dd591f4e66552072ac7ca"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我通常被期待承擔更多照顧父母的責任。",
+        "keywords": [
+            "照顧父母",
+            "責任",
+            "期待",
+            "子女",
+            "家庭壓力"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "b5b338b4cc825be8d51ef70837e3bd7d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的婚姻與育兒責任常使我和姊妹間的互動頻率下降。",
+        "keywords": [
+            "婚姻",
+            "育兒",
+            "責任",
+            "姊妹",
+            "互動",
+            "頻率",
+            "下降"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "1d13106671d1334b5e441b0e63c180d7"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在傳統家庭裡，出嫁後，我的主要生活圈會轉向夫家。",
+        "keywords": [
+            "傳統",
+            "出嫁",
+            "生活圈",
+            "夫家",
+            "圈子"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "dd1748a24793d086d8be99fe254985e9"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在職場的互動中，我常常感受到合作與競爭同時並存。",
+        "keywords": [
+            "職場",
+            "人際",
+            "合作",
+            "競爭",
+            "互動",
+            "並存"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "178714d457a016d78ca8cab901b976ae"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我注意到資深與新進教師之間在權力與話語權上存在差距。",
+        "keywords": [
+            "資深",
+            "新進",
+            "教師",
+            "權力",
+            "話語權",
+            "差距"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "d6e86cc8da9425145065dea4823e680b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我建立職場友誼，這有助於情感支持與資源交換。",
+        "keywords": [
+            "職場",
+            "友誼",
+            "情感",
+            "支持",
+            "資源",
+            "交換"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "eb1e57675aded69f4988a4344a28f336"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我對老師的情感投入會影響我的學習動機與課堂氛圍。",
+        "keywords": [
+            "情感投入",
+            "老師",
+            "學習動機",
+            "課堂氛圍"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "87f59fc0d8df5e9e655701f5b73f07b9"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在台灣社會裡，身為女性的我，單身到三十歲以上時，常常面臨婚姻催促與外界的期待。",
+        "keywords": [
+            "三十歲",
+            "單身",
+            "婚姻催促",
+            "社會期待",
+            "女性",
+            "壓力"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "72079f844a6527870dbde2450201b89e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我記得婚姻曾被視為人生的重要里程碑，但我也感受到觀念逐漸多元化。",
+        "keywords": [
+            "婚姻",
+            "人生",
+            "里程碑",
+            "觀念",
+            "多元化"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "c54ae63ffbc0876086985236efac5a2f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我認為媽祖遶境是台灣重要的宗教與社會活動，結合信仰、社交與文化傳承。",
+        "keywords": [
+            "媽祖遶境",
+            "台灣",
+            "宗教",
+            "社會",
+            "活動",
+            "信仰",
+            "社交",
+            "文化",
+            "傳承"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "532e51ae085de9527f4f088565460f01"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "對我來說，參加遶境是一種代代相傳的習慣與義務。",
+        "keywords": [
+            "遶境",
+            "代代相傳",
+            "傳承",
+            "義務",
+            "家庭",
+            "傳統"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "073cccc73a16204d5fa0d4f370f2a8d7"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我進香與遶境，象徵我祈求平安、庇佑家人健康與順利。",
+        "keywords": [
+            "進香",
+            "遶境",
+            "祈求",
+            "平安",
+            "庇佑",
+            "家人",
+            "健康",
+            "順利"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "a2b09828f6c278198e390579ebb01ca5"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "對我而言，繞境不只是宗教活動，也是我維繫地方人脈與社群網絡的場合。",
+        "keywords": [
+            "繞境",
+            "宗教",
+            "活動",
+            "人脈",
+            "社群",
+            "網絡"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "fd0dee6dac28b08c3a32d6dbe41c60cf"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我在廟口與沿途的互動中，感受到宗教與地方經濟活動的交織。",
+        "keywords": [
+            "廟口",
+            "沿途",
+            "互動",
+            "宗教",
+            "地方經濟",
+            "交織"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "f788bdbeef2b55c8c2612fb03bdfad07"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "求籤、擲筊是我與神明溝通、尋求指引的方式。",
+        "keywords": [
+            "求籤",
+            "擲筊",
+            "信眾",
+            "神明",
+            "溝通",
+            "指引"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "fcd8ea8319fffc8a672b5342bd68dd95"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "還願是我對神明庇佑的感謝與承諾兌現。",
+        "keywords": [
+            "還願",
+            "神明庇佑",
+            "感謝",
+            "承諾",
+            "兌現"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "bda3e4c08a0397833b1e40c3f41543f3"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的宗教信仰為我提供精神支柱與情感支持，尤其在我的生活不穩定時。",
+        "keywords": [
+            "宗教信仰",
+            "精神支柱",
+            "情感支持",
+            "不穩定",
+            "信眾"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "548919c00866239adc4641d49df8e0db"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的共同信仰強化了我們地方社群的凝聚力。",
+        "keywords": [
+            "共同信仰",
+            "地方社群",
+            "凝聚力",
+            "強化"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "b4209b612f4d5ad7590db0ef5c6e5ccf"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在繞境的熱鬧氛圍裡，我感受到宗教與民俗文化的節慶性質。",
+        "keywords": [
+            "繞境",
+            "熱鬧氛圍",
+            "宗教",
+            "民俗文化",
+            "節慶性質"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "f0fc38d058818dcc7f8d13855d522905"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我記得陣頭與民間表演是宗教儀式與地方娛樂的結合。",
+        "keywords": [
+            "陣頭",
+            "民間表演",
+            "宗教",
+            "儀式",
+            "地方",
+            "娛樂",
+            "結合"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "0ddb67780f4b30f41079c0f05a7f8b71"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我感受到宗教儀式的莊嚴感與神聖象徵，會讓我的情感投入更加深厚。",
+        "keywords": [
+            "宗教",
+            "儀式",
+            "莊嚴感",
+            "神聖象徵",
+            "情感投入"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "5f5216622f1065e78e9c608a24f1cd48"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在遶境中，我感受到神明的形象與行進路線具有象徵性意義。",
+        "keywords": [
+            "遶境",
+            "神明",
+            "形象",
+            "行進路線",
+            "象徵性"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "29eff1ffb08261b8c8c959c377362100"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "閱讀是我放鬆與自我成長的重要途徑。",
+        "keywords": [
+            "閱讀",
+            "放鬆",
+            "自我成長",
+            "重要途徑",
+            "成長"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "5417feab17f903a796d1ab0e1d1ab27e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "追劇是我維持輕鬆心情與朋友聊天的共同話題來源。",
+        "keywords": [
+            "追劇",
+            "輕鬆",
+            "心情",
+            "朋友",
+            "聊天",
+            "共同話題"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "da89d743ec2e5569589764cf280b1d2c"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "透過社區活動，我得以與鄰居互動並建立人脈。",
+        "keywords": [
+            "社區活動",
+            "鄰居",
+            "互動",
+            "建立人脈",
+            "機會"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "68c8155344ea4341322db79dbe6cf100"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我認為聚會是維持情感連結與社交網絡的重要方式。",
+        "keywords": [
+            "聚會",
+            "情感連結",
+            "社交網絡",
+            "重要",
+            "人際關係"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "7329e3ac6a6d54ebcf9c92f31f8e306a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我發現不同朋友群有不同的互動模式：與同事時，我偏向輕鬆閒聊；和老朋友時，我會更深入談心。",
+        "keywords": [
+            "朋友群",
+            "互動",
+            "模式",
+            "同事",
+            "輕鬆",
+            "閒聊",
+            "老朋友",
+            "深入",
+            "談心"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "76d64255c6d0e66546bf14d9b5685cf2"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "回家探親對我而言，不僅是維繫家人情感，也是我責任感的一部分。",
+        "keywords": [
+            "回家探親",
+            "家人情感",
+            "責任感",
+            "情感維繫",
+            "家庭"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "c6a5261160b1a914d33cfee57096adaa"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的宗教活動既是精神寄託，也是我與家鄉社群保持聯繫的方式。",
+        "keywords": [
+            "宗教活動",
+            "精神寄託",
+            "家鄉社群",
+            "保持聯繫",
+            "連結"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "a68fa40c866f708c18f1390da7791b2b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我記得，運動不僅是保持健康，也有助於減壓與放鬆心情。",
+        "keywords": [
+            "運動",
+            "健康",
+            "減壓",
+            "放鬆",
+            "心情"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "e6a9544b22e56253bd635cfaa1362545"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "對我來說，戶外運動能帶來與自然的連結感。",
+        "keywords": [
+            "戶外",
+            "運動",
+            "連結感",
+            "自然",
+            "帶來"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "16620b8def0d762b36b7f0c781574240"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "對我而言，甄試是進入專業領域的主要途徑之一，若我落榜，意味著我必須延後或改變我的生涯規劃。",
+        "keywords": [
+            "甄試",
+            "專業領域",
+            "落榜",
+            "延後",
+            "改變生涯",
+            "生涯規劃"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "b033563a3d61ec9c251c2a66f2d4ba57"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在高壓情境下，我的表現容易受到影響，因此我需要事先學習壓力管理與情境模擬。",
+        "keywords": [
+            "高壓",
+            "情境",
+            "表現",
+            "壓力管理",
+            "情境模擬"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "72cb545ca1e633c38d4ceab69a87b337"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我覺得教甄的競爭很激烈，錄取率可能低於5%，尤其新進考生往往缺乏實務教學經驗，並非努力就能保證成功。",
+        "keywords": [
+            "教甄",
+            "競爭",
+            "錄取率",
+            "新進",
+            "實務教學",
+            "缺乏經驗",
+            "努力",
+            "保證"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "0e6c9a45783bf663c04e92fcdae14721"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "對我而言，教師甄試是教育界的關鍵門檻，一旦通過，我的職涯穩定性與社會地位就會大幅提升。",
+        "keywords": [
+            "教師甄試",
+            "教育界",
+            "關鍵門檻",
+            "職涯",
+            "穩定性",
+            "社會地位"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "812db0bca598fb7fe7d9c96970b871cf"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的職涯不必單一路徑，可以同時探索多種可能。",
+        "keywords": [
+            "職涯",
+            "路徑",
+            "探索",
+            "多種可能",
+            "同時",
+            "開放"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "baeb29a5744e0f7408e10a949d120159"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我在經濟穩定與理想工作之間存在取捨。",
+        "keywords": [
+            "經濟穩定",
+            "理想工作",
+            "取捨",
+            "抉擇"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "7264adfad25e9b55aa92c79e2849e67a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我對教育工作的情感連結需要與現實資源取得平衡。",
+        "keywords": [
+            "教育",
+            "情感",
+            "工作",
+            "資源",
+            "平衡",
+            "現實",
+            "連結"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "4256bc520ba68bd51e142da1467ae2b7"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的核心價值觀是家庭責任與互助。",
+        "keywords": [
+            "家庭",
+            "責任",
+            "互助",
+            "核心",
+            "價值觀"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "6c7b97468bd4e4870e81b90a10d5419c"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我認為長期照護會影響我的家庭經濟與情感氛圍。",
+        "keywords": [
+            "長期照護",
+            "家庭經濟",
+            "情感氛圍",
+            "經濟壓力"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "c3dad58302bd6234e217f5f66da2e12e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的健康狀況會直接影響我的職涯與生活安排。",
+        "keywords": [
+            "健康",
+            "狀況",
+            "影響",
+            "職涯",
+            "生活",
+            "安排"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "f9ebb383eb926e9e107860fd713f4651"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我記得，祖母在家族中是重要的精神支柱，擁有豐富的生活智慧與人生經驗。",
+        "keywords": [
+            "祖母",
+            "家族",
+            "精神支柱",
+            "生活智慧",
+            "人生經驗"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "39483ef57fffa6946e50c30e145eb1a2"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在宗教與節慶活動中，我的祖母常擔任家族代表或參與者，維繫家族傳統。",
+        "keywords": [
+            "祖母",
+            "宗教",
+            "節慶",
+            "家族",
+            "代表",
+            "參與",
+            "傳統",
+            "維繫"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "e343ce95d517e5d6523f983f547efdd3"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我在出國旅行時，需要事前規劃與具備靈活應變的能力。",
+        "keywords": [
+            "出國",
+            "旅行",
+            "規劃",
+            "應變",
+            "靈活",
+            "能力"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "225e17aa9d65a94060ef95ca6b4ca298"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "當我語言不通時，我的肢體語言與善意能跨越障礙。",
+        "keywords": [
+            "語言",
+            "肢體",
+            "善意",
+            "跨越",
+            "障礙"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "c4faf893eb54533db5d006af23afd2b8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的旅行經驗能拓展視野、增進文化理解。",
+        "keywords": [
+            "旅行",
+            "經驗",
+            "拓展",
+            "視野",
+            "增進",
+            "文化理解"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "5ea332be779e3528b6af2103c3115012"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "生命的無常會改變我對時間與關係的看法。",
+        "keywords": [
+            "生命",
+            "無常",
+            "時間",
+            "關係",
+            "看法"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "cfdb1477d8599e37d6307d33d474959d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我珍惜當下的相處，這已成為我的生活信條。",
+        "keywords": [
+            "珍惜",
+            "當下",
+            "相處",
+            "生活",
+            "信條"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "201077b0c20849b35afbba4dc5ebdac2"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "當我失去重要他人時，會在我身上留下長期的情感空缺。",
+        "keywords": [
+            "失去",
+            "重要",
+            "他人",
+            "情感",
+            "空缺",
+            "長期"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "b2c3b147b7c0d41b8c463c76713aa0b9"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我深信教育是改變命運的重要途徑，對偏鄉或弱勢學生而言，更是如此。",
+        "keywords": [
+            "教育",
+            "改變",
+            "命運",
+            "偏鄉",
+            "弱勢",
+            "學生",
+            "重要途徑"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "3bd151807f32ac45fc57463775a8a4bf"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我認為老師的角色不僅是知識的傳授者，也是情感支持與價值引導的提供者。",
+        "keywords": [
+            "老師",
+            "角色",
+            "知識",
+            "情感支持",
+            "價值引導"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "a642335ec8ed3d652eedba3a56cebbd5"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我認為語言學習應該結合生活情境，而非死背單字與文法。",
+        "keywords": [
+            "語言學習",
+            "生活情境",
+            "結合",
+            "死背",
+            "單字",
+            "文法"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "e40642f50629472a3a5f3fcfe683a000"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我認為婚姻應該建立在互相尊重與支持的基礎上，而不是因社會或家族壓力而結合。",
+        "keywords": [
+            "婚姻",
+            "尊重",
+            "支持",
+            "基礎",
+            "社會壓力",
+            "家族壓力"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "e51e26f951ea035066c8c40f928e69bd"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我接受多元家庭型態，也不認為傳統核心家庭是唯一理想模式。",
+        "keywords": [
+            "多元家庭",
+            "包容",
+            "核心家庭",
+            "理想模式",
+            "接受",
+            "平等"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "f5aaae896b3017afd837b4de0166da14"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我覺得在結婚前應該先建立穩定的職業與經濟基礎。",
+        "keywords": [
+            "結婚前",
+            "穩定",
+            "職業",
+            "經濟基礎",
+            "建立"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "51c9d2cab35bb739e22549824cd2d367"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我相信宗教能提供心理支持與歸屬感，特別是在面對不確定或壓力時。",
+        "keywords": [
+            "宗教",
+            "心理支持",
+            "歸屬感",
+            "不確定",
+            "壓力"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "4c57aa72c8822fe2f78ce0bcb3a46f14"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我把媽祖視為我的守護者與精神力量的來源。",
+        "keywords": [
+            "媽祖",
+            "守護者",
+            "精神力量",
+            "來源",
+            "信仰",
+            "自我"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "4dc017fc9a4481343e2142fb11146647"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我認為宗教活動同時是凝聚社群關係的重要場合。",
+        "keywords": [
+            "宗教活動",
+            "凝聚社群",
+            "社群關係",
+            "重要場合",
+            "社區連結"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "80d10562911a48f5e8c57c59c79fee76"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我相信在壓力情境下，先接受現實再行動，比急著情緒反應更有效。",
+        "keywords": [
+            "壓力",
+            "現實",
+            "行動",
+            "情緒",
+            "反應",
+            "接受"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "33ab1017fdf7ac39985074e5c4a01341"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我認為尋求他人經驗與意見是解決問題的重要資源。",
+        "keywords": [
+            "尋求",
+            "他人經驗",
+            "意見",
+            "解決問題",
+            "資源"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "64888d5020e152c37ac0171194d71d71"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我覺得臨時變動雖不方便，但也是展現專業能力與適應力的機會。",
+        "keywords": [
+            "臨時變動",
+            "不方便",
+            "展現",
+            "專業能力",
+            "適應力",
+            "機會"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "356a650c8d82c0c805ee85c4d0187620"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "雖然套房空間有限，但我能掌握生活節奏，並保有屬於我的個人空間。",
+        "keywords": [
+            "套房",
+            "空間",
+            "生活節奏",
+            "個人空間",
+            "掌握"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "231079d01eee0b595cbe05b80d8034d8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的通勤時間是一段固定的時段，用來思考課程內容、回顧一天的事件，或放空聽音樂。",
+        "keywords": [
+            "通勤",
+            "課程內容",
+            "一天事件",
+            "放空",
+            "聽音樂",
+            "回顧"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "4c9fcf6af33f86b48511f2b35eac07da"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我在飲食上偏好清淡，不愛過油或過甜的食物。",
+        "keywords": [
+            "清淡",
+            "飲食",
+            "偏好",
+            "過油",
+            "過甜"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "b2ec8e414e1eefa5eb9b5dd1cca46778"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的假日安靜時光有助於恢復精神，書店和回家探親都是重要的情感補給。",
+        "keywords": [
+            "安靜時光",
+            "恢復精神",
+            "書店",
+            "回家探親",
+            "情感補給"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "df9bb62e8e1ef95619350e5fd20eaa65"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的通勤路線已經非常熟悉，幾乎可以閉著眼走到公車站。",
+        "keywords": [
+            "通勤",
+            "路線",
+            "熟悉",
+            "閉著眼",
+            "公車站"
+        ],
+        "emotional_intensity": 0.18,
+        "id": "dde99bafed18bfaa626f0e5b0f2f21fe"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的通勤時間是用來整理思緒、回顧課堂狀況或規劃隔日課程的時段。",
+        "keywords": [
+            "通勤時間",
+            "整理思緒",
+            "回顧課堂",
+            "課程規劃",
+            "隔日課程"
+        ],
+        "emotional_intensity": 0.0,
+        "id": "15446d37505fee7253bf3ef0b79356eb"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "在轉乘的時段，若我能找到座位，我的心情就會比較放鬆。",
+        "keywords": [
+            "轉乘時段",
+            "座位",
+            "心情",
+            "放鬆",
+            "舒適"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "ddef7495eff0a606fdd1671c5edfb0de"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我偏好均衡飲食，注重營養與健康，特別重視蛋白質與蔬菜的攝取比例。",
+        "keywords": [
+            "偏好",
+            "均衡",
+            "飲食",
+            "營養",
+            "健康",
+            "蛋白質",
+            "蔬菜",
+            "攝取"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "4fdf20ab5ae723a9f64d962428bab61f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我對油炸、高糖分食物的接受度很低，通常只在特殊場合才會吃。",
+        "keywords": [
+            "油炸",
+            "高糖",
+            "接受度",
+            "不高",
+            "特殊場合"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "fb11b9d8aa4d7e1d42d330d292ebc535"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我喜歡食物原味，偏向少調味，並傾向選擇在地食材。",
+        "keywords": [
+            "原味",
+            "少調味",
+            "在地食材",
+            "喜歡",
+            "偏向"
+        ],
+        "emotional_intensity": 0.2,
+        "id": "1b4862de91eec676b19a8c71b10764de"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我對外出用餐的環境很熟悉，也知道台北市有多處提供健康餐選項的店家。",
+        "keywords": [
+            "外食環境",
+            "熟悉",
+            "台北市",
+            "健康餐",
+            "店家"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "3c4e8efe512de833ae19d0a72cf7217e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "我的日常生活節奏緊湊且規律，假日則相對彈性。",
+        "keywords": [
+            "日常節奏",
+            "平日",
+            "緊湊",
+            "規律",
+            "假日",
+            "彈性"
+        ],
+        "emotional_intensity": 0.15,
+        "id": "083e452ee5dda3b2461092ea121fe867"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "假日是我身心休息與社交的補給時段。",
+        "keywords": [
+            "假日",
+            "身心",
+            "休息",
+            "社交",
+            "補給",
+            "時段"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "71feea78ab4b10b1c3a5a487a4fad362"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "semantic",
+        "description": "回家探親對我而言，不只是家庭義務，也是情感連結的重要時刻。",
+        "keywords": [
+            "回家",
+            "探親",
+            "情感",
+            "連結",
+            "時刻",
+            "義務"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "bfd6d669b58dd0e0655233ba9dba730f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我記得當爸爸因自己粗心而責備自己時，他的羞愧感在我心裡留下深刻的印象。",
+        "keywords": [
+            "爸爸",
+            "自責",
+            "粗心",
+            "羞愧感",
+            "責備"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "ab4ca8ffa41a26d4edd43b1f97d82915"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我幫忙收銀時，媽媽稱讚我，讓我感到自豪與溫暖。",
+        "keywords": [
+            "媽媽",
+            "收銀",
+            "稱讚",
+            "自豪",
+            "溫暖",
+            "幫忙"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "497ca625a98d58036b395191b573a18b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我和姐姐在海邊玩耍時的興奮與自由感。",
+        "keywords": [
+            "海邊",
+            "姐姐",
+            "玩耍",
+            "興奮",
+            "自由"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "7593114b881fa93e5b74246b07b4310d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "聽到阿嬤喊我回家吃飯的聲音，帶給我安全感。",
+        "keywords": [
+            "阿嬤",
+            "回家",
+            "吃飯",
+            "聲音",
+            "安全感"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "2085738073fd6b22204c5c06fed64e06"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "清晨的海風讓我感到清爽，心情也放鬆。",
+        "keywords": [
+            "清晨",
+            "海風",
+            "清爽",
+            "心情",
+            "放鬆"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "f08227c59e5fbfb68af4aaab8e134a25"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在路過廟口時，被香火味和吵鬧聲包圍，感受到一股熱鬧的氣息。",
+        "keywords": [
+            "廟口",
+            "香火味",
+            "吵鬧聲",
+            "熱鬧感",
+            "氣息"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "ac2c8f0550d94d601063a8e57e6bfee8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "雨天走在石板路上，我感到小心翼翼的緊張。",
+        "keywords": [
+            "雨天",
+            "石板路",
+            "小心翼翼",
+            "緊張感",
+            "走路"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "29789ce9d72b9813414ddd9c1e480c3b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "補貨時，我的疲累與成就感交織。",
+        "keywords": [
+            "補貨",
+            "疲累",
+            "成就感",
+            "交織",
+            "心情"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "edf2d26c40afb644e8bc1fa9f060482a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在找零出錯時，感到尷尬與懊惱。",
+        "keywords": [
+            "找零",
+            "尷尬",
+            "懊惱",
+            "錯誤",
+            "交易"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "d8de77637df9cfbd75dc932c091eab53"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在中秋夜的烤肉時，我感受到歡樂與歸屬感。",
+        "keywords": [
+            "中秋夜",
+            "烤肉",
+            "歡樂",
+            "歸屬感"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "dc926330cf273af38100dc0ab918e599"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在廟會聽到鼓聲和鞭炮聲，心裡感到振奮。",
+        "keywords": [
+            "鼓聲",
+            "鞭炮",
+            "振奮",
+            "廟會",
+            "心情"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "129b2715409957a15f54acc1f1207471"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我拿到平安符的那一刻，我的心裡立刻安定下來，感覺十分安心。",
+        "keywords": [
+            "平安符",
+            "安心感",
+            "那一刻",
+            "心安",
+            "安定"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "3c2d7e2d22ff84889288180fa41f3890"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我記得阿嬤解籤時的慈祥笑容。",
+        "keywords": [
+            "阿嬤",
+            "解籤",
+            "慈祥笑容",
+            "回憶",
+            "溫暖"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "e0c1cd567824868c785d4d32d59e4c35"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在中學初期，面對新的課業要求，我感到壓力；但因為我的英語表現突出，讓我獲得自信與成就感。",
+        "keywords": [
+            "中學初期",
+            "課業要求",
+            "壓力",
+            "英語表現",
+            "自信",
+            "成就感"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "3d72daf0fadf753c5973f86f47a5f460"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我面對父母的期望時，我感到被壓迫，心裡充滿焦慮。",
+        "keywords": [
+            "父母",
+            "期望",
+            "壓迫",
+            "焦慮",
+            "面對"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "900f508219b45c0dd3a680c28f5dc9c2"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在一次模擬考進步後，我感受到被肯定的溫暖與驕傲。",
+        "keywords": [
+            "模擬考",
+            "進步",
+            "肯定",
+            "溫暖",
+            "驕傲"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "f8314b9ba2e81f1bc5be70a0ce2b3c7b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在專業課上獲得教授肯定時，我感到自豪。",
+        "keywords": [
+            "專業課",
+            "教授肯定",
+            "自豪",
+            "成就感",
+            "肯定感"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "6635a27ac55c5b1658803fe8b9eb994d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在準備過程中，我感到高度壓力，擔心這會影響我的工作表現。",
+        "keywords": [
+            "準備過程",
+            "高度壓力",
+            "擔心",
+            "工作表現",
+            "影響"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "b24d21495c7b4c3c3371dd81126b6f1f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我的模擬口試表現不錯時，我獲得了自信與鼓舞。",
+        "keywords": [
+            "模擬口試",
+            "表現",
+            "自信",
+            "鼓舞"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "66f7cf94265065eea2d12bb49540b1d8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當學生們主動分享生活時，我感到溫暖，也感到被信任。",
+        "keywords": [
+            "學生們",
+            "主動分享",
+            "生活",
+            "溫暖",
+            "被信任"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "1543c3684415d0fdd1d137be55ae92f9"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在批改作業或備課的安靜時刻，我偶爾感到孤單與疲憊。",
+        "keywords": [
+            "安靜時刻",
+            "批改作業",
+            "備課",
+            "孤單",
+            "疲憊"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "228f75d8dd7621411dad7f208acfa34f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "每當我被臨時要求代課時，我雖然有些不情願，但我仍努力維持專業形象。",
+        "keywords": [
+            "臨時",
+            "代課",
+            "不情願",
+            "專業",
+            "形象",
+            "維持"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "b2786e0c27b54b908a02f8b1a0c5e8c4"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我走出校門的那一刻，有時感到輕鬆解脫，有時則被隔天要交的教案壓得喘不過氣。",
+        "keywords": [
+            "輕鬆",
+            "解脫",
+            "教案",
+            "壓力",
+            "校門",
+            "隔天",
+            "喘息"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "543f53376e799081d67525fb0e2b4031"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當學生惡作劇我時，雖然有點尷尬，但我心裡覺得他們可愛。",
+        "keywords": [
+            "學生",
+            "惡作劇",
+            "尷尬",
+            "可愛",
+            "心裡"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "ba4ce6962ab6cdce15d9eaf22cd4187c"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當同事主動提供教材或代課支援時，我深感團隊合作的力量。",
+        "keywords": [
+            "團隊合作",
+            "同事主動",
+            "教材支援",
+            "代課支援",
+            "合作力量"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "e92a778b504d850ff23199885f79ef05"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我面對部分資深老師的冷淡態度時，我會感到有些失落，也覺得自己被邊緣化。",
+        "keywords": [
+            "冷淡態度",
+            "失落感",
+            "被邊緣化",
+            "資深老師",
+            "課室氛圍",
+            "情緒波動"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "6e5391ab0dce8c009ab5ec52c712b6b4"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當課堂效果不如預期時，我會感到懊惱與自責。",
+        "keywords": [
+            "課堂",
+            "效果",
+            "預期",
+            "懊惱",
+            "自責"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "5ce07851940ea36fbeae055054b4bace"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我成長或取得成績時，我感到無比的驕傲與欣慰。",
+        "keywords": [
+            "成長",
+            "成績",
+            "驕傲",
+            "欣慰",
+            "自信",
+            "成就"
+        ],
+        "emotional_intensity": 0.85,
+        "id": "08996af3e5600237b6032ad8bd04da4c"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我面對學生的衝突時，我感到壓力山大，害怕如果處理不當會影響我的自我評價。",
+        "keywords": [
+            "學生衝突",
+            "壓力山大",
+            "自我評價",
+            "處理不當",
+            "怕影響"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "67a5becf342c1c5728fb9500fce09eec"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在等待續聘通知的期間，我常失眠與焦慮，懷疑自己的價值。",
+        "keywords": [
+            "續聘通知",
+            "失眠",
+            "焦慮",
+            "自我價值",
+            "等待期"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "e194b411bc832c0131ce3eff3cbd4a22"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我與父母相聚時，我感到溫暖與安心，但面對他們對自己未來的擔憂時，我也感到壓力與內疚。",
+        "keywords": [
+            "溫暖",
+            "安心",
+            "擔憂",
+            "未來",
+            "壓力",
+            "內疚",
+            "父母",
+            "相聚"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "867addf1ea288471fb58849516da372b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我對父親的沉默式關心，懷有一份安靜的依戀。",
+        "keywords": [
+            "父親",
+            "沉默式",
+            "關心",
+            "安靜",
+            "依戀"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "01f844fd06f2ad11a3b815b767810989"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在聚餐時，被催問婚姻的話題讓我感到不舒服與不自在。",
+        "keywords": [
+            "聚餐",
+            "婚姻",
+            "催問",
+            "不舒服",
+            "不自在"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "0c5a37ec0ef42ce3f5acd16e3751355a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我很想念過去我們兩人的親密相處時光。",
+        "keywords": [
+            "想念",
+            "過去",
+            "兩人",
+            "親密",
+            "相處",
+            "時光"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "8c7c9fd07a2d1563baa7b79f8d6f4c0d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我為姐姐感到開心，但同時也感覺到彼此的生活距離漸遠的失落。",
+        "keywords": [
+            "姐姐",
+            "開心",
+            "距離",
+            "失落",
+            "生活",
+            "漸遠"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "8e85c035d6b160b0f91e95aac54c3417"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在偶爾的深夜通話裡，我感到重新找回與姊妹的連結。",
+        "keywords": [
+            "深夜",
+            "通話",
+            "重新找回",
+            "姊妹",
+            "連結"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "77db0967ba7651a686ec17049666ad92"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在與友好同事的聚會中感到輕鬆並被理解。",
+        "keywords": [
+            "友好",
+            "同事",
+            "聚會",
+            "輕鬆",
+            "被理解"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "7bf009393adabbbc6ed48895809cfbda"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我面對公開批評時，我感到羞辱與自我懷疑。",
+        "keywords": [
+            "公開批評",
+            "羞辱",
+            "自我懷疑",
+            "面對"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "2ced2b2a62e921e2d98b53f86825dba7"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當同事私下給予我鼓勵時，我感到被接納與支持。",
+        "keywords": [
+            "同事",
+            "鼓勵",
+            "私下",
+            "被接納",
+            "支持"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "b330356f10d40e7d498e8854ca15d860"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在我成長的瞬間，我感到成就與驕傲。",
+        "keywords": [
+            "成長",
+            "瞬間",
+            "成就",
+            "驕傲",
+            "感到"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "469915d43713d3604cd117bf062ffd2a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我因學生對我的細微關心感到溫暖與驚喜。",
+        "keywords": [
+            "學生",
+            "細微關心",
+            "溫暖",
+            "驚喜",
+            "感受"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "966b646bfab425558125f2d958b6d2a1"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在無法幫助情緒困擾的學生時，感到無力與自責。",
+        "keywords": [
+            "無力",
+            "自責",
+            "無法",
+            "幫助",
+            "情緒困擾",
+            "學生"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "fc3f61ecaa960b8348af331c78827842"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我對過去的感情經驗抱持平淡與釋然的態度。",
+        "keywords": [
+            "過去",
+            "感情",
+            "經驗",
+            "平淡",
+            "釋然",
+            "態度"
+        ],
+        "emotional_intensity": 0.18,
+        "id": "3ba24d35fed0cc0e8ff355e6a61483a9"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我對婚姻既有期待，又擔心會失去個人自由。",
+        "keywords": [
+            "婚姻",
+            "期待",
+            "擔心",
+            "失去",
+            "個人自由"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "70620bd84ad81095029e8e8245145548"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我面對外界的詢問時，我表面看起來很輕鬆，內心卻偶爾感到被比較與不安。",
+        "keywords": [
+            "外界詢問",
+            "表面輕鬆",
+            "內心感到",
+            "被比較",
+            "不安"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "147f24edb77a4532a0e21222298e4475"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我與家人一同上路時，感到有種團結與安心的感覺。",
+        "keywords": [
+            "家人",
+            "團結",
+            "安心",
+            "上路",
+            "旅途"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "548e468ed7cec141424a1ef562826f71"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在長時間步行後的疲累中，我仍感到虔誠與滿足。",
+        "keywords": [
+            "疲累",
+            "步行",
+            "虔誠",
+            "滿足",
+            "長時間",
+            "心境",
+            "情感",
+            "感受"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "2a00cf428b853b0930a9106ddc74fc59"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我看到媽祖鑾轎出巡時，心中湧起一種難以言喻的敬畏感。",
+        "keywords": [
+            "媽祖",
+            "鑾轎",
+            "出巡",
+            "敬畏",
+            "心情",
+            "難以言喻"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "a4d08f8d5791798f0f7e083490c5cd68"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我聽到老一輩的故事時，感到溫暖與連結感。",
+        "keywords": [
+            "溫暖",
+            "連結",
+            "故事",
+            "老一輩",
+            "聽到"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "1cfd3eeef6f6f6eee726adb04f8b190a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在人潮中的喧鬧和笑聲讓我覺得充滿活力。",
+        "keywords": [
+            "人潮",
+            "喧鬧",
+            "笑聲",
+            "活力",
+            "感覺"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "a3ef9dfd4fcac70662f2c303883aea10"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在人群擠擁的場景裡，我也曾感到短暫的煩躁與喘不過氣。",
+        "keywords": [
+            "人群",
+            "煩躁",
+            "喘不過氣",
+            "擁擠",
+            "瞬間"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "89e93047a6181b39beb9d0093b8d8a25"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在等待擲筊結果的瞬間，感到緊張與期待。",
+        "keywords": [
+            "等待",
+            "擲筊",
+            "結果",
+            "緊張",
+            "期待"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "246bfd684209a9c0b7a3dc0d29c25edc"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我聽到吉籤的解釋時，我感到被鼓舞。",
+        "keywords": [
+            "吉籤",
+            "解釋",
+            "鼓舞",
+            "聽到",
+            "感覺"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "0d26699afab3d4b4031de50625d19c00"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "還願時，我感到感激與心安。",
+        "keywords": [
+            "還願",
+            "感激",
+            "心安"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "ab516e79f2b8393e1b890de8007453ce"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我回想起信仰場景，感到踏實與溫暖。",
+        "keywords": [
+            "信仰場景",
+            "踏實",
+            "溫暖",
+            "回想",
+            "情感"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "074cc99a55140184ea79383487935f42"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在陌生的城市裡，想到媽祖廟的香火味，我感到一種歸屬感。",
+        "keywords": [
+            "陌生城市",
+            "媽祖廟",
+            "香火味",
+            "歸屬感",
+            "感受"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "b35a25f0a3c450d9318113c855c2969a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在鑼鼓與人聲交織中，我感到亢奮與喜悅。",
+        "keywords": [
+            "鑼鼓",
+            "人聲",
+            "亢奮",
+            "喜悅",
+            "交織"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "ba846a7b75b86e32e187b9ba16e89e7e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我吃著居民端上的冰涼西瓜時，心裡湧起被款待與關照的幸福感。",
+        "keywords": [
+            "西瓜",
+            "冰涼",
+            "居民端",
+            "款待",
+            "關照",
+            "幸福感"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "0d8bffd08de838a6d1a301ca6f0f7fdb"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我看到鑾轎時，心中湧起敬畏與崇敬感。",
+        "keywords": [
+            "鑾轎",
+            "敬畏",
+            "崇敬",
+            "心情",
+            "情感"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "74f3e0732d5b18dd38936189be3023ac"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在夜間火光與鼓聲中，我感到肅然與振奮並存。",
+        "keywords": [
+            "夜間",
+            "火光",
+            "鼓聲",
+            "肅然",
+            "振奮",
+            "並存"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "f41bb6234c8cc5f6e183761586e6dfa0"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當被護駕人員保護我時，我感到安全與感激。",
+        "keywords": [
+            "安全",
+            "感激",
+            "護衛",
+            "保護",
+            "放心"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "d49ed3895dcb47eb8ef31ac9b0812f22"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在閱讀時感到專注與平靜，偶爾被劇情感動而落淚。",
+        "keywords": [
+            "閱讀",
+            "專注",
+            "平靜",
+            "劇情",
+            "感動",
+            "落淚"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "0d96267bc075eaf3e2b26031e6a2f049"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在追劇時感到投入與輕鬆，我特別喜歡劇情反轉帶來的驚喜感。",
+        "keywords": [
+            "投入",
+            "輕鬆",
+            "劇情反轉",
+            "驚喜感",
+            "追劇"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "aee27b32ebe6b8ac5c672bb26e577975"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我參加社區活動時感到有歸屬感，也為自己的貢獻感到滿足。",
+        "keywords": [
+            "參加",
+            "社區",
+            "活動",
+            "歸屬感",
+            "貢獻",
+            "滿足"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "493c0481ff7fa3e4d2b381aaab702f10"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我與老朋友重聚時，我感到懷舊與溫暖。",
+        "keywords": [
+            "重聚",
+            "老朋友",
+            "懷舊",
+            "溫暖",
+            "回憶"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "ad480f472a96c6ad29bba5eaba9a9ea7"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在聚餐時，聽到趣事我會開懷大笑；有時也會被朋友的困境觸動，去安慰對方。",
+        "keywords": [
+            "聚餐",
+            "趣事",
+            "大笑",
+            "困境",
+            "安慰",
+            "朋友"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "09966ef700f844856b0b129af8e5b2ac"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我偶爾在職場聚會上感到拘謹，擔心話題不合拍。",
+        "keywords": [
+            "拘謹",
+            "職場",
+            "聚會",
+            "話題",
+            "不合拍"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "5c1eee004547f923397f39db138e98fd"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "回家時，我感到熟悉與安心，但也偶爾因父母的關心而感到壓力。",
+        "keywords": [
+            "回家",
+            "熟悉",
+            "安心",
+            "父母",
+            "關心",
+            "壓力"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "2b891174ad74e9d9cfa7bb41cc94db08"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在廟會裡，我感到熱鬧而親切，有時也因人潮擁擠而感到疲累。",
+        "keywords": [
+            "廟會",
+            "熱鬧",
+            "親切",
+            "人潮",
+            "擁擠",
+            "疲累"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "32115bae78531a99b66ac42ad6b353f8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在台北度過週末時，感到自己掌控生活的輕鬆感。",
+        "keywords": [
+            "台北",
+            "週末",
+            "自我掌控",
+            "輕鬆感",
+            "生活"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "378039b85dcca88fb3af61e7a3f8d2f0"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "運動後我感到暢快與成就感。",
+        "keywords": [
+            "運動",
+            "暢快",
+            "成就感"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "7fe5b1cbd849719c8f18b2e32bbe74f1"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "和同事一起運動時，我感受到彼此的鼓勵與支持，心裡很溫暖。",
+        "keywords": [
+            "同事",
+            "運動",
+            "鼓勵",
+            "支持",
+            "溫暖"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "a2b78be19fe3c0ff3dfeae2e0ef265e8"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在騎車看日出時，感到一種平靜且充滿希望的感覺。",
+        "keywords": [
+            "日出",
+            "平靜",
+            "希望",
+            "騎車",
+            "晨光",
+            "心情"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "08fa9c4cb6101b48c24fc66a5b0e5d7c"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在面試前感到緊張，伴有胃部收縮與手抖，喉嚨乾得說不出話。",
+        "keywords": [
+            "緊張",
+            "胃部收縮",
+            "手抖",
+            "喉嚨乾",
+            "說不出話"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "dab6b9cdefc9ad05b6f64b9eae2a0514"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在教學示範出錯的那一刻，我感到心慌，腦中一片空白，彷彿現場的空氣凝固。",
+        "keywords": [
+            "心慌",
+            "腦空白",
+            "現場",
+            "空氣凝固",
+            "教學出錯"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "248d2498e2c3bf9b1af557b8c9d5d49d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "午休時，我感到孤單，還有無形的競爭壓力，讓我覺得自己與他人隔著一道透明的牆。",
+        "keywords": [
+            "孤單",
+            "競爭壓力",
+            "透明牆",
+            "午休",
+            "距離感"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "635b26bec3b4da8292fd409fae541072"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在落榜時感到強烈的挫敗感與自我懷疑，覺得自己多年努力瞬間化為烏有。",
+        "keywords": [
+            "挫敗感",
+            "自我懷疑",
+            "多年努力",
+            "落榜",
+            "烏有"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "4d904f29190106cf41707ce44b788f80"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "雖然我收到了同事與家人傳來的安慰訊息，但心中仍有揮之不去的失落與無力感。",
+        "keywords": [
+            "安慰訊息",
+            "同事",
+            "家人",
+            "失落",
+            "無力感"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "669a571a28fe906540341d9417d660f6"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在面對選擇時感到焦慮與猶豫。",
+        "keywords": [
+            "焦慮",
+            "猶豫",
+            "選擇",
+            "決策",
+            "情感"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "3540c67f415c45c48c2c0068c9aeae7d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在課堂上收到學生的感謝，心裡感到十分滿足。",
+        "keywords": [
+            "課堂",
+            "學生",
+            "感謝",
+            "滿足",
+            "教學",
+            "回饋"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "99655ea5228c02ef36083488cfbb1b9c"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "夜深時，我感到孤獨，對未來的不確定感。",
+        "keywords": [
+            "夜深",
+            "孤獨",
+            "未來",
+            "不確定感",
+            "情緒"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "52b80389afeedb4a6e6667353ed2052a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在照顧祖父時，保持著耐心，也會感到偶爾的疲倦。",
+        "keywords": [
+            "耐心",
+            "照顧",
+            "祖父",
+            "疲倦",
+            "偶爾"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "a76ebd7c2ef5b5dc1bf128a97d6361e7"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當母親生病時，我的心裡充滿了心疼與焦慮。",
+        "keywords": [
+            "母親",
+            "病痛",
+            "心疼",
+            "焦慮",
+            "疼痛",
+            "情感"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "78ced19d3c13614844906951eccde924"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "因為與祖母相處的時間有限，我每次探望都格外珍惜、感到開心。",
+        "keywords": [
+            "祖母",
+            "相處時間",
+            "珍惜",
+            "探望",
+            "開心"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "250428b7f578bd6a9aa701c44edfda9b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在陌生環境中探索，感受到興奮與自由感。",
+        "keywords": [
+            "興奮",
+            "自由感",
+            "陌生環境",
+            "探索",
+            "冒險感"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "ef9de9924c77c4d9f17310859ade2f3a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我和朋友一起分享新奇的體驗，感到快樂。",
+        "keywords": [
+            "朋友",
+            "新奇",
+            "體驗",
+            "分享",
+            "快樂"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "bb0cc03b8bff365539c583d3193f6cad"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在旅行結束的那一刻，我感到不捨與回味。",
+        "keywords": [
+            "旅行",
+            "結束",
+            "不捨",
+            "回味",
+            "旅途"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "616b2c681c8d94a6785d989210a35b66"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我接到噩耗時，我感到震驚與心痛。",
+        "keywords": [
+            "噩耗",
+            "震驚",
+            "心痛",
+            "接到",
+            "情緒"
+        ],
+        "emotional_intensity": 0.75,
+        "id": "bbe9bedba828904a9a12cb9035ed7926"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在告別式上，我感到悲傷與失落。",
+        "keywords": [
+            "告別式",
+            "悲傷",
+            "失落",
+            "情感"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "ce1e6edbbb200b16d817fa9b0a39b8ed"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "之後，在我的回憶裡，感傷與溫暖並存。",
+        "keywords": [
+            "回憶",
+            "感傷",
+            "溫暖",
+            "並存",
+            "之後"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "dbb254f0164caf52459a979136f3b19d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我在課堂上用流利的英文表達時，我感到自豪與喜悅。",
+        "keywords": [
+            "課堂",
+            "流利",
+            "英文",
+            "表達",
+            "自豪",
+            "喜悅"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "de65a83cc3f203905e1dda6057115b5a"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "每當課堂失控，或學生對學習缺乏興趣時，我感到挫折與無力。",
+        "keywords": [
+            "課堂",
+            "失控",
+            "學習",
+            "興趣",
+            "挫折",
+            "無力"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "0395fe6de1f29e1ec4b5cef166aee128"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在教師節，學生送給我手寫卡片時，我感到溫暖，並覺得自己被肯定。",
+        "keywords": [
+            "教師節",
+            "學生",
+            "手寫卡片",
+            "溫暖",
+            "肯定"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "fab5dfd67d4a0df61b4c8d6c75f7e749"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在家庭聚會中，被長輩催婚，我感到尷尬與無奈。",
+        "keywords": [
+            "尷尬",
+            "無奈",
+            "長輩",
+            "催婚",
+            "家庭聚會"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "2045973a500b466507ee997331a39160"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我看到幸福的伴侶互動時，我感到羨慕，同時也有一絲對失去自由的擔憂。",
+        "keywords": [
+            "羨慕",
+            "幸福",
+            "伴侶",
+            "互動",
+            "自由",
+            "失去自由",
+            "擔憂"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "011073e263941caaf8122edf21382a56"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我回想著和家人一起過節的時刻，心裡充滿溫馨與歸屬感。",
+        "keywords": [
+            "家人",
+            "節慶",
+            "溫馨",
+            "歸屬感",
+            "回憶"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "c8d3a0281613c0ec59d32f25e51a5c71"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "在遶境人潮中，我聽到鑼鼓聲，感到振奮與投入。",
+        "keywords": [
+            "遶境",
+            "人潮",
+            "鑼鼓聲",
+            "振奮",
+            "投入"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "16be32b5d3fcf1cb5094e1bc7268ccf4"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在拜拜祈願時感到平靜與安心。",
+        "keywords": [
+            "拜拜",
+            "祈願",
+            "平靜",
+            "安心",
+            "心情",
+            "安寧"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "1458ad72600c921ccc7ca8832f092d57"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當願望實現時，我會有感恩與虔誠之情。",
+        "keywords": [
+            "願望",
+            "實現",
+            "感恩",
+            "虔誠",
+            "之情"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "7915cbd21caf20589710b42e1f00da72"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當事件發生時，我常感到緊張與焦慮，很難專注。",
+        "keywords": [
+            "緊張",
+            "焦慮",
+            "專注",
+            "事件",
+            "發生"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "e1e8b23191b7371d6b2accdacf22ad4d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我因為同事分享的經驗而感到被支持與鼓舞。",
+        "keywords": [
+            "同事",
+            "經驗",
+            "分享",
+            "支持",
+            "鼓舞"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "1ddb477983be0b182065df954abe9eda"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我成功應對臨時課程挑戰，感到成就感與自信心提升。",
+        "keywords": [
+            "成功",
+            "應對",
+            "臨時",
+            "課程",
+            "挑戰",
+            "成就感",
+            "自信心",
+            "提升"
+        ],
+        "emotional_intensity": 0.7,
+        "id": "c4346af2df498c455bba66bebe553af2"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "早晨走到捷運站時，我看到熟悉的街景和早餐店的香味，感到穩定與安心。",
+        "keywords": [
+            "捷運站",
+            "熟悉街景",
+            "香味",
+            "穩定",
+            "安心"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "ba0268835f21828b2b45a7efd3ac6dd6"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "下班後走出校門，只要能直接買到熱騰騰的便當，我就會感到一種小小的幸福感。",
+        "keywords": [
+            "下班後",
+            "校門",
+            "便當",
+            "熱騰騰",
+            "幸福感"
+        ],
+        "emotional_intensity": 0.35,
+        "id": "ef3688154009e849b26a8782ea47abca"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "假日我打掃完房間，看著整齊的空間，心情放鬆並有成就感。",
+        "keywords": [
+            "假日",
+            "打掃",
+            "房間",
+            "整齊",
+            "放鬆",
+            "成就感"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "b04e3b5d786884fc409a55c6ca55e5c0"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我回到小鎮吃家鄉味時，常感到懷念與歸屬感。",
+        "keywords": [
+            "小鎮",
+            "家鄉味",
+            "懷念",
+            "歸屬感",
+            "回到"
+        ],
+        "emotional_intensity": 0.65,
+        "id": "f0dee38156a4429e65cd13a126afb3b5"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "清晨走過早餐店，聞到蛋餅的香味，我就覺得這一天有個溫暖的開始。",
+        "keywords": [
+            "清晨",
+            "早餐店",
+            "蛋餅",
+            "香味",
+            "溫暖開始"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "5e588c414cad5ee7c3199e3d3aeae09d"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當公車塞車時，我會感到些許焦躁，但看到學生放學的笑臉時，我的心情又被安撫。",
+        "keywords": [
+            "塞車",
+            "焦躁",
+            "笑臉",
+            "學生",
+            "放學",
+            "心情"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "a717c25c431104db82006b589980040f"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "回程走出捷運站時，若天空泛著晚霞，我會感到愜意與放鬆。",
+        "keywords": [
+            "回程",
+            "捷運站",
+            "晚霞",
+            "愜意",
+            "放鬆"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "1eb613c6f7c1f2e9556f06897324da45"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在學校的午餐時間，和同事邊吃邊聊，感到放鬆並有歸屬感。",
+        "keywords": [
+            "學校",
+            "午餐",
+            "同事",
+            "聊天",
+            "放鬆",
+            "歸屬感"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "55e5bca9afc159b20dc84edda196ed08"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我吃到媽媽親手做的家常菜時，我感到溫暖與熟悉，這讓我感到安全感與幸福感。",
+        "keywords": [
+            "溫暖",
+            "熟悉",
+            "安全感",
+            "幸福感",
+            "媽媽",
+            "家常菜"
+        ],
+        "emotional_intensity": 0.72,
+        "id": "e375fd7084d86bb908d4d684c4cd11ce"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "當我享用健康餐時，我感受到自我照顧與維持生活規律的滿足感。",
+        "keywords": [
+            "健康餐",
+            "自我照顧",
+            "滿足感",
+            "生活規律",
+            "維持"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "e34c7fe762e55249aba321008ac8375e"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我對高熱量或重口味的食物偶爾會有罪惡感，因此多數時候我會選擇避免。",
+        "keywords": [
+            "罪惡感",
+            "高熱量",
+            "重口味",
+            "避免",
+            "偶爾"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "2bdd468806d6a7de52010324f736361c"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "我在平日晚間的安靜套房裡看書，感到平靜且獨處的滿足。",
+        "keywords": [
+            "平日晚間",
+            "安靜",
+            "套房",
+            "看書",
+            "獨處",
+            "滿足"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "8c8e0018472af34b764b51d303e08113"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "假日完成家務後，我看到整齊的房間，會感到小小的成就感。",
+        "keywords": [
+            "假日",
+            "完成",
+            "家務",
+            "整齊",
+            "房間",
+            "成就感"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "6f9a7791be7cdbcb6abde077116afc7b"
+    },
+    {
+        "created_time": "2010-06-15 00:00:00",
+        "type": "emotional",
+        "description": "回家與家人一起吃飯時，我感到親近與溫暖；分開時，我會感到淡淡的失落。",
+        "keywords": [
+            "回家",
+            "家人",
+            "吃飯",
+            "親近",
+            "溫暖",
+            "失落"
+        ],
+        "emotional_intensity": 0.42,
+        "id": "130af7ac42a1c55678563f84f6cf70e2"
+    }
+]

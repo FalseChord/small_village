@@ -1,0 +1,255 @@
+[
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "semantic",
+        "description": "我總結出科展海報的版面框架：左上放研究問題與假設，中間用流程圖呈現方法，右側放結果與討論，最下方標註資料來源。",
+        "keywords": [
+            "科展海報",
+            "版面配置",
+            "研究問題與假設",
+            "方法流程圖",
+            "結果與討論"
+        ],
+        "emotional_intensity": 0.45,
+        "id": "6b14bccb1272d0b04bacd22f0d960fef"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "semantic",
+        "description": "我確認資料呈現的基本規範：圖表標題與單位要一致，結果以平均值時需同時標註標準差，並補上樣本數(n)與採樣日期。",
+        "keywords": [
+            "資料呈現",
+            "單位一致",
+            "標準差",
+            "樣本數n",
+            "採樣日期"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "6ea35301b19408f283300827c6b55d42"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "semantic",
+        "description": "為比較效果，我偏好相同刻度的長條圖取代餅圖，並確保圖例與顏色對齊，可加入三張實地觀察照片輔助理解。",
+        "keywords": [
+            "視覺化",
+            "長條圖",
+            "餅圖",
+            "圖例對齊",
+            "實地照片"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "0b1e5d5c7d43500a9bab20069acabfe3"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "episodic",
+        "description": "16:23在圖書館二樓靠窗C5座位，我用螢光筆圈出海報初稿中標題與單位不一致的地方，提醒兩位學生補上樣本數(n)與採樣日期。",
+        "keywords": [
+            "圖書館二樓",
+            "C5座位",
+            "螢光筆",
+            "單位不一致",
+            "樣本數與日期"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "612758cce61f066a43d0b6930a345462"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "episodic",
+        "description": "我耐心示範把海報切成三個版塊的排法，並低聲解釋平均值要搭配標準差，建議用同刻度長條圖取代餅圖。",
+        "keywords": [
+            "三版塊",
+            "排版示範",
+            "標準差",
+            "長條圖",
+            "餅圖"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "40e80e6005e1906509b1abc557463ad3"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "episodic",
+        "description": "語婕把修正版存進隨身碟，庭宇在筆記上記下明天午休去借A3海報紙；我分色貼紙給他們，交代週五早自習前帶最新版本給我過目。",
+        "keywords": [
+            "隨身碟",
+            "A3海報紙",
+            "分色貼紙",
+            "週五早自習",
+            "修正版"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "ad2f84247aadc0c77c08c25716a9a8cf"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "emotional",
+        "description": "在指導過程中我保持專注與耐心，逐一檢查細節並以溫和語氣說明。",
+        "keywords": [
+            "耐心",
+            "專注",
+            "細節",
+            "溫和",
+            "指導"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "1a7cc9b3b91baac72fceea0428610ca9"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "emotional",
+        "description": "看到他們一邊修改一邊點頭，我感到踏實，並以鼓勵的語氣強化他們對作品的信心。",
+        "keywords": [
+            "鼓勵",
+            "踏實",
+            "點頭",
+            "信心",
+            "修改進展"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "873b05055c7ecb18becdc22382e596aa"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "emotional",
+        "description": "設定週五檢視的期限後，我帶著責任感與期待，盼他們帶著更清晰的版本來。",
+        "keywords": [
+            "責任感",
+            "期待",
+            "期限",
+            "檢視",
+            "清晰版本"
+        ],
+        "emotional_intensity": 0.55,
+        "id": "9fb5f09ca2c19f4e6a0b777d0cdc15f7"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "semantic",
+        "description": "李承翰傾向在同事卡住時順手幫一把，例如替小賴墊錢，以穩住節奏、給對方下台階，讓大家更安心。",
+        "keywords": [
+            "李承翰",
+            "小賴",
+            "墊錢",
+            "順手幫忙",
+            "穩住節奏",
+            "下台階"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "f3434dc4b3f0de9c17cd388ff9234281"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "semantic",
+        "description": "適度且拿捏得當的介入能緩和氣氛、避免僵局；把握「力道剛好」是有效支援的關鍵。",
+        "keywords": [
+            "拿捏得住",
+            "力道剛好",
+            "緩和氣氛",
+            "避免僵局",
+            "支援策略"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "1a727315bffc202c341cfa26768eb52a"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "semantic",
+        "description": "羅以青信任並肯定李承翰的判斷，認為他做事有分寸，這種信任能提升彼此的安心感。",
+        "keywords": [
+            "羅以青",
+            "信任",
+            "分寸",
+            "肯定",
+            "安心"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "be6d58ae6bbf4b396e083025800acc5c"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "episodic",
+        "description": "一次對話中，李承翰表示剛幫小賴墊錢且感到踏實，羅以青即回應「相信你拿捏得住」，讓他更安心。",
+        "keywords": [
+            "對話",
+            "墊錢",
+            "踏實",
+            "拿捏得住",
+            "安心"
+        ],
+        "emotional_intensity": 0.5,
+        "id": "3052cc5467d6a12499f2dee1505c0ae1"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "episodic",
+        "description": "兩人反覆確認目標是讓小賴下台階、穩住節奏，並指出介入的力道剛好，使現場氣氛不再僵。",
+        "keywords": [
+            "下台階",
+            "穩住節奏",
+            "力道剛好",
+            "氣氛",
+            "共識"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "687bd7fc6037e370d0e12e8e53cfdfb2"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "episodic",
+        "description": "對話尾聲，羅以青觀察到小賴穩了些，肯定李承翰出手的時機與力度。",
+        "keywords": [
+            "小賴",
+            "穩了些",
+            "肯定",
+            "出手時機",
+            "力度"
+        ],
+        "emotional_intensity": 0.3,
+        "id": "ec80788f8ec23f7d31dc3686db089dc3"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "emotional",
+        "description": "李承翰在伸出援手後感到安心與踏實，並以「能派上用場就好」進行自我肯定。",
+        "keywords": [
+            "安心",
+            "踏實",
+            "自我肯定",
+            "幫忙",
+            "派上用場"
+        ],
+        "emotional_intensity": 0.6,
+        "id": "d7143737082e8088768124531cd0ee07"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "emotional",
+        "description": "羅以青展現平和而堅定的信任與支持，語氣穩定、肯定對方分寸感。",
+        "keywords": [
+            "信任",
+            "支持",
+            "平和",
+            "穩定",
+            "肯定"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "f8a8619ed06db7e54b73ff32dfae60fb"
+    },
+    {
+        "created_time": "2020-07-03 00:00:00",
+        "type": "emotional",
+        "description": "整體互動使團隊氛圍鬆一口氣，避免僵局並回到穩定節奏。",
+        "keywords": [
+            "鬆口氣",
+            "不僵",
+            "團隊氛圍",
+            "緩和",
+            "穩定節奏"
+        ],
+        "emotional_intensity": 0.4,
+        "id": "583b36a3749f5a60079a13872cd657fd"
+    }
+]

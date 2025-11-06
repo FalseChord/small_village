@@ -21,30 +21,34 @@ class DialogueGenerator:
         all_personas: Dict[str, Persona],
         current_date: datetime
     ) -> List[Dict]:
-        """生成當日對話"""
+        """生成當日對話：固定讓羅以青與李承翰、王淑華各聊天一次"""
         dialogues = []
 
-        # 獲取所有角色名稱
-        persona_names = list(all_personas.keys())
+        # 固定配對：羅以青 vs 李承翰、羅以青 vs 王淑華
+        required_names = ["羅以青", "李承翰", "王淑華"]
+        missing_names = [name for name in required_names if name not in all_personas]
 
-        # 檢查角色數量
-        if len(persona_names) != 2:
-            raise ValueError(f"對話生成器只支援恰好2個角色，目前有 {len(persona_names)} 個角色: {persona_names}")
+        if missing_names:
+            raise ValueError(f"缺少必要的角色: {missing_names}。目前可用的角色: {list(all_personas.keys())}")
 
-        # 固定配對兩個角色
-        persona1_name, persona2_name = persona_names
-        persona1 = all_personas[persona1_name]
-        persona2 = all_personas[persona2_name]
-
-        # 生成對話
-        dialogue = self.generate_dialogue(
-            persona1=persona1,
-            persona2=persona2,
+        # 固定生成兩個對話
+        # 1. 羅以青 vs 李承翰
+        dialogue1 = self.generate_dialogue(
+            persona1=all_personas["羅以青"],
+            persona2=all_personas["李承翰"],
             current_date=current_date
         )
+        if dialogue1:
+            dialogues.append(dialogue1)
 
-        if dialogue:
-            dialogues.append(dialogue)
+        # 2. 羅以青 vs 王淑華
+        dialogue2 = self.generate_dialogue(
+            persona1=all_personas["羅以青"],
+            persona2=all_personas["王淑華"],
+            current_date=current_date
+        )
+        if dialogue2:
+            dialogues.append(dialogue2)
 
         return dialogues
 
@@ -100,37 +104,28 @@ class DialogueGenerator:
                 
             print(f"📝 主題: {current_topic}")
             
-            # 2. 生成意圖
-            intents = self.intent_generator.generate_intents_for_topic(
-                topic=current_topic,
-                personas=all_personas,
-                dialogue_context=dialogue_context
-            )
-            
-            print(f"🎯 意圖:")
-            for persona_name, intent in intents.items():
-                print(f"  {persona_name}: {intent}")
-            
-            # 3. 生成該主題的對話
+            # 2. 生成該主題的對話
             topic_dialogue = self.generate_dialogue_turn(
                 persona1=persona1,
                 persona2=persona2,
                 current_topic=current_topic,
-                intents=intents,
                 dialogue_history=all_dialogue_history,  # 傳入累積的對話歷史
                 starts_with_persona1=starts_with_persona1,
                 dialogue_context=dialogue_context,
                 current_date=current_date
             )
 
-            if topic_dialogue:
+            # 取得回傳的 (純對話回合, 情緒紀錄)
+            topic_turns, topic_emotion_records = topic_dialogue
+
+            if topic_turns:
                 dialogue_topics.append({
                     'topic': current_topic,
-                    'intents': intents,
-                    'turns': topic_dialogue
+                    'turns': topic_turns,
+                    'emotion_records': topic_emotion_records
                 })
-                all_dialogue_history.extend(topic_dialogue)
-                print(f"✅ 主題 {topic_count} 完成，共 {len(topic_dialogue)} 句對話")
+                all_dialogue_history.extend(topic_turns)
+                print(f"✅ 主題 {topic_count} 完成，共 {len(topic_turns)} 句對話")
                 print(f"📚 累積對話歷史：{len(all_dialogue_history)} 句")
             else:
                 print(f"⚠️ 主題 {topic_count} 生成失敗，跳過")
@@ -179,7 +174,6 @@ class DialogueGenerator:
         persona1: Persona,
         persona2: Persona,
         current_topic: str,
-        intents: Dict[str, str],
         dialogue_history: List[Dict],
         starts_with_persona1: bool,
         dialogue_context: Dict = None,
@@ -187,21 +181,37 @@ class DialogueGenerator:
     ) -> List[Dict]:
         """針對特定主題生成對話"""
         dialogue_turns = []
+        topic_emotion_records = []  # 收集本主題內的情緒紀錄
         turn_count = 0
+        last_end_reason = ""
         
         print(f"🗣️ 開始生成主題對話：{current_topic}，最少 {self.min_turns_per_topic} 句")
         
-        while turn_count < self.min_turns_per_topic or not self._should_end_dialogue(dialogue_turns, current_topic, self.min_turns_per_topic):
+        while True:
             # 決定當前說話者
             speaker_is_persona1 = starts_with_persona1 if turn_count % 2 == 0 else not starts_with_persona1
             speaker = persona1 if speaker_is_persona1 else persona2
             listener = persona2 if speaker_is_persona1 else persona1
             
-            # 獲取說話者的意圖
-            speaker_intent = intents.get(speaker.name, "進行友好的對話")
+            # 組合完整的對話歷史
+            complete_dialogue_history = dialogue_history + dialogue_turns
+
+            # 根據目前對話與上一輪未結束原因，為本句即時生成說話意圖
+            end_reason = last_end_reason
+
+            # 使用意圖產生器逐句模式
+            intent_prompt = self.intent_generator._create_intent_prompt(
+                topic=current_topic,
+                turn_speaker=speaker,
+                turn_listener=listener,
+                dialogue_history=complete_dialogue_history,
+                end_reason=end_reason,
+                dialogue_context=dialogue_context
+            )
+            intent_resp = self.gpt._call_gpt(intent_prompt, 'intent_generator', temperature=0.7) or {}
+            speaker_intent = intent_resp.get('intent', "進行友好的對話")
             
             # 獲取相關記憶
-            complete_dialogue_history = dialogue_history + dialogue_turns
             memory_query = self._generate_memory_query(
                 speaker=speaker,
                 listener=listener,
@@ -218,7 +228,7 @@ class DialogueGenerator:
             print(f"📝 {speaker.name} 找到 {len(speaker_memories)} 筆相關記憶")
 
             # 生成對話內容
-            content = self.gpt.dialogue_handler.generate_dialogue_turn(
+            result = self.gpt.dialogue_handler.generate_dialogue_turn(
                 speaker=speaker,
                 listener=listener,
                 dialogue_history=complete_dialogue_history,
@@ -228,13 +238,38 @@ class DialogueGenerator:
                 dialogue_context=dialogue_context
             )
 
+            # 解析結果（可能是字串或包含情緒紀錄的字典）
+            emotion_text = None
+            if isinstance(result, dict):
+                content = result.get('content', '')
+                # 李承翰、王淑華：當聽到羅以青說話時，記錄情緒反應
+                if speaker.name in ["李承翰", "王淑華"] and listener.name == "羅以青":
+                    emotion_text = result.get('emotion_record', '')
+                    listener_last = result.get('listener_last', '')
+                    if emotion_text:
+                        topic_emotion_records.append({
+                            'speaker': speaker.name,
+                            'listener': listener.name,
+                            'listener_last': listener_last,
+                            'emotion_record': emotion_text,
+                            'topic': current_topic
+                        })
+            else:
+                content = result
+
             if not content:
                 break
 
-            dialogue_turns.append({
+            turn_data = {
                 "speaker": speaker.name,
-                "content": content
-            })
+                "content": content,
+                "intent": speaker_intent,  # 保存每句的意圖
+            }
+            # 如果有情緒紀錄，直接加入 emotion 欄位
+            if emotion_text:
+                turn_data['emotion'] = emotion_text
+
+            dialogue_turns.append(turn_data)
             
             turn_count += 1
             
@@ -242,57 +277,75 @@ class DialogueGenerator:
             if turn_count >= self.max_turns_per_topic:
                 print(f"⚠️ 達到最大句數限制（{self.max_turns_per_topic} 句），結束主題對話")
                 break
+
+            # 未達最小句數：呼叫分析器取得 reason，但強制繼續（不結束）
+            if turn_count < self.min_turns_per_topic:
+                end_decision = self.gpt.dialogue_handler.should_end_dialogue(
+                    dialogue_turns=dialogue_turns,
+                    current_topic=current_topic
+                ) or {"action": "continue", "reason": ""}
+                # 若分析器建議結束，不送 end_reason（避免矛盾）；否則送 reason
+                if end_decision.get('action') == 'end':
+                    last_end_reason = ""
+                else:
+                    last_end_reason = end_decision.get("reason", "")
+                # 即使分析器建議結束，也強制繼續（達到最小句數）
+                continue
+
+            # 已達最小句數：呼叫分析器決定是否結束，但不再送 end_reason 給下一句
+            end_decision = self.gpt.dialogue_handler.should_end_dialogue(
+                dialogue_turns=dialogue_turns,
+                current_topic=current_topic
+            ) or {"action": "continue", "reason": ""}
+            last_end_reason = ""  # 達到最小句數後不送 end_reason
+            if end_decision.get('action') == 'end':
+                break
         
-        print(f"📊 主題對話完成：{turn_count} 句（最少要求：{self.min_turns_per_topic} 句）")
-        return dialogue_turns
-    
-    def _should_end_dialogue(self, dialogue_turns: List[Dict], current_topic: str = None, min_turns: int = None) -> bool:
-        """對話結束判斷方法
-        
-        Args:
-            dialogue_turns: 對話輪次列表
-            current_topic: 當前主題（可選）
-            min_turns: 最小句數要求（可選）
-        """
-        # 檢查最小句數要求
-        if min_turns and len(dialogue_turns) < min_turns:
-            return False
-        
-        # 使用 GPT 判斷是否應該結束
-        end_decision = self.gpt.dialogue_handler.should_end_dialogue(
-            dialogue_turns=dialogue_turns,
-            current_topic=current_topic
-        )
-        
-        return end_decision and end_decision.get("action") == "end"
+        # 返回 (純對話回合, 情緒紀錄)
+        return dialogue_turns, topic_emotion_records
     
     def _compose_multi_topic_dialogue_result(self, dialogue_topics: List[Dict], dialogue_context: Dict = None) -> Dict:
         """組合多主題對話結果"""
-        # 收集所有對話內容
-        all_content = []
         all_participants = set()
         topics_info = []
+        content_lines = []  # 純對話格式（"人名：對話"）
+        total_turns = 0
         
         for topic_data in dialogue_topics:
+            # 收集該主題的所有回合資訊（包含意圖和情緒紀錄）
+            topic_turns_info = []
+            for turn in topic_data['turns']:
+                turn_info = {
+                    'speaker': turn['speaker'],
+                    'content': turn['content'],
+                    'intent': turn.get('intent', '')  # 包含意圖
+                }
+                # 如果 turn 中有情緒紀錄，也加入
+                if 'emotion' in turn:
+                    turn_info['emotion'] = turn['emotion']
+                topic_turns_info.append(turn_info)
+
+                # 生成純對話格式（不包含情緒紀錄）
+                content_lines.append(f"{turn['speaker']}: {turn['content']}")
+
+                all_participants.add(turn['speaker'])
+                total_turns += 1
+
             topic_info = {
                 'topic': topic_data['topic'],
-                'intents': topic_data['intents'],
-                'turn_count': len(topic_data['turns'])
+                'turn_count': len(topic_data['turns']),
+                'turns': topic_turns_info  # 包含完整回合資訊（含意圖和情緒紀錄）
             }
             topics_info.append(topic_info)
-            
-            for turn in topic_data['turns']:
-                all_content.append(f"{turn['speaker']}: {turn['content']}")
-                all_participants.add(turn['speaker'])
         
         return {
             'type': 'dialogue',
             'participants': list(all_participants),
-            'content': all_content,
-            'topics': topics_info,  # 新的格式，包含主題和意圖資訊
-            'dialogue_context': dialogue_context,  # 新增：對話情境資訊
+            'content': content_lines,  # 純對話格式（"人名：對話"），不含情緒紀錄
+            'topics': topics_info,  # 包含主題、回合資訊（含意圖）和情緒紀錄
+            'dialogue_context': dialogue_context,
             'total_topics': len(dialogue_topics),
-            'total_turns': len(all_content)
+            'total_turns': total_turns
         }
 
     def check_topic_completion(
@@ -403,7 +456,11 @@ class DialogueGenerator:
         """組合完整對話結果"""
         content = [f"{turn['speaker']}: {turn['content']}" for turn in dialogue_turns]
 
-        participants = [dialogue_turns[0]['speaker'], dialogue_turns[1]['speaker']]
+        participants = []
+        if len(dialogue_turns) >= 1:
+            participants.append(dialogue_turns[0]['speaker'])
+        if len(dialogue_turns) >= 2:
+            participants.append(dialogue_turns[1]['speaker'])
 
         # 提取所有討論過的主題
         discussed_topics = set()
