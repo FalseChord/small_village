@@ -228,7 +228,7 @@ class DialogueGenerator:
             print(f"📝 {speaker.name} 找到 {len(speaker_memories)} 筆相關記憶")
 
             # 生成對話內容
-            result = self.gpt.dialogue_handler.generate_dialogue_turn(
+            dialogue_result = self.gpt.dialogue_handler.generate_dialogue_turn(
                 speaker=speaker,
                 listener=listener,
                 dialogue_history=complete_dialogue_history,
@@ -238,24 +238,16 @@ class DialogueGenerator:
                 dialogue_context=dialogue_context
             )
 
-            # 解析結果（可能是字串或包含情緒紀錄的字典）
-            emotion_text = None
-            if isinstance(result, dict):
-                content = result.get('content', '')
-                # 李承翰、王淑華：當聽到羅以青說話時，記錄情緒反應
-                if speaker.name in ["李承翰", "王淑華"] and listener.name == "羅以青":
-                    emotion_text = result.get('emotion_record', '')
-                    listener_last = result.get('listener_last', '')
-                    if emotion_text:
-                        topic_emotion_records.append({
-                            'speaker': speaker.name,
-                            'listener': listener.name,
-                            'listener_last': listener_last,
-                            'emotion_record': emotion_text,
-                            'topic': current_topic
-                        })
+            # 解析對話結果
+            if isinstance(dialogue_result, dict):
+                content = dialogue_result.get('content', '')
+                self_emotion = dialogue_result.get('self_emotion', '')
+                perceived_emotion = dialogue_result.get('perceived_emotion', '')
             else:
-                content = result
+                # 向後相容：如果返回的是字串
+                content = dialogue_result if dialogue_result else ''
+                self_emotion = ''
+                perceived_emotion = ''
 
             if not content:
                 break
@@ -264,11 +256,10 @@ class DialogueGenerator:
                 "speaker": speaker.name,
                 "content": content,
                 "intent": speaker_intent,  # 保存每句的意圖
+                "self_emotion": self_emotion,
+                "perceived_emotion": perceived_emotion
             }
-            # 如果有情緒紀錄，直接加入 emotion 欄位
-            if emotion_text:
-                turn_data['emotion'] = emotion_text
-
+            
             dialogue_turns.append(turn_data)
             
             turn_count += 1
@@ -320,9 +311,11 @@ class DialogueGenerator:
                     'content': turn['content'],
                     'intent': turn.get('intent', '')  # 包含意圖
                 }
-                # 如果 turn 中有情緒紀錄，也加入
-                if 'emotion' in turn:
-                    turn_info['emotion'] = turn['emotion']
+                # 加入情緒紀錄（self_emotion 和 perceived_emotion）
+                if 'self_emotion' in turn:
+                    turn_info['self_emotion'] = turn['self_emotion']
+                if 'perceived_emotion' in turn:
+                    turn_info['perceived_emotion'] = turn['perceived_emotion']
                 topic_turns_info.append(turn_info)
 
                 # 生成純對話格式（不包含情緒紀錄）

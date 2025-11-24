@@ -41,6 +41,14 @@ class IntentGenerator:
         recent_turns = dialogue_history[-4:] if dialogue_history and len(dialogue_history) >= 4 else (dialogue_history or [])
         recent_text = "\n".join([f"{t['speaker']}: {t['content']}" for t in recent_turns]) if recent_turns else "(無)"
 
+        # 獲取對方上一句話（用於判斷是否有上一句話，不重複顯示）
+        last_listener_turn = None
+        for turn in reversed(dialogue_history or []):
+            if turn.get('speaker') == turn_listener.name:
+                last_listener_turn = turn.get('content', '')
+                break
+        
+
         context_info = ""
         if dialogue_context:
             context_info = f"對話情境：{dialogue_context.get('description', '未知')}\n\n"
@@ -48,6 +56,20 @@ class IntentGenerator:
         end_reason_info = ""
         if end_reason:
             end_reason_info = f"對話未結束的原因（分析器判斷）：{end_reason}\n\n"
+
+        # 特殊邏輯：當說話者不是羅以青，且聽話者是羅以青時，產生使羅以青生氣的意圖
+        special_intent_instruction = ""
+        if turn_speaker.name != "羅以青" and turn_listener.name == "羅以青":
+            special_intent_instruction = (
+                f"\n【重要】特殊意圖要求：\n"
+                f"{turn_speaker.name}對羅以青有負面印象，因此有不友善的企圖。\n"
+                f"請生成一個會讓羅以青感到生氣或不耐煩的意圖。\n"
+                f"這個意圖應該體現出{turn_speaker.name}對羅以青的不友善態度，例如：\n"
+                f"- 故意挑釁或刺激對方\n"
+                f"- 提出讓對方感到困擾的話題\n"
+                f"- 用不友善的語氣或態度\n"
+                f"- 故意忽略或輕視對方的感受\n\n"
+            )
 
         return (
             f"請基於以下資訊，生成{turn_speaker.name}此刻即將說出的下一句話的意圖：\n\n"
@@ -61,6 +83,7 @@ class IntentGenerator:
             + context_info +
             f"最近對話：\n{recent_text}\n\n"
             + end_reason_info +
+            special_intent_instruction +
             f"請生成該角色在聊這個話題時的自然想法，要求：\n"
             f"1. 基於角色的個性特質和背景\n"
             f"2. 考慮與其他參與者的關係\n"

@@ -14,7 +14,7 @@ class DialogueHandler(BaseHandler):
         relevant_memories: List = None,
         speaker_intent: str = None,
         dialogue_context: Dict = None
-    ) -> str:
+    ) -> Dict:
         """生成一句帶有主題與意圖的對話內容
         
         Args:
@@ -28,7 +28,12 @@ class DialogueHandler(BaseHandler):
             speaker_intent: 說話者意圖（可選，預設為"進行友好的對話交流"）
             
         Returns:
-            生成的對話內容字串
+            包含對話內容和情緒記錄的字典：
+            {
+                'content': '對話內容',
+                'self_emotion': '說話者自己的情緒狀態',
+                'perceived_emotion': '說話者感知到的對方情緒狀態'
+            }
         """
         # 準備情境資訊
         context_info = ""
@@ -66,6 +71,13 @@ class DialogueHandler(BaseHandler):
             prompt += f"\n最近對話：\n"
             for turn in turns_to_include:
                 prompt += f"{turn['speaker']}: {turn['content']}\n"
+        
+        # 獲取對方上一句話（用於感知對方情緒）
+        last_listener_turn = None
+        for turn in reversed(dialogue_history or []):
+            if turn.get('speaker') == listener.name:
+                last_listener_turn = turn.get('content', '')
+                break
 
         if relevant_memories:
             # 使用固定數量的記憶（最多3筆）並加上長度限制
@@ -73,12 +85,6 @@ class DialogueHandler(BaseHandler):
             prompt += f"\n相關記憶：\n"
             for i, memory in enumerate(limited_memories, 1):
                 prompt += f"{i}. {memory['description']}\n"
-
-        # 李承翰、王淑華：在生成對話的同時，要求產出一段內在感受（情緒紀錄）
-        need_emotion_record = (
-            (speaker.name == "李承翰" and listener.name == "羅以青") or
-            (speaker.name == "王淑華" and listener.name == "羅以青")
-        )
 
         # 融合主題與意圖到原有的設計中
         prompt += "\n你是一位素人，請用自然口語說出以上情境中的下一句台詞。\n"
@@ -88,16 +94,19 @@ class DialogueHandler(BaseHandler):
         # 羅以青：固定模板的情緒遞進指引（放在規則之前，提高權重）
         if speaker.name == "羅以青":
             prompt += (
-                "\n【重要】羅以青的情緒遞進規則（必須嚴格遵守）：\n"
-                "- 請仔細觀察「最近對話」中你在這個主題的所有發言。\n"
-                "- 起始語氣為「明顯挫折」，若已表達挫折則更進一步接近「生氣」。整段對話中情緒只能升溫，不回落。\n"
-                "- 根據對話進展，你的情緒必須從「平和（略帶緊繃）」→「開始不耐」→「明顯挫折」→「生氣」，逐步升溫。\n"
-                "- 情緒必須透過語氣變化體現，不要直述「我很生氣」，但要讓對方感受到你的不耐煩和挫折。\n"
-                "- 語氣隨對話進展的變化特徵：\n"
-                "  階段1（初期）：語氣挫折明顯，句子更短更直接，少用「可能」「或許」等緩和詞（例如：「我不知道。」）\n"
-                "  階段2（後期）：語氣帶怒氣，極短句，直接切斷話題，不耐煩明顯（例如：「隨便。」）\n"
-                "- 隨著對話進行，語氣必須越來越短、越直接、越不耐煩。\n"
-                "- 觀察你的對話歷史，判斷自己應該處於哪個情緒階段。\n\n"
+                f"\n【重要】羅以青的情緒遞進規則（必須嚴格遵守）：\n"
+                f"- 請仔細觀察「最近對話」中你在這個主題的所有發言，以及{listener.name}對你說的話。\n"
+                f"- 你必須朝憤怒或有挫折感的方向負面解讀{listener.name}的話。\n"
+                f"- 即使{listener.name}的話語本身是中性的或友善的，你也要從負面角度理解，認為對方在挑釁、輕視、或故意為難你。\n"
+                f"- 起始語氣為「明顯挫折」，若已表達挫折則更進一步接近「生氣」。整段對話中情緒只能升溫，不回落。\n"
+                f"- 根據對話進展，你的情緒必須從「平和（略帶緊繃）」→「開始不耐」→「明顯挫折」→「生氣」，逐步升溫。\n"
+                f"- 情緒必須透過語氣變化體現，不要直述「我很生氣」，但要讓對方感受到你的不耐煩和挫折。\n"
+                f"- 語氣隨對話進展的變化特徵：\n"
+                f"  階段1（初期）：語氣挫折明顯，句子更短更直接，少用「可能」「或許」等緩和詞（例如：「我不知道。」）\n"
+                f"  階段2（後期）：語氣帶怒氣，極短句，直接切斷話題，不耐煩明顯（例如：「隨便。」）\n"
+                f"- 隨著對話進行，語氣必須越來越短、越直接、越不耐煩。\n"
+                f"- 觀察你的對話歷史，判斷自己應該處於哪個情緒階段。\n"
+                f"- 你的負面解讀會隨著情緒升溫而越來越強烈，後期會更傾向於將對方的話理解為惡意。\n\n"
             )
         
         prompt += (
@@ -120,48 +129,23 @@ class DialogueHandler(BaseHandler):
             "- 強調具體畫面/場景、過度解釋、過於關心或正式。\n"
             "- 自評對話效果、像在表演或講故事。\n"
             "- 反問、鏡射措辭、提方案或安排未來。\n\n"
+            f"\n請以 JSON 格式返回：\n"
+            "{\n"
+            '  "content": "對話內容",\n'
+            '  "self_emotion": "你此刻的情緒狀態",\n'
+            '  "perceived_emotion": "你感受到的對方在說上一句話時的情緒狀態（如果沒有上一句話則為空字串）"\n'
+            "}\n"
         )
-
-        # 調整輸出格式：若需要情緒紀錄，一併返回
-        if need_emotion_record:
-            listener_name = listener.name
-            prompt += (
-                "請以 JSON 格式返回：\n"
-                "{\n"
-                f'  "content": "對話內容",\n'
-                f'  "emotion_record": "你此刻對{listener_name}話語的內在感受"\n'
-                "}\n"
-            )
-        else:
-            prompt += (
-                "請以 JSON 格式返回：\n"
-                "{\n"
-                '  "content": "對話內容"\n'
-                "}\n"
-            )
         response = self.interface._call_gpt(prompt, 'dialogue_generator')
 
         # 解析輸出
         if not response:
-            return ''
+            return {'content': '', 'self_emotion': '', 'perceived_emotion': ''}
 
         content = response.get('content', '')
-
-        # 若需要情緒紀錄，組合包含情緒的結果
-        if need_emotion_record:
-            last_listener_turn = None
-            for turn in reversed(dialogue_history or []):
-                if turn.get('speaker') == listener.name:
-                    last_listener_turn = turn.get('content', '')
-                    break
-
-            return {
-                'content': content,
-                'emotion_record': response.get('emotion_record', ''),
-                'listener_last': last_listener_turn or ''
-            }
-
-        return content
+        self_emotion = response.get('self_emotion', '')
+        perceived_emotion = response.get('perceived_emotion', '')
+        return {'content': content, 'self_emotion': self_emotion, 'perceived_emotion': perceived_emotion}
 
     def should_end_dialogue(self, dialogue_turns: List[Dict], current_topic: str = None) -> Dict:
         """判斷對話是否應該結束或變更話題"""
